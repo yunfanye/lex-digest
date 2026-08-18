@@ -1,100 +1,128 @@
 import type { RomeAppApiHandler, RomeAppApiRequest, RomeAppContext } from "@rome-os/app-runtime";
+import { createEpisodesRepository, type EpisodeRow } from "../db/repositories/episodes.js";
+import { PODCAST_ART_URL } from "../lib/feed.js";
 
 function json(data: unknown, init?: ResponseInit): Response {
   return Response.json(data, init);
 }
 
-function readJsonBody(request: RomeAppApiRequest): unknown {
-  if (!request.body || request.body.byteLength === 0) return null;
-  const text = new TextDecoder().decode(request.body);
+function parseJson<T>(raw: string | null, fallback: T): T {
+  if (!raw) return fallback;
   try {
-    return JSON.parse(text);
+    return JSON.parse(raw) as T;
   } catch {
-    return undefined; // signal malformed JSON
+    return fallback;
   }
 }
 
-class TemplateApiHandler implements RomeAppApiHandler {
+function episodeSummary(row: EpisodeRow) {
+  return {
+    guid: row.guid,
+    slug: row.slug,
+    episodeNumber: row.episodeNumber,
+    title: row.title,
+    guest: row.guest,
+    pubDate: row.pubDate.toISOString(),
+    status: row.status,
+    summarySource: row.summarySource,
+    oneLiner: row.oneLiner,
+    topics: parseJson<string[]>(row.topics, []),
+    error: row.error,
+  };
+}
+
+function episodeDetail(row: EpisodeRow) {
+  return {
+    ...episodeSummary(row),
+    link: row.link,
+    transcriptUrl: row.transcriptUrl,
+    audioUrl: row.audioUrl,
+    youtubeId: row.youtubeId,
+    summary: row.summary,
+    takeaways: parseJson<{ title: string; detail: string }[]>(row.takeaways, []),
+    highlights: parseJson<
+      { quote: string; speaker: string; timestamp: string; t: number | null; context?: string }[]
+    >(row.highlights, []),
+    chapters: parseJson<{ title: string; timestamp: string | null; t: number | null }[]>(
+      row.chapters,
+      [],
+    ),
+    transcriptChars: row.transcriptChars,
+    segmentCount: row.segmentCount,
+    summarizedAt: row.summarizedAt ? row.summarizedAt.toISOString() : null,
+  };
+}
+
+class LexDigestApiHandler implements RomeAppApiHandler {
   constructor(private readonly ctx: RomeAppContext) {}
+
+  private repo() {
+    const dbCtx = this.ctx.db;
+    if (!dbCtx) throw new Error("App database is not available");
+    return createEpisodesRepository(dbCtx);
+  }
 
   async handle(request: RomeAppApiRequest): Promise<Response> {
     const route = request.path.join("/");
 
-    // Who is calling? `request.caller` is resolved by the host before this
-    // handler runs (guardian | visitor | anonymous) — never derive identity
-    // from headers. Owner-only route? `if (request.caller.kind !== "guardian")
-    // return json({ error: "forbidden" }, { status: 403 });`
-    //
-    // Visitor-facing route (public app, Rome Cloud sign-in)? Use the standard
-    // gate — it returns the wire-stable 401 the web SDK's <CallerBadge />
-    // understands:
-    //
-    //   import { requireVisitor } from "@rome-os/app-runtime";
-    //   const auth = requireVisitor(request);
-    //   if (!auth.ok) return auth.response;
-    //   // auth.caller is guardian | visitor from here on
-
-    if (request.method === "GET" && request.path.length === 0) {
+    if (request.method === "GET" && route === "state") {
+      const repo = this.repo();
+      const last = repo.lastCheck();
       return json({
-        appId: this.ctx.app.id,
-        version: this.ctx.app.version,
-        status: "ok",
+        podcastArt: PODCAST_ART_URL,
+        episodes: repo.list().map(episodeSummary),
+        lastCheck: last
+          ? {
+              ranAt: last.ranAt.toISOString(),
+              status: last.status,
+              newCount: last.newCount,
+              note: last.note,
+            }
+          : null,
       });
     }
 
-    if (request.method === "POST" && route === "echo") {
-      const payload = readJsonBody(request);
-      if (payload === undefined) {
-        return json({ error: "invalid_json" }, { status: 400 });
-      }
-      return json({ received: payload }, { status: 200 });
+    if (request.method === "GET" && request.path[0] === "episodes" && request.path.length === 2) {
+      const row = this.repo().bySlug(request.path[1]);
+      if (!row) return json({ error: "not_found" }, { status: 404 });
+      return json({ episode: episodeDetail(row) });
     }
 
-    if (request.method === "POST" && route === "run-hello") {
-      const payload = readJsonBody(request);
-      if (payload === undefined) {
-        return json({ error: "invalid_json" }, { status: 400 });
+    // Writes below are guardian-only.
+    if (request.method === "POST") {
+      if (request.caller.kind !== "guardian") {
+        return json({ error: "forbidden" }, { status: 401 });
       }
-      const { message } = (payload ?? {}) as { message?: string };
-      const result = await this.ctx.runAction("lex-digest_hello", { message });
-      return json(result);
-    }
 
-    // POST /ask — example of running an agent from the API. The API context
-    // only exposes runAction (no direct agentRunner), so agent invocation
-    // lives inside an action — see src/actions/ask-agent/. Enable that action
-    // and the demo agent in app.yaml before calling this route.
-    if (request.method === "POST" && route === "ask") {
-      const payload = readJsonBody(request);
-      if (payload === undefined) {
-        return json({ error: "invalid_json" }, { status: 400 });
-      }
-      const { prompt } = (payload ?? {}) as { prompt?: string };
-      if (typeof prompt !== "string" || !prompt.trim()) {
-        return json({ error: "prompt_required" }, { status: 400 });
-      }
-      try {
-        const result = await this.ctx.runAction("lex-digest_ask_agent", { prompt });
-        return json(result);
-      } catch (err) {
-        return json(
-          { error: "action_unavailable", message: (err as Error).message },
-          { status: 503 },
+      if (route === "check") {
+        // Long-running (fetch + agent runs) — detach so the HTTP request
+        // returns immediately; the UI polls /state for progress.
+        const receipt = await this.ctx.runAction(
+          "lex_digest_check_feed",
+          {},
+          { detached: true },
         );
+        return json({ started: true, receipt }, { status: 202 });
+      }
+
+      if (request.path[0] === "episodes" && request.path.length === 3 && request.path[2] === "summarize") {
+        const repo = this.repo();
+        const row = repo.bySlug(request.path[1]);
+        if (!row) return json({ error: "not_found" }, { status: 404 });
+        repo.update(row.guid, { status: "pending", error: null });
+        const receipt = await this.ctx.runAction(
+          "lex_digest_summarize_episode",
+          { guid: row.guid, force: true },
+          { detached: true },
+        );
+        return json({ started: true, receipt }, { status: 202 });
       }
     }
 
-    return json(
-      {
-        error: "not_found",
-        appId: this.ctx.app.id,
-        message: `Unknown Lex Digest API route: /${route}`,
-      },
-      { status: 404 },
-    );
+    return json({ error: "not_found", message: `Unknown route: /${route}` }, { status: 404 });
   }
 }
 
 export function createApiHandler(ctx: RomeAppContext): RomeAppApiHandler {
-  return new TemplateApiHandler(ctx);
+  return new LexDigestApiHandler(ctx);
 }

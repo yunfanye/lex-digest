@@ -1,32 +1,17 @@
 # Lex Digest
 
-<!--
-This README is the App Store listing for Lex Digest. It is shown to people
-deciding whether to install — not to developers reading the source.
-
-Write it as product copy, not as technical documentation:
-
-- Lead with what the app *does* for the user, in one or two sentences.
-- List the main features as short bullets, framed from the user's point of view.
-- Mention when someone would reach for this app (the situations it fits).
-- Skip the implementation: no schemas, file paths, build commands, or API names.
-- Keep it short. A few screens of scrolling is too long.
--->
-
-One-line tagline: what Lex Digest helps someone do.
+Never miss — or over-commit to — a Lex Fridman Podcast episode again. Lex Digest watches the podcast feed and turns every new episode into a readable digest: a concise summary, the key takeaways, and the most memorable quotes, all drawn from the full episode transcript.
 
 ## What it does
 
-A short paragraph (2–4 sentences) describing the product in plain language.
-Focus on the outcome the user gets, not how it is built.
+- Checks the Lex Fridman Podcast feed every two hours for new episodes
+- Reads each episode's full timestamped transcript and writes a structured digest
+- Gives you a one-line verdict, a multi-paragraph summary, 5–9 key takeaways, and highlight quotes
+- Every quote and chapter links straight to that moment on YouTube
+- Falls back to show notes when a transcript hasn't been published yet, and upgrades later
 
-## Features
+## When to reach for it
 
-- **Feature one** — what the user can do, and why it matters.
-- **Feature two** — another concrete capability, stated as a user benefit.
-- **Feature three** — keep these tight; cut anything that isn't a headline.
-
-## When to use it
-
-A sentence or two on the moments where this app earns its place on the
-guardian's dashboard. Examples of real situations work better than abstractions.
+- You want to know whether a 3-hour conversation is worth your time before pressing play
+- You listened weeks ago and need the key points back fast
+- You follow the podcast loosely and want a skimmable archive of what each guest actually said

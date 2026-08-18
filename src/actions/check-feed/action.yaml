@@ -1,0 +1,8 @@
+name: lex_digest_check_feed
+type: custom
+description: Polls the Lex Fridman Podcast RSS feed, stores newly published episodes, and summarizes each new episode from its transcript. Safe to run on a schedule; does nothing when there are no new episodes.
+entry: ./index.ts
+complexity: complex
+speed: slow
+reliability: medium
+sideEffects: write

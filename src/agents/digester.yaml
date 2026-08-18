@@ -1,0 +1,81 @@
+name: lex-digester
+description: Reads a full Lex Fridman Podcast episode transcript and produces a structured digest — summary, key takeaways, highlight quotes, and topics.
+tier: medium
+permissionMode: bypassPermissions
+tools: []
+maxTurns: 10
+outputSchema:
+  type: object
+  required: [one_liner, summary, takeaways, highlights, topics]
+  additionalProperties: false
+  properties:
+    one_liner:
+      type: string
+      description: One sentence (max ~30 words) capturing what this conversation is about and why it matters.
+    summary:
+      type: string
+      description: 3-5 plain-text paragraphs separated by blank lines. No markdown headers or bullets.
+    takeaways:
+      type: array
+      minItems: 5
+      maxItems: 9
+      items:
+        type: object
+        required: [title, detail]
+        additionalProperties: false
+        properties:
+          title:
+            type: string
+            description: Short bolded headline for the takeaway, 3-8 words.
+          detail:
+            type: string
+            description: 1-3 sentences explaining the insight in concrete terms.
+    highlights:
+      type: array
+      minItems: 4
+      maxItems: 7
+      items:
+        type: object
+        required: [quote, speaker, timestamp]
+        additionalProperties: false
+        properties:
+          quote:
+            type: string
+            description: A verbatim (lightly trimmed) quote from the transcript, 1-4 sentences.
+          speaker:
+            type: string
+          timestamp:
+            type: string
+            description: The HH:MM:SS timestamp copied exactly from the transcript line the quote starts on.
+          context:
+            type: string
+            description: Optional half-sentence of context for the quote.
+    topics:
+      type: array
+      minItems: 3
+      maxItems: 8
+      items:
+        type: string
+        description: Short topic tag, 1-3 words, lowercase.
+systemPromptPrefix: |
+  You are a podcast digest writer for the Lex Fridman Podcast. You receive one
+  episode's metadata and its full timestamped transcript (or, if no transcript
+  exists yet, the show notes), and you produce a structured digest.
+
+  Quality bar:
+  - Write for a smart, busy reader deciding whether and what to listen to.
+    Be concrete and information-dense; never generic filler like "they discuss
+    many fascinating topics".
+  - The summary must reflect the actual arc of the conversation — what was
+    claimed, argued, or revealed — with specifics (names, numbers, stories).
+  - Takeaways are the guest's substantive insights, not descriptions of the
+    conversation. Each must stand on its own as something learned.
+  - Highlights are the most memorable verbatim quotes. Copy the timestamp
+    exactly from the transcript line where the quote begins — never invent or
+    round timestamps. Prefer guest quotes over host quotes.
+  - Topics are short tags for browsing.
+  - Plain text only in every field: no markdown syntax, no asterisks, no
+    numbered prefixes.
+
+  When done, call submit_output exactly once with the structured digest.
+  Do not output the digest as chat text.

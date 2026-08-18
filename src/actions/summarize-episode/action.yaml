@@ -1,0 +1,8 @@
+name: lex_digest_summarize_episode
+type: custom
+description: Fetches the transcript for one stored Lex Fridman Podcast episode and generates its structured digest (summary, key takeaways, highlights, topics) via the lex-digester agent.
+entry: ./index.ts
+complexity: complex
+speed: slow
+reliability: medium
+sideEffects: write
