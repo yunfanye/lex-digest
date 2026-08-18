@@ -97,11 +97,22 @@ class LexDigestApiHandler implements RomeAppApiHandler {
       if (route === "check") {
         // Long-running (fetch + agent runs) — detach so the HTTP request
         // returns immediately; the UI polls /state for progress.
-        const receipt = await this.ctx.runAction(
-          "lex_digest_check_feed",
-          {},
-          { detached: true },
-        );
+        let args: Record<string, unknown> = {};
+        if (request.body && request.body.byteLength > 0) {
+          try {
+            const parsed = JSON.parse(new TextDecoder().decode(request.body)) as {
+              maxNew?: number;
+              scanLimit?: number;
+            };
+            if (typeof parsed.maxNew === "number") args.maxNew = parsed.maxNew;
+            if (typeof parsed.scanLimit === "number") args.scanLimit = parsed.scanLimit;
+          } catch {
+            return json({ error: "invalid_json" }, { status: 400 });
+          }
+        }
+        const receipt = await this.ctx.runAction("lex_digest_check_feed", args, {
+          detached: true,
+        });
         return json({ started: true, receipt }, { status: 202 });
       }
 
