@@ -1,0 +1,8 @@
+name: lex-digest_ask_agent
+type: custom
+description: Example of invoking the Lex Digest demo agent via the platform summon action.
+entry: ./index.ts
+complexity: moderate
+speed: slow
+reliability: medium
+sideEffects: write
