@@ -143,7 +143,12 @@ export async function fetchFeed(limit = 15): Promise<FeedEpisode[]> {
       title,
       guest,
       link: `${url.origin}${url.pathname}`,
-      transcriptUrl: transcriptMatch ? transcriptMatch[0].replace(/\/?$/, "/") : null,
+      // Some episodes omit the transcript link from the description even
+      // though the transcript page exists — fall back to the slug-derived
+      // canonical URL (fetchTranscript throws if it doesn't resolve).
+      transcriptUrl: transcriptMatch
+        ? transcriptMatch[0].replace(/\/?$/, "/")
+        : `https://lexfridman.com/${slug}-transcript/`,
       audioUrl: enclosureMatch ? decodeEntities(enclosureMatch[1]) : null,
       pubDate,
       shownotes: trimShownotes(stripTags(decodeEntities(stripCdata(rawDesc)))),

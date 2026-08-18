@@ -95,19 +95,50 @@ export function createAction(config: ActionConfig, deps: AppActionRuntimeDeps): 
           else if (result.status === "error") failures.push(result.error);
         }
 
+        // Upgrade pass: episodes digested from show notes get re-digested
+        // from the full transcript once it's published. requireTranscript
+        // makes this a cheap no-op (one HTTP probe) until then.
+        let upgraded = 0;
+        const upgradeCandidates = repo
+          .list()
+          .filter((e) => e.status === "completed" && e.summarySource === "shownotes");
+        for (const ep of upgradeCandidates) {
+          const result = await appContext.runAction("lex_digest_summarize_episode", {
+            guid: ep.guid,
+            force: true,
+            requireTranscript: true,
+          });
+          if (
+            result.status === "ok" &&
+            typeof result.data === "object" &&
+            result.data !== null &&
+            (result.data as { completed?: boolean }).completed
+          ) {
+            upgraded++;
+          } else if (result.status === "error") {
+            failures.push(result.error);
+          }
+        }
+
         repo.recordCheck({
           ranAt,
           status: failures.length > 0 ? "error" : "ok",
           feedCount: feed.length,
           newCount: candidates.length,
-          summarizedCount: summarized,
-          note: failures.length > 0 ? failures.join(" | ").slice(0, 500) : null,
+          summarizedCount: summarized + upgraded,
+          note:
+            failures.length > 0
+              ? failures.join(" | ").slice(0, 500)
+              : upgraded > 0
+                ? `upgraded ${upgraded} digest(s) to transcript`
+                : null,
         });
 
         log.info("feed check complete", {
           feedCount: feed.length,
           newCount: candidates.length,
           summarized,
+          upgraded,
           failures: failures.length,
         });
         return {
@@ -116,6 +147,7 @@ export function createAction(config: ActionConfig, deps: AppActionRuntimeDeps): 
             feedCount: feed.length,
             newEpisodes: candidates.map((e) => e.title),
             summarized,
+            upgraded,
             failures,
           },
         };

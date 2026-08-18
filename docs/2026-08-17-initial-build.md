@@ -35,3 +35,18 @@ transcript-based digests (one-liner, summary paragraphs, 5–9 takeaways,
 - Live parse of the real feed + episode #500 transcript during development.
 - `tsc --noEmit`, `pnpm build`, install, backfill run, browser smoke test,
   independent verifier (see final handoff).
+
+## Post-verification iteration (same day)
+
+Independent verifier passed all read-only surfaces but flagged #497 (Don
+Lincoln) as shownotes-sourced. Root cause: that feed entry omits the
+transcript link even though `https://lexfridman.com/don-lincoln-transcript/`
+exists. Fixes:
+
+- `fetchFeed` and `summarize_episode` now fall back to the slug-derived
+  canonical transcript URL when the feed omits the link.
+- New `requireTranscript` arg on `lex_digest_summarize_episode`: probe the
+  transcript first and skip untouched if it isn't published (no status
+  churn, no agent run).
+- `check_feed` runs an upgrade pass each cycle: completed shownotes-sourced
+  digests are re-digested from the transcript the run after it appears.

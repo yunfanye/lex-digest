@@ -23,6 +23,12 @@ const inputSchema = z.object({
     .boolean()
     .optional()
     .describe("Re-summarize even if the episode is already completed or summarizing"),
+  requireTranscript: z
+    .boolean()
+    .optional()
+    .describe(
+      "Only proceed if the full transcript is fetchable; otherwise skip without touching the episode (used to upgrade show-notes digests once transcripts are published)",
+    ),
 });
 
 interface DigestPayload {
@@ -55,7 +61,7 @@ export function createAction(config: ActionConfig, deps: AppActionRuntimeDeps<De
   return defineAction({
     config,
     schema: inputSchema,
-    execute: async ({ guid, force }) => {
+    execute: async ({ guid, force, requireTranscript }) => {
       const dbCtx = appContext.db;
       if (!dbCtx) return { status: "error", error: "App database is not available" };
       const repo = createEpisodesRepository(dbCtx);
@@ -69,30 +75,39 @@ export function createAction(config: ActionConfig, deps: AppActionRuntimeDeps<De
         };
       }
 
+      // 1) Get the source material: transcript preferred, show notes fallback.
+      // The transcript URL may be missing from the feed entry even when the
+      // transcript page exists, so fall back to the slug-derived canonical URL.
+      const transcriptUrl =
+        episode.transcriptUrl ?? `https://lexfridman.com/${episode.slug}-transcript/`;
+      let transcript: Transcript | null = null;
+      try {
+        transcript = await fetchTranscript(transcriptUrl);
+      } catch (err) {
+        log.warn("transcript fetch failed", {
+          guid,
+          transcriptUrl,
+          error: err instanceof Error ? err.message : String(err),
+        });
+      }
+
+      // Upgrade mode: if the transcript still isn't published, leave the
+      // episode exactly as it is (no status churn, no agent run).
+      if (requireTranscript && !transcript) {
+        return {
+          status: "ok",
+          data: { guid, skipped: true, reason: "transcript not yet published" },
+        };
+      }
+
       repo.update(guid, { status: "summarizing", error: null });
       log.info("summarizing episode", { guid, slug: episode.slug, title: episode.title });
 
       try {
-        // 1) Get the source material: transcript preferred, show notes fallback.
-        let transcript: Transcript | null = null;
-        let source: "transcript" | "shownotes" = "shownotes";
-        let material: string;
-
-        if (episode.transcriptUrl) {
-          try {
-            transcript = await fetchTranscript(episode.transcriptUrl);
-            source = "transcript";
-            material = renderTranscriptForPrompt(transcript);
-          } catch (err) {
-            log.warn("transcript fetch failed; falling back to show notes", {
-              guid,
-              error: err instanceof Error ? err.message : String(err),
-            });
-            material = episode.shownotes ?? "";
-          }
-        } else {
-          material = episode.shownotes ?? "";
-        }
+        const source: "transcript" | "shownotes" = transcript ? "transcript" : "shownotes";
+        const material = transcript
+          ? renderTranscriptForPrompt(transcript)
+          : (episode.shownotes ?? "");
 
         if (!material.trim()) {
           throw new Error("No transcript and no show notes available to summarize");
@@ -135,6 +150,7 @@ export function createAction(config: ActionConfig, deps: AppActionRuntimeDeps<De
 
         repo.update(guid, {
           status: "completed",
+          transcriptUrl: transcript ? transcriptUrl : episode.transcriptUrl,
           summarySource: source,
           error: null,
           oneLiner: digest.one_liner,
