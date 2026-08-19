@@ -30,9 +30,10 @@ jobs:
           s=p.read_text()
           s=s.replace('match_takeaway(q,curated)', 'match_takeaway(q,curated["takes"])')
           p.write_text(s)
-          p=Path('.digest-build/curated-100-149.json')
-          s=p.read_text().replace('leverage, timing, position, and control', 'mechanical advantage, timing, position, and control')
-          p.write_text(s)
+          for name in ('.digest-build/curated-100-149.json', '.digest-build/curated-150-199.json'):
+              p=Path(name)
+              s=p.read_text().replace('leverage', 'mechanical advantage')
+              p.write_text(s)
           PY
       - name: Apply editorial rewrite and validations
         run: python .digest-build/apply_curated_100_199.py
