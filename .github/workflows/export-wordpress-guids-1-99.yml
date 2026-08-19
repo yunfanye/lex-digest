@@ -1,4 +1,4 @@
-name: Verify legacy WordPress GUID gaps
+name: Recover legacy GUIDs from podcast feed
 
 on:
   pull_request:
@@ -10,26 +10,26 @@ permissions:
   contents: read
 
 jobs:
-  verify:
+  recover:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Probe neighboring post IDs
+      - name: Inspect RSS items
         run: |
           python - <<'PY'
-          import html, re, urllib.error, urllib.request
+          import urllib.request
+          import xml.etree.ElementTree as ET
           headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
-          for pid in list(range(4191,4196)) + list(range(4245,4251)):
-              url=f'https://lexfridman.com/?p={pid}'
-              try:
-                  req=urllib.request.Request(url, headers=headers)
-                  with urllib.request.urlopen(req, timeout=45) as r:
-                      body=r.read().decode('utf-8',errors='replace')
-                      final=r.geturl()
-                  m=re.search(r'<title>(.*?)</title>',body,re.I|re.S)
-                  title=html.unescape(re.sub(r'\s+',' ',m.group(1)).strip()) if m else ''
-                  print(pid, 'FINAL', final, 'TITLE', title)
-              except urllib.error.HTTPError as e:
-                  print(pid, 'HTTP', e.code)
+          req = urllib.request.Request('https://lexfridman.com/feed/podcast/', headers=headers)
+          with urllib.request.urlopen(req, timeout=45) as r:
+              xml = r.read()
+          root = ET.fromstring(xml)
+          for item in root.findall('.//item'):
+              title = item.findtext('title') or ''
+              if 'William MacAskill' in title or 'Kate Darling' in title:
+                  print('TITLE', title)
+                  print('GUID', item.findtext('guid'))
+                  print('LINK', item.findtext('link'))
+                  print('DATE', item.findtext('pubDate'))
           PY
