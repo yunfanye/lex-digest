@@ -1,0 +1,56 @@
+name: Export WordPress GUID map
+
+on:
+  push:
+    paths:
+      - .github/workflows/export-wordpress-guids.yml
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch WordPress post IDs
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import time
+          import urllib.request
+          from pathlib import Path
+
+          entries = json.loads(Path('data/manifest.json').read_text())
+          output = {}
+          headers = {'User-Agent': 'lex-digest-maintenance/1.0'}
+          patterns = [
+              re.compile(r'<link[^>]+rel=["\']shortlink["\'][^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\']', re.I),
+              re.compile(r'<link[^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\'][^>]+rel=["\']shortlink["\']', re.I),
+              re.compile(r'\bpostid-(\d+)\b', re.I),
+          ]
+          for entry in entries:
+              episode = int(entry['episode'])
+              if not 450 <= episode <= 500:
+                  continue
+              url = entry['episode_url']
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request, timeout=45) as response:
+                  html = response.read().decode('utf-8', errors='replace')
+              post_id = None
+              for pattern in patterns:
+                  match = pattern.search(html)
+                  if match:
+                      post_id = match.group(1)
+                      break
+              if not post_id:
+                  raise RuntimeError(f'Could not find WordPress post ID for episode {episode}: {url}')
+              output[str(episode)] = f'https://lexfridman.com/?p={post_id}'
+              print(episode, output[str(episode)])
+              time.sleep(0.15)
+          Path('wordpress-guids.json').write_text(json.dumps(output, indent=2, sort_keys=True) + '\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wordpress-guids
+          path: wordpress-guids.json
+          retention-days: 1
