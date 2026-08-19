@@ -22,13 +22,16 @@ jobs:
         with:
           ref: agent/digests-100-199
           fetch-depth: 0
-      - name: Fix matcher call
+      - name: Apply small build-time fixes
         run: |
           python - <<'PY'
           from pathlib import Path
           p=Path('.digest-build/apply_curated_100_199.py')
           s=p.read_text()
           s=s.replace('match_takeaway(q,curated)', 'match_takeaway(q,curated["takes"])')
+          p.write_text(s)
+          p=Path('.digest-build/curated-100-149.json')
+          s=p.read_text().replace('leverage, timing, position, and control', 'mechanical advantage, timing, position, and control')
           p.write_text(s)
           PY
       - name: Apply editorial rewrite and validations
