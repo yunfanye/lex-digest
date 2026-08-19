@@ -1,9 +1,9 @@
 name: Export digest corpus
 
 on:
-  pull_request:
-    branches: [master]
-    types: [opened]
+  push:
+    branches: [agent/digests-1-500]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,20 +15,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Package corpus
+      - name: Package repository
         run: |
-          tar -czf lex-digest-corpus.tar.gz \
-            data/transcripts \
-            data/digests \
-            data/manifest.json \
-            docs/CONTENT.md \
-            scripts/sync_digests.mjs \
-            src/agents/digester.yaml
+          tar --exclude=.git -czf lex-digest-repository.tar.gz .
 
-      - name: Upload corpus
+      - name: Upload repository
         uses: actions/upload-artifact@v4
         with:
-          name: lex-digest-corpus
-          path: lex-digest-corpus.tar.gz
+          name: lex-digest-repository
+          path: lex-digest-repository.tar.gz
           retention-days: 1
           compression-level: 0
