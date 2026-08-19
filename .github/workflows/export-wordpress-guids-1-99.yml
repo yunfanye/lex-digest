@@ -1,4 +1,4 @@
-name: Recover legacy GUIDs from podcast feed
+name: Recover legacy GUIDs from Wayback
 
 on:
   pull_request:
@@ -15,21 +15,41 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect RSS items
+      - name: Inspect archived pages and feeds
         run: |
           python - <<'PY'
-          import urllib.request
-          import xml.etree.ElementTree as ET
-          headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
-          req = urllib.request.Request('https://lexfridman.com/feed/podcast/', headers=headers)
-          with urllib.request.urlopen(req, timeout=45) as r:
-              xml = r.read()
-          root = ET.fromstring(xml)
-          for item in root.findall('.//item'):
-              title = item.findtext('title') or ''
-              if 'William MacAskill' in title or 'Kate Darling' in title:
-                  print('TITLE', title)
-                  print('GUID', item.findtext('guid'))
-                  print('LINK', item.findtext('link'))
-                  print('DATE', item.findtext('pubDate'))
+          import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+          headers={'User-Agent':'Mozilla/5.0 lex-digest-maintenance'}
+          def get(url):
+              req=urllib.request.Request(url,headers=headers)
+              with urllib.request.urlopen(req,timeout=45) as r:
+                  return r.read()
+          def cdx(url):
+              q=urllib.parse.urlencode({'url':url,'from':'2020','to':'2020','output':'json','filter':'statuscode:200','fl':'timestamp,original','collapse':'digest'})
+              try:
+                  rows=json.loads(get('https://web.archive.org/cdx/search/cdx?'+q))
+                  return rows[1:] if rows else []
+              except Exception as e:
+                  print('CDX_ERROR',url,repr(e)); return []
+          for page in ['https://lexfridman.com/william-macaskill','https://lexfridman.com/william-macaskill/','https://lexfridman.com/kate-darling','https://lexfridman.com/kate-darling/']:
+              rows=cdx(page); print('CDX',page,rows[:5])
+              for ts,orig in rows[:3]:
+                  snap=f'https://web.archive.org/web/{ts}id_/{orig}'
+                  try:
+                      body=get(snap).decode('utf-8','replace')
+                      ids=re.findall(r'https://lexfridman\.com/\?p=(\d+)',body)
+                      title=re.search(r'<title>(.*?)</title>',body,re.I|re.S)
+                      print('PAGE',page,ts,'IDS',sorted(set(ids))[:10],'TITLE',title.group(1).strip() if title else '')
+                  except Exception as e: print('SNAP_ERROR',snap,repr(e))
+          rows=cdx('https://lexfridman.com/feed/podcast/')
+          print('FEED_CDX_COUNT',len(rows))
+          for ts,orig in rows[-8:]:
+              try:
+                  xml=get(f'https://web.archive.org/web/{ts}id_/{orig}')
+                  root=ET.fromstring(xml)
+                  for item in root.findall('.//item'):
+                      title=item.findtext('title') or ''
+                      if 'William MacAskill' in title or ('Kate Darling' in title and '#329' not in title):
+                          print('FEED_MATCH',ts,title,item.findtext('guid'),item.findtext('link'),item.findtext('pubDate'))
+              except Exception as e: print('FEED_ERROR',ts,repr(e))
           PY
