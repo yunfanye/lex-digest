@@ -1,4 +1,4 @@
-name: Export Lex feed GUIDs
+name: Export corrected episode 479 transcript
 
 on:
   pull_request:
@@ -14,40 +14,69 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Fetch and parse podcast feed
+      - name: Fetch and convert official transcript
         shell: python
         run: |
-          import json
+          import html
+          import re
           import urllib.request
-          import xml.etree.ElementTree as ET
 
-          request = urllib.request.Request(
-              "https://lexfridman.com/feed/podcast/",
-              headers={"User-Agent": "lex-digest-guid-export/1.0"},
-          )
+          url = "https://lexfridman.com/dave-plummer-transcript/"
+          request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
           with urllib.request.urlopen(request, timeout=60) as response:
-              payload = response.read()
+              page = response.read().decode("utf-8", "replace")
 
-          root = ET.fromstring(payload)
-          rows = []
-          for item in root.findall("./channel/item"):
-              def text(name):
-                  node = item.find(name)
-                  return (node.text or "").strip() if node is not None else ""
-              rows.append({
-                  "title": text("title"),
-                  "guid": text("guid"),
-                  "link": text("link"),
-                  "published": text("pubDate"),
-              })
+          token_re = re.compile(
+              r'<h2 id="chapter\d+_[^"]*">\s*<span id="[^"]*">([^<]*)</span>\s*</h2>'
+              r'|<div class="ts-segment">\s*<span class="ts-name">([\s\S]*?)</span>\s*'
+              r'<span class="ts-timestamp">([\s\S]*?)</span>\s*<span class="ts-text">([\s\S]*?)</span>'
+          )
 
-          with open("lex-feed-guids.json", "w", encoding="utf-8") as handle:
-              json.dump(rows, handle, ensure_ascii=False, indent=2)
-          print(f"exported {len(rows)} feed items")
+          def clean(value):
+              return html.unescape(re.sub(r"<[^>]+>", "", value)).strip()
 
-      - name: Upload GUID map
+          segments = []
+          chapter = None
+          for match in token_re.finditer(page):
+              if match.group(1) is not None:
+                  chapter = clean(match.group(1))
+                  continue
+              speaker = clean(match.group(2))
+              timestamp = clean(match.group(3)).strip("()")
+              text = clean(match.group(4))
+              if text:
+                  segments.append((chapter, speaker, timestamp, text))
+
+          if len(segments) < 50:
+              raise RuntimeError(f"only parsed {len(segments)} transcript segments")
+
+          lines = [
+              "---",
+              "episode: 479",
+              'title: "#479 – Dave Plummer: Programming, Autism, and Old-School Microsoft Stories"',
+              'guest: "Dave Plummer"',
+              "published: 2025-08-29",
+              "source: lexfridman.com official transcript",
+              f"source_url: {url}",
+              "quality: human",
+              "---",
+              "",
+          ]
+          previous = object()
+          for current, speaker, timestamp, text in segments:
+              if current and current != previous:
+                  lines.extend([f"## {current}", ""])
+                  previous = current
+              lines.extend([f"**{speaker}** ({timestamp}): {text}", ""])
+
+          output = "479-dave-plummer.md"
+          with open(output, "w", encoding="utf-8") as handle:
+              handle.write("\n".join(lines).rstrip() + "\n")
+          print(f"exported {len(segments)} segments to {output}")
+
+      - name: Upload corrected transcript
         uses: actions/upload-artifact@v4
         with:
-          name: lex-feed-guids
-          path: lex-feed-guids.json
+          name: episode-479-transcript
+          path: 479-dave-plummer.md
           retention-days: 1
