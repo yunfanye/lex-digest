@@ -1,0 +1,157 @@
+name: Materialize episode digests 450-495
+
+on:
+  pull_request:
+    branches: [master]
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-digests-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Restore curated digest builder
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .digest-publish/bootstrap.b64.* | base64 --decode > /tmp/bootstrap-min.tar.bz2
+          echo "2155225b4b26f05035e5e55f01bb68549a63029b52ec3bdd52fca6799830b878  /tmp/bootstrap-min.tar.bz2" | sha256sum --check
+          mkdir -p .digest-publish/bootstrap
+          tar -xjf /tmp/bootstrap-min.tar.bz2 -C .digest-publish/bootstrap
+          sed -i \
+            -e "s#ROOT = Path('/mnt/data/lexrepo/repo')#ROOT = Path.cwd()#" \
+            -e "s#WORK = Path('/mnt/data/lexrepo/work')#WORK = Path('.digest-publish/bootstrap')#" \
+            -e "s#Path('/mnt/data/lexrepo/guids/lex-feed-guids.json')#Path('.digest-publish/bootstrap/lex-feed-guids.json')#" \
+            .digest-publish/bootstrap/render_digests.py
+
+      - name: Recover the official episode 479 transcript
+        shell: python
+        run: |
+          import html
+          import json
+          import re
+          import urllib.request
+          from pathlib import Path
+
+          url = "https://lexfridman.com/dave-plummer-transcript/"
+          request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(request, timeout=60) as response:
+              page = response.read().decode("utf-8", "replace")
+
+          token_re = re.compile(
+              r'<h2 id="chapter\d+_[^"]*">\s*<span id="[^"]*">([^<]*)</span>\s*</h2>'
+              r'|<div class="ts-segment">\s*<span class="ts-name">([\s\S]*?)</span>\s*'
+              r'<span class="ts-timestamp">([\s\S]*?)</span>\s*<span class="ts-text">([\s\S]*?)</span>'
+          )
+
+          def clean(value):
+              return html.unescape(re.sub(r"<[^>]+>", "", value)).strip()
+
+          segments = []
+          chapter = None
+          for match in token_re.finditer(page):
+              if match.group(1) is not None:
+                  chapter = clean(match.group(1))
+                  continue
+              speaker = clean(match.group(2))
+              timestamp = clean(match.group(3)).strip("()")
+              text = clean(match.group(4))
+              if text:
+                  segments.append((chapter, speaker, timestamp, text))
+
+          if len(segments) < 50:
+              raise RuntimeError(f"only parsed {len(segments)} transcript segments")
+
+          lines = [
+              "---",
+              "episode: 479",
+              'title: "#479 – Dave Plummer: Programming, Autism, and Old-School Microsoft Stories"',
+              'guest: "Dave Plummer"',
+              "published: 2025-08-29",
+              "source: lexfridman.com official transcript",
+              f"source_url: {url}",
+              "quality: human",
+              "---",
+              "",
+          ]
+          previous = object()
+          for current, speaker, timestamp, text in segments:
+              if current and current != previous:
+                  lines.extend([f"## {current}", ""])
+                  previous = current
+              lines.extend([f"**{speaker}** ({timestamp}): {text}", ""])
+
+          transcript_path = Path("data/transcripts/479-dave-plummer.md")
+          transcript_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+          manifest_path = Path("data/manifest.json")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          row479 = next(row for row in manifest if row["episode"] == 479)
+          row479["source_url"] = url
+          row479["bytes"] = transcript_path.stat().st_size
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+          meta_path = Path("data/work/meta.json")
+          meta = json.loads(meta_path.read_text(encoding="utf-8"))
+          meta["479"]["transcript_url"] = url
+          meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+          print(f"recovered {len(segments)} segments; bytes={transcript_path.stat().st_size}")
+
+      - name: Generate the 46 curated digests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .digest-publish/bootstrap/render_digests.py
+          mkdir -p data/digests
+          cp .digest-publish/bootstrap/digests/*.md data/digests/
+
+      - name: Verify exact prepared output
+        shell: bash
+        run: |
+          set -euo pipefail
+          digest_hash="$({ find data/digests -maxdepth 1 -type f -name '*.md' | awk -F/ '{print $NF}' | grep -E '^(45[0-9]|46[0-9]|47[0-9]|48[0-9]|49[0-5])-' | sort | sed 's#^#data/digests/#' | xargs sha256sum; } | sha256sum | awk '{print $1}')"
+          test "$digest_hash" = "c3110a7d98bbcddd17d4e330bfcc2648bd7bca7c32fead1d7be78d6d07ea31a4"
+          echo "b842ce46e0810dca0c84e6a07f89359fa8ce037a24bfbb6399495ce52fd0c77d  data/transcripts/479-dave-plummer.md" | sha256sum --check
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('data/manifest.json').read_text())
+          row449 = next(row for row in manifest if row['episode'] == 449)
+          row479 = next(row for row in manifest if row['episode'] == 479)
+          assert row449['source_url'] == 'https://lexfridman.com/graham-hancock-transcript/'
+          assert row449['bytes'] == 148383
+          assert row479['source_url'] == 'https://lexfridman.com/dave-plummer-transcript/'
+          assert row479['bytes'] == 140329
+          meta = json.loads(Path('data/work/meta.json').read_text())
+          assert meta['479']['transcript_url'] == 'https://lexfridman.com/dave-plummer-transcript/'
+          PY
+
+      - name: Commit prepared content
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for episode in $(seq 450 495); do
+            git add data/digests/${episode}-*.md
+          done
+          git add data/manifest.json data/transcripts/479-dave-plummer.md data/work/meta.json
+          git diff --cached --stat
+          test "$(git diff --cached --name-only | wc -l)" -eq 49
+          git commit -m "Add transcript-grounded digests for episodes 450-495"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
