@@ -72,6 +72,17 @@ jobs:
           if found != wanted:
               raise RuntimeError(f'could not recover all build steps: found={sorted(found)}')
           for name, script in scripts:
+              if name == 'Build and validate digests':
+                  old = '    raw_profiles = base.load_profiles()\n'
+                  new = '''    raw_profiles = {}
+    for profile_path in sorted((ROOT / ".digest-build" / "profiles").glob("*.json")):
+        payload = json.loads(profile_path.read_text(encoding="utf-8"), strict=False)
+        for key, value in payload.items():
+            raw_profiles[int(key)] = value
+'''
+                  if old not in script:
+                      raise RuntimeError('profile-loader patch target not found')
+                  script = script.replace(old, new)
               print(f'::group::{name}')
               subprocess.run(['bash', '-lc', script], check=True)
               print('::endgroup::')
