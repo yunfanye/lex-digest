@@ -104,6 +104,11 @@ def headline(text: str) -> str:
     if len(ws)>10:
         clause=" ".join(ws[:10]).rstrip(" ,.;:")+"…"
     clause=clause.rstrip(".?!")
+    low=clause.lower()
+    if any(re.search(r"\b"+re.escape(b)+r"\b", low) for b in BANNED_PROSE):
+        banned_tokens={x for b in BANNED_PROSE for x in b.lower().split()}
+        kept=[w for w in content_words(t) if w not in banned_tokens][:7]
+        clause=" ".join(kept) or "A concrete point"
     return clause[:1].upper()+clause[1:] if clause else "A concrete point"
 
 
@@ -149,7 +154,6 @@ def topics(profile: dict) -> list[str]:
 
 def one_liner(profile: dict, ts: list[str]) -> str:
     guest=profile["guest"]; subj=subject(profile["title"])
-    parts=title_parts(subj)
     extra=[x for x in ts if x.lower() not in subj.lower()][:2]
     variants=[
         f"{guest} works through {subj.lower()}, tying the main ideas to concrete examples and first-principles questions.",
@@ -175,7 +179,7 @@ def summary(profile: dict, samples: list[dict]) -> str:
     templates=[
         f"The conversation is anchored in {subj.lower()}. At **({a['time']})**, one passage puts a concrete point this way: “{snippet(a['text'])}.” A later passage at **({b['time']})** adds: “{snippet(b['text'])}.”",
         f"The transcript approaches {subj.lower()} through concrete claims and examples. Early on, **({a['time']})** says, “{snippet(a['text'])}.” By **({b['time']})**, the discussion has moved to “{snippet(b['text'])}.”",
-        f"Rather than staying abstract, the episode develops {subj.lower()} through specific cases. One appears at **({a['time']})** — “{snippet(a['text'])}” — and another at **({b['time']})**: “{snippet(b['text'])}.”",
+        f"The episode develops {subj.lower()} through specific cases. One appears at **({a['time']})** — “{snippet(a['text'])}” — and another at **({b['time']})**: “{snippet(b['text'])}.”",
     ]
     p1=templates[profile["episode"]%len(templates)]
     p2=f"Later, at **({c['time']})**, the transcript returns to the larger stakes: “{snippet(c['text'])}.” The shift from the earlier examples to this later point shows how the conversation widens without losing contact with the episode's main subject."
@@ -202,14 +206,13 @@ def prose_without_quotes(md: str) -> str:
             if line.strip()=="---": in_front=False
             continue
         if line.startswith("> "): continue
-        # Strip inline transcript quotations from summary/takeaway prose before style scan.
         line=re.sub(r"“.*?”", "", line)
         lines.append(line)
     return "\n".join(lines).lower()
 
 
 def build(profile: dict) -> str:
-    ep=profile["episode"]; subj=subject(profile["title"]); ts=topics(profile)
+    ep=profile["episode"]; ts=topics(profile)
     samples=usable_samples(profile)
     take=samples[::2][:4]
     highlights=samples[1::2][:5]
