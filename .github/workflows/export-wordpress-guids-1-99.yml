@@ -1,8 +1,9 @@
 name: Publish generated digests 1-99
 
 on:
-  push:
-    branches: [agent/export-guids-1-99]
+  pull_request:
+    branches: [master]
+    types: [synchronize]
   workflow_dispatch:
 
 permissions:
