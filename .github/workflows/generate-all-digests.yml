@@ -1,0 +1,51 @@
+name: Generate all episode digests
+
+on:
+  push:
+    branches:
+      - agent/digests-1-500
+    paths:
+      - .github/workflows/generate-all-digests.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-all-lex-digests
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out digest branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/digests-1-500
+          fetch-depth: 0
+
+      - name: Compile generator
+        run: python -m py_compile .digest-build/generate_all_digests.py
+
+      - name: Generate episodes 1 through 500
+        run: python .digest-build/generate_all_digests.py
+
+      - name: Validate complete coverage
+        run: python .digest-build/generate_all_digests.py --validate-only
+
+      - name: Commit generated corpus and remove temporary build inputs
+        run: |
+          rm -rf .digest-build
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .digest-build data/digests docs/DIGEST_METHODOLOGY.md
+          git diff --cached --stat
+          if git diff --cached --quiet; then
+            echo "Expected generated digest changes, but the index is empty." >&2
+            exit 1
+          fi
+          git commit -m "Add transcript-grounded digests for episodes 1-500"
+          git push origin HEAD:agent/digests-1-500
