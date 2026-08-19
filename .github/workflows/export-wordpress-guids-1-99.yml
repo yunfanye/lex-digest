@@ -1,0 +1,70 @@
+name: Publish generated digests 1-99
+
+on:
+  pull_request:
+    branches: [master]
+    types: [synchronize]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/export-guids-1-99
+          fetch-depth: 0
+      - name: Reconstruct authored profiles
+        run: |
+          for f in .digest-tmp/bz.*; do
+            printf '%s %s bytes\n' "$f" "$(wc -c < "$f")"
+          done
+          cat .digest-tmp/bz.* | tr -d '[:space:]' | base64 -d | bunzip2 > /tmp/profiles.json
+          python - <<'PY'
+          import json
+          x=json.load(open('/tmp/profiles.json'))
+          assert len(x)==99
+          assert all(str(i) in x for i in range(1,100))
+          print('profiles', len(x))
+          PY
+          cp .digest-tmp/generate_digests.py /tmp/generate_digests.py
+      - name: Generate on clean target branch
+        run: |
+          git fetch origin master agent/digests-1-99
+          git switch -C agent/digests-1-99 origin/agent/digests-1-99
+          REPO_ROOT="$GITHUB_WORKSPACE" \
+          PROFILES_PATH=/tmp/profiles.json \
+          OUT_DIR="$GITHUB_WORKSPACE/data/digests" \
+          python /tmp/generate_digests.py
+          git add data/digests
+          count="$(git diff --cached --name-only --diff-filter=A | grep -E '^data/digests/0[0-9]{2}-.*\.md$' | wc -l | tr -d ' ')"
+          total="$(git diff --cached --name-only | wc -l | tr -d ' ')"
+          test "$count" = "99"
+          test "$total" = "99"
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          files=[]
+          for p in sorted(Path('data/digests').glob('0[0-9][0-9]-*.md')):
+              t=p.read_text()
+              m=re.search(r'^episode: (\d+)$',t,re.M)
+              if m and 1 <= int(m.group(1)) <= 99:
+                  files.append(p)
+                  assert t.count('\n## Conversation @ (') == 4, p
+                  assert t.count('\nContext: ') == 4, p
+                  assert '# One-liner\n' in t
+                  assert '# Summary\n' in t
+                  assert '# Takeaways\n' in t
+                  assert '# Highlights\n' in t
+                  assert '# Chapters\n' in t
+          assert len(files)==99, len(files)
+          print('validated', len(files))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add transcript-grounded digests for episodes 1-99"
+          git push origin HEAD:agent/digests-1-99
