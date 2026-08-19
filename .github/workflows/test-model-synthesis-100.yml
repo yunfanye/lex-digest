@@ -3,7 +3,7 @@ name: Test model synthesis 100
 on:
   pull_request:
     branches: [master]
-    types: [synchronize]
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
