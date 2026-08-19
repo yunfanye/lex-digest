@@ -1,16 +1,15 @@
 name: Materialize digests 200-299
 
 on:
-  pull_request:
-    branches: [master]
-    types: [synchronize]
+  push:
+    branches: [agent/digests-200-299]
+    paths: [.github/workflows/materialize-digests-200-299.yml]
 
 permissions:
   contents: write
 
 jobs:
   materialize:
-    if: github.event.pull_request.head.ref == 'agent/digests-200-299'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -45,13 +44,7 @@ jobs:
                   raise SystemExit(f'episode {episode}: expected one digest, got {len(matches)}')
               files.append(matches[0])
 
-          required = [
-              '## One-liner',
-              '## Summary',
-              '## Takeaways',
-              '## Highlights',
-              '## Chapters',
-          ]
+          required = ['## One-liner', '## Summary', '## Takeaways', '## Highlights', '## Chapters']
           for path in files:
               text = path.read_text(encoding='utf-8')
               episode = int(path.name.split('-', 1)[0])
@@ -68,7 +61,6 @@ jobs:
                   raise SystemExit(f'{path}: expected six transcript highlights')
               if text.count('- **[') != 6:
                   raise SystemExit(f'{path}: expected six takeaways')
-
           print(f'validated {len(files)} digests')
           PY
 
@@ -77,6 +69,7 @@ jobs:
         run: |
           set -euo pipefail
           rm -f .digest-build/digests-200-299.part*.b64
+          rm -f .digest-build/materialize.trigger
           rm -f .github/workflows/export-wordpress-guids-200-299.yml
           rm -f .github/workflows/materialize-digests-200-299.yml
           git config user.name 'github-actions[bot]'
