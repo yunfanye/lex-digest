@@ -1,4 +1,4 @@
-name: Export digest repository
+name: Export Lex feed GUIDs
 
 on:
   pull_request:
@@ -12,18 +12,42 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Package repository
+      - name: Fetch and parse podcast feed
+        shell: python
         run: |
-          tar --exclude=.git -czf /tmp/lex-digest-repository.tar.gz .
+          import json
+          import urllib.request
+          import xml.etree.ElementTree as ET
 
-      - name: Upload repository
+          request = urllib.request.Request(
+              "https://lexfridman.com/feed/podcast/",
+              headers={"User-Agent": "lex-digest-guid-export/1.0"},
+          )
+          with urllib.request.urlopen(request, timeout=60) as response:
+              payload = response.read()
+
+          root = ET.fromstring(payload)
+          rows = []
+          for item in root.findall("./channel/item"):
+              def text(name):
+                  node = item.find(name)
+                  return (node.text or "").strip() if node is not None else ""
+              rows.append({
+                  "title": text("title"),
+                  "guid": text("guid"),
+                  "link": text("link"),
+                  "published": text("pubDate"),
+              })
+
+          with open("lex-feed-guids.json", "w", encoding="utf-8") as handle:
+              json.dump(rows, handle, ensure_ascii=False, indent=2)
+          print(f"exported {len(rows)} feed items")
+
+      - name: Upload GUID map
         uses: actions/upload-artifact@v4
         with:
-          name: lex-digest-repository
-          path: /tmp/lex-digest-repository.tar.gz
+          name: lex-feed-guids
+          path: lex-feed-guids.json
           retention-days: 1
-          compression-level: 0
