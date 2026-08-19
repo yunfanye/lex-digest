@@ -3,7 +3,7 @@ name: Export WordPress GUID map 1-99
 on:
   pull_request:
     branches: [master]
-    types: [opened]
+    types: [opened, synchronize]
   workflow_dispatch:
 
 permissions:
@@ -21,11 +21,13 @@ jobs:
           import json
           import re
           import time
+          import urllib.error
           import urllib.request
           from pathlib import Path
 
           entries = json.loads(Path('data/manifest.json').read_text())
           output = {}
+          missing = []
           headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
           patterns = [
               re.compile(r'<link[^>]+rel=["\']shortlink["\'][^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\']', re.I),
@@ -37,9 +39,23 @@ jobs:
               if not 1 <= episode <= 99:
                   continue
               url = entry['episode_url']
-              request = urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(request, timeout=45) as response:
-                  html = response.read().decode('utf-8', errors='replace')
+              urls = [url]
+              if not url.endswith('/'):
+                  urls.append(url + '/')
+              html = None
+              for candidate in urls:
+                  try:
+                      request = urllib.request.Request(candidate, headers=headers)
+                      with urllib.request.urlopen(request, timeout=45) as response:
+                          html = response.read().decode('utf-8', errors='replace')
+                      break
+                  except urllib.error.HTTPError as exc:
+                      if exc.code != 404:
+                          raise
+              if html is None:
+                  missing.append(episode)
+                  print('MISSING', episode, url)
+                  continue
               post_id = None
               for pattern in patterns:
                   match = pattern.search(html)
@@ -47,11 +63,14 @@ jobs:
                       post_id = match.group(1)
                       break
               if not post_id:
-                  raise RuntimeError(f'Could not find WordPress post ID for episode {episode}: {url}')
+                  missing.append(episode)
+                  print('NO_ID', episode, url)
+                  continue
               output[str(episode)] = f'https://lexfridman.com/?p={post_id}'
               print(episode, output[str(episode)])
-              time.sleep(0.15)
-          Path('wordpress-guids-1-99.json').write_text(json.dumps(output, indent=2, sort_keys=True) + '\n')
+              time.sleep(0.12)
+          Path('wordpress-guids-1-99.json').write_text(json.dumps({'guids': output, 'missing': missing}, indent=2, sort_keys=True) + '\n')
+          print('MISSING_EPISODES', missing)
           PY
       - uses: actions/upload-artifact@v4
         with:
