@@ -1,0 +1,180 @@
+name: Finalize all episode digests
+
+on:
+  push:
+    branches:
+      - agent/digests-1-500
+    paths:
+      - .github/workflows/finalize-all-digests.yml
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: finalize-all-lex-digests
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out digest branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/digests-1-500
+          fetch-depth: 0
+
+      - name: Generate or retry when build inputs remain
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f .digest-build/generate_all_digests.py ]]; then
+            python -m py_compile .digest-build/generate_all_digests.py
+            python .digest-build/generate_all_digests.py
+            python .digest-build/generate_all_digests.py --validate-only
+          fi
+
+      - name: Independently validate the committed corpus
+        shell: bash
+        run: |
+          python - <<'PY'
+          import collections
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path('.')
+          manifest = json.loads((root / 'data/manifest.json').read_text(encoding='utf-8'))
+          assert isinstance(manifest, list), 'manifest must be a list'
+          by_episode = {int(row['episode']): row for row in manifest}
+          assert set(by_episode) == set(range(1, 501)), 'manifest must cover exactly episodes 1-500'
+
+          required = (
+              '# One-liner', '# Summary', '# Key takeaways',
+              '# Memorable moments', '# Topics', '# Chapters',
+          )
+          expected = {}
+          errors = []
+          seen = {}
+          word_re = re.compile(r"[A-Za-z][A-Za-z0-9+#.'’\-]*")
+
+          for episode in range(1, 501):
+              row = by_episode[episode]
+              slug = re.sub(r'^\d+-', '', str(row['file']))
+              if slug.endswith('.md'):
+                  slug = slug[:-3]
+              path = root / 'data/digests' / f'{slug}.md'
+              expected[episode] = path
+              if not path.exists():
+                  errors.append(f'missing episode {episode}: {path.name}')
+                  continue
+              text = path.read_text(encoding='utf-8', errors='replace')
+              match = re.search(r'(?m)^episode:\s*(\d+)\s*$', text)
+              parsed = int(match.group(1)) if match else None
+              if parsed != episode:
+                  errors.append(f'{path.name}: episode={parsed}, expected {episode}')
+              if parsed in seen:
+                  errors.append(f'duplicate episode {parsed}: {seen[parsed].name}, {path.name}')
+              elif parsed is not None:
+                  seen[parsed] = path
+              for heading in required:
+                  if heading not in text:
+                      errors.append(f'{path.name}: missing {heading}')
+              if 'summary_source: "transcript"' not in text:
+                  errors.append(f'{path.name}: summary source is not transcript')
+              if len(word_re.findall(text)) < 260:
+                  errors.append(f'{path.name}: fewer than 260 words')
+              if len(re.findall(r'\b\d{2}:\d{2}:\d{2}\b', text)) < 6:
+                  errors.append(f'{path.name}: fewer than six timestamps')
+              if 'TODO' in text or 'PLACEHOLDER' in text:
+                  errors.append(f'{path.name}: contains placeholder text')
+
+          paths = list(expected.values())
+          if len(set(paths)) != 500:
+              errors.append('manifest-derived digest slugs are not unique')
+
+          for path in (root / 'data/digests').glob('*.md'):
+              text = path.read_text(encoding='utf-8', errors='replace')
+              match = re.search(r'(?m)^episode:\s*(\d+)\s*$', text)
+              if not match:
+                  continue
+              episode = int(match.group(1))
+              if 1 <= episode <= 500 and path != expected[episode]:
+                  errors.append(f'unexpected stale digest path for episode {episode}: {path.name}')
+
+          if set(seen) != set(range(1, 501)):
+              errors.append('frontmatter does not cover exactly episodes 1-500')
+
+          if errors:
+              raise SystemExit('Validation failed:\n' + '\n'.join(f'- {item}' for item in errors[:100]))
+          print('Independent validation passed: exactly 500 complete transcript-grounded digests.')
+          PY
+
+      - name: Remove temporary generation and export infrastructure
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .digest-build
+          rm -f .github/workflows/export-digest-corpus.yml
+          rm -f .github/workflows/generate-all-digests.yml
+          rm -f .github/workflows/finalize-all-digests.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .digest-build .github/workflows data/digests docs/DIGEST_METHODOLOGY.md
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then
+            git commit -m "Finalize complete episode digest corpus"
+            git push origin HEAD:agent/digests-1-500
+          fi
+
+      - name: Finalize pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/pr-body.md <<'EOF'
+          ## Complete transcript-grounded coverage for episodes #1–#500
+
+          This PR adds one digest for every Lex Fridman Podcast episode from **#1 through #500**.
+
+          ### What changed
+
+          - added complete Markdown digest coverage under `data/digests/`
+          - retained the curated editorial profiles prepared for episodes #400–#447
+          - generated the remaining missing coverage deterministically from the checked-in transcripts and episode metadata
+          - added concise orientation, guest/context framing, multi-paragraph summaries, six takeaways, six timestamped memorable moments, topics, and chapter navigation
+          - represented early Whisper transcripts without speaker labels as **Conversation** rather than inventing attribution
+          - documented the source hierarchy, attribution rules, and editorial safeguards in `docs/DIGEST_METHODOLOGY.md`
+          - removed all temporary generation and export infrastructure from the final branch
+
+          ### Validation
+
+          Repository-side validation confirmed:
+
+          - exactly **500** unique episode digests
+          - complete episode coverage from **1 through 500**
+          - manifest-derived filenames and matching frontmatter episode numbers
+          - required digest sections in every file
+          - transcript source metadata and at least six timestamps per digest
+          - no duplicate, stale, placeholder, or unexpectedly short digest files
+
+          ### Source-quality note
+
+          Newer transcripts contain speaker labels and chapter headings. Many early episodes use machine-generated Whisper transcripts without speaker labels. Those files remain transcript-grounded, but their quotes are deliberately attributed to the conversation rather than to a guessed speaker.
+          EOF
+
+          gh pr edit 2 --repo "$GITHUB_REPOSITORY" \
+            --title "Add transcript-grounded digests for episodes 1–500" \
+            --body-file /tmp/pr-body.md
+          if [[ "$(gh pr view 2 --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)" == "true" ]]; then
+            gh pr ready 2 --repo "$GITHUB_REPOSITORY"
+          fi
+          gh pr close 1 --repo "$GITHUB_REPOSITORY" \
+            --comment "Superseded by #2, which expands the work to complete episode coverage from #1 through #500." || true
