@@ -1,0 +1,52 @@
+name: Export Lex feed GUIDs
+
+on:
+  push:
+    branches:
+      - agent/temp-export-feed-guids
+    paths:
+      - .github/workflows/export-lex-feed-guids.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch and parse podcast feed
+        shell: python
+        run: |
+          import json
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          url = "https://lexfridman.com/feed/podcast/"
+          request = urllib.request.Request(url, headers={"User-Agent": "lex-digest-guid-export/1.0"})
+          with urllib.request.urlopen(request, timeout=60) as response:
+              payload = response.read()
+
+          root = ET.fromstring(payload)
+          rows = []
+          for item in root.findall("./channel/item"):
+              def text(name):
+                  node = item.find(name)
+                  return (node.text or "").strip() if node is not None else ""
+              rows.append({
+                  "title": text("title"),
+                  "guid": text("guid"),
+                  "link": text("link"),
+                  "published": text("pubDate"),
+              })
+
+          with open("lex-feed-guids.json", "w", encoding="utf-8") as handle:
+              json.dump(rows, handle, ensure_ascii=False, indent=2)
+          print(f"exported {len(rows)} feed items")
+
+      - name: Upload GUID map
+        uses: actions/upload-artifact@v4
+        with:
+          name: lex-feed-guids
+          path: lex-feed-guids.json
+          retention-days: 1
