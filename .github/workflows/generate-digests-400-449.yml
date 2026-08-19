@@ -1,0 +1,413 @@
+name: Generate episode digests 400-449
+
+on:
+  push:
+    branches:
+      - agent/digests-400-449
+    paths:
+      - .github/workflows/generate-digests-400-449.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-lex-digests-400-449
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out digest branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/digests-400-449
+          fetch-depth: 0
+
+      - name: Restore curated build inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin agent/digests-400-500:refs/remotes/origin/agent/digests-400-500
+          mkdir -p .digest-build/profiles
+          git show origin/agent/digests-400-500:.digest-build/generate_digests.py > .digest-build/generate_digests.py
+          for file in 400-407.json 408-415.json 416-423.json 424-431.json 432-439.json 440-447.json; do
+            git show "origin/agent/digests-400-500:.digest-build/profiles/${file}" > ".digest-build/profiles/${file}"
+          done
+
+          cat > .digest-build/profiles/448-449.json <<'JSON'
+          {
+            "448": {
+              "one_liner": "Jordan Peterson reads Nietzsche against Nazism, communism, nihilism, and Christianity, then turns the argument inward: a good life requires truthful aims, voluntary sacrifice, regulated strength, gratitude, and relationships strong enough to carry suffering.",
+              "summary": [
+                "Jordan Peterson returns for a conversation organized around Nietzsche, religious belief, political ideology, moral psychology, and suffering. He begins with Nietzsche's compressed style and the claim that serious writing changes more than opinion: because perception follows goals, a powerful idea can alter what a person notices, feels, and does. Peterson's readings are interpretive arguments rather than settled accounts of Nietzsche, Christianity, fascism, or communism, and the episode is strongest when those arguments are treated as a connected moral psychology.",
+                "Peterson contrasts voluntary cooperation with systems built on compulsion. He argues that propaganda reduces anxiety by compressing many goals into one explanation, which makes a false unifying idea especially dangerous. Nietzsche's death of God, Marxist accounts of power, Hitler's racial ideology, and religious hypocrisy become variations on the same problem: people need shared values, yet the language of the highest values can be used by actors seeking domination. Peterson's proposed test is responsibility. A leader who asks others to pay every cost while exempting himself is revealing the idea's moral structure.",
+                "The discussion then becomes practical. Peterson presents adventure, conscience, sacrifice, and truthful speech as ways of setting an aim and correcting it over time. Envy can be read as information about an unfulfilled desire, but resentment turns another person's success into a reason for sabotage; gratitude and incremental comparison redirect that energy toward action. His claims about sex differences, attraction, temperament, and marriage are broad and sometimes controversial, but the more durable point is that niceness without boundaries breeds resentment and that goodness requires strength under control.",
+                "The final chapters cover good and evil, psychopathy, criminality, illness, pain, friendship, and truth. Peterson distinguishes weakness from restraint, argues that many people can change while some persistent offenders impose real limits on rescue, and describes family and friends as the support that carried him through years of severe illness. Responsibility does not mean isolation. His closing account of truth is procedural: choose an upward aim, tell the truth as best you can, notice the consequences, and keep correcting course."
+              ],
+              "takeaways": [
+                {"title": "Perception follows the aim", "text": "People do not passively record the world. Goals determine what they sample and what counts as an obstacle or opportunity, so changing an aim can change both perception and action."},
+                {"title": "Rules can create freedom", "text": "Chess, music, sport, and honest conversation work because firm constraints create a large space for play. Freedom without any shared rules collapses the activity that made freedom meaningful."},
+                {"title": "The person promoting an idea should bear its costs", "text": "Peterson uses sacrifice as a test of moral seriousness. An ideology becomes suspect when its advocates demand risk, suffering, or obedience from others while protecting themselves from the consequences."},
+                {"title": "Gratitude can convert envy into direction", "text": "Envy identifies something a person wants, but resentment seeks to destroy the comparison. Celebrating the achievement, naming the underlying desire, and improving against yesterday's self turns the signal into a plan."},
+                {"title": "Goodness requires regulated strength", "text": "A person who cannot confront, refuse, or defend is not automatically virtuous. Moral restraint matters when strength exists and remains under conscious control."},
+                {"title": "Boundaries prevent concealed resentment", "text": "Agreeableness becomes destructive when a person repeatedly gives what they do not willingly offer. A clear no can preserve a relationship better than compliance followed by bitterness."},
+                {"title": "Responsibility does not require solitude", "text": "Peterson credits family, friends, and a wider community with carrying him through severe illness. Bearing one's burden includes building relationships that make the burden survivable."},
+                {"title": "Truth is maintained through correction", "text": "No person starts with complete certainty about the right aim. Honest speech, attention to consequences, conscience, and repeated course correction provide a practical alternative to claiming final possession of truth."}
+              ],
+              "topics": ["Jordan Peterson", "Nietzsche", "religion", "Nazism and communism", "meaning and sacrifice", "resentment and gratitude", "psychopathy", "suffering and truth"]
+            },
+            "449": {
+              "one_liner": "Graham Hancock presents his case for a lost Ice Age civilization through Göbekli Tepe, ancient astronomy, Younger Dryas impacts, Giza, submerged coastlines, and oral tradition, while the episode exposes the gap between an intriguing anomaly and evidence strong enough to overturn archaeology.",
+              "summary": [
+                "Graham Hancock, a journalist and author known for the lost-civilization hypothesis, argues that human history may contain a sophisticated Ice Age culture destroyed near the end of the last glacial period. Survivors, in his account, carried astronomy, architecture, and other knowledge to later societies. He starts from a real puzzle: anatomically modern humans existed for hundreds of thousands of years, while the surviving record of cities, states, and monumental building appears much later. The disputed step is his inference from that gap to a single advanced civilization for which no accepted archaeological site has been found.",
+                "His case draws on Göbekli Tepe, possible astronomical alignments, recurring numbers associated with precession, oral traditions, and the Younger Dryas impact hypothesis. Göbekli Tepe and the abrupt climatic changes of the Younger Dryas are established subjects of research; a global technological civilization, a common source for worldwide myths, and a comet catastrophe that erased it are separate claims with different evidentiary support. Hancock argues that stories can preserve observations across generations and that airbursts may leave no obvious crater. Those possibilities matter, but they do not by themselves identify who transmitted the knowledge or prove that the proposed catastrophe occurred as described.",
+                "The Great Pyramid, the Sphinx, ancient seafaring, the Sahara, the Amazon, and submerged coastlines supply the second line of argument. Hancock emphasizes preservation bias: coastlines occupied during the Ice Age are now underwater, wood and boats decay, forests conceal sites, and later builders can reuse older structures. He accepts that Khufu was involved with the Great Pyramid but proposes that parts of Giza may be older. The conventional attribution rests on several forms of evidence, including the Wadi al-Jarf papyri and work-gang markings, so precision, scale, or an unexplained feature cannot alone establish an earlier builder.",
+                "Hancock also reflects on his debate with archaeologist Flint Dibble, admitting that anger and poor preparation made him less effective while praising Dibble's knowledge and willingness to engage. That admission is one of the episode's most useful moments because it turns a culture-war dispute back toward claims, evidence, and preparation. The final sections range through panspermia, shamanism, psychedelics, consciousness, pyramid construction, and mortality. The conversation rewards curiosity, but its central hypothesis remains unproven; the productive next step is a search strategy that states what discovery would distinguish it from ordinary cultural development, trade, convergence, and gaps in preservation."
+              ],
+              "takeaways": [
+                {"title": "Human capability is not evidence of a lost civilization", "text": "Ice Age people had brains like ours and could navigate, build, remember, and organize. That establishes possibility, while a specific global civilization still requires sites, artifacts, dates, and a traceable material culture."},
+                {"title": "Preservation bias changes where archaeologists should look", "text": "Sea-level rise, decay, sediment, forests, and later construction erase evidence unevenly. Submerged continental shelves and poorly surveyed regions are reasonable search targets, but missing evidence is not positive evidence for one proposed history."},
+                {"title": "Established observations and speculative bridges need separate labels", "text": "Göbekli Tepe, Younger Dryas climate change, ancient seafaring, and precise Egyptian construction are data. A vanished teacher civilization connecting them is an interpretation that must be tested independently."},
+                {"title": "Oral tradition can preserve information and also transform it", "text": "Stories can carry practical and astronomical knowledge for long periods, especially in cultures trained for memorization. Independent dating and cross-checks are needed before a myth can serve as a record of one ancient event."},
+                {"title": "A catastrophe hypothesis needs discriminating signatures", "text": "Evidence of burning, impact proxies, abrupt extinctions, or synchronized destruction matters only if the pattern is more likely under the proposed impact than under competing geological and climatic explanations."},
+                {"title": "Engineering difficulty does not identify the engineer", "text": "The Great Pyramid's mass, alignment, and internal design demand explanation. They do not by themselves show that the monument predates Khufu or that its builders inherited technology from an Ice Age civilization."},
+                {"title": "Anger weakens an evidentiary argument", "text": "Hancock says personal accusations left him angry and underprepared in his debate with Flint Dibble. A controversial case becomes stronger when it defines the claim narrowly, answers the best objections, and concedes what the opposing evidence establishes."},
+                {"title": "A serious alternative theory should name its decisive test", "text": "The lost-civilization hypothesis becomes more useful when it predicts where to search, what material signature to expect, and what finding would count against it. Without those commitments, anomalies can accumulate without resolving the question."}
+              ],
+              "topics": ["Graham Hancock", "lost Ice Age civilization", "Göbekli Tepe", "Younger Dryas impact hypothesis", "Great Pyramid and Sphinx", "ancient astronomy", "archaeology debate", "psychedelics and consciousness"]
+            }
+          }
+          JSON
+
+      - name: Build and validate digests
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > .digest-build/build_400_449.py <<'PY'
+          from __future__ import annotations
+
+          import datetime as dt
+          import importlib.util
+          import json
+          import re
+          import time
+          import urllib.request
+          from pathlib import Path
+          from urllib.parse import parse_qs, urlparse
+
+          ROOT = Path(__file__).resolve().parents[1]
+          BASE_PATH = ROOT / ".digest-build" / "generate_digests.py"
+          SPEC = importlib.util.spec_from_file_location("digest_base", BASE_PATH)
+          if SPEC is None or SPEC.loader is None:
+              raise RuntimeError("could not load recovered digest builder")
+          base = importlib.util.module_from_spec(SPEC)
+          SPEC.loader.exec_module(base)
+
+          REPLACEMENTS = {
+              "delve": "examine",
+              "foster": "build",
+              "leverage": "use",
+              "utilize": "use",
+              "facilitate": "help",
+              "empower": "enable",
+              "streamline": "simplify",
+              "robust": "resilient",
+              "cutting-edge": "advanced",
+              "paradigm shift": "major change",
+              "game changer": "major change",
+              "this is huge": "this matters",
+              "this changes everything": "this changes the conclusion",
+              "tapestry": "mix",
+              "realm": "domain",
+              "beacon": "example",
+              "multifaceted": "complex",
+              "meticulous": "careful",
+              "intricate": "complex",
+              "paramount": "central",
+              "transformative": "far-reaching",
+              "elevate": "raise",
+              "embark": "begin",
+              "supercharge": "accelerate",
+              "harness": "use",
+              "ever-evolving": "changing",
+          }
+          BANNED = tuple(REPLACEMENTS)
+          EMPTY_PHRASES = (
+              "it's worth noting", "it's important to note", "at the end of the day",
+              "in today's world", "in the age of", "in the world of", "the reality is",
+              "in this article", "let's dive in", "here's the thing", "let me be clear",
+              "what most people get wrong", "here's what nobody tells you", "as you can see",
+              "in conclusion",
+          )
+
+          def preserve_case(source: str, replacement: str) -> str:
+              if source.isupper():
+                  return replacement.upper()
+              if source[:1].isupper():
+                  return replacement[:1].upper() + replacement[1:]
+              return replacement
+
+          def clean_editorial(text: str) -> str:
+              text = text.replace(" — ", ", ")
+              text = re.sub(r"\bFor a time-limited reader,\s*", "", text, flags=re.I)
+              text = re.sub(r"\bLimited-time readers should\s+", "", text, flags=re.I)
+              text = re.sub(r"\bThe useful reading discipline is\s+", "", text, flags=re.I)
+              text = re.sub(r"\bThe useful frame is\s+", "", text, flags=re.I)
+              text = re.sub(r"\bin order to\b", "to", text, flags=re.I)
+              text = re.sub(r"\bwith regard to\b", "about", text, flags=re.I)
+              for source, replacement in sorted(REPLACEMENTS.items(), key=lambda item: len(item[0]), reverse=True):
+                  pattern = r"(?<![A-Za-z])" + re.escape(source) + r"(?![A-Za-z])"
+                  text = re.sub(pattern, lambda m: preserve_case(m.group(0), replacement), text, flags=re.I)
+              text = re.sub(r"\s+", " ", text).strip()
+              return text
+
+          def clean_profile(profile: dict) -> dict:
+              cleaned = dict(profile)
+              cleaned["one_liner"] = clean_editorial(str(profile["one_liner"]))
+              cleaned["summary"] = [clean_editorial(str(item)) for item in profile["summary"]]
+              takeaways = []
+              for item in profile["takeaways"]:
+                  takeaways.append({
+                      "title": clean_editorial(str(item["title"])),
+                      "text": clean_editorial(str(item["text"])),
+                  })
+              cleaned["takeaways"] = takeaways
+              cleaned["topics"] = [clean_editorial(str(item)) for item in profile["topics"]]
+              return cleaned
+
+          def read_transcript_meta(path: Path) -> dict[str, str]:
+              lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+              meta: dict[str, str] = {}
+              if not lines or lines[0].strip() != "---":
+                  return meta
+              for line in lines[1:]:
+                  if line.strip() == "---":
+                      break
+                  if ":" not in line:
+                      continue
+                  key, value = line.split(":", 1)
+                  value = value.strip()
+                  if value.startswith('"') and value.endswith('"'):
+                      value = json.loads(value)
+                  meta[key.strip()] = str(value)
+              return meta
+
+          def youtube_id(url: str) -> str:
+              parsed = urlparse(url)
+              if parsed.netloc.endswith("youtu.be"):
+                  return parsed.path.strip("/")
+              return parse_qs(parsed.query).get("v", [""])[0]
+
+          GUID_CACHE: dict[str, str] = {}
+
+          def fetch_guid(url: str) -> str:
+              if url in GUID_CACHE:
+                  return GUID_CACHE[url]
+              error: Exception | None = None
+              for attempt in range(4):
+                  try:
+                      request = urllib.request.Request(
+                          url,
+                          headers={
+                              "User-Agent": "Mozilla/5.0 (compatible; LexDigestEditorial/1.0)",
+                              "Accept": "text/html,application/xhtml+xml",
+                          },
+                      )
+                      with urllib.request.urlopen(request, timeout=30) as response:
+                          page = response.read().decode("utf-8", errors="replace")
+                      match = re.search(r"https://lexfridman\.com/\?p=\d+", page)
+                      if not match:
+                          raise RuntimeError(f"shortlink not found at {url}")
+                      GUID_CACHE[url] = match.group(0)
+                      time.sleep(0.08)
+                      return GUID_CACHE[url]
+                  except Exception as exc:
+                      error = exc
+                      time.sleep(1.5 * (attempt + 1))
+              raise RuntimeError(f"could not resolve WordPress GUID for {url}: {error}")
+
+          def episode_chapters(sections: list[dict]) -> list[dict[str, str]]:
+              chapters = []
+              for section in sections:
+                  if not section["utterances"] or section["name"].lower() == "preamble":
+                      continue
+                  chapters.append({"time": section["utterances"][0]["time"], "name": section["name"]})
+              return chapters
+
+          def render(ep: int, profile: dict) -> Path:
+              row, sections = base.parse_transcript(ep)
+              transcript_path = base.TRANSCRIPTS / row["file"]
+              transcript_meta = read_transcript_meta(transcript_path)
+              slug = re.sub(r"^\d+-", "", row["file"]).removesuffix(".md")
+              video_id = youtube_id(str(row.get("youtube_url") or ""))
+              title = transcript_meta.get("title") or row["title"]
+              guest = transcript_meta.get("guest") or row["guest"]
+              published = transcript_meta.get("published") or row["published"]
+              guid = fetch_guid(str(row["episode_url"]))
+              generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+              lines = [
+                  "---",
+                  f"guid: {json.dumps(guid, ensure_ascii=False)}",
+                  f"slug: {json.dumps(slug, ensure_ascii=False)}",
+                  f"episode: {ep}",
+                  f"title: {json.dumps(title, ensure_ascii=False)}",
+                  f"guest: {json.dumps(guest, ensure_ascii=False)}",
+                  f"link: {json.dumps(row['episode_url'], ensure_ascii=False)}",
+                  f"youtube_id: {json.dumps(video_id, ensure_ascii=False)}",
+                  f"published: {json.dumps(str(published), ensure_ascii=False)}",
+                  'summary_source: "transcript"',
+                  f"summarized_at: {json.dumps(generated_at)}",
+                  f"topics: {json.dumps(profile['topics'], ensure_ascii=False)}",
+                  "---",
+                  "",
+                  "# One-liner",
+                  "",
+                  profile["one_liner"].strip(),
+                  "",
+                  "# Summary",
+                  "",
+              ]
+              for paragraph in profile["summary"]:
+                  lines.extend([paragraph.strip(), ""])
+
+              lines.extend(["# Takeaways", ""])
+              for takeaway in profile["takeaways"]:
+                  lines.extend([f"## {takeaway['title'].strip()}", "", takeaway["text"].strip(), ""])
+
+              lines.extend(["# Highlights", ""])
+              highlights = base.select_highlights(row, sections, profile, profile.get("highlight_count", 6))
+              for highlight in highlights:
+                  lines.extend([
+                      f"## {highlight['speaker']} @ {highlight['time']}",
+                      "",
+                      f"> {highlight['quote'].strip()}",
+                      "",
+                  ])
+                  context = str(highlight.get("context") or "").strip()
+                  if context and not context.lower().startswith("from the discussion of"):
+                      lines.extend([f"Context: {context}", ""])
+
+              lines.extend(["# Chapters", ""])
+              for chapter in episode_chapters(sections):
+                  lines.append(f"- [{chapter['time']}] {chapter['name']}")
+              lines.append("")
+
+              path = base.OUT / row["file"]
+              path.write_text("\n".join(lines), encoding="utf-8")
+              return path
+
+          def editorial_text(markdown: str) -> str:
+              start = markdown.index("# One-liner")
+              end = markdown.index("# Highlights")
+              return markdown[start:end]
+
+          def audit_no_slop(path: Path) -> None:
+              text = editorial_text(path.read_text(encoding="utf-8"))
+              low = text.lower()
+              errors = []
+              for phrase in BANNED:
+                  if re.search(r"(?<![a-z])" + re.escape(phrase) + r"(?![a-z])", low):
+                      errors.append(f"banned term: {phrase}")
+              for phrase in EMPTY_PHRASES:
+                  if phrase in low:
+                      errors.append(f"empty phrase: {phrase}")
+              if text.count("—") > 2:
+                  errors.append("more than two em dashes in editorial prose")
+              if re.search(r"(?im)^\s*(ultimately|overall|in conclusion),", text):
+                  errors.append("summary-recap transition")
+              if errors:
+                  raise ValueError(f"{path.name}: " + "; ".join(errors))
+
+          def main() -> None:
+              base.OUT.mkdir(parents=True, exist_ok=True)
+              raw_profiles = base.load_profiles()
+              expected = set(range(400, 450))
+              if set(raw_profiles) != expected:
+                  missing = sorted(expected - set(raw_profiles))
+                  extra = sorted(set(raw_profiles) - expected)
+                  raise ValueError(f"profile coverage mismatch; missing={missing}, extra={extra}")
+
+              generated = []
+              for ep in sorted(raw_profiles):
+                  profile = clean_profile(raw_profiles[ep])
+                  path = render(ep, profile)
+                  base.validate_file(ep, path, profile)
+                  audit_no_slop(path)
+                  generated.append(path)
+                  one_liner = profile["one_liner"]
+                  print(f"#{ep} {path.name}: {one_liner}")
+
+              if len(generated) != 50:
+                  raise ValueError(f"expected 50 generated files, found {len(generated)}")
+              print("generated and validated exactly 50 digests for episodes #400-#449")
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+          python -m py_compile .digest-build/generate_digests.py .digest-build/build_400_449.py
+          python .digest-build/build_400_449.py
+
+      - name: Independently validate final scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path(".")
+          manifest = {int(row["episode"]): row for row in json.loads((root / "data/manifest.json").read_text())}
+          errors = []
+          files = []
+          for episode in range(400, 450):
+              expected = root / "data" / "digests" / manifest[episode]["file"]
+              files.append(expected)
+              if not expected.exists():
+                  errors.append(f"missing {expected}")
+                  continue
+              text = expected.read_text(encoding="utf-8")
+              for heading in ("# One-liner", "# Summary", "# Takeaways", "# Highlights", "# Chapters"):
+                  if heading not in text:
+                      errors.append(f"{expected.name}: missing {heading}")
+              if not re.search(r'(?m)^guid: "https://lexfridman\.com/\?p=\d+"$', text):
+                  errors.append(f"{expected.name}: invalid guid")
+              if not re.search(rf"(?m)^episode: {episode}$", text):
+                  errors.append(f"{expected.name}: episode mismatch")
+              if text.count("\n## ") < 9:
+                  errors.append(f"{expected.name}: too few structured subsections")
+              transcript = (root / "data" / "transcripts" / manifest[episode]["file"]).read_text(encoding="utf-8", errors="replace")
+              quotes = re.findall(r"(?m)^> (.+)$", text)
+              if not 4 <= len(quotes) <= 7:
+                  errors.append(f"{expected.name}: expected 4-7 highlights, found {len(quotes)}")
+              for quote in quotes:
+                  if quote not in transcript:
+                      errors.append(f"{expected.name}: non-verbatim highlight: {quote[:80]}")
+
+          if len(set(files)) != 50:
+              errors.append("manifest-derived digest filenames are not unique")
+          if errors:
+              raise SystemExit("Validation failed:\n" + "\n".join(f"- {item}" for item in errors[:100]))
+          print("independent validation passed: 50 unique files, valid GUIDs, exact quotes, complete structure")
+          PY
+
+      - name: Commit only the finished digest files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .digest-build
+          rm -f .github/workflows/generate-digests-400-449.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .digest-build .github/workflows data/digests
+          git diff --cached --stat
+          git diff --cached --quiet && { echo "no changes to commit"; exit 1; }
+          git commit -m "Add transcript-grounded digests for episodes 400-449"
+          git push origin HEAD:agent/digests-400-449
