@@ -1,0 +1,94 @@
+name: Launch episode digest generation
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    branches: [master]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: launch-lex-digests-400-449
+  cancel-in-progress: false
+
+jobs:
+  launch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out digest branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/digests-400-449
+          fetch-depth: 0
+
+      - name: Execute the reviewed build steps
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          workflow = Path('.github/workflows/generate-digests-400-449.yml')
+          lines = workflow.read_text(encoding='utf-8').splitlines()
+          wanted = {
+              'Restore curated build inputs',
+              'Build and validate digests',
+              'Independently validate final scope',
+          }
+          scripts = []
+          index = 0
+          while index < len(lines):
+              line = lines[index]
+              if line.startswith('      - name: '):
+                  name = line.split(': ', 1)[1]
+                  index += 1
+                  while index < len(lines) and not lines[index].startswith('      - name: '):
+                      if name in wanted and lines[index].strip() == 'run: |':
+                          index += 1
+                          block = []
+                          while index < len(lines):
+                              candidate = lines[index]
+                              if candidate.startswith('      - name: '):
+                                  break
+                              if candidate.startswith('          '):
+                                  block.append(candidate[10:])
+                              elif candidate.strip():
+                                  raise RuntimeError(f'unexpected indentation in {name}: {candidate!r}')
+                              else:
+                                  block.append('')
+                              index += 1
+                          scripts.append((name, '\n'.join(block)))
+                          break
+                      index += 1
+                  continue
+              index += 1
+
+          found = {name for name, _ in scripts}
+          if found != wanted:
+              raise RuntimeError(f'could not recover all build steps: found={sorted(found)}')
+          for name, script in scripts:
+              print(f'::group::{name}')
+              subprocess.run(['bash', '-lc', script], check=True)
+              print('::endgroup::')
+          PY
+
+      - name: Commit the finished digests and remove launch infrastructure
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .digest-build
+          rm -f .github/workflows/generate-digests-400-449.yml
+          rm -f .github/workflows/kick-digest-generation.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .digest-build .github/workflows data/digests
+          git diff --cached --stat
+          git diff --cached --quiet && { echo "no changes to commit"; exit 1; }
+          git commit -m "Add transcript-grounded digests for episodes 400-449"
+          git push origin HEAD:agent/digests-400-449
