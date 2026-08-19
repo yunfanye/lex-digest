@@ -9,62 +9,68 @@ youtube_id: "LAyZ8IYfGxQ"
 published: "2020-11-02"
 summary_source: "transcript"
 summarized_at: "2026-08-19T20:30:00.000Z"
-topics: ["Computing", "Interactive AI", "Race in America", "whatever", "history"]
+topics: ["isbell", "machine", "learning", "interactive", "education", "systems", "labels"]
 ---
 
 # One-liner
 
-Lex and Charles Isbell spend the episode on computing, interactive ai, and race in america, moving between concrete mechanisms and broader consequences, including whatever and history.
+Charles Isbell discusses machine learning, interactive AI, education, race, and academic leadership, arguing that intelligent systems should be judged by how they behave with people over time rather than by isolated prediction benchmarks.
 
 # Summary
 
-The conversation is anchored in computing, interactive ai, and race in america. At **(00:01:04)**, one passage puts a concrete point this way: “With Charles, besides AI and music, we talk a bit about race in America, and how we can bring more….” A later passage at **(00:18:47)** adds: “Whenever I encounter trolls, they always roll their eyes at the idea of love because it's so quote unquote cringe.”
+An agent that repeatedly acts with a person must learn from consequences and adapt to a relationship, which is different from predicting labels on a fixed dataset. Isbell emphasizes that data collection, labels, objectives, and deployment settings encode social decisions that can become invisible once a model is packaged as a technical system.
 
-Later, at **(02:23:17)**, the transcript returns to the larger stakes: “US News has formula that it uses for many things, but not for computer science because computer science is considered….” The shift from the earlier examples to this later point shows how the conversation widens without losing contact with the episode's main subject.
+The conversation treats teaching as more than transferring current tools; students need ways to reason about abstractions, uncertainty, ethics, and systems that will change during their careers. Isbell and Lex discuss how platform design can reward quick conflict while stripping away context that normally helps people interpret each other charitably.
 
 # Takeaways
 
-## With Charles besides AI and music
+## Interactive AI changes the unit of evaluation
 
-At **(00:01:04)**, the conversation states: “With Charles, besides AI and music, we talk a bit about race in America, and how we can bring more love and empathy to our online communication.”
+An agent that repeatedly acts with a person must learn from consequences and adapt to a relationship, which is different from predicting labels on a fixed dataset.
 
-## Finally I decided that the P stands for probabilistic because…
+## Machine learning inherits choices from the people who build datasets
 
-At **(01:04:21)**, the conversation states: “But finally, I decided that the P stands for probabilistic because at the end of the day, it's machine learning and it's randomness and it's fun.”
+Isbell emphasizes that data collection, labels, objectives, and deployment settings encode social decisions that can become invisible once a model is packaged as a technical system.
 
-## The thing about computing
+## Education is a central responsibility of computing
 
-At **(01:23:32)**, the conversation states: “The thing about computing, and this is not unique to computing, though at this point in time, it is distinctive about computing where we happen to be in 2020 is we are both a thriving major.”
+The conversation treats teaching as more than transferring current tools; students need ways to reason about abstractions, uncertainty, ethics, and systems that will change during their careers.
 
-## Now let me preface all this by saying that although…
+## Empathy online is partly an interface problem
 
-At **(01:58:15)**, the conversation states: “Now, let me preface all this by saying that although I am interested in history, one of my three minors as an undergrad was history, specifically history, the 1960s.”
+Isbell and Lex discuss how platform design can reward quick conflict while stripping away context that normally helps people interpret each other charitably.
 
 # Highlights
 
-## Conversation @ (00:18:47)
+## Conversation @ (00:01:04)
 
-> But whenever I encounter trolls, they always roll their eyes at the idea of love because it's so quote unquote cringe.
+> With Charles, besides AI and music, we talk a bit about race in America, and how we can bring more love and empathy to our online communication.
 
-Context: This appears while the conversation is working through computing.
+Context: On empathy online is partly an interface problem.
+
+## Conversation @ (01:04:21)
+
+> But finally, I decided that the P stands for probabilistic because at the end of the day, it's machine learning and it's randomness and it's fun.
+
+Context: On machine learning inherits choices from the people who build datasets.
 
 ## Conversation @ (01:20:21)
 
 > That what's changed about computing, computer science or whatever you want to call it, is we now have so much data and so much computational power.
 
-Context: The passage gives a concrete example from the discussion of interactive ai.
+Context: On machine learning inherits choices from the people who build datasets.
 
 ## Conversation @ (01:31:52)
 
 > And then the second is because we're living through a pretty tense time in terms of race, tensions and discussions and ideas in this time in America.
 
-Context: This is one of the transcript's direct statements on race in america.
+Context: On interactive ai changes the unit of evaluation.
 
-## Conversation @ (02:23:17)
+## Conversation @ (01:58:15)
 
-> So US News has formula that it uses for many things, but not for computer science because computer science is considered a science, which is absurd.
+> Now, let me preface all this by saying that although I am interested in history, one of my three minors as an undergrad was history, specifically history, the 1960s.
 
-Context: The surrounding exchange uses this point to push the discussion of computing further.
+Context: On interactive ai changes the unit of evaluation.
 
 # Chapters
 
