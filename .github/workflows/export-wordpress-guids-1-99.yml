@@ -20,7 +20,10 @@ jobs:
           fetch-depth: 0
       - name: Reconstruct authored profiles
         run: |
-          cat .digest-tmp/bz.* | base64 -d | bunzip2 > /tmp/profiles.json
+          for f in .digest-tmp/bz.*; do
+            printf '%s %s bytes\n' "$f" "$(wc -c < "$f")"
+          done
+          cat .digest-tmp/bz.* | tr -d '[:space:]' | base64 -d | bunzip2 > /tmp/profiles.json
           python - <<'PY'
           import json
           x=json.load(open('/tmp/profiles.json'))
