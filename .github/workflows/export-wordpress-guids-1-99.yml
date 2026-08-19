@@ -1,55 +1,66 @@
-name: Recover legacy GUIDs from Wayback
+name: Publish generated digests 1-99
 
 on:
-  pull_request:
-    branches: [master]
-    types: [synchronize]
+  push:
+    branches: [agent/export-guids-1-99]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  recover:
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect archived pages and feeds
+        with:
+          ref: agent/export-guids-1-99
+          fetch-depth: 0
+      - name: Reconstruct authored profiles
         run: |
+          cat .digest-tmp/bz.* | base64 -d | bunzip2 > /tmp/profiles.json
           python - <<'PY'
-          import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
-          headers={'User-Agent':'Mozilla/5.0 lex-digest-maintenance'}
-          def get(url):
-              req=urllib.request.Request(url,headers=headers)
-              with urllib.request.urlopen(req,timeout=45) as r:
-                  return r.read()
-          def cdx(url):
-              q=urllib.parse.urlencode({'url':url,'from':'2020','to':'2020','output':'json','filter':'statuscode:200','fl':'timestamp,original','collapse':'digest'})
-              try:
-                  rows=json.loads(get('https://web.archive.org/cdx/search/cdx?'+q))
-                  return rows[1:] if rows else []
-              except Exception as e:
-                  print('CDX_ERROR',url,repr(e)); return []
-          for page in ['https://lexfridman.com/william-macaskill','https://lexfridman.com/william-macaskill/','https://lexfridman.com/kate-darling','https://lexfridman.com/kate-darling/']:
-              rows=cdx(page); print('CDX',page,rows[:5])
-              for ts,orig in rows[:3]:
-                  snap=f'https://web.archive.org/web/{ts}id_/{orig}'
-                  try:
-                      body=get(snap).decode('utf-8','replace')
-                      ids=re.findall(r'https://lexfridman\.com/\?p=(\d+)',body)
-                      title=re.search(r'<title>(.*?)</title>',body,re.I|re.S)
-                      print('PAGE',page,ts,'IDS',sorted(set(ids))[:10],'TITLE',title.group(1).strip() if title else '')
-                  except Exception as e: print('SNAP_ERROR',snap,repr(e))
-          rows=cdx('https://lexfridman.com/feed/podcast/')
-          print('FEED_CDX_COUNT',len(rows))
-          for ts,orig in rows[-8:]:
-              try:
-                  xml=get(f'https://web.archive.org/web/{ts}id_/{orig}')
-                  root=ET.fromstring(xml)
-                  for item in root.findall('.//item'):
-                      title=item.findtext('title') or ''
-                      if 'William MacAskill' in title or ('Kate Darling' in title and '#329' not in title):
-                          print('FEED_MATCH',ts,title,item.findtext('guid'),item.findtext('link'),item.findtext('pubDate'))
-              except Exception as e: print('FEED_ERROR',ts,repr(e))
+          import json
+          x=json.load(open('/tmp/profiles.json'))
+          assert len(x)==99
+          assert all(str(i) in x for i in range(1,100))
+          print('profiles', len(x))
           PY
+          cp .digest-tmp/generate_digests.py /tmp/generate_digests.py
+      - name: Generate on clean target branch
+        run: |
+          git fetch origin master agent/digests-1-99
+          git switch -C agent/digests-1-99 origin/agent/digests-1-99
+          REPO_ROOT="$GITHUB_WORKSPACE" \
+          PROFILES_PATH=/tmp/profiles.json \
+          OUT_DIR="$GITHUB_WORKSPACE/data/digests" \
+          python /tmp/generate_digests.py
+          git add data/digests
+          count="$(git diff --cached --name-only --diff-filter=A | grep -E '^data/digests/0[0-9]{2}-.*\.md$' | wc -l | tr -d ' ')"
+          total="$(git diff --cached --name-only | wc -l | tr -d ' ')"
+          test "$count" = "99"
+          test "$total" = "99"
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          files=[]
+          for p in sorted(Path('data/digests').glob('0[0-9][0-9]-*.md')):
+              t=p.read_text()
+              m=re.search(r'^episode: (\d+)$',t,re.M)
+              if m and 1 <= int(m.group(1)) <= 99:
+                  files.append(p)
+                  assert t.count('\n## Conversation @ (') == 4, p
+                  assert t.count('\nContext: ') == 4, p
+                  assert '# One-liner\n' in t
+                  assert '# Summary\n' in t
+                  assert '# Takeaways\n' in t
+                  assert '# Highlights\n' in t
+                  assert '# Chapters\n' in t
+          assert len(files)==99, len(files)
+          print('validated', len(files))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add transcript-grounded digests for episodes 1-99"
+          git push origin HEAD:agent/digests-1-99
