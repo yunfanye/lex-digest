@@ -1,9 +1,9 @@
-name: Export WordPress GUID map 300-399
+name: Export WordPress GUID map 382-399
 
 on:
   pull_request:
     branches: [master]
-    types: [opened]
+    types: [opened, synchronize]
 
 permissions:
   contents: read
@@ -17,7 +17,7 @@ jobs:
       - name: Fetch WordPress post IDs
         run: |
           python - <<'PY'
-          import json, re, time, urllib.request
+          import json, re, time, urllib.request, urllib.error
           from pathlib import Path
           entries = json.loads(Path('data/manifest.json').read_text())
           output = {}
@@ -29,21 +29,29 @@ jobs:
           ]
           for entry in entries:
               episode = int(entry['episode'])
-              if not 300 <= episode <= 399:
+              if not 382 <= episode <= 399:
                   continue
-              request = urllib.request.Request(entry['episode_url'], headers=headers)
-              with urllib.request.urlopen(request, timeout=45) as response:
-                  html = response.read().decode('utf-8', errors='replace')
-              post_id = next((m.group(1) for p in patterns if (m := p.search(html))), None)
+              html = None
+              for attempt in range(5):
+                  try:
+                      request = urllib.request.Request(entry['episode_url'], headers=headers)
+                      with urllib.request.urlopen(request, timeout=45) as response:
+                          html = response.read().decode('utf-8', errors='replace')
+                      break
+                  except urllib.error.HTTPError as exc:
+                      if exc.code < 500 or attempt == 4:
+                          raise
+                      time.sleep(2 ** attempt)
+              post_id = next((m.group(1) for p in patterns if (m := p.search(html or ''))), None)
               if not post_id:
                   raise RuntimeError(f'Could not find WordPress post ID for episode {episode}: {entry["episode_url"]}')
               output[str(episode)] = f'https://lexfridman.com/?p={post_id}'
               print(episode, output[str(episode)])
-              time.sleep(0.15)
-          Path('wordpress-guids-300-399.json').write_text(json.dumps(output, indent=2, sort_keys=True) + '\n')
+              time.sleep(0.25)
+          Path('wordpress-guids-382-399.json').write_text(json.dumps(output, indent=2, sort_keys=True) + '\n')
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: wordpress-guids-300-399
-          path: wordpress-guids-300-399.json
+          name: wordpress-guids-382-399
+          path: wordpress-guids-382-399.json
           retention-days: 1
