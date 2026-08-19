@@ -1,9 +1,9 @@
 name: Export WordPress GUID map 200-299
 
 on:
-  push:
-    branches: [agent/digests-200-299]
-    paths: [.github/workflows/export-wordpress-guids-200-299.yml]
+  pull_request:
+    branches: [master]
+    types: [synchronize]
   workflow_dispatch:
 
 permissions:
