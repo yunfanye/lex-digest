@@ -1,9 +1,9 @@
-name: Export WordPress GUID map 1-99
+name: Resolve legacy WordPress GUIDs 84 and 98
 
 on:
   pull_request:
     branches: [master]
-    types: [opened, synchronize]
+    types: [synchronize]
   workflow_dispatch:
 
 permissions:
@@ -12,68 +12,34 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch WordPress post IDs
+      - name: Query WordPress REST API
         run: |
           python - <<'PY'
-          import json
-          import re
-          import time
-          import urllib.error
-          import urllib.request
-          from pathlib import Path
-
-          entries = json.loads(Path('data/manifest.json').read_text())
-          output = {}
-          missing = []
+          import json, urllib.parse, urllib.request
           headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
-          patterns = [
-              re.compile(r'<link[^>]+rel=["\']shortlink["\'][^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\']', re.I),
-              re.compile(r'<link[^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\'][^>]+rel=["\']shortlink["\']', re.I),
-              re.compile(r'\bpostid-(\d+)\b', re.I),
-          ]
-          for entry in entries:
-              episode = int(entry['episode'])
-              if not 1 <= episode <= 99:
-                  continue
-              url = entry['episode_url']
-              urls = [url]
-              if not url.endswith('/'):
-                  urls.append(url + '/')
-              html = None
-              for candidate in urls:
-                  try:
-                      request = urllib.request.Request(candidate, headers=headers)
-                      with urllib.request.urlopen(request, timeout=45) as response:
-                          html = response.read().decode('utf-8', errors='replace')
-                      break
-                  except urllib.error.HTTPError as exc:
-                      if exc.code != 404:
-                          raise
-              if html is None:
-                  missing.append(episode)
-                  print('MISSING', episode, url)
-                  continue
-              post_id = None
-              for pattern in patterns:
-                  match = pattern.search(html)
-                  if match:
-                      post_id = match.group(1)
-                      break
-              if not post_id:
-                  missing.append(episode)
-                  print('NO_ID', episode, url)
-                  continue
-              output[str(episode)] = f'https://lexfridman.com/?p={post_id}'
-              print(episode, output[str(episode)])
-              time.sleep(0.12)
-          Path('wordpress-guids-1-99.json').write_text(json.dumps({'guids': output, 'missing': missing}, indent=2, sort_keys=True) + '\n')
-          print('MISSING_EPISODES', missing)
+          out = {}
+          for ep, guest in [(84, 'William MacAskill'), (98, 'Kate Darling')]:
+              for endpoint in ['posts', 'pages']:
+                  q = urllib.parse.urlencode({'search': guest, 'per_page': 100, 'status': 'publish'})
+                  url = f'https://lexfridman.com/wp-json/wp/v2/{endpoint}?{q}'
+                  req = urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req, timeout=45) as r:
+                      rows = json.loads(r.read().decode())
+                  print('QUERY', ep, endpoint, json.dumps([{'id': x.get('id'), 'link': x.get('link'), 'title': x.get('title',{}).get('rendered')} for x in rows], ensure_ascii=False))
+                  if rows and str(ep) not in out:
+                      for x in rows:
+                          title = x.get('title', {}).get('rendered', '')
+                          if guest.lower() in title.lower():
+                              out[str(ep)] = f"https://lexfridman.com/?p={x['id']}"
+                              break
+          print('RESOLVED', json.dumps(out, sort_keys=True))
+          open('legacy-guids.json','w').write(json.dumps(out, indent=2, sort_keys=True)+'\n')
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: wordpress-guids-1-99
-          path: wordpress-guids-1-99.json
+          name: legacy-guids-84-98
+          path: legacy-guids.json
           retention-days: 1
