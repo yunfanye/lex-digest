@@ -1,0 +1,4502 @@
+{
+ "1": {
+  "episode": 1,
+  "title": "Max Tegmark: Life 3.0",
+  "guest": "Max Tegmark",
+  "published": "2018-08-26",
+  "episode_url": "https://lexfridman.com/max-tegmark/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Gi8LUnhP5yU"
+ },
+ "2": {
+  "episode": 2,
+  "title": "Christof Koch: Consciousness",
+  "guest": "Christof Koch",
+  "published": "2018-09-02",
+  "episode_url": "https://lexfridman.com/christof-koch/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=piHkfmeU7Wo"
+ },
+ "3": {
+  "episode": 3,
+  "title": "Steven Pinker: AI in the Age of Reason",
+  "guest": "Steven Pinker",
+  "published": "2018-10-17",
+  "episode_url": "https://lexfridman.com/steven-pinker/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=epQxfSp-rdU"
+ },
+ "4": {
+  "episode": 4,
+  "title": "Yoshua Bengio: Deep Learning",
+  "guest": "Yoshua Bengio",
+  "published": "2018-10-20",
+  "episode_url": "https://lexfridman.com/yoshua-bengio/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=azOmzumh0vQ"
+ },
+ "5": {
+  "episode": 5,
+  "title": "Vladimir Vapnik: Statistical Learning",
+  "guest": "Vladimir Vapnik",
+  "published": "2018-11-16",
+  "episode_url": "https://lexfridman.com/vladimir-vapnik/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=STFcvzoxVw4"
+ },
+ "6": {
+  "episode": 6,
+  "title": "Guido van Rossum: Python",
+  "guest": "Guido van Rossum",
+  "published": "2018-11-22",
+  "episode_url": "https://lexfridman.com/guido-van-rossum/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ghwaIiE3Nd8"
+ },
+ "7": {
+  "episode": 7,
+  "title": "Jeff Atwood: Stack Overflow and Coding Horror",
+  "guest": "Jeff Atwood",
+  "published": "2018-11-29",
+  "episode_url": "https://lexfridman.com/jeff-atwood/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KZkYSSE8HHI"
+ },
+ "8": {
+  "episode": 8,
+  "title": "Eric Schmidt: Google",
+  "guest": "Eric Schmidt",
+  "published": "2018-12-04",
+  "episode_url": "https://lexfridman.com/eric-schmidt/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hIC9FQpxVwQ"
+ },
+ "9": {
+  "episode": 9,
+  "title": "Stuart Russell: Long-Term Future of AI",
+  "guest": "Stuart Russell",
+  "published": "2018-12-09",
+  "episode_url": "https://lexfridman.com/stuart-russell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KsZI5oXBC0k"
+ },
+ "10": {
+  "episode": 10,
+  "title": "Pieter Abbeel: Deep Reinforcement Learning",
+  "guest": "Pieter Abbeel",
+  "published": "2018-12-16",
+  "episode_url": "https://lexfridman.com/pieter-abbeel/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=l-mYLq6eZPY"
+ },
+ "11": {
+  "episode": 11,
+  "title": "Juergen Schmidhuber: Godel Machines, Meta-Learning, and LSTMs",
+  "guest": "Juergen Schmidhuber",
+  "published": "2018-12-23",
+  "episode_url": "https://lexfridman.com/juergen-schmidhuber/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3FIo6evmweo"
+ },
+ "12": {
+  "episode": 12,
+  "title": "Tuomas Sandholm: Poker and Game Theory",
+  "guest": "Tuomas Sandholm",
+  "published": "2018-12-28",
+  "episode_url": "https://lexfridman.com/tuomas-sandholm/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=b7bStIQovcY"
+ },
+ "13": {
+  "episode": 13,
+  "title": "Tomaso Poggio: Brains, Minds, and Machines",
+  "guest": "Tomaso Poggio",
+  "published": "2019-01-19",
+  "episode_url": "https://lexfridman.com/tomaso-poggio/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=aSyZvBrPAyk"
+ },
+ "14": {
+  "episode": 14,
+  "title": "Kyle Vogt: Cruise Automation",
+  "guest": "Kyle Vogt",
+  "published": "2019-02-07",
+  "episode_url": "https://lexfridman.com/kyle-vogt/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=YUYagvESisE"
+ },
+ "15": {
+  "episode": 15,
+  "title": "Leslie Kaelbling: Reinforcement Learning, Planning, and Robotics",
+  "guest": "Leslie Kaelbling",
+  "published": "2019-03-12",
+  "episode_url": "https://lexfridman.com/leslie-kaelbling/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Er7Dy8rvqOc"
+ },
+ "16": {
+  "episode": 16,
+  "title": "Eric Weinstein: Revolutionary Ideas in Science, Math, and Society",
+  "guest": "Eric Weinstein",
+  "published": "2019-03-20",
+  "episode_url": "https://lexfridman.com/eric-weinstein/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2wq9x2QcZN0"
+ },
+ "17": {
+  "episode": 17,
+  "title": "Greg Brockman: OpenAI and AGI",
+  "guest": "Greg Brockman",
+  "published": "2019-04-03",
+  "episode_url": "https://lexfridman.com/greg-brockman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=bIrEM2FbOLU"
+ },
+ "18": {
+  "episode": 18,
+  "title": "Elon Musk: Tesla Autopilot",
+  "guest": "Elon Musk",
+  "published": "2019-04-12",
+  "episode_url": "https://lexfridman.com/elon-musk/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=dEv99vxKjVI"
+ },
+ "19": {
+  "episode": 19,
+  "title": "Ian Goodfellow: Generative Adversarial Networks (GANs)",
+  "guest": "Ian Goodfellow",
+  "published": "2019-04-18",
+  "episode_url": "https://lexfridman.com/ian-goodfellow/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Z6rxFNMGdn0"
+ },
+ "20": {
+  "episode": 20,
+  "title": "Oriol Vinyals: DeepMind AlphaStar, StarCraft, Language, and Sequences",
+  "guest": "Oriol Vinyals",
+  "published": "2019-04-29",
+  "episode_url": "https://lexfridman.com/oriol-vinyals/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Kedt2or9xlo"
+ },
+ "21": {
+  "episode": 21,
+  "title": "Chris Lattner: Compilers, LLVM, Swift, TPU, and ML Accelerators",
+  "guest": "Chris Lattner",
+  "published": "2019-05-13",
+  "episode_url": "https://lexfridman.com/chris-lattner/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=yCd3CzGSte8"
+ },
+ "22": {
+  "episode": 22,
+  "title": "Rajat Monga: TensorFlow",
+  "guest": "Rajat Monga",
+  "published": "2019-06-03",
+  "episode_url": "https://lexfridman.com/rajat-monga/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NERNE4UThHU"
+ },
+ "23": {
+  "episode": 23,
+  "title": "Gavin Miller: Adobe Research",
+  "guest": "Gavin Miller",
+  "published": "2019-06-10",
+  "episode_url": "https://lexfridman.com/gavin-miller/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=q0mokx-iiws"
+ },
+ "24": {
+  "episode": 24,
+  "title": "Rosalind Picard: Affective Computing, Emotion, Privacy, and Health",
+  "guest": "Rosalind Picard",
+  "published": "2019-06-17",
+  "episode_url": "https://lexfridman.com/rosalind-picard/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=kq0VO1FqE6I"
+ },
+ "25": {
+  "episode": 25,
+  "title": "Jeff Hawkins: Thousand Brains Theory of Intelligence",
+  "guest": "Jeff Hawkins",
+  "published": "2019-07-01",
+  "episode_url": "https://lexfridman.com/jeff-hawkins/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-EVqrDlAqYo"
+ },
+ "26": {
+  "episode": 26,
+  "title": "Sean Carroll: The Nature of the Universe, Life, and Intelligence",
+  "guest": "Sean Carroll",
+  "published": "2019-07-10",
+  "episode_url": "https://lexfridman.com/sean-carroll/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=l-NJrvyRo0c"
+ },
+ "27": {
+  "episode": 27,
+  "title": "Kai-Fu Lee: AI Superpowers \u2013 China and Silicon Valley",
+  "guest": "Kai-Fu Lee",
+  "published": "2019-07-15",
+  "episode_url": "https://lexfridman.com/kai-fu-lee/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cQ48rP_Rs4g"
+ },
+ "28": {
+  "episode": 28,
+  "title": "Chris Urmson: Self-Driving Cars at Aurora, Google, CMU, and DARPA",
+  "guest": "Chris Urmson",
+  "published": "2019-07-22",
+  "episode_url": "https://lexfridman.com/chris-urmson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Tj6NOfdfa4o"
+ },
+ "29": {
+  "episode": 29,
+  "title": "Gustav Soderstrom: Spotify",
+  "guest": "Gustav Soderstrom",
+  "published": "2019-07-29",
+  "episode_url": "https://lexfridman.com/gustav-soderstrom/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=v-9Mpe7NhkM"
+ },
+ "30": {
+  "episode": 30,
+  "title": "Kevin Scott: Microsoft CTO",
+  "guest": "Kevin Scott",
+  "published": "2019-08-01",
+  "episode_url": "https://lexfridman.com/kevin-scott/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=QDN6xvhAw94"
+ },
+ "31": {
+  "episode": 31,
+  "title": "George Hotz: Comma.ai, OpenPilot, and Autonomous Vehicles",
+  "guest": "George Hotz",
+  "published": "2019-08-05",
+  "episode_url": "https://lexfridman.com/george-hotz/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iwcYp-XT7UI"
+ },
+ "32": {
+  "episode": 32,
+  "title": "Paola Arlotta: Brain Development from Stem Cell to Organoid",
+  "guest": "Paola Arlotta",
+  "published": "2019-08-12",
+  "episode_url": "https://lexfridman.com/paola-arlotta/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=lVHRs3uTHNI"
+ },
+ "33": {
+  "episode": 33,
+  "title": "Keoki Jackson: Lockheed Martin",
+  "guest": "Keoki Jackson",
+  "published": "2019-08-19",
+  "episode_url": "https://lexfridman.com/keoki-jackson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=anXep8kBOCg"
+ },
+ "34": {
+  "episode": 34,
+  "title": "Pamela McCorduck: Machines Who Think and the Early Days of AI",
+  "guest": "Pamela McCorduck",
+  "published": "2019-08-23",
+  "episode_url": "https://lexfridman.com/pamela-mccorduck/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=i6rnzk8VU24"
+ },
+ "35": {
+  "episode": 35,
+  "title": "Jeremy Howard: fast.ai Deep Learning Courses and Research",
+  "guest": "Jeremy Howard",
+  "published": "2019-08-27",
+  "episode_url": "https://lexfridman.com/jeremy-howard/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=J6XcP4JOHmk"
+ },
+ "36": {
+  "episode": 36,
+  "title": "Yann LeCun: Deep Learning, Convolutional Neural Networks, and Self-Supervised Learning",
+  "guest": "Yann LeCun",
+  "published": "2019-08-31",
+  "episode_url": "https://lexfridman.com/yann-lecun/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=SGSOCuByo24"
+ },
+ "37": {
+  "episode": 37,
+  "title": "Vijay Kumar: Flying Robots",
+  "guest": "Vijay Kumar",
+  "published": "2019-09-08",
+  "episode_url": "https://lexfridman.com/vijay-kumar/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=HYsLTNXMl1Q"
+ },
+ "38": {
+  "episode": 38,
+  "title": "Fran\u00e7ois Chollet: Keras, Deep Learning, and the Progress of AI",
+  "guest": "Fran\u00e7ois Chollet",
+  "published": "2019-09-14",
+  "episode_url": "https://lexfridman.com/francois-chollet/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Bo8MY4JpiXE"
+ },
+ "39": {
+  "episode": 39,
+  "title": "Colin Angle: iRobot",
+  "guest": "Colin Angle",
+  "published": "2019-09-19",
+  "episode_url": "https://lexfridman.com/colin-angle/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=1d9Dj9dT_pw"
+ },
+ "40": {
+  "episode": 40,
+  "title": "Regina Barzilay: Deep Learning for Cancer Diagnosis and Treatment",
+  "guest": "Regina Barzilay",
+  "published": "2019-09-23",
+  "episode_url": "https://lexfridman.com/regina-barzilay/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=x0-zGdlpTeg"
+ },
+ "41": {
+  "episode": 41,
+  "title": "Leonard Susskind: Quantum Mechanics, String Theory, and Black Holes",
+  "guest": "Leonard Susskind",
+  "published": "2019-09-26",
+  "episode_url": "https://lexfridman.com/leonard-susskind/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=s78hvV3QLUE"
+ },
+ "42": {
+  "episode": 42,
+  "title": "Peter Norvig: Artificial Intelligence: A Modern Approach",
+  "guest": "Peter Norvig",
+  "published": "2019-09-30",
+  "episode_url": "https://lexfridman.com/peter-norvig/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=_VPxEcT_Adc"
+ },
+ "43": {
+  "episode": 43,
+  "title": "Gary Marcus: Toward a Hybrid of Deep Learning and Symbolic AI",
+  "guest": "Gary Marcus",
+  "published": "2019-10-03",
+  "episode_url": "https://lexfridman.com/gary-marcus/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=vNOTDn3D_RI"
+ },
+ "44": {
+  "episode": 44,
+  "title": "David Ferrucci: IBM Watson, Jeopardy & Deep Conversations with AI",
+  "guest": "David Ferrucci",
+  "published": "2019-10-11",
+  "episode_url": "https://lexfridman.com/david-ferrucci/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Whtt2H5_isM"
+ },
+ "45": {
+  "episode": 45,
+  "title": "Michio Kaku: Future of Humans, Aliens, Space Travel & Physics",
+  "guest": "Michio Kaku",
+  "published": "2019-10-22",
+  "episode_url": "https://lexfridman.com/michio-kaku/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=kD5yc1LQrpQ"
+ },
+ "46": {
+  "episode": 46,
+  "title": "Garry Kasparov: Chess, Deep Blue, AI, and Putin",
+  "guest": "Garry Kasparov",
+  "published": "2019-10-27",
+  "episode_url": "https://lexfridman.com/garry-kasparov/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=8RVa0THWUWw"
+ },
+ "47": {
+  "episode": 47,
+  "title": "Sean Carroll: Quantum Mechanics and the Many-Worlds Interpretation",
+  "guest": "Sean Carroll",
+  "published": "2019-11-01",
+  "episode_url": "https://lexfridman.com/sean-carroll-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=l-NJrvyRo0c"
+ },
+ "48": {
+  "episode": 48,
+  "title": "Bjarne Stroustrup: C++",
+  "guest": "Bjarne Stroustrup",
+  "published": "2019-11-07",
+  "episode_url": "https://lexfridman.com/bjarne-stroustrup/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uTxRF5ag27A"
+ },
+ "49": {
+  "episode": 49,
+  "title": "Elon Musk: Neuralink, AI, Autopilot, and the Pale Blue Dot",
+  "guest": "Elon Musk",
+  "published": "2019-11-12",
+  "episode_url": "https://lexfridman.com/elon-musk-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=dEv99vxKjVI"
+ },
+ "50": {
+  "episode": 50,
+  "title": "Michael Kearns: Algorithmic Fairness, Bias, Privacy, and Ethics in Machine Learning",
+  "guest": "Michael Kearns",
+  "published": "2019-11-19",
+  "episode_url": "https://lexfridman.com/michael-kearns/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=AzdxbzHtjgs"
+ },
+ "51": {
+  "episode": 51,
+  "title": "Dava Newman: Space Exploration, Space Suits, and Life on Mars",
+  "guest": "Dava Newman",
+  "published": "2019-11-22",
+  "episode_url": "https://lexfridman.com/dava-newman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2fI6bYnRgSc"
+ },
+ "52": {
+  "episode": 52,
+  "title": "Gilbert Strang: Linear Algebra, Deep Learning, Teaching, and MIT OpenCourseWare",
+  "guest": "Gilbert Strang",
+  "published": "2019-11-25",
+  "episode_url": "https://lexfridman.com/gilbert-strang/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=lEZPfmGCEk0"
+ },
+ "53": {
+  "episode": 53,
+  "title": "Noam Chomsky: Language, Cognition, and Deep Learning",
+  "guest": "Noam Chomsky",
+  "published": "2019-11-29",
+  "episode_url": "https://lexfridman.com/noam-chomsky/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cMscNuSUy0I"
+ },
+ "54": {
+  "episode": 54,
+  "title": "Ray Dalio: Principles, the Economic Machine, Artificial Intelligence & the Arc of Life",
+  "guest": "Ray Dalio",
+  "published": "2019-12-02",
+  "episode_url": "https://lexfridman.com/ray-dalio/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=M95m2EFb7IQ"
+ },
+ "55": {
+  "episode": 55,
+  "title": "Whitney Cummings: Comedy, Robotics, Neurology, and Love",
+  "guest": "Whitney Cummings",
+  "published": "2019-12-05",
+  "episode_url": "https://lexfridman.com/whitney-cummings/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=0-3kw5BEKB8"
+ },
+ "56": {
+  "episode": 56,
+  "title": "Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI",
+  "guest": "Judea Pearl",
+  "published": "2019-12-11",
+  "episode_url": "https://lexfridman.com/judea-pearl/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=pEBI0vF45ic"
+ },
+ "57": {
+  "episode": 57,
+  "title": "Rohit Prasad: Amazon Alexa and Conversational AI",
+  "guest": "Rohit Prasad",
+  "published": "2019-12-14",
+  "episode_url": "https://lexfridman.com/rohit-prasad/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Ad89JYS-uZM"
+ },
+ "58": {
+  "episode": 58,
+  "title": "Michael Stevens: Vsauce",
+  "guest": "Michael Stevens",
+  "published": "2019-12-17",
+  "episode_url": "https://lexfridman.com/michael-stevens/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3qMemn__kK8"
+ },
+ "59": {
+  "episode": 59,
+  "title": "Sebastian Thrun: Flying Cars, Autonomous Vehicles, and Education",
+  "guest": "Sebastian Thrun",
+  "published": "2019-12-21",
+  "episode_url": "https://lexfridman.com/sebastian-thrun/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ZPPAOakITeQ"
+ },
+ "60": {
+  "episode": 60,
+  "title": "Jim Gates: Supersymmetry, String Theory and Proving Einstein Right",
+  "guest": "Jim Gates",
+  "published": "2019-12-25",
+  "episode_url": "https://lexfridman.com/jim-gates/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=IUHkhB366tE"
+ },
+ "61": {
+  "episode": 61,
+  "title": "Melanie Mitchell: Concepts, Analogies, Common Sense & Future of AI",
+  "guest": "Melanie Mitchell",
+  "published": "2019-12-28",
+  "episode_url": "https://lexfridman.com/melanie-mitchell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ImKkaeUx1MU"
+ },
+ "62": {
+  "episode": 62,
+  "title": "Donald Knuth: Algorithms, TeX, Life, and The Art of Computer Programming",
+  "guest": "Donald Knuth",
+  "published": "2019-12-30",
+  "episode_url": "https://lexfridman.com/donald-knuth/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2BdBfsXbST8"
+ },
+ "63": {
+  "episode": 63,
+  "title": "Stephen Kotkin: Stalin, Putin, and the Nature of Power",
+  "guest": "Stephen Kotkin",
+  "published": "2020-01-03",
+  "episode_url": "https://lexfridman.com/stephen-kotkin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=oCkkjnpS2f8"
+ },
+ "64": {
+  "episode": 64,
+  "title": "Grant Sanderson: 3Blue1Brown and the Beauty of Mathematics",
+  "guest": "Grant Sanderson",
+  "published": "2020-01-07",
+  "episode_url": "https://lexfridman.com/grant-sanderson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=U_lKUK2MCsg"
+ },
+ "65": {
+  "episode": 65,
+  "title": "Daniel Kahneman: Thinking Fast and Slow, Deep Learning, and AI",
+  "guest": "Daniel Kahneman",
+  "published": "2020-01-14",
+  "episode_url": "https://lexfridman.com/daniel-kahneman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=UwwBG-MbniY"
+ },
+ "66": {
+  "episode": 66,
+  "title": "Ayanna Howard: Human-Robot Interaction and Ethics of Safety-Critical Systems",
+  "guest": "Ayanna Howard",
+  "published": "2020-01-17",
+  "episode_url": "https://lexfridman.com/ayanna-howard/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=J21-7AsUcgM"
+ },
+ "67": {
+  "episode": 67,
+  "title": "Paul Krugman: Economics of Innovation, Automation, Safety Nets & Universal Basic Income",
+  "guest": "Paul Krugman",
+  "published": "2020-01-21",
+  "episode_url": "https://lexfridman.com/paul-krugman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=OJQepiqSWvg"
+ },
+ "68": {
+  "episode": 68,
+  "title": "Cristos Goodrow: YouTube Algorithm",
+  "guest": "Cristos Goodrow",
+  "published": "2020-01-25",
+  "episode_url": "https://lexfridman.com/cristos-goodrow/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nkWmiNRPU-c"
+ },
+ "69": {
+  "episode": 69,
+  "title": "David Chalmers: The Hard Problem of Consciousness",
+  "guest": "David Chalmers",
+  "published": "2020-01-29",
+  "episode_url": "https://lexfridman.com/david-chalmers/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=LW59lMvxmY4"
+ },
+ "70": {
+  "episode": 70,
+  "title": "Jim Keller: Moore\u2019s Law, Microprocessors, Abstractions, and First Principles",
+  "guest": "Jim Keller",
+  "published": "2020-02-05",
+  "episode_url": "https://lexfridman.com/jim-keller/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Nb2tebYAaOA"
+ },
+ "71": {
+  "episode": 71,
+  "title": "Vladimir Vapnik: Predicates, Invariants, and the Essence of Intelligence",
+  "guest": "Vladimir Vapnik",
+  "published": "2020-02-14",
+  "episode_url": "https://lexfridman.com/vladimir-vapnik-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=bQa7hpUpMzM"
+ },
+ "72": {
+  "episode": 72,
+  "title": "Scott Aaronson: Quantum Computing",
+  "guest": "Scott Aaronson",
+  "published": "2020-02-17",
+  "episode_url": "https://lexfridman.com/scott-aaronson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uX5t8EivCaM"
+ },
+ "73": {
+  "episode": 73,
+  "title": "Andrew Ng: Deep Learning, Education, and Real-World AI",
+  "guest": "Andrew Ng",
+  "published": "2020-02-20",
+  "episode_url": "https://lexfridman.com/andrew-ng/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=0jspaMLxBig"
+ },
+ "74": {
+  "episode": 74,
+  "title": "Michael I. Jordan: Machine Learning, Recommender Systems, and the Future of AI",
+  "guest": "Michael I. Jordan",
+  "published": "2020-02-24",
+  "episode_url": "https://lexfridman.com/michael-i-jordan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=EYIKy_FM9x0"
+ },
+ "75": {
+  "episode": 75,
+  "title": "Marcus Hutter: Universal Artificial Intelligence, AIXI, and AGI",
+  "guest": "Marcus Hutter",
+  "published": "2020-02-26",
+  "episode_url": "https://lexfridman.com/marcus-hutter/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=E1AxVXt2Gv4"
+ },
+ "76": {
+  "episode": 76,
+  "title": "John Hopfield: Physics View of the Mind and Neurobiology",
+  "guest": "John Hopfield",
+  "published": "2020-02-29",
+  "episode_url": "https://lexfridman.com/john-hopfield/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=DKyzcbNr8WE"
+ },
+ "77": {
+  "episode": 77,
+  "title": "Alex Garland: Ex Machina, Devs, Annihilation, and the Poetry of Science",
+  "guest": "Alex Garland",
+  "published": "2020-03-03",
+  "episode_url": "https://lexfridman.com/alex-garland/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=gU-mkuMU428"
+ },
+ "78": {
+  "episode": 78,
+  "title": "Ann Druyan: Cosmos, Carl Sagan, Voyager, and the Beauty of Science",
+  "guest": "Ann Druyan",
+  "published": "2020-03-05",
+  "episode_url": "https://lexfridman.com/ann-druyan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=7jFdxd1qX2g"
+ },
+ "79": {
+  "episode": 79,
+  "title": "Lee Smolin: Quantum Gravity and Einstein\u2019s Unfinished Revolution",
+  "guest": "Lee Smolin",
+  "published": "2020-03-07",
+  "episode_url": "https://lexfridman.com/lee-smolin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=WgLo4gmEraU"
+ },
+ "80": {
+  "episode": 80,
+  "title": "Vitalik Buterin: Ethereum, Cryptocurrency, and the Future of Money",
+  "guest": "Vitalik Buterin",
+  "published": "2020-03-16",
+  "episode_url": "https://lexfridman.com/vitalik-buterin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3x1b_S6Qp2Q"
+ },
+ "81": {
+  "episode": 81,
+  "title": "Anca Dragan: Human-Robot Interaction and Reward Engineering",
+  "guest": "Anca Dragan",
+  "published": "2020-03-19",
+  "episode_url": "https://lexfridman.com/anca-dragan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iOCfIFBBpVY"
+ },
+ "82": {
+  "episode": 82,
+  "title": "Simon Sinek: Leadership, Hard Work, Optimism and the Infinite Game",
+  "guest": "Simon Sinek",
+  "published": "2020-03-21",
+  "episode_url": "https://lexfridman.com/simon-sinek/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=_TTNGq9djU4"
+ },
+ "83": {
+  "episode": 83,
+  "title": "Nick Bostrom: Simulation and Superintelligence",
+  "guest": "Nick Bostrom",
+  "published": "2020-03-26",
+  "episode_url": "https://lexfridman.com/nick-bostrom/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=rfKiTGj-zeQ"
+ },
+ "84": {
+  "episode": 84,
+  "title": "William MacAskill: Effective Altruism",
+  "guest": "William MacAskill",
+  "published": "",
+  "episode_url": "https://lexfridman.com/william-macaskill",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NvsI8ijW8xU"
+ },
+ "85": {
+  "episode": 85,
+  "title": "Roger Penrose: Physics of Consciousness and the Infinite Universe",
+  "guest": "Roger Penrose",
+  "published": "2020-03-31",
+  "episode_url": "https://lexfridman.com/roger-penrose/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=orMtwOz6Db0"
+ },
+ "86": {
+  "episode": 86,
+  "title": "David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning",
+  "guest": "David Silver",
+  "published": "2020-04-03",
+  "episode_url": "https://lexfridman.com/david-silver/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uPUEq8d73JI"
+ },
+ "87": {
+  "episode": 87,
+  "title": "Richard Dawkins: Evolution, Intelligence, Simulation, and Memes",
+  "guest": "Richard Dawkins",
+  "published": "2020-04-09",
+  "episode_url": "https://lexfridman.com/richard-dawkins/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=5f-JlzBuUUU"
+ },
+ "88": {
+  "episode": 88,
+  "title": "Eric Weinstein: Geometric Unity and the Call for New Ideas, Leaders & Institutions",
+  "guest": "Eric Weinstein",
+  "published": "2020-04-13",
+  "episode_url": "https://lexfridman.com/eric-weinstein-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=rIAZJNe7YtE"
+ },
+ "89": {
+  "episode": 89,
+  "title": "Stephen Wolfram: Cellular Automata, Computation, and Physics",
+  "guest": "Stephen Wolfram",
+  "published": "2020-04-18",
+  "episode_url": "https://lexfridman.com/stephen-wolfram/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ez773teNFYA"
+ },
+ "90": {
+  "episode": 90,
+  "title": "Dmitry Korkin: Computational Biology of Coronavirus",
+  "guest": "Dmitry Korkin",
+  "published": "2020-04-22",
+  "episode_url": "https://lexfridman.com/dmitry-korkin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=CwyOUS8TSl0"
+ },
+ "91": {
+  "episode": 91,
+  "title": "Jack Dorsey: Square, Cryptocurrency, and Artificial Intelligence",
+  "guest": "Jack Dorsey",
+  "published": "2020-04-24",
+  "episode_url": "https://lexfridman.com/jack-dorsey/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=60KJz1BVTyU"
+ },
+ "92": {
+  "episode": 92,
+  "title": "Harry Cliff: Particle Physics and the Large Hadron Collider",
+  "guest": "Harry Cliff",
+  "published": "2020-04-29",
+  "episode_url": "https://lexfridman.com/harry-cliff/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=edvdzh9Pggg"
+ },
+ "93": {
+  "episode": 93,
+  "title": "Daphne Koller: Biomedicine and Machine Learning",
+  "guest": "Daphne Koller",
+  "published": "2020-05-05",
+  "episode_url": "https://lexfridman.com/daphne-koller/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=xlMTWfkQqbY"
+ },
+ "94": {
+  "episode": 94,
+  "title": "Ilya Sutskever: Deep Learning",
+  "guest": "Ilya Sutskever",
+  "published": "2020-05-08",
+  "episode_url": "https://lexfridman.com/ilya-sutskever/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=13CZPWmke6A"
+ },
+ "95": {
+  "episode": 95,
+  "title": "Dawn Song: Adversarial Machine Learning and Computer Security",
+  "guest": "Dawn Song",
+  "published": "2020-05-12",
+  "episode_url": "https://lexfridman.com/dawn-song/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=HhY95m-WD_E"
+ },
+ "96": {
+  "episode": 96,
+  "title": "Stephen Schwarzman: Going Big in Business, Investing, and AI",
+  "guest": "Stephen Schwarzman",
+  "published": "2020-05-15",
+  "episode_url": "https://lexfridman.com/stephen-schwarzman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=aYwDs9LTN50"
+ },
+ "97": {
+  "episode": 97,
+  "title": "Sertac Karaman: Robots That Fly and Robots That Drive",
+  "guest": "Sertac Karaman",
+  "published": "2020-05-20",
+  "episode_url": "https://lexfridman.com/sertac-karaman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=M1-v-dXIzho"
+ },
+ "98": {
+  "episode": 98,
+  "title": "Kate Darling: Social Robotics",
+  "guest": "Kate Darling",
+  "published": "",
+  "episode_url": "https://lexfridman.com/kate-darling",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=7KTbEn7PiaY"
+ },
+ "99": {
+  "episode": 99,
+  "title": "Karl Friston: Neuroscience and the Free Energy Principle",
+  "guest": "Karl Friston",
+  "published": "2020-05-28",
+  "episode_url": "https://lexfridman.com/karl-friston/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NwzuibY5kUs"
+ },
+ "100": {
+  "episode": 100,
+  "title": "Alexander Fridman: My Dad, the Plasma Physicist",
+  "guest": "Alexander Fridman",
+  "published": "2020-04-13",
+  "episode_url": "",
+  "transcript_url": "",
+  "youtube_url": ""
+ },
+ "101": {
+  "episode": 101,
+  "title": "Joscha Bach: Artificial Consciousness and the Nature of Reality",
+  "guest": "Joscha Bach",
+  "published": "2020-06-13",
+  "episode_url": "https://lexfridman.com/joscha-bach/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=P-2P3MSZrBM"
+ },
+ "102": {
+  "episode": 102,
+  "title": "Steven Pressfield: The War of Art",
+  "guest": "Steven Pressfield",
+  "published": "2020-06-20",
+  "episode_url": "https://lexfridman.com/steven-pressfield/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=PgtedwKGhXs"
+ },
+ "103": {
+  "episode": 103,
+  "title": "Ben Goertzel: Artificial General Intelligence",
+  "guest": "Ben Goertzel",
+  "published": "2020-06-22",
+  "episode_url": "https://lexfridman.com/ben-goertzel/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=OpSmCKe27WE"
+ },
+ "104": {
+  "episode": 104,
+  "title": "David Patterson: Computer Architecture and Data Storage",
+  "guest": "David Patterson",
+  "published": "2020-06-27",
+  "episode_url": "https://lexfridman.com/david-patterson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=naed4C4hfAg"
+ },
+ "105": {
+  "episode": 105,
+  "title": "Robert Langer: Edison of Medicine",
+  "guest": "Robert Langer",
+  "published": "2020-06-30",
+  "episode_url": "https://lexfridman.com/robert-langer/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=9LQffCdHHlQ"
+ },
+ "106": {
+  "episode": 106,
+  "title": "Matt Botvinick: Neuroscience, Psychology, and AI at DeepMind",
+  "guest": "Matt Botvinick",
+  "published": "2020-07-03",
+  "episode_url": "https://lexfridman.com/matt-botvinick/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3t06ajvBtl0"
+ },
+ "107": {
+  "episode": 107,
+  "title": "Peter Singer: Suffering in Humans, Animals, and AI",
+  "guest": "Peter Singer",
+  "published": "2020-07-08",
+  "episode_url": "https://lexfridman.com/peter-singer/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=llh-2pqSGrs"
+ },
+ "108": {
+  "episode": 108,
+  "title": "Sergey Levine: Robotics and Machine Learning",
+  "guest": "Sergey Levine",
+  "published": "2020-07-14",
+  "episode_url": "https://lexfridman.com/sergey-levine/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=kxi-_TT_-Nc"
+ },
+ "109": {
+  "episode": 109,
+  "title": "Brian Kernighan: UNIX, C, AWK, AMPL, and Go Programming",
+  "guest": "Brian Kernighan",
+  "published": "2020-07-18",
+  "episode_url": "https://lexfridman.com/brian-kernighan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=O9upVbGSBFo"
+ },
+ "110": {
+  "episode": 110,
+  "title": "Jitendra Malik: Computer Vision",
+  "guest": "Jitendra Malik",
+  "published": "2020-07-21",
+  "episode_url": "https://lexfridman.com/jitendra-malik/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=LRYkH-fAVGE"
+ },
+ "111": {
+  "episode": 111,
+  "title": "Richard Karp: Algorithms and Computational Complexity",
+  "guest": "Richard Karp",
+  "published": "2020-07-26",
+  "episode_url": "https://lexfridman.com/richard-karp/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KllCrlfLuzs"
+ },
+ "112": {
+  "episode": 112,
+  "title": "Ian Hutchinson: Nuclear Fusion, Plasma Physics, and Religion",
+  "guest": "Ian Hutchinson",
+  "published": "2020-07-29",
+  "episode_url": "https://lexfridman.com/ian-hutchinson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=pDSEjaDCtOU"
+ },
+ "113": {
+  "episode": 113,
+  "title": "Manolis Kellis: Human Genome and Evolutionary Dynamics",
+  "guest": "Manolis Kellis",
+  "published": "2020-07-31",
+  "episode_url": "https://lexfridman.com/manolis-kellis/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=brslF-Cy3HU"
+ },
+ "114": {
+  "episode": 114,
+  "title": "Russ Tedrake: Underactuated Robotics, Control, Dynamics and Touch",
+  "guest": "Russ Tedrake",
+  "published": "2020-08-09",
+  "episode_url": "https://lexfridman.com/russ-tedrake/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=A22Ej6kb2wo"
+ },
+ "115": {
+  "episode": 115,
+  "title": "Dileep George: Brain-Inspired AI",
+  "guest": "Dileep George",
+  "published": "2020-08-14",
+  "episode_url": "https://lexfridman.com/dileep-george/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tg_m_LxxRwM"
+ },
+ "116": {
+  "episode": 116,
+  "title": "Sara Seager: Search for Planets and Life Outside Our Solar System",
+  "guest": "Sara Seager",
+  "published": "2020-08-16",
+  "episode_url": "https://lexfridman.com/sara-seager/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-jA2ABHBc6Y"
+ },
+ "117": {
+  "episode": 117,
+  "title": "Sheldon Solomon: Death and Meaning",
+  "guest": "Sheldon Solomon",
+  "published": "2020-08-20",
+  "episode_url": "https://lexfridman.com/sheldon-solomon/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=qfKyNxfyWbo"
+ },
+ "118": {
+  "episode": 118,
+  "title": "Grant Sanderson: Math, Manim, Neural Networks & Teaching with 3Blue1Brown",
+  "guest": "Grant Sanderson",
+  "published": "2020-08-23",
+  "episode_url": "https://lexfridman.com/grant-sanderson-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=U_6AYX42gkU"
+ },
+ "119": {
+  "episode": 119,
+  "title": "David Eagleman: Neuroplasticity and the Livewired Brain",
+  "guest": "David Eagleman",
+  "published": "2020-08-26",
+  "episode_url": "https://lexfridman.com/david-eagleman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=386s-y1aRRo"
+ },
+ "120": {
+  "episode": 120,
+  "title": "Fran\u00e7ois Chollet: Measures of Intelligence",
+  "guest": "Fran\u00e7ois Chollet",
+  "published": "2020-08-31",
+  "episode_url": "https://lexfridman.com/francois-chollet-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=PUAdj3w3wO4"
+ },
+ "121": {
+  "episode": 121,
+  "title": "Eugenia Kuyda: Friendship with an AI Companion",
+  "guest": "Eugenia Kuyda",
+  "published": "2020-09-05",
+  "episode_url": "https://lexfridman.com/eugenia-kuyda/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=_AGPbvCDBCk"
+ },
+ "122": {
+  "episode": 122,
+  "title": "David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering",
+  "guest": "David Fravor",
+  "published": "2020-09-08",
+  "episode_url": "https://lexfridman.com/david-fravor/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=aB8zcAttP1E"
+ },
+ "123": {
+  "episode": 123,
+  "title": "Manolis Kellis: Origin of Life, Humans, Ideas, Suffering, and Happiness",
+  "guest": "Manolis Kellis",
+  "published": "2020-09-12",
+  "episode_url": "https://lexfridman.com/manolis-kellis-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=t06rkOOUa7g"
+ },
+ "124": {
+  "episode": 124,
+  "title": "Stephen Wolfram: Fundamental Theory of Physics, Life, and the Universe",
+  "guest": "Stephen Wolfram",
+  "published": "2020-09-15",
+  "episode_url": "https://lexfridman.com/stephen-wolfram-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-t1_ffaFXao"
+ },
+ "125": {
+  "episode": 125,
+  "title": "Ryan Hall: Martial Arts and the Philosophy of Violence, Power, and Grace",
+  "guest": "Ryan Hall",
+  "published": "2020-09-20",
+  "episode_url": "https://lexfridman.com/ryan-hall/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hhEwWghH_XM"
+ },
+ "126": {
+  "episode": 126,
+  "title": "James Gosling: Java, JVM, Emacs, and the Early Days of Computing",
+  "guest": "James Gosling",
+  "published": "2020-09-24",
+  "episode_url": "https://lexfridman.com/james-gosling/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=IT__Nrr3PNI"
+ },
+ "127": {
+  "episode": 127,
+  "title": "Joe Rogan: Conversations, Ideas, Love, Freedom & The Joe Rogan Experience",
+  "guest": "Joe Rogan",
+  "published": "2020-09-26",
+  "episode_url": "https://lexfridman.com/joe-rogan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=FKCJWkPehdY"
+ },
+ "128": {
+  "episode": 128,
+  "title": "Michael Malice: Anarchy, Democracy, Libertarianism, Love, and Trolling",
+  "guest": "Michael Malice",
+  "published": "2020-10-02",
+  "episode_url": "https://lexfridman.com/michael-malice/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=BIk1zUy8ehU"
+ },
+ "129": {
+  "episode": 129,
+  "title": "Lisa Feldman Barrett: Counterintuitive Ideas About How the Brain Works",
+  "guest": "Lisa Feldman Barrett",
+  "published": "2020-10-04",
+  "episode_url": "https://lexfridman.com/lisa-feldman-barrett/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NbdRIVCBqNI"
+ },
+ "130": {
+  "episode": 130,
+  "title": "Scott Aaronson: Computational Complexity and Consciousness",
+  "guest": "Scott Aaronson",
+  "published": "2020-10-12",
+  "episode_url": "https://lexfridman.com/scott-aaronson-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uX5t8EivCaM"
+ },
+ "131": {
+  "episode": 131,
+  "title": "Chris Lattner: The Future of Computing and Programming Languages",
+  "guest": "Chris Lattner",
+  "published": "2020-10-19",
+  "episode_url": "https://lexfridman.com/chris-lattner-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nWTvXbQHwWs"
+ },
+ "132": {
+  "episode": 132,
+  "title": "George Hotz: Hacking the Simulation & Learning to Drive with Neural Nets",
+  "guest": "George Hotz",
+  "published": "2020-10-22",
+  "episode_url": "https://lexfridman.com/george-hotz-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=_L3gNaAVjQ4"
+ },
+ "133": {
+  "episode": 133,
+  "title": "Manolis Kellis: Biology of Disease",
+  "guest": "Manolis Kellis",
+  "published": "2020-10-25",
+  "episode_url": "https://lexfridman.com/manolis-kellis-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Aq9UPIXbtKI"
+ },
+ "134": {
+  "episode": 134,
+  "title": "Eric Weinstein: On the Nature of Good and Evil, Genius and Madness",
+  "guest": "Eric Weinstein",
+  "published": "2020-10-30",
+  "episode_url": "https://lexfridman.com/eric-weinstein-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=o2nG7-eXxko"
+ },
+ "135": {
+  "episode": 135,
+  "title": "Charles Isbell: Computing, Interactive AI, and Race in America",
+  "guest": "Charles Isbell",
+  "published": "2020-11-02",
+  "episode_url": "https://lexfridman.com/charles-isbell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=LAyZ8IYfGxQ"
+ },
+ "136": {
+  "episode": 136,
+  "title": "Dan Carlin: Hardcore History",
+  "guest": "Dan Carlin",
+  "published": "2020-11-03",
+  "episode_url": "https://lexfridman.com/dan-carlin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-k-ztNsBM54"
+ },
+ "137": {
+  "episode": 137,
+  "title": "Alex Filippenko: Supernovae, Dark Energy, Aliens & the Expanding Universe",
+  "guest": "Alex Filippenko",
+  "published": "2020-11-08",
+  "episode_url": "https://lexfridman.com/alex-filippenko/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=WxfA1OSev4c"
+ },
+ "138": {
+  "episode": 138,
+  "title": "Yaron Brook: Ayn Rand and the Philosophy of Objectivism",
+  "guest": "Yaron Brook",
+  "published": "2020-11-13",
+  "episode_url": "https://lexfridman.com/yaron-brook/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=SOr1YYRljV8"
+ },
+ "139": {
+  "episode": 139,
+  "title": "Andrew Huberman: Neuroscience of Optimal Performance",
+  "guest": "Andrew Huberman",
+  "published": "2020-11-16",
+  "episode_url": "https://lexfridman.com/andrew-huberman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Ktj050DxG7Q"
+ },
+ "140": {
+  "episode": 140,
+  "title": "Lisa Feldman Barrett: Love, Evolution, and the Human Brain",
+  "guest": "Lisa Feldman Barrett",
+  "published": "2020-11-20",
+  "episode_url": "https://lexfridman.com/lisa-feldman-barrett-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=S_AFc_BXht4"
+ },
+ "141": {
+  "episode": 141,
+  "title": "Erik Brynjolfsson: Economics of AI, Social Networks, and Technology",
+  "guest": "Erik Brynjolfsson",
+  "published": "2020-11-25",
+  "episode_url": "https://lexfridman.com/erik-brynjolfsson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NOReE-3EBhI"
+ },
+ "142": {
+  "episode": 142,
+  "title": "Manolis Kellis: Meaning of Life, the Universe, and Everything",
+  "guest": "Manolis Kellis",
+  "published": "2020-11-30",
+  "episode_url": "https://lexfridman.com/manolis-kellis-4/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=7akZoEQv6jI"
+ },
+ "143": {
+  "episode": 143,
+  "title": "John Clarke: The Art of Fighting and the Pursuit of Excellence",
+  "guest": "John Clarke",
+  "published": "2020-12-06",
+  "episode_url": "https://lexfridman.com/john-clarke/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=RvhpncC5jZ8"
+ },
+ "144": {
+  "episode": 144,
+  "title": "Michael Littman: Reinforcement Learning and the Future of AI",
+  "guest": "Michael Littman",
+  "published": "2020-12-13",
+  "episode_url": "https://lexfridman.com/michael-littman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=c9AbECvRt20"
+ },
+ "145": {
+  "episode": 145,
+  "title": "Matthew Johnson: Psychedelics",
+  "guest": "Matthew Johnson",
+  "published": "2020-12-14",
+  "episode_url": "https://lexfridman.com/matthew-johnson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ICj8p5jPd3Y"
+ },
+ "146": {
+  "episode": 146,
+  "title": "Michael Mina: Rapid Testing, Viruses, and the Engineering Mindset",
+  "guest": "Michael Mina",
+  "published": "2020-12-19",
+  "episode_url": "https://lexfridman.com/michael-mina/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=L-RuvUkcyJI"
+ },
+ "147": {
+  "episode": 147,
+  "title": "Dmitri Dolgov: Waymo and the Future of Self-Driving Cars",
+  "guest": "Dmitri Dolgov",
+  "published": "2020-12-20",
+  "episode_url": "https://lexfridman.com/dmitri-dolgov/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=P6prRXkI5HM"
+ },
+ "148": {
+  "episode": 148,
+  "title": "Charles Isbell and Michael Littman: Machine Learning and Education",
+  "guest": "Charles Isbell and Michael Littman",
+  "published": "2020-12-26",
+  "episode_url": "https://lexfridman.com/charles-isbell-and-michael-littman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=yzMVEbs8Zz0"
+ },
+ "149": {
+  "episode": 149,
+  "title": "Diana Walsh Pasulka: Aliens, Technology, Religion, and the Nature of Belief",
+  "guest": "Diana Walsh Pasulka",
+  "published": "2020-12-28",
+  "episode_url": "https://lexfridman.com/diana-walsh-pasulka/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iqBh7G4uDR8"
+ },
+ "150": {
+  "episode": 150,
+  "title": "Michael Malice: The White Pill, Freedom, Hope, and Happiness Amidst Chaos",
+  "guest": "Michael Malice",
+  "published": "2020-12-31",
+  "episode_url": "https://lexfridman.com/michael-malice-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=BIk1zUy8ehU"
+ },
+ "151": {
+  "episode": 151,
+  "title": "Dan Kokotov: Speech Recognition with AI and Humans",
+  "guest": "Dan Kokotov",
+  "published": "2021-01-04",
+  "episode_url": "https://lexfridman.com/dan-kokotov/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=yTWa-Z1UQwU"
+ },
+ "152": {
+  "episode": 152,
+  "title": "Dan Gable: Olympic Wrestling, Mental Toughness & the Making of Champions",
+  "guest": "Dan Gable",
+  "published": "2021-01-09",
+  "episode_url": "https://lexfridman.com/dan-gable/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=pRzelZlKl7E"
+ },
+ "153": {
+  "episode": 153,
+  "title": "Dmitry Korkin: Evolution of Proteins, Viruses, Life, and AI",
+  "guest": "Dmitry Korkin",
+  "published": "2021-01-11",
+  "episode_url": "https://lexfridman.com/dmitry-korkin-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=I51DuprOb0o"
+ },
+ "154": {
+  "episode": 154,
+  "title": "Avi Loeb: Aliens, Black Holes, and the Mystery of the Oumuamua",
+  "guest": "Avi Loeb",
+  "published": "2021-01-14",
+  "episode_url": "https://lexfridman.com/avi-loeb/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=plcc6E-E1uU"
+ },
+ "155": {
+  "episode": 155,
+  "title": "Max Tegmark: AI and Physics",
+  "guest": "Max Tegmark",
+  "published": "2021-01-18",
+  "episode_url": "https://lexfridman.com/max-tegmark-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=PRLF17Pb6vo"
+ },
+ "156": {
+  "episode": 156,
+  "title": "Tim Dillon: Comedy, Power, Conspiracy Theories, and Freedom",
+  "guest": "Tim Dillon",
+  "published": "2021-01-29",
+  "episode_url": "https://lexfridman.com/tim-dillon/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=8wYZjOzfTUk"
+ },
+ "157": {
+  "episode": 157,
+  "title": "Natalya Bailey: Rocket Engines and Electric Spacecraft Propulsion",
+  "guest": "Natalya Bailey",
+  "published": "2021-02-01",
+  "episode_url": "https://lexfridman.com/natalya-bailey/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=CejJ2aVRUE8"
+ },
+ "158": {
+  "episode": 158,
+  "title": "Zev Weinstein: The Next Generation of Big Ideas and Brave Minds",
+  "guest": "Zev Weinstein",
+  "published": "2021-02-05",
+  "episode_url": "https://lexfridman.com/zev-weinstein/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=QSPtSNqUCUw"
+ },
+ "159": {
+  "episode": 159,
+  "title": "Richard Craib: WallStreetBets, Numerai, and the Future of Stock Trading",
+  "guest": "Richard Craib",
+  "published": "2021-02-07",
+  "episode_url": "https://lexfridman.com/richard-craib/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ziQSpuST6Es"
+ },
+ "160": {
+  "episode": 160,
+  "title": "Brendan Eich: JavaScript, Firefox, Mozilla, and Brave",
+  "guest": "Brendan Eich",
+  "published": "2021-02-12",
+  "episode_url": "https://lexfridman.com/brendan-eich/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=krB0enBeSiE"
+ },
+ "161": {
+  "episode": 161,
+  "title": "Jason Calacanis: Startups, Angel Investing, Capitalism, and Friendship",
+  "guest": "Jason Calacanis",
+  "published": "2021-02-15",
+  "episode_url": "https://lexfridman.com/jason-calacanis/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=d2bYwYxqJCM"
+ },
+ "162": {
+  "episode": 162,
+  "title": "Jim Keller: The Future of Computing, AI, Life, and Consciousness",
+  "guest": "Jim Keller",
+  "published": "2021-02-18",
+  "episode_url": "https://lexfridman.com/jim-keller-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=G4hL5Om4IJ4"
+ },
+ "163": {
+  "episode": 163,
+  "title": "Eric Weinstein: Difficult Conversations, Freedom of Speech, and Physics",
+  "guest": "Eric Weinstein",
+  "published": "2021-02-23",
+  "episode_url": "https://lexfridman.com/eric-weinstein-4/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ifX_JnBfxTY"
+ },
+ "164": {
+  "episode": 164,
+  "title": "Andrew Huberman: Sleep, Dreams, Creativity & the Limits of the Human Mind",
+  "guest": "Andrew Huberman",
+  "published": "2021-02-28",
+  "episode_url": "https://lexfridman.com/andrew-huberman-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ClxRHJPz8aQ"
+ },
+ "165": {
+  "episode": 165,
+  "title": "Josh Barnett: Philosophy of Violence, Power, and the Martial Arts",
+  "guest": "Josh Barnett",
+  "published": "2021-03-01",
+  "episode_url": "https://lexfridman.com/josh-barnett/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=YJWPowbCK_I"
+ },
+ "166": {
+  "episode": 166,
+  "title": "Cal Newport: Deep Work, Focus, Productivity, Email, and Social Media",
+  "guest": "Cal Newport",
+  "published": "2021-03-05",
+  "episode_url": "https://lexfridman.com/cal-newport/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=y3Umo_jd5AA"
+ },
+ "167": {
+  "episode": 167,
+  "title": "Saagar Enjeti: Politics, History, and Power",
+  "guest": "Saagar Enjeti",
+  "published": "2021-03-14",
+  "episode_url": "https://lexfridman.com/saagar-enjeti/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=grceJbuPUXI"
+ },
+ "168": {
+  "episode": 168,
+  "title": "Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin, and Ethereum",
+  "guest": "Silvio Micali",
+  "published": "2021-03-15",
+  "episode_url": "https://lexfridman.com/silvio-micali/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=zNdhgOk4-fE"
+ },
+ "169": {
+  "episode": 169,
+  "title": "Ryan Hall: Solving Martial Arts from First Principles",
+  "guest": "Ryan Hall",
+  "published": "2021-03-20",
+  "episode_url": "https://lexfridman.com/ryan-hall-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=VHg9sfOzBbY"
+ },
+ "170": {
+  "episode": 170,
+  "title": "Ronald Sullivan: The Ideal of Justice in the Face of Controversy and Evil",
+  "guest": "Ronald Sullivan",
+  "published": "2021-03-22",
+  "episode_url": "https://lexfridman.com/ronald-sullivan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Iuven0crywo"
+ },
+ "171": {
+  "episode": 171,
+  "title": "Anthony Pompliano: Bitcoin",
+  "guest": "Anthony Pompliano",
+  "published": "2021-03-25",
+  "episode_url": "https://lexfridman.com/anthony-pompliano/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=IHg6ixt3CKc"
+ },
+ "172": {
+  "episode": 172,
+  "title": "Ryan Schiller: Librex and the Free Exchange of Ideas on College Campuses",
+  "guest": "Ryan Schiller",
+  "published": "2021-03-30",
+  "episode_url": "https://lexfridman.com/ryan-schiller/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=UOEpe17nPhE"
+ },
+ "173": {
+  "episode": 173,
+  "title": "Nic Carter: Bitcoin Core Values, Layered Scaling, and Blocksize Debates",
+  "guest": "Nic Carter",
+  "published": "2021-04-01",
+  "episode_url": "https://lexfridman.com/nic-carter/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=mDyBbGCiBUU"
+ },
+ "174": {
+  "episode": 174,
+  "title": "Tyler Cowen: Economic Growth and the Fight Against Conformity and Mediocrity",
+  "guest": "Tyler Cowen",
+  "published": "2021-04-10",
+  "episode_url": "https://lexfridman.com/tyler-cowen/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=7Grseeycor4"
+ },
+ "175": {
+  "episode": 175,
+  "title": "Yannis Pappas: History and Comedy",
+  "guest": "Yannis Pappas",
+  "published": "2021-04-12",
+  "episode_url": "https://lexfridman.com/yannis-pappas/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=R156F0uXhzk"
+ },
+ "176": {
+  "episode": 176,
+  "title": "Robert Breedlove: Philosophy of Bitcoin from First Principles",
+  "guest": "Robert Breedlove",
+  "published": "2021-04-17",
+  "episode_url": "https://lexfridman.com/robert-breedlove/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=HrehEWYj16s"
+ },
+ "177": {
+  "episode": 177,
+  "title": "Risto Miikkulainen: Neuroevolution and Evolutionary Computation",
+  "guest": "Risto Miikkulainen",
+  "published": "2021-04-19",
+  "episode_url": "https://lexfridman.com/risto-miikkulainen/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=CY_LEa9xQtg"
+ },
+ "178": {
+  "episode": 178,
+  "title": "Michael Malice and Yaron Brook: Ayn Rand, Human Nature, and Anarchy",
+  "guest": "Michael Malice and Yaron Brook",
+  "published": "2021-04-24",
+  "episode_url": "https://lexfridman.com/michael-malice-and-yaron-brook/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Pl3x4GINtBQ"
+ },
+ "179": {
+  "episode": 179,
+  "title": "Georges St-Pierre: The Science of Fighting",
+  "guest": "Georges St-Pierre",
+  "published": "2021-04-26",
+  "episode_url": "https://lexfridman.com/georges-st-pierre/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=fIPxfzfOTxk"
+ },
+ "180": {
+  "episode": 180,
+  "title": "Jeremi Suri: History of American Power",
+  "guest": "Jeremi Suri",
+  "published": "2021-04-30",
+  "episode_url": "https://lexfridman.com/jeremi-suri/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=USnqkUAr_3w"
+ },
+ "181": {
+  "episode": 181,
+  "title": "Sergey Nazarov: Chainlink, Smart Contracts, and Oracle Networks",
+  "guest": "Sergey Nazarov",
+  "published": "2021-05-01",
+  "episode_url": "https://lexfridman.com/sergey-nazarov/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=TPXTmVdlyoc"
+ },
+ "182": {
+  "episode": 182,
+  "title": "John Danaher: The Path to Mastery in Jiu Jitsu, Grappling, Judo, and MMA",
+  "guest": "John Danaher",
+  "published": "2021-05-09",
+  "episode_url": "https://lexfridman.com/john-danaher/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ktuw6Ow4sd0"
+ },
+ "183": {
+  "episode": 183,
+  "title": "Po-Shen Loh: Mathematics, Math Olympiad, Combinatorics & Contact Tracing",
+  "guest": "Po-Shen Loh",
+  "published": "2021-05-14",
+  "episode_url": "https://lexfridman.com/po-shen-loh/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=6z1JwZbX4dQ"
+ },
+ "184": {
+  "episode": 184,
+  "title": "Katherine de Kleer: Planets, Moons, and Asteroids in Our Solar System",
+  "guest": "Katherine de Kleer",
+  "published": "2021-05-17",
+  "episode_url": "https://lexfridman.com/katherine-de-kleer/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=85F0FDsPHf8"
+ },
+ "185": {
+  "episode": 185,
+  "title": "Sam Harris: Consciousness, Free Will, Psychedelics, AI, UFOs, and Meaning",
+  "guest": "Sam Harris",
+  "published": "2021-05-20",
+  "episode_url": "https://lexfridman.com/sam-harris/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=4dC_nRYIDZU"
+ },
+ "186": {
+  "episode": 186,
+  "title": "Bryan Johnson: Kernel Brain-Computer Interfaces",
+  "guest": "Bryan Johnson",
+  "published": "2021-05-24",
+  "episode_url": "https://lexfridman.com/bryan-johnson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=1YbcB6b4A2U"
+ },
+ "187": {
+  "episode": 187,
+  "title": "Frank Wilczek: Physics of Quarks, Dark Matter, Complexity, Life & Aliens",
+  "guest": "Frank Wilczek",
+  "published": "2021-05-29",
+  "episode_url": "https://lexfridman.com/frank-wilczek/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=LDTe8uFqbws"
+ },
+ "188": {
+  "episode": 188,
+  "title": "Vitalik Buterin: Ethereum 2.0",
+  "guest": "Vitalik Buterin",
+  "published": "2021-06-03",
+  "episode_url": "https://lexfridman.com/vitalik-buterin-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=XW0QZmtbjvs"
+ },
+ "189": {
+  "episode": 189,
+  "title": "David Sinclair: Extending the Human Lifespan Beyond 100 Years",
+  "guest": "David Sinclair",
+  "published": "2021-06-07",
+  "episode_url": "https://lexfridman.com/david-sinclair/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jhKZIq3SlYE"
+ },
+ "190": {
+  "episode": 190,
+  "title": "Jordan Ellenberg: Mathematics of High-Dimensional Shapes and Geometries",
+  "guest": "Jordan Ellenberg",
+  "published": "2021-06-13",
+  "episode_url": "https://lexfridman.com/jordan-ellenberg/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tueAcSiiqYA"
+ },
+ "191": {
+  "episode": 191,
+  "title": "Daniel Schmachtenberger: Steering Civilization Away from Self-Destruction",
+  "guest": "Daniel Schmachtenberger",
+  "published": "2021-06-14",
+  "episode_url": "https://lexfridman.com/daniel-schmachtenberger/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hGRNUw559SE"
+ },
+ "192": {
+  "episode": 192,
+  "title": "Charles Hoskinson: Cardano",
+  "guest": "Charles Hoskinson",
+  "published": "2021-06-16",
+  "episode_url": "https://lexfridman.com/charles-hoskinson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=FKh8hjJNhWc"
+ },
+ "193": {
+  "episode": 193,
+  "title": "Rob Reid: The Existential Threat of Engineered Viruses and Lab Leaks",
+  "guest": "Rob Reid",
+  "published": "2021-06-21",
+  "episode_url": "https://lexfridman.com/rob-reid/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cuD9uNFXnU8"
+ },
+ "194": {
+  "episode": 194,
+  "title": "Bret Weinstein: Truth, Science, and Censorship in the Time of a Pandemic",
+  "guest": "Bret Weinstein",
+  "published": "2021-06-25",
+  "episode_url": "https://lexfridman.com/bret-weinstein/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=TG6BuSjwP4o"
+ },
+ "195": {
+  "episode": 195,
+  "title": "Clara Sousa-Silva: Searching for Signs of Life on Venus and Other Planets",
+  "guest": "Clara Sousa-Silva",
+  "published": "2021-06-28",
+  "episode_url": "https://lexfridman.com/clara-sousa-silva/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=CGAvsmokB4c"
+ },
+ "196": {
+  "episode": 196,
+  "title": "Yeonmi Park: North Korea",
+  "guest": "Yeonmi Park",
+  "published": "2021-07-01",
+  "episode_url": "https://lexfridman.com/yeonmi-park/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=usDqSEKDVsA"
+ },
+ "197": {
+  "episode": 197,
+  "title": "Jocko Willink: War, Leadership, and Discipline",
+  "guest": "Jocko Willink",
+  "published": "2021-07-05",
+  "episode_url": "https://lexfridman.com/jocko-willink/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=n2RcVEftY48"
+ },
+ "198": {
+  "episode": 198,
+  "title": "Sara Walker: The Origin of Life on Earth and Alien Worlds",
+  "guest": "Sara Walker",
+  "published": "2021-07-09",
+  "episode_url": "https://lexfridman.com/sara-walker/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-tDQ74I3Ovs"
+ },
+ "199": {
+  "episode": 199,
+  "title": "Roger Reaves: Smuggling Drugs for Pablo Escobar and the Medellin Cartel",
+  "guest": "Roger Reaves",
+  "published": "2021-07-11",
+  "episode_url": "https://lexfridman.com/roger-reaves/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Udh22kuLebg"
+ },
+ "200": {
+  "episode": 200,
+  "title": "Michael Malice: Totalitarianism and Anarchy",
+  "guest": "Michael Malice",
+  "published": "2021-07-15",
+  "episode_url": "https://lexfridman.com/michael-malice-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=BIk1zUy8ehU"
+ },
+ "201": {
+  "episode": 201,
+  "title": "Konstantin Batygin: Planet 9 and the Edge of Our Solar System",
+  "guest": "Konstantin Batygin",
+  "published": "2021-07-19",
+  "episode_url": "https://lexfridman.com/konstantin-batygin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tm7poMupE8k"
+ },
+ "202": {
+  "episode": 202,
+  "title": "Rick Doblin: Psychedelics",
+  "guest": "Rick Doblin",
+  "published": "2021-07-21",
+  "episode_url": "https://lexfridman.com/rick-doblin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2tUiLxtrLxk"
+ },
+ "203": {
+  "episode": 203,
+  "title": "Anya Fernald: Regenerative Farming and the Art of Cooking Meat",
+  "guest": "Anya Fernald",
+  "published": "2021-07-23",
+  "episode_url": "https://lexfridman.com/anya-fernald/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ew8U43IXTfk"
+ },
+ "204": {
+  "episode": 204,
+  "title": "Cumrun Vafa: String Theory",
+  "guest": "Cumrun Vafa",
+  "published": "2021-07-26",
+  "episode_url": "https://lexfridman.com/cumrun-vafa/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=j4_VyRDOmN4"
+ },
+ "205": {
+  "episode": 205,
+  "title": "Zach Bitter: Ultramarathon Running",
+  "guest": "Zach Bitter",
+  "published": "2021-07-29",
+  "episode_url": "https://lexfridman.com/zach-bitter/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=0RTWSJAqTPg"
+ },
+ "206": {
+  "episode": 206,
+  "title": "Ishan Misra: Self-Supervised Deep Learning in Computer Vision",
+  "guest": "Ishan Misra",
+  "published": "2021-07-31",
+  "episode_url": "https://lexfridman.com/ishan-misra/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=FUS6ceIvUnI"
+ },
+ "207": {
+  "episode": 207,
+  "title": "Chris Duffin: The Mad Scientist of Strength",
+  "guest": "Chris Duffin",
+  "published": "2021-08-03",
+  "episode_url": "https://lexfridman.com/chris-duffin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=e4Bet29PVPY"
+ },
+ "208": {
+  "episode": 208,
+  "title": "Jeff Hawkins: The Thousand Brains Theory of Intelligence",
+  "guest": "Jeff Hawkins",
+  "published": "2021-08-08",
+  "episode_url": "https://lexfridman.com/jeff-hawkins-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Z1KwkpTUbkg"
+ },
+ "209": {
+  "episode": 209,
+  "title": "Lu\u00eds and Jo\u00e3o Batalha: Fermat\u2019s Library and the Art of Studying Papers",
+  "guest": "Lu\u00eds and Jo\u00e3o Batalha",
+  "published": "2021-08-09",
+  "episode_url": "https://lexfridman.com/luis-and-joao-batalha/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ndMahzDCH1Y"
+ },
+ "210": {
+  "episode": 210,
+  "title": "Matt Walker: Sleep",
+  "guest": "Matt Walker",
+  "published": "2021-08-11",
+  "episode_url": "https://lexfridman.com/matt-walker/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Hc4XvHTlW3s"
+ },
+ "211": {
+  "episode": 211,
+  "title": "Brian Muraresku: The Secret History of Psychedelics",
+  "guest": "Brian Muraresku",
+  "published": "2021-08-15",
+  "episode_url": "https://lexfridman.com/brian-muraresku/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=oYQh1ZNkC70"
+ },
+ "212": {
+  "episode": 212,
+  "title": "Joscha Bach: Nature of Reality, Dreams, and Consciousness",
+  "guest": "Joscha Bach",
+  "published": "2021-08-21",
+  "episode_url": "https://lexfridman.com/joscha-bach-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=rIpUf-Vy2JA"
+ },
+ "213": {
+  "episode": 213,
+  "title": "Barry Barish: Gravitational Waves and the Most Precise Device Ever Built",
+  "guest": "Barry Barish",
+  "published": "2021-08-23",
+  "episode_url": "https://lexfridman.com/barry-barish/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=J48bm21q8_A"
+ },
+ "214": {
+  "episode": 214,
+  "title": "Jed Buchwald: Isaac Newton and the Philosophy of Science",
+  "guest": "Jed Buchwald",
+  "published": "2021-08-27",
+  "episode_url": "https://lexfridman.com/jed-buchwald/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=TRdL6ZzWBS0"
+ },
+ "215": {
+  "episode": 215,
+  "title": "Wojciech Zaremba: OpenAI Codex, GPT-3, Robotics, and the Future of AI",
+  "guest": "Wojciech Zaremba",
+  "published": "2021-08-29",
+  "episode_url": "https://lexfridman.com/wojciech-zaremba/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=U5OD8MjYnOM"
+ },
+ "216": {
+  "episode": 216,
+  "title": "Vincent Racaniello: Viruses and Vaccines",
+  "guest": "Vincent Racaniello",
+  "published": "2021-09-01",
+  "episode_url": "https://lexfridman.com/vincent-racaniello/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=G433fa01oMU"
+ },
+ "217": {
+  "episode": 217,
+  "title": "Rodney Brooks: Robotics",
+  "guest": "Rodney Brooks",
+  "published": "2021-09-03",
+  "episode_url": "https://lexfridman.com/rodney-brooks/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nre0QT9LN6w"
+ },
+ "218": {
+  "episode": 218,
+  "title": "Jaron Lanier: Virtual Reality, Social Media & the Future of Humans and AI",
+  "guest": "Jaron Lanier",
+  "published": "2021-09-06",
+  "episode_url": "https://lexfridman.com/jaron-lanier/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Fx0G6DHMfXM"
+ },
+ "219": {
+  "episode": 219,
+  "title": "Donald Knuth: Programming, Algorithms, Hard Problems & the Game of Life",
+  "guest": "Donald Knuth",
+  "published": "2021-09-09",
+  "episode_url": "https://lexfridman.com/donald-knuth-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=EE1R8FYUJm0"
+ },
+ "220": {
+  "episode": 220,
+  "title": "Niels Jorgensen: New York Firefighters and the Heroes of 9/11",
+  "guest": "Niels Jorgensen",
+  "published": "2021-09-11",
+  "episode_url": "https://lexfridman.com/niels-jorgensen/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hZenJc1fa70"
+ },
+ "221": {
+  "episode": 221,
+  "title": "Douglas Lenat: Cyc and the Quest to Solve Common Sense Reasoning in AI",
+  "guest": "Douglas Lenat",
+  "published": "2021-09-15",
+  "episode_url": "https://lexfridman.com/douglas-lenat/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3wMKoSRbGVs"
+ },
+ "222": {
+  "episode": 222,
+  "title": "Jay McClelland: Neural Networks and the Emergence of Cognition",
+  "guest": "Jay McClelland",
+  "published": "2021-09-20",
+  "episode_url": "https://lexfridman.com/jay-mcclelland/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Ui38ZzTymDY"
+ },
+ "223": {
+  "episode": 223,
+  "title": "Travis Stevens: Judo, Olympics, and Mental Toughness",
+  "guest": "Travis Stevens",
+  "published": "2021-09-21",
+  "episode_url": "https://lexfridman.com/travis-stevens/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uiNpESmPioQ"
+ },
+ "224": {
+  "episode": 224,
+  "title": "Travis Oliphant: NumPy, SciPy, Anaconda, Python & Scientific Programming",
+  "guest": "Travis Oliphant",
+  "published": "2021-09-23",
+  "episode_url": "https://lexfridman.com/travis-oliphant/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=gFEE3w7F0ww"
+ },
+ "225": {
+  "episode": 225,
+  "title": "Jeffrey Shainline: Neuromorphic Computing and Optoelectronic Intelligence",
+  "guest": "Jeffrey Shainline",
+  "published": "2021-09-26",
+  "episode_url": "https://lexfridman.com/jeffrey-shainline/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=EwueqdgIvq4"
+ },
+ "226": {
+  "episode": 226,
+  "title": "Jo Boaler: How to Learn Math",
+  "guest": "Jo Boaler",
+  "published": "2021-09-27",
+  "episode_url": "https://lexfridman.com/jo-boaler/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KZnGSVwIpeU"
+ },
+ "227": {
+  "episode": 227,
+  "title": "Sean Kelly: Existentialism, Nihilism, and the Search for Meaning",
+  "guest": "Sean Kelly",
+  "published": "2021-09-30",
+  "episode_url": "https://lexfridman.com/sean-kelly/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cC1HszE5Hcw"
+ },
+ "228": {
+  "episode": 228,
+  "title": "RZA: Wu-Tang Clan, Kung Fu, Chess, God, Life, and Death",
+  "guest": "RZA",
+  "published": "2021-10-05",
+  "episode_url": "https://lexfridman.com/rza/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Iau6W5pjy9Y"
+ },
+ "229": {
+  "episode": 229,
+  "title": "Richard Wrangham: Role of Violence, Sex, and Fire in Human Evolution",
+  "guest": "Richard Wrangham",
+  "published": "2021-10-10",
+  "episode_url": "https://lexfridman.com/richard-wrangham/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=YJF01_ztxwY"
+ },
+ "230": {
+  "episode": 230,
+  "title": "Kelsi Sheren: War, Artillery, PTSD, and Love",
+  "guest": "Kelsi Sheren",
+  "published": "2021-10-14",
+  "episode_url": "https://lexfridman.com/kelsi-sheren/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jhdFe3evXpk"
+ },
+ "231": {
+  "episode": 231,
+  "title": "Alex Gladstein: Bitcoin, Authoritarianism, and Human Rights",
+  "guest": "Alex Gladstein",
+  "published": "2021-10-16",
+  "episode_url": "https://lexfridman.com/alex-gladstein/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=kSbMU5CbFM0"
+ },
+ "232": {
+  "episode": 232,
+  "title": "Brian Greene: Quantum Gravity, Big Bang, Aliens, Life, Death, and Meaning",
+  "guest": "Brian Greene",
+  "published": "2021-10-20",
+  "episode_url": "https://lexfridman.com/brian-greene/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=98HZanvAJ8Y"
+ },
+ "233": {
+  "episode": 233,
+  "title": "Carl Hart: Heroin, Cocaine, MDMA, Alcohol & the Role of Drugs in Society",
+  "guest": "Carl Hart",
+  "published": "2021-10-23",
+  "episode_url": "https://lexfridman.com/carl-hart/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3LWNY70Oj4A"
+ },
+ "234": {
+  "episode": 234,
+  "title": "Stephen Wolfram: Complexity and the Fabric of Reality",
+  "guest": "Stephen Wolfram",
+  "published": "2021-10-27",
+  "episode_url": "https://lexfridman.com/stephen-wolfram-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=4-SGpEInX_c"
+ },
+ "235": {
+  "episode": 235,
+  "title": "Michael Mina: Rapid COVID Testing",
+  "guest": "Michael Mina",
+  "published": "2021-10-29",
+  "episode_url": "https://lexfridman.com/michael-mina-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=80OvNaEgmmw"
+ },
+ "236": {
+  "episode": 236,
+  "title": "Jimmy Pedro: Judo and the Forging of Champions",
+  "guest": "Jimmy Pedro",
+  "published": "2021-10-31",
+  "episode_url": "https://lexfridman.com/jimmy-pedro/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uy1fX2vOAEE"
+ },
+ "237": {
+  "episode": 237,
+  "title": "Steve Viscelli: Trucking and the Decline of the American Dream",
+  "guest": "Steve Viscelli",
+  "published": "2021-11-03",
+  "episode_url": "https://lexfridman.com/steve-viscelli/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=DEHoagHlqrE"
+ },
+ "238": {
+  "episode": 238,
+  "title": "Francis Collins: National Institutes of Health (NIH)",
+  "guest": "Francis Collins",
+  "published": "2021-11-05",
+  "episode_url": "https://lexfridman.com/francis-collins/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=mRZE-SJShkE"
+ },
+ "239": {
+  "episode": 239,
+  "title": "Niall Ferguson: History of Money, Power, War, and Truth",
+  "guest": "Niall Ferguson",
+  "published": "2021-11-08",
+  "episode_url": "https://lexfridman.com/niall-ferguson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=xF6x1ftN-H4"
+ },
+ "240": {
+  "episode": 240,
+  "title": "Neal Stephenson: Sci-Fi, Space, Aliens, AI, VR & the Future of Humanity",
+  "guest": "Neal Stephenson",
+  "published": "2021-11-11",
+  "episode_url": "https://lexfridman.com/neal-stephenson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=xAfdSak2fs8"
+ },
+ "241": {
+  "episode": 241,
+  "title": "Boris Sofman: Waymo, Cozmo, Self-Driving Cars, and the Future of Robotics",
+  "guest": "Boris Sofman",
+  "published": "2021-11-16",
+  "episode_url": "https://lexfridman.com/boris-sofman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=U_AREIyd0Fc"
+ },
+ "242": {
+  "episode": 242,
+  "title": "Ben Askren: Wrestling and MMA",
+  "guest": "Ben Askren",
+  "published": "2021-11-20",
+  "episode_url": "https://lexfridman.com/ben-askren/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tApj7Q37P2k"
+ },
+ "243": {
+  "episode": 243,
+  "title": "Kevin Systrom: Instagram",
+  "guest": "Kevin Systrom",
+  "published": "2021-11-23",
+  "episode_url": "https://lexfridman.com/kevin-systrom/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3pvpNKUPbIY"
+ },
+ "244": {
+  "episode": 244,
+  "title": "Robert Crews: Afghanistan, Taliban, Bin Laden, and War in the Middle East",
+  "guest": "Robert Crews",
+  "published": "2021-11-28",
+  "episode_url": "https://lexfridman.com/robert-crews/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=CDiqA4SJNpA"
+ },
+ "245": {
+  "episode": 245,
+  "title": "Tom Brands: Iowa Wrestling",
+  "guest": "Tom Brands",
+  "published": "2021-11-30",
+  "episode_url": "https://lexfridman.com/tom-brands/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Ww6pfsWmkdY"
+ },
+ "246": {
+  "episode": 246,
+  "title": "Peter Woit: Theories of Everything and Why String Theory is Not Even Wrong",
+  "guest": "Peter Woit",
+  "published": "2021-12-03",
+  "episode_url": "https://lexfridman.com/peter-woit/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nDDJFvuFXdc"
+ },
+ "247": {
+  "episode": 247,
+  "title": "Jamie Metzl: Lab Leak Theory",
+  "guest": "Jamie Metzl",
+  "published": "2021-12-08",
+  "episode_url": "https://lexfridman.com/jamie-metzl/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=K78jqx9fx2I"
+ },
+ "248": {
+  "episode": 248,
+  "title": "Norman Naimark: Genocide, Stalin, Hitler, Mao, and Absolute Power",
+  "guest": "Norman Naimark",
+  "published": "2021-12-13",
+  "episode_url": "https://lexfridman.com/norman-naimark/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Vrz8YDl9CeA"
+ },
+ "249": {
+  "episode": 249,
+  "title": "Albert Bourla: Pfizer CEO",
+  "guest": "Albert Bourla",
+  "published": "2021-12-18",
+  "episode_url": "https://lexfridman.com/albert-bourla/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Z_LhPMhkEdw"
+ },
+ "250": {
+  "episode": 250,
+  "title": "Peter Wang: Python and the Source Code of Humans, Computers, and Reality",
+  "guest": "Peter Wang",
+  "published": "2021-12-23",
+  "episode_url": "https://lexfridman.com/peter-wang/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=X0-SXS6zdEQ"
+ },
+ "251": {
+  "episode": 251,
+  "title": "Ray Dalio: Money, Power, and the Collapse of Empires",
+  "guest": "Ray Dalio",
+  "published": "2021-12-25",
+  "episode_url": "https://lexfridman.com/ray-dalio-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=TISMidxdZoc"
+ },
+ "252": {
+  "episode": 252,
+  "title": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI",
+  "guest": "Elon Musk",
+  "published": "2021-12-28",
+  "episode_url": "https://lexfridman.com/elon-musk-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=DxREm3s1scA"
+ },
+ "253": {
+  "episode": 253,
+  "title": "Michael Malice: New Year\u2019s Special",
+  "guest": "Michael Malice",
+  "published": "2021-12-31",
+  "episode_url": "https://lexfridman.com/michael-malice-5/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=B2tXN7ZnSfU"
+ },
+ "254": {
+  "episode": 254,
+  "title": "Jay Bhattacharya: The Case Against Lockdowns",
+  "guest": "Jay Bhattacharya",
+  "published": "2022-01-04",
+  "episode_url": "https://lexfridman.com/jay-bhattacharya/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=oIOGUYOPAsA"
+ },
+ "255": {
+  "episode": 255,
+  "title": "Mark Normand: Comedy!",
+  "guest": "Mark Normand",
+  "published": "2022-01-08",
+  "episode_url": "https://lexfridman.com/mark-normand/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tDolNU89SXI"
+ },
+ "256": {
+  "episode": 256,
+  "title": "Nationalism Debate: Yaron Brook and Yoram Hazony",
+  "guest": "Nationalism Debate",
+  "published": "2022-01-15",
+  "episode_url": "https://lexfridman.com/nationalism-debate/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Q24cpnHzx8I"
+ },
+ "257": {
+  "episode": 257,
+  "title": "Brian Keating: Cosmology, Astrophysics, Aliens & Losing the Nobel Prize",
+  "guest": "Brian Keating",
+  "published": "2022-01-18",
+  "episode_url": "https://lexfridman.com/brian-keating/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nhGwJLXzHs8"
+ },
+ "258": {
+  "episode": 258,
+  "title": "Yann LeCun: Dark Matter of Intelligence and Self-Supervised Learning",
+  "guest": "Yann LeCun",
+  "published": "2022-01-22",
+  "episode_url": "https://lexfridman.com/yann-lecun-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=SGzMElJ11Cc"
+ },
+ "259": {
+  "episode": 259,
+  "title": "Thomas Tull: From Batman Dark Knight Trilogy to AI and the Rolling Stones",
+  "guest": "Thomas Tull",
+  "published": "2022-01-26",
+  "episode_url": "https://lexfridman.com/thomas-tull/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=3Z7WimACqG8"
+ },
+ "260": {
+  "episode": 260,
+  "title": "Georges St-Pierre, John Danaher & Gordon Ryan: The Greatest of All Time",
+  "guest": "Georges St-Pierre, John Danaher & Gordon Ryan",
+  "published": "2022-01-30",
+  "episode_url": "https://lexfridman.com/georges-st-pierre-john-danaher-gordon-ryan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KdmDtqB46Jc"
+ },
+ "261": {
+  "episode": 261,
+  "title": "Philip Goff: Consciousness, Panpsychism, and the Philosophy of Mind",
+  "guest": "Philip Goff",
+  "published": "2022-02-03",
+  "episode_url": "https://lexfridman.com/philip-goff/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=BCdV6BMMpOo"
+ },
+ "262": {
+  "episode": 262,
+  "title": "Garry Nolan: UFOs and Aliens",
+  "guest": "Garry Nolan",
+  "published": "2022-02-06",
+  "episode_url": "https://lexfridman.com/garry-nolan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uTCc2-1tbBQ"
+ },
+ "263": {
+  "episode": 263,
+  "title": "John Abramson: Big Pharma",
+  "guest": "John Abramson",
+  "published": "2022-02-11",
+  "episode_url": "https://lexfridman.com/john-abramson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=arrokG3wCdE"
+ },
+ "264": {
+  "episode": 264,
+  "title": "Tim Urban: Elon Musk, Neuralink, AI, Aliens, and the Future of Humanity",
+  "guest": "Tim Urban",
+  "published": "2022-02-13",
+  "episode_url": "https://lexfridman.com/tim-urban/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=0Jd7fJgFkPU"
+ },
+ "265": {
+  "episode": 265,
+  "title": "Devon Larratt: Arm Wrestling",
+  "guest": "Devon Larratt",
+  "published": "2022-02-16",
+  "episode_url": "https://lexfridman.com/devon-larratt/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=nvBEXXnNaNQ"
+ },
+ "266": {
+  "episode": 266,
+  "title": "Nicole Perlroth: Cybersecurity and the Weapons of Cyberwar",
+  "guest": "Nicole Perlroth",
+  "published": "2022-02-20",
+  "episode_url": "https://lexfridman.com/nicole-perlroth/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hy2G3PhGm-g"
+ },
+ "267": {
+  "episode": 267,
+  "title": "Mark Zuckerberg: Meta, Facebook, Instagram, and the Metaverse",
+  "guest": "Mark Zuckerberg",
+  "published": "2022-02-26",
+  "episode_url": "https://lexfridman.com/mark-zuckerberg/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=5zOHSysMmH0"
+ },
+ "268": {
+  "episode": 268,
+  "title": "Robert Proctor: Nazi Science and Ideology",
+  "guest": "Robert Proctor",
+  "published": "2022-03-05",
+  "episode_url": "https://lexfridman.com/robert-proctor/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Y3VBCWIDEzk"
+ },
+ "269": {
+  "episode": 269,
+  "title": "Lee Cronin: Origin of Life, Aliens, Complexity, and Consciousness",
+  "guest": "Lee Cronin",
+  "published": "2022-03-11",
+  "episode_url": "https://lexfridman.com/lee-cronin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ZecQ64l-gKM"
+ },
+ "270": {
+  "episode": 270,
+  "title": "David Wolpe: Judaism",
+  "guest": "David Wolpe",
+  "published": "2022-03-16",
+  "episode_url": "https://lexfridman.com/david-wolpe/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=urdNsyZBqhQ"
+ },
+ "271": {
+  "episode": 271,
+  "title": "Ariel Ekblaw: Space Colonization and Self-Assembling Space Megastructures",
+  "guest": "Ariel Ekblaw",
+  "published": "2022-03-23",
+  "episode_url": "https://lexfridman.com/ariel-ekblaw/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KW8Vjs84Fxg"
+ },
+ "272": {
+  "episode": 272,
+  "title": "Brett Johnson: US Most Wanted Cybercriminal",
+  "guest": "Brett Johnson",
+  "published": "2022-03-27",
+  "episode_url": "https://lexfridman.com/brett-johnson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cC1LFC0KFSw"
+ },
+ "273": {
+  "episode": 273,
+  "title": "Chris Blattman: War and Violence",
+  "guest": "Chris Blattman",
+  "published": "2022-04-03",
+  "episode_url": "https://lexfridman.com/chris-blattman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=DbXjoXnIxQo"
+ },
+ "274": {
+  "episode": 274,
+  "title": "Karl Deisseroth: Depression, Schizophrenia, and Psychiatry",
+  "guest": "Karl Deisseroth",
+  "published": "2022-04-07",
+  "episode_url": "https://lexfridman.com/karl-deisseroth/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=OaeYUm06in0"
+ },
+ "275": {
+  "episode": 275,
+  "title": "Rick Rubin: Legendary Music Producer",
+  "guest": "Rick Rubin",
+  "published": "2022-04-10",
+  "episode_url": "https://lexfridman.com/rick-rubin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=H_szemxPcTI"
+ },
+ "276": {
+  "episode": 276,
+  "title": "Michael Saylor: Bitcoin, Inflation, and the Future of Money",
+  "guest": "Michael Saylor",
+  "published": "2022-04-14",
+  "episode_url": "https://lexfridman.com/michael-saylor/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=mC43pZkpTec"
+ },
+ "277": {
+  "episode": 277,
+  "title": "Andrew Huberman: Focus, Stress, Relationships, and Friendship",
+  "guest": "Andrew Huberman",
+  "published": "2022-04-17",
+  "episode_url": "https://lexfridman.com/andrew-huberman-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=lvh3g7eszVQ"
+ },
+ "278": {
+  "episode": 278,
+  "title": "Skye Fitzgerald: Hunger, War, and Human Suffering",
+  "guest": "Skye Fitzgerald",
+  "published": "2022-04-20",
+  "episode_url": "https://lexfridman.com/skye-fitzgerald/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=dHTgffkpeYo"
+ },
+ "279": {
+  "episode": 279,
+  "title": "Alien Debate: Sara Walker and Lee Cronin",
+  "guest": "Alien Debate",
+  "published": "2022-04-24",
+  "episode_url": "https://lexfridman.com/alien-debate/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=SFxIazwNP_0"
+ },
+ "280": {
+  "episode": 280,
+  "title": "Cristiano Amon: Qualcomm CEO",
+  "guest": "Cristiano Amon",
+  "published": "2022-04-27",
+  "episode_url": "https://lexfridman.com/cristiano-amon/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KMgPxVnKLSk"
+ },
+ "281": {
+  "episode": 281,
+  "title": "Grimes: Music, AI, and the Future of Humanity",
+  "guest": "Grimes",
+  "published": "2022-04-29",
+  "episode_url": "https://lexfridman.com/grimes/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KOwm7GUjcg8"
+ },
+ "282": {
+  "episode": 282,
+  "title": "David Buss: Sex, Dating, Relationships, and Sex Differences",
+  "guest": "David Buss",
+  "published": "2022-05-04",
+  "episode_url": "https://lexfridman.com/david-buss/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=sndW9hzX-wA"
+ },
+ "283": {
+  "episode": 283,
+  "title": "Chris Mason: Space Travel, Colonization, and Long-Term Survival in Space",
+  "guest": "Chris Mason",
+  "published": "2022-05-08",
+  "episode_url": "https://lexfridman.com/chris-mason/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=1C2tPFCGL1U"
+ },
+ "284": {
+  "episode": 284,
+  "title": "Saifedean Ammous: Bitcoin, Anarchy, and Austrian Economics",
+  "guest": "Saifedean Ammous",
+  "published": "2022-05-11",
+  "episode_url": "https://lexfridman.com/saifedean-ammous/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=gp4U5aH_T6A"
+ },
+ "285": {
+  "episode": 285,
+  "title": "Glenn Loury: Race, Racism, Identity Politics, and Cancel Culture",
+  "guest": "Glenn Loury",
+  "published": "2022-05-14",
+  "episode_url": "https://lexfridman.com/glenn-loury/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=YbJZnShMQAo"
+ },
+ "286": {
+  "episode": 286,
+  "title": "Oliver Stone: Vladimir Putin and War in Ukraine",
+  "guest": "Oliver Stone",
+  "published": "2022-05-17",
+  "episode_url": "https://lexfridman.com/oliver-stone/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ygAqYC8JOQI"
+ },
+ "287": {
+  "episode": 287,
+  "title": "Bobby Lee: Comedy, Skyrim, Sex Robots, Love, Fame, and Power",
+  "guest": "Bobby Lee",
+  "published": "2022-05-20",
+  "episode_url": "https://lexfridman.com/bobby-lee/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tOTenjh_8hw"
+ },
+ "288": {
+  "episode": 288,
+  "title": "Sarma Melngailis: Bad Vegan",
+  "guest": "Sarma Melngailis",
+  "published": "2022-05-23",
+  "episode_url": "https://lexfridman.com/sarma-melngailis/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iZjby1LkTWQ"
+ },
+ "289": {
+  "episode": 289,
+  "title": "Stephen Kotkin: Putin, Zelenskyy, and War in Ukraine",
+  "guest": "Stephen Kotkin",
+  "published": "2022-05-25",
+  "episode_url": "https://lexfridman.com/stephen-kotkin-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2a7CDKqWcZ0"
+ },
+ "290": {
+  "episode": 290,
+  "title": "Dan Reynolds: Imagine Dragons",
+  "guest": "Dan Reynolds",
+  "published": "2022-05-30",
+  "episode_url": "https://lexfridman.com/dan-reynolds/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jvGZkf87aCs"
+ },
+ "291": {
+  "episode": 291,
+  "title": "Jonathan Haidt: The Case Against Social Media",
+  "guest": "Jonathan Haidt",
+  "published": "2022-06-04",
+  "episode_url": "https://lexfridman.com/jonathan-haidt/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=f0un-l1L8Zw"
+ },
+ "292": {
+  "episode": 292,
+  "title": "Robin Hanson: Alien Civilizations, UFOs, and the Future of Humanity",
+  "guest": "Robin Hanson",
+  "published": "2022-06-09",
+  "episode_url": "https://lexfridman.com/robin-hanson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=KBZP4rLk6bk"
+ },
+ "293": {
+  "episode": 293,
+  "title": "Donald Hoffman: Reality is an Illusion \u2013 How Evolution Hid the Truth",
+  "guest": "Donald Hoffman",
+  "published": "2022-06-12",
+  "episode_url": "https://lexfridman.com/donald-hoffman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=reYdQYZ9Rj4"
+ },
+ "294": {
+  "episode": 294,
+  "title": "Tony Fadell: iPhone, iPod, and Nest",
+  "guest": "Tony Fadell",
+  "published": "2022-06-15",
+  "episode_url": "https://lexfridman.com/tony-fadell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=4oDZyOf6CW4"
+ },
+ "295": {
+  "episode": 295,
+  "title": "Richard Wolff: Marxism and Communism",
+  "guest": "Richard Wolff",
+  "published": "2022-06-17",
+  "episode_url": "https://lexfridman.com/richard-wolff/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=o0Bi-q89j5Y"
+ },
+ "296": {
+  "episode": 296,
+  "title": "Douglas Murray: Racism, Marxism, and the War on the West",
+  "guest": "Douglas Murray",
+  "published": "2022-06-21",
+  "episode_url": "https://lexfridman.com/douglas-murray/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=EG7I6Bt_NZY"
+ },
+ "297": {
+  "episode": 297,
+  "title": "Jonathan Reisman: The Human Body \u2013 From Sex & Sperm to Hands & Heart",
+  "guest": "Jonathan Reisman",
+  "published": "2022-06-25",
+  "episode_url": "https://lexfridman.com/jonathan-reisman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=XOPO9J7DIXw"
+ },
+ "298": {
+  "episode": 298,
+  "title": "Susan Cain: The Power of Introverts and Loneliness",
+  "guest": "Susan Cain",
+  "published": "2022-06-28",
+  "episode_url": "https://lexfridman.com/susan-cain/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=j4PEu4sVD40"
+ },
+ "299": {
+  "episode": 299,
+  "title": "Demis Hassabis: DeepMind",
+  "guest": "Demis Hassabis",
+  "published": "2022-07-01",
+  "episode_url": "https://lexfridman.com/demis-hassabis/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo"
+ },
+ "300": {
+  "episode": 300,
+  "title": "Joe Rogan: Comedy, Controversy, Aliens, UFOs, Putin, CIA, and Freedom",
+  "guest": "Joe Rogan",
+  "published": "2022-07-04",
+  "episode_url": "https://lexfridman.com/joe-rogan-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=gk4tEO4jDUM"
+ },
+ "301": {
+  "episode": 301,
+  "title": "Jack Barsky: KGB Spy",
+  "guest": "Jack Barsky",
+  "published": "2022-07-09",
+  "episode_url": "https://lexfridman.com/jack-barsky/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=dSVLjAdo8UA"
+ },
+ "302": {
+  "episode": 302,
+  "title": "Richard Haier: IQ Tests, Human Intelligence, and Group Differences",
+  "guest": "Richard Haier",
+  "published": "2022-07-14",
+  "episode_url": "https://lexfridman.com/richard-haier/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hppbxV9C63g"
+ },
+ "303": {
+  "episode": 303,
+  "title": "Steve Keen: Marxism, Capitalism, and Economics",
+  "guest": "Steve Keen",
+  "published": "2022-07-17",
+  "episode_url": "https://lexfridman.com/steve-keen/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=1XGiTDWfdpM"
+ },
+ "304": {
+  "episode": 304,
+  "title": "Bishop Robert Barron: Christianity and the Catholic Church",
+  "guest": "Bishop Robert Barron",
+  "published": "2022-07-20",
+  "episode_url": "https://lexfridman.com/robert-barron/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=WgytXF0SPh0"
+ },
+ "305": {
+  "episode": 305,
+  "title": "Martin Rees: Black Holes, Alien Life, Dark Matter, and the Big Bang",
+  "guest": "Martin Rees",
+  "published": "2022-07-23",
+  "episode_url": "https://lexfridman.com/martin-rees/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=50r-5ULcWgY"
+ },
+ "306": {
+  "episode": 306,
+  "title": "Oriol Vinyals: Deep Learning and Artificial General Intelligence",
+  "guest": "Oriol Vinyals",
+  "published": "2022-07-26",
+  "episode_url": "https://lexfridman.com/oriol-vinyals-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=aGBLRlLe7X8"
+ },
+ "307": {
+  "episode": 307,
+  "title": "Brian Armstrong: Coinbase, Cryptocurrency, and Government Regulation",
+  "guest": "Brian Armstrong",
+  "published": "2022-07-29",
+  "episode_url": "https://lexfridman.com/brian-armstrong/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=VBPTFlpv31k"
+ },
+ "308": {
+  "episode": 308,
+  "title": "Ryan Graves: UFOs, Fighter Jets, and Aliens",
+  "guest": "Ryan Graves",
+  "published": "2022-08-01",
+  "episode_url": "https://lexfridman.com/ryan-graves/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=qLDp-aYnR1Y"
+ },
+ "309": {
+  "episode": 309,
+  "title": "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets",
+  "guest": "John Carmack",
+  "published": "2022-08-04",
+  "episode_url": "https://lexfridman.com/john-carmack/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=I845O57ZSy4"
+ },
+ "310": {
+  "episode": 310,
+  "title": "Andrew Bustamante: CIA Spy",
+  "guest": "Andrew Bustamante",
+  "published": "2022-08-08",
+  "episode_url": "https://lexfridman.com/andrew-bustamante/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=T3FC7qIAGZk"
+ },
+ "311": {
+  "episode": 311,
+  "title": "Magatte Wade: Africa, Capitalism, Communism, and the Future of Humanity",
+  "guest": "Magatte Wade",
+  "published": "2022-08-13",
+  "episode_url": "https://lexfridman.com/magatte-wade/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Q6tDV3BhrcM"
+ },
+ "312": {
+  "episode": 312,
+  "title": "Duncan Trussell: Comedy, Sentient Robots, Suffering, Love & Burning Man",
+  "guest": "Duncan Trussell",
+  "published": "2022-08-16",
+  "episode_url": "https://lexfridman.com/duncan-trussell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jdIyNMkusLE"
+ },
+ "313": {
+  "episode": 313,
+  "title": "Jordan Peterson: Life, Death, Power, Fame, and Meaning",
+  "guest": "Jordan Peterson",
+  "published": "2022-08-19",
+  "episode_url": "https://lexfridman.com/jordan-peterson/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=sY8aFSY2zv4"
+ },
+ "314": {
+  "episode": 314,
+  "title": "Liv Boeree: Poker, Game Theory, AI, Simulation, Aliens & Existential Risk",
+  "guest": "Liv Boeree",
+  "published": "2022-08-24",
+  "episode_url": "https://lexfridman.com/liv-boeree/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=eF-E40pxxbI"
+ },
+ "315": {
+  "episode": 315,
+  "title": "Magnus Carlsen: Greatest Chess Player of All Time",
+  "guest": "Magnus Carlsen",
+  "published": "2022-08-27",
+  "episode_url": "https://lexfridman.com/magnus-carlsen/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=0ZO28NtkwwQ"
+ },
+ "316": {
+  "episode": 316,
+  "title": "Noam Chomsky: Putin, Ukraine, China, and Nuclear War",
+  "guest": "Noam Chomsky",
+  "published": "2022-08-31",
+  "episode_url": "https://lexfridman.com/noam-chomsky-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=7uHGlfeCBbE"
+ },
+ "317": {
+  "episode": 317,
+  "title": "John Vervaeke: Meaning Crisis, Atheism, Religion & the Search for Wisdom",
+  "guest": "John Vervaeke",
+  "published": "2022-09-04",
+  "episode_url": "https://lexfridman.com/john-vervaeke/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=yImlXr5Tr8g"
+ },
+ "318": {
+  "episode": 318,
+  "title": "Nick Lane: Origin of Life, Evolution, Aliens, Biology, and Consciousness",
+  "guest": "Nick Lane",
+  "published": "2022-09-07",
+  "episode_url": "https://lexfridman.com/nick-lane/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=tOtdJcco3YM"
+ },
+ "319": {
+  "episode": 319,
+  "title": "Botez Sisters: Chess, Streaming, and Fame",
+  "guest": "Botez Sisters",
+  "published": "2022-09-09",
+  "episode_url": "https://lexfridman.com/botez-sisters/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=srUlKNLZTas"
+ },
+ "320": {
+  "episode": 320,
+  "title": "Christopher Capozzola: World War I, Ideology, Propaganda, and Politics",
+  "guest": "Christopher Capozzola",
+  "published": "2022-09-14",
+  "episode_url": "https://lexfridman.com/christopher-capozzola/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=SK4kMPmgKW0"
+ },
+ "321": {
+  "episode": 321,
+  "title": "Ray Kurzweil: Singularity, Superintelligence, and Immortality",
+  "guest": "Ray Kurzweil",
+  "published": "2022-09-17",
+  "episode_url": "https://lexfridman.com/ray-kurzweil/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ykY69lSpDdo"
+ },
+ "322": {
+  "episode": 322,
+  "title": "Rana el Kaliouby: Emotion AI, Social Robots, and Self-Driving Cars",
+  "guest": "Rana el Kaliouby",
+  "published": "2022-09-21",
+  "episode_url": "https://lexfridman.com/rana-el-kaliouby/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=36_rM7wpN5A"
+ },
+ "323": {
+  "episode": 323,
+  "title": "Will Sasso: Comedy, MADtv, AI, Friendship, Madness, and Pro Wrestling",
+  "guest": "Will Sasso",
+  "published": "2022-09-24",
+  "episode_url": "https://lexfridman.com/will-sasso/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=xewD1apJNhw"
+ },
+ "324": {
+  "episode": 324,
+  "title": "Daniel Negreanu: Poker",
+  "guest": "Daniel Negreanu",
+  "published": "2022-09-27",
+  "episode_url": "https://lexfridman.com/daniel-negreanu/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=rKnoNfajUgM"
+ },
+ "325": {
+  "episode": 325,
+  "title": "Michael Levin: Biology, Life, Aliens, Evolution, Embryogenesis & Xenobots",
+  "guest": "Michael Levin",
+  "published": "2022-10-01",
+  "episode_url": "https://lexfridman.com/michael-levin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=p3lsYlod5OU"
+ },
+ "326": {
+  "episode": 326,
+  "title": "Annaka Harris: Free Will, Consciousness, and the Nature of Reality",
+  "guest": "Annaka Harris",
+  "published": "2022-10-05",
+  "episode_url": "https://lexfridman.com/annaka-harris/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=q6zEzZCtkXw"
+ },
+ "327": {
+  "episode": 327,
+  "title": "GothamChess: Hans Niemann, Magnus Carlsen, Cheating Scandal & Chess Bots",
+  "guest": "GothamChess",
+  "published": "2022-10-07",
+  "episode_url": "https://lexfridman.com/gothamchess/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iSMpTmibeDw"
+ },
+ "328": {
+  "episode": 328,
+  "title": "John Danaher: Submission Grappling, ADCC, Animal Combat, and Knives",
+  "guest": "John Danaher",
+  "published": "2022-10-10",
+  "episode_url": "https://lexfridman.com/john-danaher-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iZRbD7q1n-U"
+ },
+ "329": {
+  "episode": 329,
+  "title": "Kate Darling: Social Robots, Ethics, Privacy and the Future of MIT",
+  "guest": "Kate Darling",
+  "published": "2022-10-15",
+  "episode_url": "https://lexfridman.com/kate-darling-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=ZFntEFXKDHM"
+ },
+ "330": {
+  "episode": 330,
+  "title": "Hikaru Nakamura: Chess, Magnus, Kasparov, and the Psychology of Greatness",
+  "guest": "Hikaru Nakamura",
+  "published": "2022-10-17",
+  "episode_url": "https://lexfridman.com/hikaru-nakamura/",
+  "transcript_url": "",
+  "youtube_url": "https://youtube.com/watch?v=tGXvcQP6VPo"
+ },
+ "331": {
+  "episode": 331,
+  "title": "Balaji Srinivasan: How to Fix Government, Twitter, Science, and the FDA",
+  "guest": "Balaji Srinivasan",
+  "published": "2022-10-20",
+  "episode_url": "https://lexfridman.com/balaji-srinivasan/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=VeH7qKZr0WI"
+ },
+ "332": {
+  "episode": 332,
+  "title": "Kanye \u2018Ye\u2019 West Interview",
+  "guest": "Kanye \u2018Ye\u2019 West Interview",
+  "published": "2022-10-24",
+  "episode_url": "https://lexfridman.com/ye-aka-kanye-west/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=4AWLcxTGZPA"
+ },
+ "333": {
+  "episode": 333,
+  "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
+  "guest": "Andrej Karpathy",
+  "published": "2022-10-29",
+  "episode_url": "https://lexfridman.com/andrej-karpathy/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cdiD-9MMpb0"
+ },
+ "334": {
+  "episode": 334,
+  "title": "Abbas Amanat: Iran Protests, Mahsa Amini, History, CIA & Nuclear Weapons",
+  "guest": "Abbas Amanat",
+  "published": "2022-11-02",
+  "episode_url": "https://lexfridman.com/abbas-amanat/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=OYsYgzzsdT0"
+ },
+ "335": {
+  "episode": 335,
+  "title": "Fiona Hill: Vladimir Putin and Donald Trump",
+  "guest": "Fiona Hill",
+  "published": "2022-11-04",
+  "episode_url": "https://lexfridman.com/fiona-hill/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=vNhSCF9i8Qs"
+ },
+ "336": {
+  "episode": 336,
+  "title": "Ben Shapiro: Politics, Kanye, Trump, Biden, Hitler, Extremism, and War",
+  "guest": "Ben Shapiro",
+  "published": "2022-11-07",
+  "episode_url": "https://lexfridman.com/ben-shapiro/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=AF8DOS4C2KM"
+ },
+ "337": {
+  "episode": 337,
+  "title": "Destiny: Politics, Free Speech, Controversy, Sex, War, and Relationships",
+  "guest": "Destiny",
+  "published": "2022-11-11",
+  "episode_url": "https://lexfridman.com/destiny/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=bqeuFiAUU4o"
+ },
+ "338": {
+  "episode": 338,
+  "title": "Chamath Palihapitiya: Money, Success, Startups, Energy, Poker & Happiness",
+  "guest": "Chamath Palihapitiya",
+  "published": "2022-11-15",
+  "episode_url": "https://lexfridman.com/chamath-palihapitiya/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=kFQUDCgMjRc"
+ },
+ "339": {
+  "episode": 339,
+  "title": "Climate Change Debate: Bj\u00f8rn Lomborg and Andrew Revkin",
+  "guest": "Climate Change Debate",
+  "published": "2022-11-18",
+  "episode_url": "https://lexfridman.com/climate-change-debate/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=5Gk9gIpGvSE"
+ },
+ "340": {
+  "episode": 340,
+  "title": "Chris Tarbell: FBI Agent Who Took Down Silk Road",
+  "guest": "Chris Tarbell",
+  "published": "2022-11-22",
+  "episode_url": "https://lexfridman.com/chris-tarbell/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=4KiO8GRgwDk"
+ },
+ "341": {
+  "episode": 341,
+  "title": "Guido van Rossum: Python and the Future of Programming",
+  "guest": "Guido van Rossum",
+  "published": "2022-11-26",
+  "episode_url": "https://lexfridman.com/guido-van-rossum-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=-DVyjdw4t9I"
+ },
+ "342": {
+  "episode": 342,
+  "title": "Todd Howard: Skyrim, Elder Scrolls 6, Fallout, and Starfield",
+  "guest": "Todd Howard",
+  "published": "2022-11-29",
+  "episode_url": "https://lexfridman.com/todd-howard/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=H9AAnV59ddE"
+ },
+ "343": {
+  "episode": 343,
+  "title": "Roger Gracie: Greatest Jiu Jitsu Competitor of All Time",
+  "guest": "Roger Gracie",
+  "published": "2022-12-03",
+  "episode_url": "https://lexfridman.com/roger-gracie/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=_L-Ni7bFAHg"
+ },
+ "344": {
+  "episode": 344,
+  "title": "Noam Brown: AI vs Humans in Poker and Games of Strategic Negotiation",
+  "guest": "Noam Brown",
+  "published": "2022-12-06",
+  "episode_url": "https://lexfridman.com/noam-brown/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2oHH4aClJQs"
+ },
+ "345": {
+  "episode": 345,
+  "title": "Coffeezilla: SBF, FTX, Fraud, Scams, Fake Gurus, Money, Fame, and Power",
+  "guest": "Coffeezilla",
+  "published": "2022-12-09",
+  "episode_url": "https://lexfridman.com/coffeezilla/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hi9Rf0oLdHk"
+ },
+ "346": {
+  "episode": 346,
+  "title": "Ed Calderon: Mexican Drug Cartels",
+  "guest": "Ed Calderon",
+  "published": "2022-12-12",
+  "episode_url": "https://lexfridman.com/ed-calderon/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=9PIOoJMMptA"
+ },
+ "347": {
+  "episode": 347,
+  "title": "Michael Malice: Christmas Special",
+  "guest": "Michael Malice",
+  "published": "2022-12-15",
+  "episode_url": "https://lexfridman.com/michael-malice-6/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NUkXluf3OYA"
+ },
+ "348": {
+  "episode": 348,
+  "title": "Nathalie Cabrol: Search for Alien Life",
+  "guest": "Nathalie Cabrol",
+  "published": "2022-12-19",
+  "episode_url": "https://lexfridman.com/nathalie-cabrol/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=yyBosLx7bbM"
+ },
+ "349": {
+  "episode": 349,
+  "title": "Bhaskar Sunkara: The Case for Socialism",
+  "guest": "Bhaskar Sunkara",
+  "published": "2022-12-22",
+  "episode_url": "https://lexfridman.com/bhaskar-sunkara/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=pNlfHgHJweQ"
+ },
+ "350": {
+  "episode": 350,
+  "title": "Bet\u00fcl Ka\u00e7ar: Origin of Life, Ancient DNA, Panspermia, and Aliens",
+  "guest": "Bet\u00fcl Ka\u00e7ar",
+  "published": "2022-12-29",
+  "episode_url": "https://lexfridman.com/betul-kacar/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=NXU_M4030nE"
+ },
+ "351": {
+  "episode": 351,
+  "title": "MrBeast: Future of YouTube, Twitter, TikTok, and Instagram",
+  "guest": "MrBeast",
+  "published": "2023-01-11",
+  "episode_url": "https://lexfridman.com/mrbeast/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Z3_PwvvfxIU"
+ },
+ "352": {
+  "episode": 352,
+  "title": "Omar Suleiman: Islam",
+  "guest": "Omar Suleiman",
+  "published": "2023-01-17",
+  "episode_url": "https://lexfridman.com/omar-suleiman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=BOKCNUqbpH0"
+ },
+ "353": {
+  "episode": 353,
+  "title": "Dennis Whyte: Nuclear Fusion and the Future of Energy",
+  "guest": "Dennis Whyte",
+  "published": "2023-01-21",
+  "episode_url": "https://lexfridman.com/dennis-whyte/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=aJoRMFWn2Jk"
+ },
+ "354": {
+  "episode": 354,
+  "title": "Jeremi Suri: American Civil War",
+  "guest": "Jeremi Suri",
+  "published": "2023-01-25",
+  "episode_url": "https://lexfridman.com/jeremi-suri-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=GvX-heRWFfA"
+ },
+ "355": {
+  "episode": 355,
+  "title": "David Kipping: Alien Civilizations and Habitable Worlds",
+  "guest": "David Kipping",
+  "published": "2023-01-28",
+  "episode_url": "https://lexfridman.com/david-kipping/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=uZN5xjoS6TU"
+ },
+ "356": {
+  "episode": 356,
+  "title": "Tim Dodd: SpaceX, Starship, Rocket Engines, and Future of Space Travel",
+  "guest": "Tim Dodd",
+  "published": "2023-02-02",
+  "episode_url": "https://lexfridman.com/tim-dodd/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=5eK5A_43pkE"
+ },
+ "357": {
+  "episode": 357,
+  "title": "Paul Conti: Narcissism, Sociopathy, Envy, and the Nature of Good and Evil",
+  "guest": "Paul Conti",
+  "published": "2023-02-07",
+  "episode_url": "https://lexfridman.com/paul-conti/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jRBksDVs4tg"
+ },
+ "358": {
+  "episode": 358,
+  "title": "Aella: Sex Work, OnlyFans, Porn, Escorting, Dating, and Human Sexuality",
+  "guest": "Aella",
+  "published": "2023-02-10",
+  "episode_url": "https://lexfridman.com/aella/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cFSrxSBrgSc"
+ },
+ "359": {
+  "episode": 359,
+  "title": "Andrew Strominger: Black Holes, Quantum Gravity, and Theoretical Physics",
+  "guest": "Andrew Strominger",
+  "published": "2023-02-15",
+  "episode_url": "https://lexfridman.com/andrew-strominger/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=y3cw_9ELpQw"
+ },
+ "360": {
+  "episode": 360,
+  "title": "Tim Urban: Tribalism, Marxism, Liberalism, Social Justice, and Politics",
+  "guest": "Tim Urban",
+  "published": "2023-02-20",
+  "episode_url": "https://lexfridman.com/tim-urban-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Rk5C149J9C0"
+ },
+ "361": {
+  "episode": 361,
+  "title": "Aaron Smith-Levin: Scientology",
+  "guest": "Aaron Smith-Levin",
+  "published": "2023-02-25",
+  "episode_url": "https://lexfridman.com/aaron-smith-levin/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=J1lN9zkK_k0"
+ },
+ "362": {
+  "episode": 362,
+  "title": "Ginni Rometty: IBM CEO on Leadership, Power, and Adversity",
+  "guest": "Ginni Rometty",
+  "published": "2023-03-02",
+  "episode_url": "https://lexfridman.com/ginni-rometty/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=XiCxj-bXu5M"
+ },
+ "363": {
+  "episode": 363,
+  "title": "B-Team Jiu Jitsu: Craig Jones, Nicky Rod, and Nicky Ryan",
+  "guest": "B-Team Jiu Jitsu",
+  "published": "2023-03-06",
+  "episode_url": "https://lexfridman.com/b-team/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=hLZ6PACCBy8"
+ },
+ "364": {
+  "episode": 364,
+  "title": "Chris Voss: FBI Hostage Negotiator",
+  "guest": "Chris Voss",
+  "published": "2023-03-10",
+  "episode_url": "https://lexfridman.com/chris-voss/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=8EguLJgkc54"
+ },
+ "365": {
+  "episode": 365,
+  "title": "Sam Harris: Trump, Pandemic, Twitter, Elon, Bret, IDW, Kanye, AI & UFOs",
+  "guest": "Sam Harris",
+  "published": "2023-03-14",
+  "episode_url": "https://lexfridman.com/sam-harris-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Qyrjgf-_Vdk"
+ },
+ "366": {
+  "episode": 366,
+  "title": "Shannon Curry: Johnny Depp & Amber Heard Trial, Marriage, Dating & Love",
+  "guest": "Shannon Curry",
+  "published": "2023-03-21",
+  "episode_url": "https://lexfridman.com/shannon-curry/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=qtOKrG_wK5A"
+ },
+ "367": {
+  "episode": 367,
+  "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI",
+  "guest": "Sam Altman",
+  "published": "2023-03-25",
+  "episode_url": "https://lexfridman.com/sam-altman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=L_Guz73e6fw"
+ },
+ "368": {
+  "episode": 368,
+  "title": "Eliezer Yudkowsky: Dangers of AI and the End of Human Civilization",
+  "guest": "Eliezer Yudkowsky",
+  "published": "2023-03-30",
+  "episode_url": "https://lexfridman.com/eliezer-yudkowsky/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=AaTRHFaaPG8"
+ },
+ "369": {
+  "episode": 369,
+  "title": "Paul Rosolie: Amazon Jungle, Uncontacted Tribes, Anacondas, and Ayahuasca",
+  "guest": "Paul Rosolie",
+  "published": "2023-04-04",
+  "episode_url": "https://lexfridman.com/paul-rosolie/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=gPfriiHBBek"
+ },
+ "370": {
+  "episode": 370,
+  "title": "Edward Frenkel: Reality is a Paradox \u2013 Mathematics, Physics, Truth & Love",
+  "guest": "Edward Frenkel",
+  "published": "2023-04-10",
+  "episode_url": "https://lexfridman.com/edward-frenkel/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Osh0-J3T2nY"
+ },
+ "371": {
+  "episode": 371,
+  "title": "Max Tegmark: The Case for Halting AI Development",
+  "guest": "Max Tegmark",
+  "published": "2023-04-13",
+  "episode_url": "https://lexfridman.com/max-tegmark-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=VcVfceTsD0A"
+ },
+ "372": {
+  "episode": 372,
+  "title": "Simone Giertz: Queen of Sh*tty Robots, Innovative Engineering, and Design",
+  "guest": "Simone Giertz",
+  "published": "2023-04-16",
+  "episode_url": "https://lexfridman.com/simone-giertz/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=OgIo36F6Fsg"
+ },
+ "373": {
+  "episode": 373,
+  "title": "Manolis Kellis: Evolution of Human Civilization and Superintelligent AI",
+  "guest": "Manolis Kellis",
+  "published": "2023-04-21",
+  "episode_url": "https://lexfridman.com/manolis-kellis-5/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=wMavKrA-4do"
+ },
+ "374": {
+  "episode": 374,
+  "title": "Robert Playter: Boston Dynamics CEO on Humanoid and Legged Robotics",
+  "guest": "Robert Playter",
+  "published": "2023-04-28",
+  "episode_url": "https://lexfridman.com/robert-playter/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=cLVdsZ3I5os"
+ },
+ "375": {
+  "episode": 375,
+  "title": "David Pakman: Politics of Trump, Biden, Bernie, AOC, Socialism & Wokeism",
+  "guest": "David Pakman",
+  "published": "2023-05-06",
+  "episode_url": "https://lexfridman.com/david-pakman/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=2i31fDkaK9A"
+ },
+ "376": {
+  "episode": 376,
+  "title": "Stephen Wolfram: ChatGPT and the Nature of Truth, Reality & Computation",
+  "guest": "Stephen Wolfram",
+  "published": "2023-05-09",
+  "episode_url": "https://lexfridman.com/stephen-wolfram-4/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=PdE-waSx-d8"
+ },
+ "377": {
+  "episode": 377,
+  "title": "Harvey Silverglate: Freedom of Speech",
+  "guest": "Harvey Silverglate",
+  "published": "2023-05-16",
+  "episode_url": "https://lexfridman.com/harvey-silverglate/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=DgTjSrrf6GQ"
+ },
+ "378": {
+  "episode": 378,
+  "title": "Anna Frebel: Origin and Evolution of the Universe, Galaxies, and Stars",
+  "guest": "Anna Frebel",
+  "published": "2023-05-18",
+  "episode_url": "https://lexfridman.com/anna-frebel/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=IQnUa5Bq5x4"
+ },
+ "379": {
+  "episode": 379,
+  "title": "Randall Kennedy: The N-Word \u2013 History of Race, Law, Politics, and Power",
+  "guest": "Randall Kennedy",
+  "published": "2023-05-24",
+  "episode_url": "https://lexfridman.com/randall-kennedy/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=iFXGpKf9VBU"
+ },
+ "380": {
+  "episode": 380,
+  "title": "Neil Gershenfeld: Self-Replicating Robots and the Future of Fabrication",
+  "guest": "Neil Gershenfeld",
+  "published": "2023-05-28",
+  "episode_url": "https://lexfridman.com/neil-gershenfeld/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=YDjOS0VHEr4"
+ },
+ "381": {
+  "episode": 381,
+  "title": "Chris Lattner: Future of Programming and AI",
+  "guest": "Chris Lattner",
+  "published": "2023-06-02",
+  "episode_url": "https://lexfridman.com/chris-lattner-3/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=pdJQ8iVTwj8"
+ },
+ "382": {
+  "episode": 382,
+  "title": "Bert Kreischer: Comedy, Drinking, Rogan, Segura, Churchill & Kim Jong Un",
+  "guest": "Bert Kreischer",
+  "published": "2023-06-05",
+  "episode_url": "https://lexfridman.com/bert-kreischer/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=8TmV6KEYkK0"
+ },
+ "383": {
+  "episode": 383,
+  "title": "Mark Zuckerberg: Future of AI at Meta, Facebook, Instagram, and WhatsApp",
+  "guest": "Mark Zuckerberg",
+  "published": "2023-06-08",
+  "episode_url": "https://lexfridman.com/mark-zuckerberg-2/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=Ff4fRgnuFgQ"
+ },
+ "384": {
+  "episode": 384,
+  "title": "Matthew McConaughey: Freedom, Truth, Family, Hardship, and Love",
+  "guest": "Matthew McConaughey",
+  "published": "2023-06-13",
+  "episode_url": "https://lexfridman.com/matthew-mcconaughey/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=8qgIFD0PaWo"
+ },
+ "385": {
+  "episode": 385,
+  "title": "Jimmy Wales: Wikipedia",
+  "guest": "Jimmy Wales",
+  "published": "2023-06-18",
+  "episode_url": "https://lexfridman.com/jimmy-wales/",
+  "transcript_url": "https://lexfridman.com/jimmy-wales-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=diJp4zoQPqo"
+ },
+ "386": {
+  "episode": 386,
+  "title": "Marc Andreessen: Future of the Internet, Technology, and AI",
+  "guest": "Marc Andreessen",
+  "published": "2023-06-22",
+  "episode_url": "https://lexfridman.com/marc-andreessen-2/",
+  "transcript_url": "https://lexfridman.com/marc-andreessen-2-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=-hxeDjAxvJ8"
+ },
+ "387": {
+  "episode": 387,
+  "title": "George Hotz: Tiny Corp, Twitter, AI Safety, Self-Driving, GPT, AGI & God",
+  "guest": "George Hotz",
+  "published": "2023-06-30",
+  "episode_url": "https://lexfridman.com/george-hotz-3/",
+  "transcript_url": "https://lexfridman.com/george-hotz-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=dNrTrx42DGQ"
+ },
+ "388": {
+  "episode": 388,
+  "title": "Robert F. Kennedy Jr: CIA, Power, Corruption, War, Freedom, and Meaning",
+  "guest": "Robert F. Kennedy Jr",
+  "published": "2023-07-06",
+  "episode_url": "https://lexfridman.com/robert-f-kennedy-jr/",
+  "transcript_url": "https://lexfridman.com/robert-f-kennedy-jr-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=NPtBkw5uD-0"
+ },
+ "389": {
+  "episode": 389,
+  "title": "Benjamin Netanyahu: Israel, Palestine, Power, Corruption, Hate, and Peace",
+  "guest": "Benjamin Netanyahu",
+  "published": "2023-07-12",
+  "episode_url": "https://lexfridman.com/benjamin-netanyahu/",
+  "transcript_url": "https://lexfridman.com/benjamin-netanyahu-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=XpC7SVDXimg"
+ },
+ "390": {
+  "episode": 390,
+  "title": "Yuval Noah Harari: Human Nature, Intelligence, Power, and Conspiracies",
+  "guest": "Yuval Noah Harari",
+  "published": "2023-07-17",
+  "episode_url": "https://lexfridman.com/yuval-noah-harari/",
+  "transcript_url": "https://lexfridman.com/yuval-noah-harari-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Mde2q7GFCrw"
+ },
+ "391": {
+  "episode": 391,
+  "title": "Mohammed El-Kurd: Palestine",
+  "guest": "Mohammed El-Kurd",
+  "published": "2023-07-24",
+  "episode_url": "https://lexfridman.com/mohammed-el-kurd/",
+  "transcript_url": "https://lexfridman.com/mohammed-el-kurd-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=34wA_bdG6QQ"
+ },
+ "392": {
+  "episode": 392,
+  "title": "Joscha Bach: Life, Intelligence, Consciousness, AI & the Future of Humans",
+  "guest": "Joscha Bach",
+  "published": "2023-08-01",
+  "episode_url": "https://lexfridman.com/joscha-bach-3/",
+  "transcript_url": "https://lexfridman.com/joscha-bach-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=e8qJsk1j2zE"
+ },
+ "393": {
+  "episode": 393,
+  "title": "Andrew Huberman: Relationships, Drama, Betrayal, Sex, and Love",
+  "guest": "Andrew Huberman",
+  "published": "2023-08-17",
+  "episode_url": "https://lexfridman.com/andrew-huberman-4/",
+  "transcript_url": "https://lexfridman.com/andrew-huberman-4-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=eTBAxD6lt2g"
+ },
+ "394": {
+  "episode": 394,
+  "title": "Neri Oxman: Biology, Art, and Science of Design & Engineering with Nature",
+  "guest": "Neri Oxman",
+  "published": "2023-09-01",
+  "episode_url": "https://lexfridman.com/neri-oxman/",
+  "transcript_url": "https://lexfridman.com/neri-oxman-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=XbPHojL_61U"
+ },
+ "395": {
+  "episode": 395,
+  "title": "Walter Isaacson: Elon Musk, Steve Jobs, Einstein, Da Vinci & Ben Franklin",
+  "guest": "Walter Isaacson",
+  "published": "2023-09-10",
+  "episode_url": "https://lexfridman.com/walter-isaacson/",
+  "transcript_url": "https://lexfridman.com/walter-isaacson-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=aGOV5R7M1Js"
+ },
+ "396": {
+  "episode": 396,
+  "title": "James Sexton: Divorce Lawyer on Marriage, Relationships, Sex, Lies & Love",
+  "guest": "James Sexton",
+  "published": "2023-09-18",
+  "episode_url": "https://lexfridman.com/james-sexton/",
+  "transcript_url": "https://lexfridman.com/james-sexton-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=fUEjCXpOjPY"
+ },
+ "397": {
+  "episode": 397,
+  "title": "Greg Lukianoff: Cancel Culture, Deplatforming, Censorship & Free Speech",
+  "guest": "Greg Lukianoff",
+  "published": "2023-09-25",
+  "episode_url": "https://lexfridman.com/greg-lukianoff/",
+  "transcript_url": "https://lexfridman.com/greg-lukianoff-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=buarAx_u2qg"
+ },
+ "398": {
+  "episode": 398,
+  "title": "Mark Zuckerberg: First Interview in the Metaverse",
+  "guest": "Mark Zuckerberg",
+  "published": "2023-09-28",
+  "episode_url": "https://lexfridman.com/mark-zuckerberg-3/",
+  "transcript_url": "https://lexfridman.com/mark-zuckerberg-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=MVYrJJNdrEg"
+ },
+ "399": {
+  "episode": 399,
+  "title": "Jared Kushner: Israel, Palestine, Hamas, Gaza, Iran, and the Middle East",
+  "guest": "Jared Kushner",
+  "published": "2023-10-11",
+  "episode_url": "https://lexfridman.com/jared-kushner/",
+  "transcript_url": "https://lexfridman.com/jared-kushner-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=co_MeKSnyAo"
+ },
+ "400": {
+  "episode": 400,
+  "title": "Elon Musk: War, AI, Aliens, Politics, Physics, Video Games, and Humanity",
+  "guest": "Elon Musk",
+  "published": "2023-11-09",
+  "episode_url": "https://lexfridman.com/elon-musk-4/",
+  "transcript_url": "https://lexfridman.com/elon-musk-4-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=JN3KPFbWCy8"
+ },
+ "401": {
+  "episode": 401,
+  "title": "John Mearsheimer: Israel-Palestine, Russia-Ukraine, China, NATO, and WW3",
+  "guest": "John Mearsheimer",
+  "published": "2023-11-18",
+  "episode_url": "https://lexfridman.com/john-mearsheimer/",
+  "transcript_url": "https://lexfridman.com/john-mearsheimer-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=r4wLXNydzeY"
+ },
+ "402": {
+  "episode": 402,
+  "title": "Michael Malice: Thanksgiving Pirate Special",
+  "guest": "Michael Malice",
+  "published": "2023-11-25",
+  "episode_url": "https://lexfridman.com/michael-malice-7/",
+  "transcript_url": "https://lexfridman.com/michael-malice-7-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=2yHr9DPnSzk"
+ },
+ "403": {
+  "episode": 403,
+  "title": "Lisa Randall: Dark Matter, Theoretical Physics, and Extinction Events",
+  "guest": "Lisa Randall",
+  "published": "2023-12-03",
+  "episode_url": "https://lexfridman.com/lisa-randall/",
+  "transcript_url": "https://lexfridman.com/lisa-randall-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=VPaOy3G1-2A"
+ },
+ "404": {
+  "episode": 404,
+  "title": "Lee Cronin: Controversial Nature Paper on Evolution of Life and Universe",
+  "guest": "Lee Cronin",
+  "published": "2023-12-09",
+  "episode_url": "https://lexfridman.com/lee-cronin-3/",
+  "transcript_url": "https://lexfridman.com/lee-cronin-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=CGiDqhSdLHk"
+ },
+ "405": {
+  "episode": 405,
+  "title": "Jeff Bezos: Amazon and Blue Origin",
+  "guest": "Jeff Bezos",
+  "published": "2023-12-14",
+  "episode_url": "https://lexfridman.com/jeff-bezos/",
+  "transcript_url": "https://lexfridman.com/jeff-bezos-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=DcWqzZ3I2cY"
+ },
+ "406": {
+  "episode": 406,
+  "title": "Teddy Atlas: Mike Tyson, Cus D\u2019Amato, Boxing, Loyalty, Fear & Greatness",
+  "guest": "Teddy Atlas",
+  "published": "2023-12-24",
+  "episode_url": "https://lexfridman.com/teddy-atlas/",
+  "transcript_url": "https://lexfridman.com/teddy-atlas-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=CVx9IB_U9X4"
+ },
+ "407": {
+  "episode": 407,
+  "title": "Guillaume Verdon: Beff Jezos, E/acc Movement, Physics, Computation & AGI",
+  "guest": "Guillaume Verdon",
+  "published": "2023-12-29",
+  "episode_url": "https://lexfridman.com/guillaume-verdon/",
+  "transcript_url": "https://lexfridman.com/guillaume-verdon-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=8fEEbKJoNbU"
+ },
+ "408": {
+  "episode": 408,
+  "title": "Tal Wilkenfeld: Music, Guitar, Bass, Jeff Beck, Prince, and Leonard Cohen",
+  "guest": "Tal Wilkenfeld",
+  "published": "2024-01-09",
+  "episode_url": "https://lexfridman.com/tal-wilkenfeld/",
+  "transcript_url": "https://lexfridman.com/tal-wilkenfeld-transcript",
+  "youtube_url": "https://youtube.com/watch?v=BVgUzUZeTw4"
+ },
+ "409": {
+  "episode": 409,
+  "title": "Matthew Cox: FBI Most Wanted Con Man \u2013 $55 Million in Bank Fraud",
+  "guest": "Matthew Cox",
+  "published": "2024-01-17",
+  "episode_url": "https://lexfridman.com/matthew-cox/",
+  "transcript_url": "https://lexfridman.com/matthew-cox-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=zMYvGf7BA9o"
+ },
+ "410": {
+  "episode": 410,
+  "title": "Ben Shapiro vs Destiny Debate: Politics, Jan 6, Israel, Ukraine & Wokeism",
+  "guest": "Ben Shapiro vs Destiny Debate",
+  "published": "2024-01-23",
+  "episode_url": "https://lexfridman.com/ben-shapiro-destiny-debate/",
+  "transcript_url": "https://lexfridman.com/ben-shapiro-destiny-debate-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=tYrdMjVXyNg"
+ },
+ "411": {
+  "episode": 411,
+  "title": "Omar Suleiman: Palestine, Gaza, Oct 7, Israel, Resistance, Faith & Islam",
+  "guest": "Omar Suleiman",
+  "published": "2024-02-02",
+  "episode_url": "https://lexfridman.com/omar-suleiman-2/",
+  "transcript_url": "https://lexfridman.com/omar-suleiman-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=oFSyNdQf5uk"
+ },
+ "412": {
+  "episode": 412,
+  "title": "Marc Raibert: Boston Dynamics and the Future of Robotics",
+  "guest": "Marc Raibert",
+  "published": "2024-02-16",
+  "episode_url": "https://lexfridman.com/marc-raibert/",
+  "transcript_url": "https://lexfridman.com/marc-raibert-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=5VnbBCm_ZyQ"
+ },
+ "413": {
+  "episode": 413,
+  "title": "Bill Ackman: Investing, Financial Battles, Harvard, DEI, X & Free Speech",
+  "guest": "Bill Ackman",
+  "published": "2024-02-20",
+  "episode_url": "https://lexfridman.com/bill-ackman/",
+  "transcript_url": "https://lexfridman.com/bill-ackman-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=XbPHojL_61U"
+ },
+ "414": {
+  "episode": 414,
+  "title": "Tucker Carlson: Putin, Navalny, Trump, CIA, NSA, War, Politics & Freedom",
+  "guest": "Tucker Carlson",
+  "published": "2024-02-27",
+  "episode_url": "https://lexfridman.com/tucker-carlson/",
+  "transcript_url": "https://lexfridman.com/tucker-carlson-transcript",
+  "youtube_url": "https://youtube.com/watch?v=fOCWBhuDdDo"
+ },
+ "415": {
+  "episode": 415,
+  "title": "Serhii Plokhy: History of Ukraine, Russia, Soviet Union, KGB, Nazis & War",
+  "guest": "Serhii Plokhy",
+  "published": "2024-03-04",
+  "episode_url": "https://lexfridman.com/serhii-plokhy/",
+  "transcript_url": "https://lexfridman.com/serhii-plokhy-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=qa-wl8_wpZA"
+ },
+ "416": {
+  "episode": 416,
+  "title": "Yann Lecun: Meta AI, Open Source, Limits of LLMs, AGI & the Future of AI",
+  "guest": "Yann Lecun",
+  "published": "2024-03-07",
+  "episode_url": "https://lexfridman.com/yann-lecun-3/",
+  "transcript_url": "https://lexfridman.com/yann-lecun-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=5t1vTLU7s40"
+ },
+ "417": {
+  "episode": 417,
+  "title": "Kimbal Musk: The Art of Cooking, Tesla, SpaceX, Zip2, and Family",
+  "guest": "Kimbal Musk",
+  "published": "2024-03-10",
+  "episode_url": "https://lexfridman.com/kimbal-musk/",
+  "transcript_url": "https://lexfridman.com/kimbal-musk-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=iAlwZyRUOVM"
+ },
+ "418": {
+  "episode": 418,
+  "title": "Israel-Palestine Debate: Finkelstein, Destiny, M. Rabbani & Benny Morris",
+  "guest": "Israel-Palestine Debate",
+  "published": "2024-03-14",
+  "episode_url": "https://lexfridman.com/israel-palestine-debate/",
+  "transcript_url": "https://lexfridman.com/israel-palestine-debate-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=1X_KdkoGxSs"
+ },
+ "419": {
+  "episode": 419,
+  "title": "Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk, Ilya, Power & AGI",
+  "guest": "Sam Altman",
+  "published": "2024-03-18",
+  "episode_url": "https://lexfridman.com/sam-altman-2/",
+  "transcript_url": "https://lexfridman.com/sam-altman-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=jvqFAi7vkBc"
+ },
+ "420": {
+  "episode": 420,
+  "title": "Annie Jacobsen: Nuclear War, CIA, KGB, Aliens, Area 51, Roswell & Secrecy",
+  "guest": "Annie Jacobsen",
+  "published": "2024-03-22",
+  "episode_url": "https://lexfridman.com/annie-jacobsen/",
+  "transcript_url": "https://lexfridman.com/annie-jacobsen-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=GXgGR8KxFao"
+ },
+ "421": {
+  "episode": 421,
+  "title": "Dana White: UFC, Fighting, Khabib, Conor, Tyson, Ali, Rogan, Elon & Zuck",
+  "guest": "Dana White",
+  "published": "2024-03-25",
+  "episode_url": "https://lexfridman.com/dana-white/",
+  "transcript_url": "https://lexfridman.com/dana-white-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=k7aQEqDbuf8"
+ },
+ "422": {
+  "episode": 422,
+  "title": "Mark Cuban: Shark Tank, DEI & Wokeism Debate, Elon Musk, Politics & Drugs",
+  "guest": "Mark Cuban",
+  "published": "2024-03-29",
+  "episode_url": "https://lexfridman.com/mark-cuban/",
+  "transcript_url": "https://lexfridman.com/mark-cuban-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=0cn3VBjfN8g"
+ },
+ "423": {
+  "episode": 423,
+  "title": "Tulsi Gabbard: War, Politics, and the Military Industrial Complex",
+  "guest": "Tulsi Gabbard",
+  "published": "2024-04-02",
+  "episode_url": "https://lexfridman.com/tulsi-gabbard/",
+  "transcript_url": "https://lexfridman.com/tulsi-gabbard-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=_El9riy9Zjw"
+ },
+ "424": {
+  "episode": 424,
+  "title": "Bassem Youssef: Israel-Palestine, Gaza, Hamas, Middle East, Satire & Fame",
+  "guest": "Bassem Youssef",
+  "published": "2024-04-05",
+  "episode_url": "https://lexfridman.com/bassem-youssef/",
+  "transcript_url": "https://lexfridman.com/bassem-youssef-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=sG8u6owzad4"
+ },
+ "425": {
+  "episode": 425,
+  "title": "Andrew Callaghan: Channel 5, Gonzo, QAnon, O-Block, Politics & Alex Jones",
+  "guest": "Andrew Callaghan",
+  "published": "2024-04-13",
+  "episode_url": "https://lexfridman.com/andrew-callaghan/",
+  "transcript_url": "https://lexfridman.com/andrew-callaghan-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=yEou104m_P0"
+ },
+ "426": {
+  "episode": 426,
+  "title": "Edward Gibson: Human Language, Psycholinguistics, Syntax, Grammar & LLMs",
+  "guest": "Edward Gibson",
+  "published": "2024-04-17",
+  "episode_url": "https://lexfridman.com/edward-gibson/",
+  "transcript_url": "https://lexfridman.com/edward-gibson-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=F3Jd9GI6XqE"
+ },
+ "427": {
+  "episode": 427,
+  "title": "Neil Adams: Judo, Olympics, Winning, Losing, and the Champion Mindset",
+  "guest": "Neil Adams",
+  "published": "2024-04-20",
+  "episode_url": "https://lexfridman.com/neil-adams/",
+  "transcript_url": "https://lexfridman.com/neil-adams-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=TXabC2Ave74"
+ },
+ "428": {
+  "episode": 428,
+  "title": "Sean Carroll: General Relativity, Quantum Mechanics, Black Holes & Aliens",
+  "guest": "Sean Carroll",
+  "published": "2024-04-22",
+  "episode_url": "https://lexfridman.com/sean-carroll-3/",
+  "transcript_url": "https://lexfridman.com/sean-carroll-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=tdv7r2JSokI"
+ },
+ "429": {
+  "episode": 429,
+  "title": "Paul Rosolie: Jungle, Apex Predators, Aliens, Uncontacted Tribes, and God",
+  "guest": "Paul Rosolie",
+  "published": "2024-05-15",
+  "episode_url": "https://lexfridman.com/paul-rosolie-2/",
+  "transcript_url": "https://lexfridman.com/paul-rosolie-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=pwN8u6HFH8U"
+ },
+ "430": {
+  "episode": 430,
+  "title": "Charan Ranganath: Human Memory, Imagination, Deja Vu, and False Memories",
+  "guest": "Charan Ranganath",
+  "published": "2024-05-25",
+  "episode_url": "https://lexfridman.com/charan-ranganath/",
+  "transcript_url": "https://lexfridman.com/charan-ranganath-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=4iuepdI3wCU"
+ },
+ "431": {
+  "episode": 431,
+  "title": "Roman Yampolskiy: Dangers of Superintelligent AI",
+  "guest": "Roman Yampolskiy",
+  "published": "2024-06-02",
+  "episode_url": "https://lexfridman.com/roman-yampolskiy/",
+  "transcript_url": "https://lexfridman.com/roman-yampolskiy-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=NNr6gPelJ3E"
+ },
+ "432": {
+  "episode": 432,
+  "title": "Kevin Spacey: Power, Controversy, Betrayal, Truth & Love in Film and Life",
+  "guest": "Kevin Spacey",
+  "published": "2024-06-05",
+  "episode_url": "https://lexfridman.com/kevin-spacey/",
+  "transcript_url": "https://lexfridman.com/kevin-spacey-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=XJTMQtE-MIo"
+ },
+ "433": {
+  "episode": 433,
+  "title": "Sara Walker: Physics of Life, Time, Complexity, and Aliens",
+  "guest": "Sara Walker",
+  "published": "2024-06-13",
+  "episode_url": "https://lexfridman.com/sara-walker-3/",
+  "transcript_url": "https://lexfridman.com/sara-walker-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=wwhTfyX9J34"
+ },
+ "434": {
+  "episode": 434,
+  "title": "Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet",
+  "guest": "Aravind Srinivas",
+  "published": "2024-06-19",
+  "episode_url": "https://lexfridman.com/aravind-srinivas/",
+  "transcript_url": "https://lexfridman.com/aravind-srinivas-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=e-gwvmhyU7A"
+ },
+ "435": {
+  "episode": 435,
+  "title": "Andrew Huberman: Focus, Controversy, Politics, and Relationships",
+  "guest": "Andrew Huberman",
+  "published": "2024-06-28",
+  "episode_url": "https://lexfridman.com/andrew-huberman-5/",
+  "transcript_url": "https://lexfridman.com/andrew-huberman-5-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=ZIyB9e_7a4c"
+ },
+ "436": {
+  "episode": 436,
+  "title": "Ivanka Trump: Politics, Family, Real Estate, Fashion, Music, and Life",
+  "guest": "Ivanka Trump",
+  "published": "2024-07-02",
+  "episode_url": "https://lexfridman.com/ivanka-trump/",
+  "transcript_url": "https://lexfridman.com/ivanka-trump-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=2oxdDKHdcM8"
+ },
+ "437": {
+  "episode": 437,
+  "title": "Jordan Jonas: Survival, Hunting, Siberia, God, and Winning Alone Season 6",
+  "guest": "Jordan Jonas",
+  "published": "2024-07-21",
+  "episode_url": "https://lexfridman.com/jordan-jonas/",
+  "transcript_url": "https://lexfridman.com/jordan-jonas-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=WA9gVKKPsBo"
+ },
+ "438": {
+  "episode": 438,
+  "title": "Elon Musk: Neuralink and the Future of Humanity",
+  "guest": "Elon Musk",
+  "published": "2024-08-02",
+  "episode_url": "https://lexfridman.com/elon-musk-and-neuralink-team/",
+  "transcript_url": "https://lexfridman.com/elon-musk-and-neuralink-team-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Kbk9BiPhm7o"
+ },
+ "439": {
+  "episode": 439,
+  "title": "Craig Jones: Jiu Jitsu, $2 Million Prize, CJI, ADCC, Ukraine & Trolling",
+  "guest": "Craig Jones",
+  "published": "2024-08-14",
+  "episode_url": "https://lexfridman.com/craig-jones-2/",
+  "transcript_url": "https://lexfridman.com/craig-jones-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=J7aiEwp1x9k"
+ },
+ "440": {
+  "episode": 440,
+  "title": "Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life",
+  "guest": "Pieter Levels",
+  "published": "2024-08-20",
+  "episode_url": "https://lexfridman.com/pieter-levels/",
+  "transcript_url": "https://lexfridman.com/pieter-levels-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=oFtjKbXKqbg"
+ },
+ "441": {
+  "episode": 441,
+  "title": "Cenk Uygur: Trump vs Harris, Progressive Politics, Communism & Capitalism",
+  "guest": "Cenk Uygur",
+  "published": "2024-08-30",
+  "episode_url": "https://lexfridman.com/cenk-uygur/",
+  "transcript_url": "https://lexfridman.com/cenk-uygur-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=QJtPROVsePk"
+ },
+ "442": {
+  "episode": 442,
+  "title": "Donald Trump Interview",
+  "guest": "Donald Trump Interview",
+  "published": "2024-09-03",
+  "episode_url": "https://lexfridman.com/donald-trump/",
+  "transcript_url": "https://lexfridman.com/donald-trump-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=qCbfTN-caFI"
+ },
+ "443": {
+  "episode": 443,
+  "title": "Gregory Aldrete: The Roman Empire \u2013 Rise and Fall of Ancient Rome",
+  "guest": "Gregory Aldrete",
+  "published": "2024-09-12",
+  "episode_url": "https://lexfridman.com/gregory-aldrete/",
+  "transcript_url": "https://lexfridman.com/gregory-aldrete-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=DyoVVSggPjY"
+ },
+ "444": {
+  "episode": 444,
+  "title": "Vejas Liulevicius: Communism, Marxism, Nazism, Stalin, Mao, and Hitler",
+  "guest": "Vejas Liulevicius",
+  "published": "2024-09-20",
+  "episode_url": "https://lexfridman.com/vejas-liulevicius/",
+  "transcript_url": "https://lexfridman.com/vejas-liulevicius-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=s1oTH4Sjvzg"
+ },
+ "445": {
+  "episode": 445,
+  "title": "Vivek Ramaswamy: Trump, Conservatism, Nationalism, Immigration, and War",
+  "guest": "Vivek Ramaswamy",
+  "published": "2024-09-25",
+  "episode_url": "https://lexfridman.com/vivek-ramaswamy/",
+  "transcript_url": "https://lexfridman.com/vivek-ramaswamy-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Q8Qk_3a3lUw"
+ },
+ "446": {
+  "episode": 446,
+  "title": "Ed Barnhart: Maya, Aztec, Inca, and Lost Civilizations of South America",
+  "guest": "Ed Barnhart",
+  "published": "2024-09-30",
+  "episode_url": "https://lexfridman.com/ed-barnhart/",
+  "transcript_url": "https://lexfridman.com/ed-barnhart-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=AzzE7GOvYz8"
+ },
+ "447": {
+  "episode": 447,
+  "title": "Cursor Team: Future of Programming with AI",
+  "guest": "Cursor Team",
+  "published": "2024-10-06",
+  "episode_url": "https://lexfridman.com/cursor-team/",
+  "transcript_url": "https://lexfridman.com/cursor-team-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=oFfVt3S51T4"
+ },
+ "448": {
+  "episode": 448,
+  "title": "Jordan Peterson: Nietzsche, Hitler, God, Psychopathy, Suffering & Meaning",
+  "guest": "Jordan Peterson",
+  "published": "2024-10-11",
+  "episode_url": "https://lexfridman.com/jordan-peterson-2/",
+  "transcript_url": "https://lexfridman.com/jordan-peterson-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=q8VePUwjB9Y"
+ },
+ "449": {
+  "episode": 449,
+  "title": "Graham Hancock: Lost Civilization of the Ice Age & Ancient Human History",
+  "guest": "Graham Hancock",
+  "published": "2024-10-16",
+  "episode_url": "https://lexfridman.com/graham-hancock/",
+  "transcript_url": "https://lexfridman.com/jordan-peterson-2-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=NMHiLvirCb0"
+ },
+ "450": {
+  "episode": 450,
+  "title": "Bernie Sanders Interview",
+  "guest": "Bernie Sanders Interview",
+  "published": "2024-10-23",
+  "episode_url": "https://lexfridman.com/bernie-sanders/",
+  "transcript_url": "https://lexfridman.com/bernie-sanders-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=MzkgWDCucNY"
+ },
+ "451": {
+  "episode": 451,
+  "title": "Rick Spence: CIA, KGB, Illuminati, Secret Societies, Cults & Conspiracies",
+  "guest": "Rick Spence",
+  "published": "2024-10-30",
+  "episode_url": "https://lexfridman.com/rick-spence/",
+  "transcript_url": "https://lexfridman.com/rick-spence-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=abd5hguWKz0"
+ },
+ "452": {
+  "episode": 452,
+  "title": "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity",
+  "guest": "Dario Amodei",
+  "published": "2024-11-11",
+  "episode_url": "https://lexfridman.com/dario-amodei/",
+  "transcript_url": "https://lexfridman.com/dario-amodei-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=ugvHCXCOmm4"
+ },
+ "453": {
+  "episode": 453,
+  "title": "Javier Milei: President of Argentina \u2013 Freedom, Economics, and Corruption",
+  "guest": "Javier Milei",
+  "published": "2024-11-20",
+  "episode_url": "https://lexfridman.com/javier-milei/",
+  "transcript_url": "https://lexfridman.com/javier-milei-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=8NLzc9kobDk"
+ },
+ "454": {
+  "episode": 454,
+  "title": "Saagar Enjeti: Trump, MAGA, DOGE, Obama, FDR, JFK, History & Politics",
+  "guest": "Saagar Enjeti",
+  "published": "2024-12-08",
+  "episode_url": "https://lexfridman.com/saagar-enjeti-2/",
+  "transcript_url": "https://lexfridman.com/saagar-enjeti-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=9xz8i90Hp2A"
+ },
+ "455": {
+  "episode": 455,
+  "title": "Adam Frank: Alien Civilizations and the Search for Extraterrestrial Life",
+  "guest": "Adam Frank",
+  "published": "2024-12-22",
+  "episode_url": "https://lexfridman.com/adam-frank/",
+  "transcript_url": "https://lexfridman.com/adam-frank-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=yhZAXXI83-4"
+ },
+ "456": {
+  "episode": 456,
+  "title": "Volodymyr Zelenskyy: Ukraine, War, Peace, Putin, Trump, NATO, and Freedom",
+  "guest": "Volodymyr Zelenskyy",
+  "published": "2025-01-06",
+  "episode_url": "https://lexfridman.com/volodymyr-zelenskyy/",
+  "transcript_url": "https://lexfridman.com/volodymyr-zelenskyy-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=u321m25rKXc"
+ },
+ "457": {
+  "episode": 457,
+  "title": "Jennifer Burns: Milton Friedman, Ayn Rand, Economics, Capitalism, Freedom",
+  "guest": "Jennifer Burns",
+  "published": "2025-01-19",
+  "episode_url": "https://lexfridman.com/jennifer-burns/",
+  "transcript_url": "https://lexfridman.com/jennifer-burns-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Rz-4ulRKnz4"
+ },
+ "458": {
+  "episode": 458,
+  "title": "Marc Andreessen: Trump, Power, Tech, AI, Immigration & Future of America",
+  "guest": "Marc Andreessen",
+  "published": "2025-01-26",
+  "episode_url": "https://lexfridman.com/marc-andreessen-2/",
+  "transcript_url": "https://lexfridman.com/marc-andreessen-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=OHWnPOKh_S0"
+ },
+ "459": {
+  "episode": 459,
+  "title": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters",
+  "guest": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters",
+  "published": "2025-02-03",
+  "episode_url": "https://lexfridman.com/deepseek-dylan-patel-nathan-lambert/",
+  "transcript_url": "https://lexfridman.com/deepseek-dylan-patel-nathan-lambert-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=_1f-o0nqpEI"
+ },
+ "460": {
+  "episode": 460,
+  "title": "Narendra Modi: Prime Minister of India \u2013 Power, Democracy, War & Peace",
+  "guest": "Narendra Modi",
+  "published": "2025-03-16",
+  "episode_url": "https://lexfridman.com/narendra-modi/",
+  "transcript_url": "https://lexfridman.com/narendra-modi-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=ZPUtA3W-7_I"
+ },
+ "461": {
+  "episode": 461,
+  "title": "ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God",
+  "guest": "ThePrimeagen",
+  "published": "2025-03-22",
+  "episode_url": "https://lexfridman.com/theprimeagen/",
+  "transcript_url": "https://lexfridman.com/theprimeagen-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=tNZnLkRBYA8"
+ },
+ "462": {
+  "episode": 462,
+  "title": "Ezra Klein and Derek Thompson: Politics, Trump, AOC, Elon & DOGE",
+  "guest": "Ezra Klein and Derek Thompson",
+  "published": "2025-03-26",
+  "episode_url": "https://lexfridman.com/ezra-klein-and-derek-thompson/",
+  "transcript_url": "https://lexfridman.com/ezra-klein-and-derek-thompson-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=DTPSeeKokdo"
+ },
+ "463": {
+  "episode": 463,
+  "title": "Douglas Murray: Putin, Zelenskyy, Trump, Israel, Netanyahu, Hamas & Gaza",
+  "guest": "Douglas Murray",
+  "published": "2025-03-30",
+  "episode_url": "https://lexfridman.com/douglas-murray-2/",
+  "transcript_url": "https://lexfridman.com/douglas-murray-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=HvI42TyE5Ww"
+ },
+ "464": {
+  "episode": 464,
+  "title": "Dave Smith: Israel, Ukraine, Epstein, Mossad, Conspiracies & Antisemitism",
+  "guest": "Dave Smith",
+  "published": "2025-04-09",
+  "episode_url": "https://lexfridman.com/dave-smith/",
+  "transcript_url": "https://lexfridman.com/dave-smith-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=1V0bJfqEaa4"
+ },
+ "465": {
+  "episode": 465,
+  "title": "Robert Rodriguez: Sin City, Desperado, El Mariachi, Alita, and Filmmaking",
+  "guest": "Robert Rodriguez",
+  "published": "2025-04-17",
+  "episode_url": "https://lexfridman.com/robert-rodriguez/",
+  "transcript_url": "https://lexfridman.com/robert-rodriguez-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=xJoT3bJyHuA"
+ },
+ "466": {
+  "episode": 466,
+  "title": "Jeffrey Wasserstrom: China, Xi Jinping, Trade War, Taiwan, Hong Kong, Mao",
+  "guest": "Jeffrey Wasserstrom",
+  "published": "2025-04-24",
+  "episode_url": "https://lexfridman.com/jeffrey-wasserstrom/",
+  "transcript_url": "https://lexfridman.com/jeffrey-wasserstrom-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=3W5FWUN5w2Q"
+ },
+ "467": {
+  "episode": 467,
+  "title": "Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming",
+  "guest": "Tim Sweeney",
+  "published": "2025-04-30",
+  "episode_url": "https://lexfridman.com/tim-sweeney/",
+  "transcript_url": "https://lexfridman.com/tim-sweeney-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=477qF6QNSvc"
+ },
+ "468": {
+  "episode": 468,
+  "title": "Janna Levin: Black Holes, Wormholes, Aliens, Paradoxes & Extra Dimensions",
+  "guest": "Janna Levin",
+  "published": "2025-05-05",
+  "episode_url": "https://lexfridman.com/janna-levin/",
+  "transcript_url": "https://lexfridman.com/janna-levin-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=A6m4iJIw_84"
+ },
+ "469": {
+  "episode": 469,
+  "title": "Oliver Anthony: Country Music, Blue-Collar America, Fame, Money, and Pain",
+  "guest": "Oliver Anthony",
+  "published": "2025-05-20",
+  "episode_url": "https://lexfridman.com/oliver-anthony/",
+  "transcript_url": "https://lexfridman.com/oliver-anthony-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=4OyB3hFb2AA"
+ },
+ "470": {
+  "episode": 470,
+  "title": "James Holland: World War II, Hitler, Churchill, Stalin & Biggest Battles",
+  "guest": "James Holland",
+  "published": "2025-05-24",
+  "episode_url": "https://lexfridman.com/james-holland/",
+  "transcript_url": "https://lexfridman.com/james-holland-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=cp1lprZUQcE"
+ },
+ "471": {
+  "episode": 471,
+  "title": "Sundar Pichai: CEO of Google and Alphabet",
+  "guest": "Sundar Pichai",
+  "published": "2025-06-05",
+  "episode_url": "https://lexfridman.com/sundar-pichai/",
+  "transcript_url": "https://lexfridman.com/sundar-pichai-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=9V6tWC4CdFQ"
+ },
+ "472": {
+  "episode": 472,
+  "title": "Terence Tao: Hardest Problems in Mathematics, Physics & the Future of AI",
+  "guest": "Terence Tao",
+  "published": "2025-06-15",
+  "episode_url": "https://lexfridman.com/terence-tao/",
+  "transcript_url": "https://lexfridman.com/terence-tao-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=HUkBz-cdB-k"
+ },
+ "473": {
+  "episode": 473,
+  "title": "Iran War Debate: Nuclear Weapons, Trump, Peace, Power & the Middle East",
+  "guest": "Iran War Debate",
+  "published": "2025-06-26",
+  "episode_url": "https://lexfridman.com/iran-war-debate/",
+  "transcript_url": "https://lexfridman.com/iran-war-debate-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=gtmJi8LbAts"
+ },
+ "474": {
+  "episode": 474,
+  "title": "DHH: Future of Programming, AI, Ruby on Rails, Productivity & Parenting",
+  "guest": "DHH",
+  "published": "2025-07-12",
+  "episode_url": "https://lexfridman.com/dhh-david-heinemeier-hansson/",
+  "transcript_url": "https://lexfridman.com/dhh-david-heinemeier-hansson-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=vagyIcmIGOQ"
+ },
+ "475": {
+  "episode": 475,
+  "title": "Demis Hassabis: Future of AI, Simulating Reality, Physics and Video Games",
+  "guest": "Demis Hassabis",
+  "published": "2025-07-23",
+  "episode_url": "https://lexfridman.com/demis-hassabis-2/",
+  "transcript_url": "https://lexfridman.com/demis-hassabis-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=-HzgcbRXUK8"
+ },
+ "476": {
+  "episode": 476,
+  "title": "Jack Weatherford: Genghis Khan and the Mongol Empire",
+  "guest": "Jack Weatherford",
+  "published": "2025-08-01",
+  "episode_url": "https://lexfridman.com/jack-weatherford/",
+  "transcript_url": "https://lexfridman.com/jack-weatherford-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=U1H1Ob7jk8Q"
+ },
+ "477": {
+  "episode": 477,
+  "title": "Keyu Jin: China\u2019s Economy, Tariffs, Trade, Trump, Communism & Capitalism",
+  "guest": "Keyu Jin",
+  "published": "2025-08-13",
+  "episode_url": "https://lexfridman.com/keyu-jin/",
+  "transcript_url": "https://lexfridman.com/keyu-jin-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=y3yAVZk3tyA"
+ },
+ "478": {
+  "episode": 478,
+  "title": "Scott Horton: The Case Against War and the Military Industrial Complex",
+  "guest": "Scott Horton",
+  "published": "2025-08-24",
+  "episode_url": "https://lexfridman.com/scott-horton/",
+  "transcript_url": "",
+  "youtube_url": "https://www.youtube.com/watch?v=jdCKiEJpwf4"
+ },
+ "479": {
+  "episode": 479,
+  "title": "Dave Plummer: Programming, Autism, and Old-School Microsoft Stories",
+  "guest": "Dave Plummer",
+  "published": "2025-08-29",
+  "episode_url": "https://lexfridman.com/dave-plummer/",
+  "transcript_url": "https://lexfridman.com/dave-hone-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=HsLgZzgpz9Y"
+ },
+ "480": {
+  "episode": 480,
+  "title": "Dave Hone: T-Rex, Dinosaurs, Extinction, Evolution, and Jurassic Park",
+  "guest": "Dave Hone",
+  "published": "2025-09-04",
+  "episode_url": "https://lexfridman.com/dave-hone/",
+  "transcript_url": "https://lexfridman.com/dave-hone-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=-Qm1_On71Oo"
+ },
+ "481": {
+  "episode": 481,
+  "title": "Norman Ohler: Hitler, Nazis, Drugs, WW2, Blitzkrieg, LSD, MKUltra & CIA",
+  "guest": "Norman Ohler",
+  "published": "2025-09-19",
+  "episode_url": "https://lexfridman.com/norman-ohler/",
+  "transcript_url": "https://lexfridman.com/norman-ohler-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=SvKv7D4pBjE"
+ },
+ "482": {
+  "episode": 482,
+  "title": "Pavel Durov: Telegram, Freedom, Censorship, Money, Power & Human Nature",
+  "guest": "Pavel Durov",
+  "published": "2025-10-01",
+  "episode_url": "https://lexfridman.com/pavel-durov/",
+  "transcript_url": "https://lexfridman.com/pavel-durov-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=qjPH9njnaVU"
+ },
+ "483": {
+  "episode": 483,
+  "title": "Julia Shaw: Criminal Psychology of Murder, Serial Killers, Memory & Sex",
+  "guest": "Julia Shaw",
+  "published": "2025-10-14",
+  "episode_url": "https://lexfridman.com/julia-shaw/",
+  "transcript_url": "https://lexfridman.com/julia-shaw-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=7OLVwZeMCfY"
+ },
+ "484": {
+  "episode": 484,
+  "title": "Dan Houser: GTA, Red Dead Redemption, Rockstar, Absurd & Future of Gaming",
+  "guest": "Dan Houser",
+  "published": "2025-10-31",
+  "episode_url": "https://lexfridman.com/dan-houser/",
+  "transcript_url": "https://lexfridman.com/dan-houser-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=o3gbXDjNWyI"
+ },
+ "485": {
+  "episode": 485,
+  "title": "David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy",
+  "guest": "David Kirtley",
+  "published": "2025-11-17",
+  "episode_url": "https://lexfridman.com/david-kirtley/",
+  "transcript_url": "https://lexfridman.com/david-kirtley-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=m_CFCyc2Shs"
+ },
+ "486": {
+  "episode": 486,
+  "title": "Michael Levin: Hidden Reality of Alien Intelligence & Biological Life",
+  "guest": "Michael Levin",
+  "published": "2025-11-30",
+  "episode_url": "https://lexfridman.com/michael-levin-2/",
+  "transcript_url": "https://lexfridman.com/michael-levin-2-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Qp0rCU49lMs"
+ },
+ "487": {
+  "episode": 487,
+  "title": "Irving Finkel: Deciphering Secrets of Ancient Civilizations & Flood Myths",
+  "guest": "Irving Finkel",
+  "published": "2025-12-12",
+  "episode_url": "https://lexfridman.com/irving-finkel/",
+  "transcript_url": "https://lexfridman.com/irving-finkel-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=_bBRVNkAfkQ"
+ },
+ "488": {
+  "episode": 488,
+  "title": "Infinity, Paradoxes that Broke Mathematics, G\u00f6del Incompleteness & the Multiverse \u2013 Joel David Hamkins",
+  "guest": "Infinity, Paradoxes that Broke Mathematics, G\u00f6del Incompleteness & the Multiverse \u2013 Joel David Hamkins",
+  "published": "2025-12-31",
+  "episode_url": "https://lexfridman.com/joel-david-hamkins/",
+  "transcript_url": "https://lexfridman.com/joel-david-hamkins-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=14OPT6CcsH4"
+ },
+ "489": {
+  "episode": 489,
+  "title": "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle",
+  "guest": "Paul Rosolie",
+  "published": "2026-01-13",
+  "episode_url": "https://lexfridman.com/paul-rosolie-3/",
+  "transcript_url": "https://lexfridman.com/paul-rosolie-3-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=Z-FRe5AKmCU"
+ },
+ "490": {
+  "episode": 490,
+  "title": "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI",
+  "guest": "State of AI in 2026",
+  "published": "2026-02-01",
+  "episode_url": "https://lexfridman.com/ai-sota-2026/",
+  "transcript_url": "https://lexfridman.com/ai-sota-2026-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=EV7WhVT270Q"
+ },
+ "491": {
+  "episode": 491,
+  "title": "OpenClaw: The Viral AI Agent that Broke the Internet \u2013 Peter Steinberger",
+  "guest": "OpenClaw",
+  "published": "2026-02-12",
+  "episode_url": "https://lexfridman.com/peter-steinberger/",
+  "transcript_url": "https://lexfridman.com/peter-steinberger-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=YFjfBk8HI5o"
+ },
+ "492": {
+  "episode": 492,
+  "title": "Rick Beato: Greatest Guitarists of All Time, History & Future of Music",
+  "guest": "Rick Beato",
+  "published": "2026-03-01",
+  "episode_url": "https://lexfridman.com/rick-beato/",
+  "transcript_url": "https://lexfridman.com/rick-beato-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=1SJiTwbSI58"
+ },
+ "493": {
+  "episode": 493,
+  "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming",
+  "guest": "Jeff Kaplan",
+  "published": "2026-03-11",
+  "episode_url": "https://lexfridman.com/jeff-kaplan/",
+  "transcript_url": "https://lexfridman.com/jeff-kaplan-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=H9rF1CSSh-w"
+ },
+ "494": {
+  "episode": 494,
+  "title": "Jensen Huang: NVIDIA \u2013 The $4 Trillion Company & the AI Revolution",
+  "guest": "Jensen Huang",
+  "published": "2026-03-23",
+  "episode_url": "https://lexfridman.com/jensen-huang/",
+  "transcript_url": "https://lexfridman.com/jensen-huang-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=vif8NQcjVf0"
+ },
+ "495": {
+  "episode": 495,
+  "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age",
+  "guest": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age",
+  "published": "2026-04-09",
+  "episode_url": "https://lexfridman.com/lars-brownworth/",
+  "transcript_url": "https://lexfridman.com/lars-brownworth-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=iKx3gAODybU"
+ },
+ "496": {
+  "episode": 496,
+  "title": "FFmpeg: The Incredible Technology Behind Video on the Internet",
+  "guest": "FFmpeg",
+  "published": "2026-05-06",
+  "episode_url": "https://lexfridman.com/ffmpeg/",
+  "transcript_url": "https://lexfridman.com/ffmpeg-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=nepKKz-MzFM"
+ },
+ "497": {
+  "episode": 497,
+  "title": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE \u2013 Don Lincoln",
+  "guest": "Biggest Mysteries in Physics",
+  "published": "2026-05-29",
+  "episode_url": "https://lexfridman.com/don-lincoln/",
+  "transcript_url": "https://lexfridman.com/don-lincoln-transcript/",
+  "youtube_url": "https://www.youtube.com/watch?v=1M3Vdl6DRkU"
+ },
+ "498": {
+  "episode": 498,
+  "title": "Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+  "guest": "Anthony Kaldellis",
+  "published": "2026-06-30",
+  "episode_url": "https://lexfridman.com/anthony-kaldellis/",
+  "transcript_url": "https://lexfridman.com/anthony-kaldellis-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=pv1TUJSEM2k"
+ },
+ "499": {
+  "episode": 499,
+  "title": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+  "guest": "Gary Gallagher",
+  "published": "2026-07-28",
+  "episode_url": "https://lexfridman.com/gary-gallagher/",
+  "transcript_url": "https://lexfridman.com/gary-gallagher-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=XyXBwO5jYpw"
+ },
+ "500": {
+  "episode": 500,
+  "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+  "guest": "Khabib Nurmagomedov",
+  "published": "2026-08-12",
+  "episode_url": "https://lexfridman.com/khabib-nurmagomedov/",
+  "transcript_url": "https://lexfridman.com/khabib-nurmagomedov-transcript",
+  "youtube_url": "https://www.youtube.com/watch?v=l6USUAIKJls"
+ }
+}
