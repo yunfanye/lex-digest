@@ -4,6 +4,9 @@ Downloaded 2026-08-18. 500 episodes, one markdown file each, ~72 MB total.
 
 ## Layout
 
+- `digests/NNN-<slug>.md` — repo copy of each episode's generated digest
+  (one-liner, summary, takeaways, highlights, topics). Synced both ways with
+  the DB via `scripts/sync_digests.mjs`; see `docs/CONTENT.md`.
 - `transcripts/NNN-<slug>.md` — one file per episode. YAML front-matter
   (`episode`, `title`, `guest`, `published`, `source`, `source_url`, `quality`)
   followed by timestamped text. Official transcripts keep speaker labels and
