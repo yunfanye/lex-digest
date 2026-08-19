@@ -4,8 +4,6 @@ on:
   pull_request:
     branches: [master]
     types: [opened]
-  push:
-    branches: [agent/digests-1-500]
   workflow_dispatch:
 
 permissions:
@@ -20,12 +18,12 @@ jobs:
 
       - name: Package repository
         run: |
-          tar --exclude=.git -czf lex-digest-repository.tar.gz .
+          tar --exclude=.git -czf /tmp/lex-digest-repository.tar.gz .
 
       - name: Upload repository
         uses: actions/upload-artifact@v4
         with:
           name: lex-digest-repository
-          path: lex-digest-repository.tar.gz
+          path: /tmp/lex-digest-repository.tar.gz
           retention-days: 1
           compression-level: 0
