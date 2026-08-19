@@ -1,6 +1,9 @@
-name: Export digest corpus
+name: Export digest repository
 
 on:
+  pull_request:
+    branches: [master]
+    types: [opened]
   push:
     branches: [agent/digests-1-500]
   workflow_dispatch:
