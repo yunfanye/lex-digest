@@ -1,6 +1,9 @@
 name: Generate digests 100-199
 
 on:
+  pull_request:
+    branches: [master]
+    types: [opened, synchronize, reopened]
   push:
     branches: [agent/digests-100-199]
     paths: [.github/workflows/generate-digests-100-199.yml]
