@@ -4,1706 +4,1130 @@ title: "#479 – Dave Plummer: Programming, Autism, and Old-School Microsoft Sto
 guest: "Dave Plummer"
 published: 2025-08-29
 source: lexfridman.com official transcript
-source_url: https://lexfridman.com/dave-hone-transcript/
+source_url: https://lexfridman.com/dave-plummer-transcript/
 quality: human
 ---
 
-## Episode highlight
-
-**Dave Hone** (00:00:00): T. rex is definitely weird, even compared to all the other giant tyrannosaurs that are very closely related to it, because it is by far, ludicrously by far, the largest carnivore in its ecosystem.
-
-**Lex Fridman** (00:00:14): So it doesn’t really have competition, actually.
-
-**Dave Hone** (00:00:16): I mean, this is a Velociraptor skull. There are some carnivores that are a bit bigger than this, but not enormously so, which were knocking around as T. rex. The skull’s the same type, tooth, right? But like, you think about that— and that’s like going to Africa and going, “Okay, there are lions. What’s the next biggest predator?” And it’s like, well, there’s a weasel about this big. Like, it- it’s that kind of size difference and you don’t get that normally in ecosystems.
-
-**Lex Fridman** (00:00:51): It would eat the juveniles of the herbivores, but not—
-
-**Dave Hone** (00:00:53): Oh yeah, it’s going to be eating Triceratops, Edmontosaurus, and Parasaurolophus. There are even a couple of giant sauropods knocking around—
-
-**Lex Fridman** (00:00:59): Got it.
-
-**Dave Hone** (00:00:59): in some places. It’s going to be hoovering them up, but like, how often is it going to eat… Again, Velociraptor isn’t there, but how often is it going to eat something the size of an adult Velociraptor? I mean, they’re a fraction of our size, and we’re probably too small. This is like lions hunting mice. You’re just not going to, unless one, like, virtually runs into your mouth, you’re not going to go and try and eat it.
-
-
 ## Introduction
 
-**Lex Fridman** (00:01:23): The following is a conversation with Dave Hone, a paleontologist, expert on dinosaurs, co-host of the Terrible Lizards podcast, and author of many scientific papers and books on the behavior and ecology of dinosaurs. This was truly a fun and fascinating conversation. This is the Lex Fridman Podcast. To support it, please check out our sponsors in the description and consider subscribing to this channel. And now, dear friends, here’s Dave Hone.
+**Lex Fridman** (00:00:00): The following is a conversation with Dave Plummer, programmer and an old-school Microsoft software engineer who helped work on Windows 95, NT, and XP, building a lot of incredible tools, some of which have been continuously used by hundreds of millions of people, like the famed Windows Task Manager. Yes, the Windows Task Manager, and the zip/unzip compression support in Windows. He also ported the code for Space Cadet Pinball, also known as 3D Pinball, to Windows. Today, he’s loved by many programmers and engineers for his amazing YouTube channel called Dave’s Garage. You should definitely go check it out.
 
+**Lex Fridman** (00:00:44): Also, he wrote a book on autism, and about his life story, called Secrets of the Autistic Millionaire, where he gives really interesting insights about how to navigate relationships, career, and day-to-day life with autism. All this taken together, this was a super fun conversation about the history and future of programming, computing, technology, and just building cool stuff in the proverbial garage. This is the Lex Fridman Podcast. To support it, please check out our sponsors in the description, and now, dear friends, here’s Dave Plummer.
 
-## T-Rex’s size & biomechanics
+## First computer
 
-**Lex Fridman** (00:01:56): Let’s start with the T. rex dinosaur, possibly the most iconic predator in the history of Earth. You have deeply studied and written about their evolution, biology, ecology, and behavior, so let’s first maybe put ourselves in the time of the dinosaurs and imagine we’re standing in front of a T. rex. What does it look like? What are the key features of the dinosaur in front of us?
+**Lex Fridman** (00:01:22): Tell me about your first computer. Do you remember?
 
-**Dave Hone** (00:02:18): It’s gigantic. It’s almost trite now because everyone knows T. rex is massive. But yes, if you actually stand in front of one, you would be seriously impressed just how absolutely vast they are. So I’ve got a copy of a T. rex skull downstairs from my office, and yeah, I could fit comfortably through its mouth. So it would be just about capable of swallowing me whole, and I’m a pretty big guy.
+**Dave Plummer** (00:01:25): I do. I didn’t own my first computer for a long time, but the first computer I ever used was a TRS-80 Model 1, Level 1, 4K machine, and I rode my bike in fifth or sixth grade, so I was about 11, to the local RadioShack. They had the standard component stereo systems, everything else RadioShack had, but they had a stack of boxes that was labeled “computer.” So I was asking the people who worked there about it, and they said they just got it and they hadn’t set it up yet. I was rather precocious and I figured, “Well, I’ll set it up for you,” and they said, “Okay. Have a shot.”
 
-**Lex Fridman** (00:02:44): Your body, you could fit- … in it’s, its mouth?
+**Lex Fridman** (00:01:53): Did you know what you were doing?
 
-**Dave Hone** (00:02:47): I can fit through, I can fit through it.
+**Dave Plummer** (00:01:54): Absolutely not. I mean, it’s no worse than a component stereo. The only thing is that Tandy, in their infinite wisdom, used the same five-pin DIN connector for power, video, and I think cassette, so they were all identical, and if you plugged them in wrong, you’d blow it up. So I read the label and got it working and wound up playing with it and not knowing anything about computers. So I’m typing English commands into it and, you know, PRINT 2+2 works perfectly, yet more simple English that you enter into a basic Level 1 interpreter is not going to get you very far.
 
-**Lex Fridman** (00:02:47): Wow.
+**Lex Fridman** (00:02:23): So you’re trying to talk to it in English?
 
-**Dave Hone** (00:02:48): Yeah, yeah, yeah. And it’s not even a particularly big one. It’s a copy of the one that’s in the Smithsonian and they get bigger than that.
+**Dave Plummer** (00:02:26): Didn’t know any better. And I still have an old foolscap that I wrote in sixth grade of a program that’s kind of illogically correct but has no chance of working on any interpreter that existed at the time, so it took me a while to figure out what was actually going on with them. But I rode my bike down there every Thursday and Saturday, and they were gracious to let me use the machine.
 
-**Lex Fridman** (00:02:54): You have a to-scale copy-
+**Lex Fridman** (00:02:45): When was this?
 
-**Dave Hone** (00:02:58): Yeah, it’s a cast, so it’s just a giant mold made, and then—
+**Dave Plummer** (00:02:46): ’79, ’80.
 
-**Lex Fridman** (00:03:01): Nice.
+**Lex Fridman** (00:02:47): Okay. What was the state of the art of computing back then? So what are we talking about?
 
-**Dave Hone** (00:03:02): …pulled out like the dentist does your teeth, but very, very big. So yeah, they are 12-ish meters long. So what’s that? 14 yards. Four and a half, maybe five to the top of the head standing up, so another six yards high and then seven-ish metric tons, what’s that? About eight and a half short tons. So a colleague of mine, Tom Holtz, described them as an orca on land, but that’s it. It is a killer whale-sized animal but on legs, on land. And those are massive predators. So you’re looking at something absolutely colossal, and I think that is what will stun you.
+**Dave Plummer** (00:02:50): Well, the big three had come out. There was the TRS-80 Model 1, there was the PET 2001, and the Apple II came out roughly simultaneously.
 
-**Dave Hone** (00:03:40): I think people don’t realize how big a lot of animals are, which sounds weird, but I used to work in a few zoos and something I think you notice is when you go and see things like elephants or giraffes or rhinos, everything’s built to the scale of the animal. The elephant house is huge, the doors are huge, the bars are huge, the food is huge, and so you don’t see them in the context of something that you have a good frame of reference for. And I learned this, yeah, when I was at London Zoo and was going into the basement of the old elephant and rhino pavilion and a rhino stuck its head out from like this gap in the wall and the head was twice the size I thought it was once you stood next to it. And the same with an elephant.
+**Lex Fridman** (00:02:59): Apple II. Would you say that’s the greatest computer ever built?
 
-**Dave Hone** (00:04:25): I once stood next to an elephant closer than you are to me now and you go, “Oh, oh, they are so much bigger than I thought.” And I think it’s similar in museums, like even when you get up relatively close to a T. rex skeleton, there’s a bit of space between you and it and then some bars, and then it’s usually raised up a little bit on a mount to hold the platform and then you stand back from that and you don’t actually get to stand like under them. And when you do that, yeah, you realize that, yeah, the foot finishes at my knee.
+**Dave Plummer** (00:03:02): Probably in retrospect. Well, I would probably give that to the Commodore 64.
 
-**Lex Fridman** (00:04:58): So is a T. rex bigger than an elephant?
+**Lex Fridman** (00:03:06): Yeah. You and I agree on this, that that was my first computer probably many years after it was released, but yeah, Commodore 64’s incredible. But yes, Apple II had a huge impact on the history of personal computers.
 
-**Dave Hone** (00:05:00): Yeah.
+**Dave Plummer** (00:03:18): Right. It’s hard to gauge the long-term impact, but I think the 64 itself probably influenced more people, so that’s my reason for picking that one.
 
-**Lex Fridman** (00:05:00): That’d be fair to say?
+**Lex Fridman** (00:03:26): You think so?
 
-**Dave Hone** (00:05:01): Yeah, I mean, a very large savanna African elephant is five to six tons, and we’re looking at seven plus. And a biped and a carnivore. So yeah, you know, a big lion, a big lion is 200 kilos, so 430 pounds. Yeah.
+**Dave Plummer** (00:03:26): The sales were certainly higher.
 
-**Lex Fridman** (00:05:23): Well, that’s what—that’s why I mean, it’s why they consider it to be probably the most epic predator in the history of Earth.
+**Lex Fridman** (00:03:28): So Commodore 64 sold a lot?
 
-**Dave Hone** (00:05:31): Yeah, I mean, and I think more than that, I think it’s one of the most iconic animals, period.
+**Dave Plummer** (00:03:30): Yeah. I mean, the numbers are hard to believe. It depends which numbers you believe, but even the medium estimates were pretty high.
 
-**Lex Fridman** (00:05:36): Yeah.
+**Lex Fridman** (00:03:36): All right, cool. So you eventually graduated to the Commodore 64. Tell me about that machine. What did you do on the Commodore 64?
 
-**Dave Hone** (00:05:36): I mean if you’re listing things that the average person has heard of: lion, elephant, giraffe, tiger, hippo, rhino, there’s a few more, but T. rex is coming somewhere up in that list. That’s how prominent it is as an animal, so yeah, it’s almost inescapable as a paleontologist, and then doubly so for me who works on dinosaurs and doubly so again ’cause I do work on tyrannosaurs. But yeah, it just dominates conversations.
+**Dave Plummer** (00:03:45): Well, the first thing I did was overheat the floppy drive on it, which was unfortunate because it wasn’t a warranty machine. My parents didn’t have a lot of money so we bought it from Computer House as opposed to one of the major retailers, which meant when it died, it had to go back to Germany or something to be fixed. So I was left with no floppy and so I had a cassette deck, which was the best you could do at the time, and so I was writing small things, and I had a machine language monitor that you could load from cassette. It didn’t have an assembler built in, but it had a disassembler, so you could enter the op codes in 6502 in hex, and if you were careful about planning, you’d be able to write some basic programs.
 
-**Lex Fridman** (00:06:05): Well, some of the other features maybe we can go through.
+**Dave Plummer** (00:04:17): So that’s kind of how I learned, and the first thing I ever wrote on it was a clone of Galaga. Now, it’s a bad clone of Galaga, but it has the major enemies that attack over time, and it’s all written in hand-coded machine language, and you can’t relocate 6502, so if you need to add code in the middle, you need to manually sort of jump to somewhere else, do your work, jump back to where you were. It’s just hideous spaghetti code. But it all worked eventually, and I went to make a backup of it to preserve it for future scholars or whatever the hell I was doing. And I copied my blank floppy onto my data floppy. So that was my first experience with data management.
 
-**Dave Hone** (00:06:07): Yeah, sure.
+**Lex Fridman** (00:04:53): Oh, no.
 
-**Lex Fridman** (00:06:07): So big skull, big head, small hands.
+**Dave Plummer** (00:04:53): So I don’t have a copy of my first program anymore.
 
-**Dave Hone** (00:06:11): Massive head, very kind of boxy. It’s very robust. Big forward-facing eyes, massive eyes. Massive. I mean, tennis ball-sized eyes. These things had amazing eyesight. Yeah. Giant teeth. There’s a cast of a—
+**Lex Fridman** (00:04:55): What was that feeling like? Do you remember, of, of just doing something if I may say so, like stupid, you know? Which is a part of the programming experience.
 
-**Lex Fridman** (00:06:28): What?
+**Dave Plummer** (00:05:04): Yeah, there was a huge amount of guilt because, right, you destroyed several weeks- … of work and you know it was because you rushed- or you did something stupid or you made an unwise choice.
 
-**Dave Hone** (00:06:29): …Tyrannosaurus rex tooth.
+**Lex Fridman** (00:05:12): What can you tell me about the programming involved in that game?
 
-**Lex Fridman** (00:06:30): What?
+**Dave Plummer** (00:05:15): So it’s literally machine language.
 
-**Dave Hone** (00:06:30): Yeah, I know. So-
+**Lex Fridman** (00:05:17): So machine… So it’s not-
 
-**Lex Fridman** (00:06:31): How…
+**Dave Plummer** (00:05:19): Yeah, 65 with-
 
-**Dave Hone** (00:06:32): It, it, it looks a bit bigger than it is. So this is all root, so this would be stuck in the jaw. This would be supporting it.
+**Lex Fridman** (00:05:19): … even assembly.
 
-**Lex Fridman** (00:06:36): Right. But that tip part is-
+**Dave Plummer** (00:05:19): Not assembly yet because there was no assembler built in, so I should have written an assembler as my first task, but I wasn’t that clever.
 
-**Dave Hone** (00:06:37): But that-
+**Lex Fridman** (00:05:26): How hard is that to do?
 
-**Lex Fridman** (00:06:37): … that’s the tooth?
+**Dave Plummer** (00:05:28): Trivial, and it’s one of those things that sticks, I think. You do it so many times. You know, if I give you a C issue, there are certain syntactic issues in C that you’re never going to forget and get wrong. And it’s just one of those.
 
-**Dave Hone** (00:06:38): The, the tip as you call it. And, yeah, you know, so that would comfortably go through pretty much any part.
+**Lex Fridman** (00:05:40): Like, what are the limitations of programming in machine code, as a programmer?
 
-**Lex Fridman** (00:06:45): Wow.
+**Dave Plummer** (00:05:44): The biggest issue is you have to write completely sequentially because at least in that variant, 6502, you can’t add things later. You can only add things on the end. So it’s like programming a tape in a way.
 
-**Dave Hone** (00:06:46): And then you realize just how thick it is. So, this is a cast of a thing called Carcharodontosaurus from Africa. You get it down in Niger and a few other places like that. And they’re very, very big, not as big as T. rex, but not a million miles away. And then if you look at the teeth in profile, they’re a surprisingly similar shape, and not far off in size as well. And then you look at them that way on, and you realize it’s a third of the width. So this isn’t just massive, it’s thick. And of course, being thick, it makes it strong. And with that giant head, with all that extra bone and then all the extra musculature attached to that giant head, they’ve got this uber powerful bite and the ability to just chomp through basically anything it wants to.
+**Lex Fridman** (00:05:54): What was the most complicated thing you’ve built with machine language?
 
-**Dave Hone** (00:07:35): So, yeah, they are truly unusual in that regard, even actually compared to a lot of the other very big tyrannosaurs; they’re often a kind of step above in their proportions.
+**Dave Plummer** (00:05:57): That game would be. I mean, in assembly language, I’ve done a fair bit of complicated stuff, but in actual machine language, I think that game would be the only thing I’ve actually-
 
-**Lex Fridman** (00:07:45): So, incredible crushing power in the jaw?
+**Lex Fridman** (00:06:04): You literally built a game.
 
-**Dave Hone** (00:07:47): Yeah. And then, as you say, like this really short bull neck, because you’ve got this massive weight of this head up front that you need to hold it up and not tip forwards. Really quite a massive body. Again, there’s two or three other big carnivorous dinosaurs which people argue, “Oh, maybe they’re a little bigger than T. rex, maybe they’re a little smaller,” but it’s always in terms of length, which is one way of looking at things. You know, pythons are very long, but they’re nothing like as massive as a lion or a tiger. Same thing. T. rex is massive. It is built. So, really big, kind of barrel-shaped chest, making the body very, very big as well.
+**Dave Plummer** (00:06:06): Not a great game, but it worked.
 
-**Dave Hone** (00:08:23): And so that’s why, yeah, there’s things like Giganotosaurus and Mapusaurus from South America, maybe they get a bit longer, another meter or so in length. But in mass, we’re talking about maybe only two-thirds, three-quarters. So, T. rex is just massively bigger than basically any other big carnivore we know of. And then, yeah, little arms as you say. So, this is a, not great, but it’s a cast of a T. rex arm. It’s not the biggest animal. They do get a bit bigger than this. But as I love showing, it’s not a million miles off the size of my own. And I could do with a diet, but I don’t weigh seven tons. So, yeah, it really is really pretty small.
+**Lex Fridman** (00:06:07): Okay, all right, and then you erased it?
 
-**Lex Fridman** (00:09:07): Two claws, two fingers.
+**Dave Plummer** (00:06:10): I did.
 
-**Dave Hone** (00:09:08): Yeah, so two fingers. You will see sometimes that they say there’s a third, this is a slight misnomer. So, you do see this extra little bone here? This doesn’t turn up in all of them, and it’s an extra hand bone. So it’s these, the metacarpals, but it’s not supporting an extra digit.
+**Lex Fridman** (00:06:10): All right. When did you first fall in love with programming? When you figured out, like, this is a, this is something special.
 
-**Lex Fridman** (00:09:24): So, mostly, functionality-wise, it wasn’t very functional.
+**Dave Plummer** (00:06:18): … I think there was two stages for me. I always knew immediately that I was fascinated with these machines, from the TRS-80 Model I. It’s all I wanted to do was ride my bike back there and have more time with it. And I did that, you know, to wear out my welcome as much as I could. And the other revelation came, I think about second or third year of university when I realized, “I love programming, but I have no idea what I’m going to do. Am I going to make the 12 flash on a VCR somewhere? Or am I going to go work on an operating system? I have abso- absolutely no idea what I’m going to do post-graduation. But I love what I do.” And so, I think that was a lot of consolation. It’s like, it doesn’t really matter what I’m doing at this point, ’cause I kind of love doing it, so…
 
-**Dave Hone** (00:09:27): They’re not doing very much at all. You know, this is what’s called the deltopectoral crest. It’s really important for basically big arm movements, because it’s deltoids and pectorals. The radius and ulna are really quite thin, thinner than ours. The fingers are pretty stocky. The claws look big and curved, and they are, but other tyrannosaurs, and indeed other carnivores generally, have much more curved claws. And then they have these little things—oh, where can I show it? There, there you can see there’s a little mark. That’s a ligamentous pit. And so, what you can imagine is if you’re trying to hold onto something and something’s wriggling, you want grip.
+**Lex Fridman** (00:06:54): So, you’ll figure it out. As long as you’re following this kind of feeling that’s telling you-
 
-**Dave Hone** (00:10:07): And there’s a risk that you’ll just dislocate your fingers. So we have ligaments that hold bone to bone. And if you just put it flat to flat surface area, there’s only so much you can attach, whereas if you turn that into a little hemispherical dip, you get a lot more surface area for your area. If that makes sense.
+**Dave Plummer** (00:06:58): I knew I was in the right area, finally. Yeah.
 
-**Dave Hone** (00:10:26): So if you have a really big ligamentous pit, it means there’s a really big ligament, which means your fingers are really strong and they’re really resistant to being wiggled around and pulled, as if, you know, you’ve grabbed something that doesn’t want you to kill it. Well, T. rex has probably the smallest ligamentous pits of any tyrannosaur. So that kind of suggests it’s not doing very much. And again, when you look at the claws, proportionally, they’re not that big and they’re not that curved. So even though it looks like quite a wicked thing to us, remember, put this on a seven-ton animal whose individual teeth are the size of entire fingers. Suddenly that arm doesn’t look like it’s doing very much.
+## Dropping out of high-school
 
-**Lex Fridman** (00:11:03): What about the feet?
+**Lex Fridman** (00:06:59): Yeah. All right. You dropped out of high school.
 
-**Dave Hone** (00:11:04): So massive. Again, not surprisingly, you’re supporting a colossal amount of weight. But they have this beautiful adaptation in the foot. So the equivalent bones in the foot, the metatarsals, for us make up the flat of the feet. But these animals walk like birds, they got three toes on the ground, and then the metatarsals stick nearly vertically. That overall extends the length of the leg, so you can walk a little bit faster. You get a slightly bigger stride length. Don’t worry, I’ve got the right bone here.
+**Dave Plummer** (00:07:02): Yeah. Not the smartest move.
 
-**Lex Fridman** (00:11:34): Nice.
+**Lex Fridman** (00:07:03): Okay. But you ended up going back to school and being very successful at school and, just in general, successful as a programmer, as a developer, as a creator of software. How were you able to find your way? Can you tell that journey of dropping out— …and then finding your way back?
 
-**Dave Hone** (00:11:34): But, they also have… Yeah, there’s a good one. That one’s a great one. But they also have this really neat adaptation in the middle bone. So, you can see it on this one quite well, and this is actually not a tyrannosaur, this is an ornithomimosaur, so one of the really ostrich-like ones, Gallimimus from the first Jurassic Park. It has the same thing. You can see the normal bones would be really quite long and square and then flat at the top. And instead, this thing shrinks in the middle and turns into this kind of flattened diamond shape. And what that means is the bones either side kind of lock it. In fact, at the top end, it actually tends to wiggle a bit, so it actually goes left and then right.
+**Dave Plummer** (00:07:21): There’s no moment when I dropped out. You just go less and less and less until you realize it’s going to be embarrassing if I show up because I haven’t been there in a long time, and then pretty soon you’re just not going, and that’s how you drop out of high school. So, if you find yourself on that path, stop doing that. But that’s precisely what I did. And so now I’m not at school and I have to get a job, so I’m working at 7-Eleven and a paint warehouse and stuff like that. And 7-Eleven is actually kind of an interesting job because it’s a job I think they keep rotating for people that are smart enough to do the night shift with all the accounting and the administration and stuff they make the night shift do, but that have reasons personally that they need to work at 7-Eleven.
 
-**Dave Hone** (00:12:16): And of course, what that really does is then help these things lock together. And so this is an adaptation to basically lock the foot and make it stable, and we see it in a whole bunch of things, independently evolved. Early tyrannosaurs don’t have this. Early ornithomimosaurs don’t have this. The oviraptodiraurs, the early ones don’t have this, and the later ones acquire it, and a couple of other groups as well. And it’s about making the foot stable. And what that really does is make the foot energy efficient. So you can imagine as an animal, you know, we have some cartilage, and we’ve got some ligaments and tendons joining all the bones together and holding joints stable.
+**Dave Plummer** (00:07:56): And I was one of those people because I had no high school diploma.
 
-**Dave Hone** (00:12:52): When you push down, that’s going to compress them to a little degree, and when you lift that weight off, they’re actually going to spring back. You’re going to get a tiny little energy return. It’s the idea of those air soles they put in all the trainers and stuff in the 90s. It’s that same principle. And you will, you’ll get a little bit of energy return, but of course, big force, particularly for a big, heavy animal, it’s going to take the kind of path of least resistance. And so if your bones are all kind of loose in the foot, what they’re going to do is they’re going to tend to splay out, and you’re actually going to lose that energy.
+**Lex Fridman** (00:08:00): What are some memorable moments from that time at 7-Eleven? Or maybe what do you appreciate about the difficulty of that job?
 
-**Dave Hone** (00:13:25): But if you lock the feet together, the bones can’t move and instead, that’s going to further compress those soft tissue bits and give you a bit more spring.
+**Dave Plummer** (00:08:09): Probably the worst moment for me… I mean, I got held up at knife-point and stuff, and that’s all entertaining, but the worst… …The most… The suckiest part for me was doing the gas dips. We’ve got a long… It’s a, like a 15 or 20-foot wooden stick and it’s measured in gradients of inches and feet, and you drop it into the gasoline tanks and then you bring it up and you measure where the gasoline sits because there’s no electronic sensor. So, I’m doing that, and the first time I do it, I drop the pole and I re-grab it. Well, that’s about a thousand splinters of wood into your hands, and it’s 40 below out and that really sucked.
 
-**Lex Fridman** (00:13:35): And this is all about… I mean, this is about the mobility, about the dynamics of the movement.
+**Lex Fridman** (00:08:38): Oh, wow.
 
-**Dave Hone** (00:13:40): It makes you more efficient. It means you’re putting less energy in to walk, because you’re just getting a little bit of spring of every single step.
+**Dave Plummer** (00:08:39): And I realized, “I don’t want to do this for a whole life.” I knew that, so…
 
-**Lex Fridman** (00:13:48): I should say that I deeply admire people like Russ Tedrake, like the Boston Dynamics teams, like the Tesla Optimus robot teams that look at bipedal and quadrupedal robot movement. And they try to make human-like movement to, you know, basically efficient movement. And so the question here is, how the hell is a T-rex its size, bipedal, able to move as a predator? It’s a weird body shape, is it not?
+**Lex Fridman** (00:08:44): Okay. So you stand there frozen with splinters in your hand.
 
-**Dave Hone** (00:14:16): I mean, the big head makes it look more odd, but you look at dinosaurs as a whole, and over a third, probably 40, 45% is the group called theropods, which were all bipeds. So T-rex, Allosaurus, Velociraptor, Spinosaurus, many, many others that people may have heard of, they’re all bipeds built in this way. There’s a whole bunch of ancestral groups which were doing something very similar, including various crocodiles or relatives of crocodiles, and then the birds are bipeds. Birds are actually doing it in a much weirder way than theropods are. The theropods are basically a lizard on its back legs. I’m oversimplifying a lot. I can hear paleontologists screaming, as I’ve just said, “It’s a lizard standing up.” It’s not a lizard standing up.
+**Dave Plummer** (00:08:47): And at some point, I have a revelation about my life that next time I’m going to do it differently. And then how ludicrous that is hits me about three seconds later, right? And I think that was really the moment for me where I realized that I’ve got to do something different. And so even though I was 21, I went and I talked to the principal of my local high school and I was like, “Can you let me back in?” And he’s, “No, you’re too old and we don’t have room,” was his main reason. And I said, “Well, between now and then, somebody’s going to drop out. So, you’ll have room. So, let’s assume you have room. Can I come back?” And he was gracious and let me come back. And so I did the three or four classes that I needed.
 
-**Dave Hone** (00:15:01): But they’re doing a lot of the same stuff in the same way, and that is really functionally about where you put muscles, because what you really want to do to walk forwards is you want to basically pull the leg back so that you’re pushing the body off.
+**Lex Fridman** (00:09:24): Yeah, just if you can linger on that, the slow dropping out. That’s a weird thing that you can do with your brain. You realize to yourself that you don’t have to do the thing that everybody else is doing, and that’s a dangerous realization because, like, you kind of have to be part of society to do certain things.
 
-**Dave Hone** (00:15:17): And the way they do that is the musculature on the tail. So we don’t have a tail, and indeed mammals that even do have a tail, you know, elephants and even lions, it’s a piddly little thing. There’s not a lot of muscle there. But if you look at a lizard, particularly if you look at something like a crocodile, you see this massive, massive block of muscle sitting on the first third to half of the tail. And that’s what dinosaurs are doing. It’s the same thing as lizards and crocs. They have this giant set of muscles on the first half of the tail that’s anchoring on the femur, so the thigh bone, on the back of that, and muscles contract. That’s the one thing they do. But now you’ve got a giant muscle. Yeah, and T-rex, this muscle is like two and a half, three meters long.
+**Dave Plummer** (00:09:44): Right.
 
-**Dave Hone** (00:15:59): It’s going to be like this wide in the middle. So when that contracts, the leg goes back, the foot’s stationary on the ground, so the animal goes forwards.
+**Lex Fridman** (00:09:44): And if you realize you don’t have to do what everybody else is doing, you can either have an incredible life or a really difficult life.
 
-**Lex Fridman** (00:16:08): So the tail is…
+**Dave Plummer** (00:09:54): Well, the problem with that process is you’re making a much smaller decision. “I’m just not gonna go to class today.” And that’s all you’re deciding, but you do that enough times, you’re making a much bigger decision. And that’s the problem.
 
-**Dave Hone** (00:16:10): Integral to movement.
+**Lex Fridman** (00:10:04): So it’s better to make… If you want to live life in a non-standard way, it’s better to make the big decision explicitly and then you can stop going. Don’t allow yourself to make the slip-ups, though.
 
-**Lex Fridman** (00:16:11): …so it’s a huge part of the biomechanics of the movement.
+**Dave Plummer** (00:10:15): It’ll be made for you eventually.
 
-**Dave Hone** (00:16:14): Yeah. We do it with the butt. So we’re kind of weirdly how we organize our muscles. But there’s a… this is generally probably a better way of doing it, because you can get a really long muscle. And of course, the longer the muscle, the more contraction you can have. The hyper version of this is kangaroos. So kangaroos supposedly get more efficient the faster they move. They get so much energy return that when they’re moving faster, they get more compression from the landing, meaning they get more spring.
+**Lex Fridman** (00:10:17): Okay. Well, you got back, and you eventually went to college and were very successful as a student, and you weren’t that good of a student before.
 
-**Lex Fridman** (00:16:44): So we should be imagining this gigantic thick tail, big body- … big head- … and biped, and how fast does it move?
+**Dave Plummer** (00:10:24): No, I was a terrible student in high school, and even my first semester of college, I still wasn’t taking it quite seriously because I got mercy passed in Geometry 90, which is like the makeup class for the Geometry 12th-grade class that I didn’t have. And that scared me because I realized by 1% or the grace of the professor that let me through, I just about ended my entire university career here. So, fortunately, those marks don’t count on your transcript because they’re remedial classes. So, I got kind of a fresh start the next semester and did it for real, and I did it for me, and that made all the difference.
 
-**Dave Hone** (00:16:56): So this is one of those things that’s gone backwards and forwards and backwards and forwards. There was a paper arguing that we’d probably been overestimating various speeds, primarily based on footprints. There’s been, I don’t know how many papers trying to do T-rex speed. The most recent one that was pretty detailed, I think, had it clocked at… So I think it was 25 miles an hour, so 40 kph was the very upper end of the estimate. So probably a bit less than that.
+**Lex Fridman** (00:10:55): What can you speak to maybe by way of advice on how to be successful as a student?
 
-**Lex Fridman** (00:17:27): Well, that means it can move.
+**Dave Plummer** (00:11:00): Well, ideally, there’s some aspect of school that you do enjoy, whether it’s art, whether it’s computer science, whether it’s shop class, whatever. So, go for those classes and just put up with and do the hard stuff because it’s way easier than having to do it later, and that’s easy to say when you’re 50-something. It’s harder to say when you’re 15-something, but— … it makes a lot of sense.
 
-**Dave Hone** (00:17:29): Yeah. That’s the thing. Big things move quickly. I’ve seen rhino and hippo going at full tilt, and yeah, they’re a lot quicker than you’d think. At least part of it is simply stride length. When your legs are three-ish meters long, it’s hard not to cover a lot of ground with a single step. And yeah, big theropods, T-rex, is going to be a power walker. It’s not going to run in the conventional biomechanical sense where both feet are off the ground at once.
+**Lex Fridman** (00:11:20): All right. What’s the story of you joining Microsoft? How did we get there from 7-Eleven to Microsoft?
 
-**Lex Fridman** (00:18:02): So it’s not running. It’s power walking.
+**Dave Plummer** (00:11:27): Yeah, it’s a big jump. So, I had gone back to school, and I think it was in my third year of university. I was working for the phone company for the summer as a summer job, and I’m doing conversions of their UBNet to TCP/IP and modern networking, which really amounts to swapping cards but then figuring out why their config.sys doesn’t allow Lotus to run anymore because it’s got 10K less than it used to, and it’s just a horrible time to be working in computers, but I was doing it. And at lunch, I’m sitting in the food court with the old and the bored, and I’m reading a book that I had bought called “Microsoft or Bill Gates and the Making of Microsoft Hard Drive,” I think is the title. And it’s a great book.
 
-**Dave Hone** (00:18:03): Yeah. But when you’ve got a four or five-meter-long stride, it doesn’t really matter whether you’re airborne or not.
+**Dave Plummer** (00:12:02): It’s just sort of a matter-of-fact history of how Microsoft came to be, what it’s like, how it operates, what the people are like there. And I’m reading this book, and I become really entranced by it and fascinated because it sounds like exactly the place that I want to be, but I’m in Saskatchewan, so what am I going to do about it? And what I wound up doing was, I had put myself through school with a program called HyperCache, which is a file system cache for the Amiga because the Amiga didn’t have any out of the box, and it had done reasonably well.
 
-**Lex Fridman** (00:18:11): Power walking, so you’re never… Or running, there are moments in time when both feet are off the ground, and you’re saying likely here one foot is always on the ground.
+**Dave Plummer** (00:12:29): So, I went through my registration cards, because in those days you had a four-by-six card that people had to fill out with their name and their address and, if they had an email, their email, and they’d send it in, they’d get notifications of updates and so on. Well, it’s shareware. And I went through the whole stack looking for anybody with a Microsoft email address, and I found maybe three or four people, and I just cold-emailed them and said, “Hey, I’m an operating system student in Saskatchewan looking for an opportunity.” I don’t remember exactly what I said.
 
-**Dave Hone** (00:18:22): Yeah, pretty much has to be for loading.
+**Dave Plummer** (00:12:54): But one guy, Alasdair Banks, he wrote back and he said, “I know somebody that I can put you in contact with.” And he put me in contact, I think, with a guy named Ben Slifka, who did a phone interview, who eventually wanted to hire me to work on MS-DOS for the summer. So, that’s how I got there.
 
-**Lex Fridman** (00:18:24): Oh, just because of the mass of the thing? Okay. All right.
+**Lex Fridman** (00:13:10): You put yourself through school by… Tell me about HyperCache. You built a piece of software-
 
-**Dave Hone** (00:18:27): You know, that’s the origin of cinema?
+**Dave Plummer** (00:13:15): It’s the weight loss program for hard drives.
 
-**Lex Fridman** (00:18:30): What’s that?
+**Lex Fridman** (00:13:17): That was sufficiently useful to a large number of people that would somehow give you money?
 
-**Dave Hone** (00:18:30): It’s where… This is Eadweard Muybridge. So the origin of cinema was a bet as to whether or not, whilst running, a horse had all four feet off the ground. And no one really knew this for sure. And a guy called Eadweard Muybridge, he was British, but he was living in the States. He was a keen photographer, and he basically did what people have seen the Wachowskis do for The Matrix. He set up a whole row of cameras and set up a whole bunch of triggers and had a horse run through them, so it took loads of photos. And lo and behold, in one of them, the feet were off the ground. The guy won his bet. But he also realized that we already had things like zoopraxiscopes, you know, the little thing you spin with a slit?
+**Dave Plummer** (00:13:24): Yeah, it made decent money. I mean, I sold a couple thousand copies. At 20 bucks a copy or 40 bucks a copy, depending on the rules.
 
-**Dave Hone** (00:19:12): So you see that… Right. So he did that with horses. And now you have a moving photograph. And that’s pretty much the origin of cinema. …A bet about biomechanics.
+**Lex Fridman** (00:13:29): What program, what language was it written in?
 
-**Lex Fridman** (00:19:23): Yeah, it’s always a good question and a bet, and there you go. You’re off to the races. All right, all right, so we’re standing in front of this thing. How screwed are we, you and I? We’re back in the time of the dinosaurs. What’s the probability of our survival?
+**Dave Plummer** (00:13:31): C. So there were some assemblers. The actual really tight code to do the real work of transferring data to and from the cache was 68,000 assembly. Everything else was C.
 
-**Dave Hone** (00:19:38): There’s two big things to weigh up which are gonna be interesting, which is, would they even consider us a potential meal? Because we know that animals have to learn stuff. And so animals that have never encountered things before often don’t have a response because they don’t know what their response should be.
+**Lex Fridman** (00:13:40): Okay. This is like file system I/O?
 
-**Lex Fridman** (00:19:59): We should say during that time, there was not something that looked like primates.
+**Dave Plummer** (00:13:43): Device block I/O. So any block that gets serviced from the drive would go through my cache first, and it was an N-way associative cache, and so it would try to match the geometry of the drive and do pre-fetch based on you’re trying to read a whole track at one time, that kind of thing.
 
-**Dave Hone** (00:20:03): No. Absolutely nothing. We, we…
+**Lex Fridman** (00:13:57): What was it like trying to get your software out there at that time? How were you able to find customers?
 
-**Lex Fridman** (00:20:05): So we would look very weird, right?
+**Dave Plummer** (00:14:05): Yeah, it’s interesting. I think I started on Usenet and some of the Amiga forums, posted, “Here’s my trial version, try it out for 30 days, see what you like.” And eventually it got picked up by a few retailers, and I remember I was with my… Now wife in her car, and she had a cell phone, because her dad was very concerned about her safety. And so this is late ’80s, and she’s got, you know, the antenna on the roof and the big box in the trunk, the whole deal. But we got a call from one of the software retailers that wanted to buy 50 copies at… 20 Bucks, which to me is a thousand bucks, which in 1989 or whatever year it is was a big deal. And so eventually a number of companies just bought inventory.
 
-**Dave Hone** (00:20:06): We would look weird, yeah. So, you know, there are lots of really cool records, particularly you’ve got down in Indonesia and stuff, where you’ve got these insane volcanic spires, and it leads to these tiny little valleys. And people go in there, and they go, “Yeah, the animals walk up to us.” They’ve never seen a human. They don’t know what it is. So it might look at us, and animals are fundamentally cautious. It doesn’t know if we’re a threat. So maybe it might just find us weird or in some way, shape, or form off-putting, and so we may not even be considered on the menu. The other thing is we might be too small. My suspicion is we’re not.
+## Joining Microsoft
 
-**Dave Hone** (00:20:52): So animals, carnivores typically take stuff that is much, much smaller than them, despite basically every dinosaur documentary movie ever showing T-rex hunting an adult Triceratops, which is the same size as it. And every documentary, you’ve got to have lions taking down a wildebeest or even a buffalo. These are weird and rare outcomes. These don’t usually happen. The vast majority of active predation is on stuff much, much, much smaller than you. I totted some of this up for a paper I did on Microraptor, this really small gliding dinosaur from China, where we actually have a bunch of specimens with various stomach contents in them. And we were coming up with numbers of about 5 to 20% of the mass being typical, so prey versus predator.
+**Lex Fridman** (00:14:41): Let’s go to that time. It’s such an interesting time with Bill Gates and Microsoft. Why do you think Microsoft was dominating the software and the personal computing space at that time and, and really for many, many, many years after?
 
-**Dave Hone** (00:21:37): And that’s actually very similar to what we see with modern carnivores, and it’s not far off what we’ve seen even with things like tyrannosaurs, where you occasionally find consumed bones from prey. So if we put the lower end of that as 5% of the mass of a T-rex, we might actually be okay. If it doesn’t consider us worth the hassle, then assuming you’re encountering a big adult and not a half-size one that maybe only weighs a ton, then we might be all right.
+**Dave Plummer** (00:14:52): At the time, it was the single most potent assemblage of smart people that I’ve ever been a part of. And I’ve been in academia and I’ve been in industry to a certain extent, and you know, when you’re working at a regular computer company, the one guy who actually knows what he’s doing, his smarter friend? He probably works at Microsoft. So when you get there, you’re the big cheese from your small town, you think you know a lot, and all of a sudden, you’re just in an environment where, like, “Uh-oh, I’m just not going to speak because I don’t want to look stupid.”
 
-**Lex Fridman** (00:22:09): What would be the survival strategy? So there’s a thing that you criticized not being true that I guess in Jurassic Park is not moving.
+**Lex Fridman** (00:15:20): Okay. What about Bill Gates himself? What are some qualities of Bill Gates that you think contribute to the success of Microsoft?
 
-**Dave Hone** (00:22:17): Yeah, it’s nonsense. They can see really well. Like I said, T-rex has giant eyeballs. People don’t realize that because like whales and like elephants, it looks small compared to the size of the animal, but what you’re… And really important for vision is absolute size, not proportional size. And absolutely their eyes are gigantic.
+**Dave Plummer** (00:15:28): I think he was relentless in the pursuit of his one dream, which was his old slogan of a computer in every home and a computer on every desk. It was his special interest, and he was a smart guy, super determined, and he hired people that were as smart or smarter than him to help him execute it. And he built an almost unstoppable machine of intellect to go forth and make, let’s say, very simple products. MS-DOS is not a complicated product by any stretch, but it’s exactly what the market needed at that time.
 
-**Lex Fridman** (00:22:38): Probably the biggest on Earth at that time.
+**Lex Fridman** (00:15:56): MS-DOS changed the game. And that’s actually the team you joined, the MS-DOS team, and I think you joined before Windows 95. Was released. So tell me about the story of MS-DOS. Its success is probably pivotal to the success of Microsoft.
 
-**Dave Hone** (00:22:40): Yeah. A guy called Kent Stevens did a paper, and he’s got a really nice graphic of it. If you just put S-T-E-V-E-N-S T-rex… It’s the one with the… There we go. It’s the one with the googly eyes. That’s a baseball or a tennis ball-sized eyeball. And when you think about the incredible visual acuity of something like an eagle, which has eyes not much bigger than ours, think about what that’s going to do. And we absolutely know, there’s been loads of studies on this in mammals and birds and other things as well, that basically eyeball size correlates with visual acuity. And that can fold in two different ways. It can be general sharpness, like, how well can you see a long way away? So eagles and vultures, it’s really important. Or it can be good in low light.
+**Dave Plummer** (00:16:18): Before DOS, they were largely a language company, so they had made BASIC for a lot of computers, and they had a Fortran compiler and a Pascal compiler, that kind of thing. But their deal to have MS-DOS included with every version or every instance of the PC effectively set them as a standard that they were able to leverage for decades going forward. To a certain extent, they lucked into that, and on the other hand, they were smart to have done it. They didn’t charge IBM a lot of money for it, but making it a standard really played out to their advantage over time.
 
-**Lex Fridman** (00:23:30): And I now discover that there’s a Nature Was Metal- … subreddit-
+## MS-DOS
 
-**Dave Hone** (00:23:34): On Reddit, yeah, yeah, for-
+**Lex Fridman** (00:16:51): So at that time, MS-DOS, no graphical interface. Can you just speak to what the heck MS-DOS is?
 
-**Lex Fridman** (00:23:35): … which is looking at-
+**Dave Plummer** (00:16:57): It’s largely a command launcher. So you type in a name of a command, it looks it up to see if that’s in the current directory or on a special path of folders, and it loads it into memory and executes it if it’s there. And that’s 90% of what MS-DOS does. Now, it has environment variables and some complexity and a small scripting language built in, but it is basically just an operating system shell that allows you to use the resources of the computer, like the hard drive or the CPU, and it doesn’t allow you to multitask. There’s no graphical interface. Now, Microsoft did a- add a text-based graphical interface for things like an editor and QuickBASIC in DOS 5.0, I believe, and there was a DOS shell, which was sort of a graphical file manager in MS-DOS 4.0.
 
-**Dave Hone** (00:23:36): … gnarly, gnarly paleo things. Yeah, I come across it occasionally.
+**Dave Plummer** (00:17:38): So they experimented with it, but it’s largely a command prompt.
 
-**Lex Fridman** (00:23:39): For dinosaurs, let’s see what’s the top post of all time.
+**Lex Fridman** (00:17:42): Does it have the ability to communicate with external devices, so drivers and all that kind of stuff? How expansive of an operating system was MS-DOS?
 
-**Dave Hone** (00:23:44): Oh, that’s a glyptodontid.
+**Dave Plummer** (00:17:52): Well, it was limited by the original x86 instruction set, which limited it to 640K. And then there were various Band-Aids on top of that to do high mem and then extended memory beyond that, and a lot of hoops have to be jumped through to make anything work without consuming base RAM.
 
-**Lex Fridman** (00:23:45): An Argentinean farmer recently found a 20,000-year-old fossilized glyptodont.
+**Lex Fridman** (00:18:10): Yeah, I mean, you programmed on MS-DOS. What’s it like? What are some interesting details there? Like you said, there’s the memory constraints of 640 kilobytes.
 
-**Dave Hone** (00:23:51): So these are giant armadillo-like animals with club tails.
+**Dave Plummer** (00:18:20): Yeah, 640K is the maximum that’s ever gonna be available, so it’s not what’s available to you as an operating system developer, because whatever you use is what the user won’t get. So if you use 10K needlessly, you’re gonna… Every machine in the world now has 10K less, so it’s kind of a big responsibility.
 
-**Lex Fridman** (00:23:55): Interesting. Wow.
+**Lex Fridman** (00:18:35): Is that a true quote from Bill Gates, where he said,
 
-**Dave Hone** (00:23:56): Oh, that’s Black Beauty, and that’s at the Royal Tyrrell Museum. So, giant eyeballs, they can either see very well, they can see a very long way in daylight, or they can see very well at night. And my suspicion is it’s the latter. I think they’re probably primarily nocturnal when they get that size.
+**Dave Plummer** (00:18:38): Nobody will ever need more than 640K? Yeah, no, it’s not him. It’s been attributed to him, but not real.
 
-**Lex Fridman** (00:24:11): Well, not moving might be a good strategy because it’s cautious, because it doesn’t understand what these… …Primates are.
+**Lex Fridman** (00:18:43): What are some interesting aspects of what you were able to do as an intern and when you joined on MS-DOS and beyond?
 
-**Dave Hone** (00:24:17): Yeah. But I think if it starts coming towards you… If you’re truly in the open, then you’re in real trouble and I’m not sure what you do. I mean, the one thing, the one advantage humans have over almost anything else on Earth, there’s a handful of exceptions, is we have range. I can pick up a rock and hurl it with reasonable accuracy. Most things can’t do that, and animals probably don’t like being hit in the face or hit in the eyes with a rock at a range because, again, they’re not going to know how it’s happened or how to respond to this. All they know is they’re taking damage.
+**Dave Plummer** (00:18:52): One of the first things I did was to take SmartDrive, the disk cache, ’cause I had familiarity with disk caches- and to add CD-ROM caching to it, because that was new. CD-ROMs were just coming out. Microsoft Bookshelf is one of the few products you could run for it. And as you can imagine, caching a CD speeds it up by dozens of times if you’re smart about it. So it was a big performance win and a nice thing to work on. A bigger part of that was moving a bunch of SmartDrive and eventually the double-space compression engine up into what’s known as high memory.
 
-**Lex Fridman** (00:24:54): Yeah.
+**Dave Plummer** (00:19:19): And without rat holing on the technical aspect of it, on the x86, there’s something I believe called the A20 line. And I probably have this backwards, or I got a 50-50 shot at it, but if you’ve got the A20 line asserted, then your memory pointers wrap at the one megabyte mark.
 
-**Dave Hone** (00:24:54): …and that’s bad. And that, that might genuinely be enough to do it. I wouldn’t want to try, but again, if I was dumped on a plain or a prairie with nothing else but a T-rex that was interested in me, it’s worth a shot. If you’re in the forest, I would try and get behind a tree. They’re quite good at turning. There’s been a couple of nice papers looking at the mechanics of the foot and the ankle and how quickly they could pivot, but we’re much better because we’re just so much smaller. So it would be very kind of Looney Tunes, but I think you could go round and round a big tree… …Much faster than it could. And so- …it’s going to get bored or lack interest sooner or later.
+**Dave Plummer** (00:19:34): And if not, they don’t. So you continue going up in memory. So you can rewrite memory above by combining your segment and offset registers to a number bigger than one megabyte, and you get an extra 64K. And you put your code in there, and then you just put stubs to jump to it from low memory. And so you can get another 64K out of the machine that way, and we did that for a couple of the products. And that’s … I had no idea what HIMEM was, ’cause I was an Amiga programmer and I’d never written any x86 code before I got there, so …
 
+## Windows 95
 
-## T-Rex’s hunting strategies
+**Lex Fridman** (00:20:02): So that was, like, a cool optimization you got to be a part of. So what about Windows? There was a parallel development of Windows 95, right, at that time. Did you get a chance to interact with those folks?
 
-**Lex Fridman** (00:25:39): So let’s zoom out. What did it eat?
+**Dave Plummer** (00:20:12): I actually worked on Windows 95 for about three or four months. I was on the COM/OLE team doing the presentation cache, which is when you insert a, say, a Word or an Excel spreadsheet or chart into a Word document. You don’t want Excel to have to be loaded to render it every time, so there’s a presentation cache of enhanced metafiles and I was working on that. So that shipped in Windows 95, but I moved to the Shell team about six months after getting to Microsoft, and so I worked on NT from there forward.
 
-**Dave Hone** (00:25:42): I mean, you could go for the classic joke of whatever it wanted, but the reality is the relatively big herbivores that are around at the time, it’s probably largely leaving them alone because, again, just the classic dynamics of predators, even superpredators like Tyrannosaurus, they’re still real animals. If you get injured and you can’t hunt, that’s probably the end of you. So you don’t want to tackle an adult Triceratops that weighs the same as you and has meter, meter and a half long horns on its head and is potentially pretty aggressive. And then even the big hadrosaurs, the kind of classic duck-billed dinosaurs, they’re not present with any obvious defenses. They don’t have armor.
+**Lex Fridman** (00:20:38): Okay, and what’s 95? What’s NT?
 
-**Dave Hone** (00:26:31): They don’t have horns or spikes or anything like this, but they’re simply massive. Again, yes, T-rex has got the teeth and the bite, and even if they’re a bit rubbish with the claws on the hands, but just grappling another animal which is the same size as it, there’s a risk you’re going to get a foot trodden on, that it’s going to get off some kind of body slam or whatever. And then even if you do bring it down, you’re never going to eat it. If you bring down an animal that weighs five tons, it’s nearly your own mass. You’re not going to eat it before it goes rotten. That’s a huge amount of not like wasted energy, but you’ve probably put a lot of effort into this and you’re not getting that much reward out.
+**Dave Plummer** (00:20:40): Windows 95 is an evolution of the original 16-bit Windows 3.1, which was the very first popular version of Windows. And it adds 32-bit support, then VxD drivers and a bunch of new technology and an entirely new user interface. And it’s something that at the time was revolutionary. The people lined up at night to wait in line to buy the thing.
 
-**Dave Hone** (00:27:09): And again, there are exceptions. You’ve got things like lynx, the classic one. Lynx are not very big cats, and yet they’ll hunt adult deer way bigger than them. Lions hunt things like buffalo, but they’re operating in a group, so it’s a bit of a cheat. So there are some things that do this, but fundamentally, the vast majority of carnivores tackle stuff that’s way, way smaller than them, and that’s what we see. Every record we have of basically any large carnivorous dinosaur where you have stomach contents, whether it’s like consumed something or healed bite marks, we get quite a few.
+**Lex Fridman** (00:21:00): Can you just take us back to that time and describe why 95 was such a big leap from 3.1? So Apple already had a graphical interface. Windows 3.1 had a graphical interface. Why was Windows 95 such a gigantic leap?
 
-**Dave Hone** (00:27:45): There’s a handful of them where there’s obvious damage to a bone, in more than a couple of cases with a tooth broken off in the bone, and then the bone has healed over it, so you know, it got away. They’re juveniles. They’re relatively young animals.
+**Dave Plummer** (00:21:17): I don’t want to make it as basic as the Start menu, but I think… …It’s a big part of it. I know when I first saw it… …I couldn’t quantify what about it was different and awesome, but I realized that I wanted to be a part of it, and that’s why I started writing a Shell extension, which became Zip folders at some point. But I was just fascinated by the new Shell, and that’s why I wound up working on the team that brought that Shell over to the NT and what’s Windows today.
 
-**Dave Hone** (00:28:00): And that’s what they’re targeting. It makes ecological sense. It’s what modern animals do for very good reason. Juveniles are relatively small and weak. They don’t have the horns or frills or armor or shields and other stuff. They’re naive. They often have to learn what predators are, or you have to learn how to avoid them or to check the wind or even physically see them, or see them kill something else before you know that they’re a threat. And juveniles forage badly. They’re relatively inefficient, so actually they need to eat more for their size than an adult does. And then on top of that, they’re not very experienced at foraging in the right areas. And even if they can find a good patch, the adults will often beat them up and chase them off.
+**Lex Fridman** (00:21:39): Would you say that’s the greatest operating system ever? What’s the most impactful operating system ever?
 
-**Lex Fridman** (00:28:47): You’re talking about juveniles across various species?
+**Dave Plummer** (00:21:46): Windows 95 would be number two for me. I think OS/360 is going to be number one.
 
-**Dave Hone** (00:28:49): Everything. This is just a universal pattern of being a smaller animal versus a larger, or a younger animal versus a larger animal.
+**Lex Fridman** (00:21:50): Okay, interesting.
 
-**Lex Fridman** (00:28:55): So, so hunting young, uh-
+**Dave Plummer** (00:21:51): Because you could take a machine and write a COBOL program for it in 1962, jump in your time machine, go to Poughkeepsie and boot up an IBM z17 mainframe and run it today. And they’ve been doing it for however many years that is. And it’s all on the business side, so we as consumers don’t have much access to it, but I think it was probably as influential in the commercial side as Windows 95 was in the home side. And then probably Linux would be number three for me. I put Linux as bigger than Unix, which doesn’t work because you can’t have one without the other, but the impact of Unix, BSD, and so forth, is largely in the academic space. It’s by programmers for programmers.
 
-**Dave Hone** (00:28:58): Young things.
+**Lex Fridman** (00:22:29): So, yeah, Linux created… I mean, it was the embodiment of the open source spirit at its largest scale. Right? So it almost created a community and it created a spirit of programming that propagates to this day. That’s true. That’s true. Like scale matters.
 
-**Lex Fridman** (00:28:58): … young things is easier.
+**Dave Plummer** (00:22:51): Yeah, and its penetration on the server side of things now is, I don’t know if it’s equivalent to what System/360 achieved, but it’s almost ubiquitous, so…
 
-**Dave Hone** (00:28:59): Yeah because-
+**Lex Fridman** (00:22:59): Yeah, the world… I mean, this is the quiet secret of the universe, is it runs on Linux. Okay, so tell me about your work days. What were they like back then? Back in the MS-DOS and Windows 95 days? Take me through a productive day.
 
-**Lex Fridman** (00:29:00): Because they’re dumb.
+**Dave Plummer** (00:23:17): Well, your day starts coming in and you’ve got to download the address book, which is… Microsoft has between 10 and 15,000 employees at this point, and we’re all on MS Mail. We’re just getting off of the PDP-11 called Miss Piggy, which ran Whizmail, and we’re running MS Mail. But MS Mail has a fixed address book that every user must download every morning, and when there are 10,000 people downloading 10,000 people, it gets pretty messy. And I think we were on 10 megabit networking at the time, so your first hour is downloading the address book, which was always frustrating. But you’d use that time to look at the crashes that would have happened overnight from a process we called Stress, which is NNT…
 
-**Dave Hone** (00:29:01): Right. They’re dumb, but they’re inexperienced.
+**Dave Plummer** (00:23:53): All the machines that are unused run tests all night long and they try to crash themselves, and if they manage to crash themselves, it will drop into a debugger with a serial cable to another machine and you can connect to that other machine and remotely debug the crashed machine. So you come in and they will have triaged bugs, you know, there was a crash in the Start menu, so we’ll assign that to Dave, and so you come in and that’s your first thing, is to connect, because you’ve got to get that machine back to the guy that owns it and unlock the machine, so that’s your first hour of your day, is basically triage for bugs that have come up from Stress overnight and then at that point it’s probably back to coding, which unfortunately 80% of the time is fixing bugs, especially in my career it
 
-**Lex Fridman** (00:29:02): Inexperienced.
+**Dave Plummer** (00:24:31): was porting code and fixing bugs. I wasn’t writing a lot of new code and there were exceptions. I wrote a lot of new code on the side to get it out of my system… …From a day-to-day grind of always fixing bugs in other people’s code, which is amazing learning experience.
 
-**Dave Hone** (00:29:03): But they’re often feeding in suboptimal areas. This is the place with all the best food. The adults will kick you off, so now you have to feed somewhere else. Maybe the food isn’t as good, in which case you need to eat more of it, so it takes longer, or maybe it’s the one next to the edge of the forest where the T-rexes hide. But either way, you’re stuck there, and then you don’t really know what you’re looking for, and you haven’t got the armor, so guess who’s getting eaten? Again, there are lots of exceptions. You can’t have nature without things like that.
+**Lex Fridman** (00:24:46): So you did a lot of the… At Microsoft, you did a lot of the porting of what is it, Windows 95 code to NT?
 
-**Dave Hone** (00:29:32): But this is the absolute rule of thumb for how foraging and growth and predation operate across everything from fish to starfish, praying mantises, all the way up to things like big cats via stuff like crocodiles. It’s how it works. So it’d be very weird if it didn’t also operate for dinosaurs. And then, as I say, we’ve actually got the direct evidence for this from bite marks and stomach contents. They’re taking small stuff.
+**Dave Plummer** (00:24:53): Yeah. We took the entire Windows 95 user interface, and we ported it to NT, which meant making it Unicode, for one thing. So everything that was eight bits is now 16 bits.
 
-**Lex Fridman** (00:29:59): Bite marks give a lot of information.
+**Lex Fridman** (00:25:02): Okay.
 
-**Dave Hone** (00:30:01): Yeah.
+**Dave Plummer** (00:25:02): …pointers. It’s quite a mess when you switch the code over, as you can imagine.
 
-**Lex Fridman** (00:30:02): That’s a powerful signal in paleontology.
+**Lex Fridman** (00:25:07): Can you give us insights into what is involved in porting?
 
-**Dave Hone** (00:30:04): Yeah, absolutely. I’ve done really quite a lot of work on it, and they can tell you an awful lot if you’ve got the right understanding of the burial conditions, because, a weird thing that I think a lot of people don’t appreciate is you basically can’t take fossils at face value, particularly when you’re trying to get into stuff like behavior and ecology because between the animal dying and the paleontologist digging it up, potentially quite a lot has happened, and that’s where it’s really easy to start misinterpreting things, because if you just go… I had one like this not too long ago where I was an editor on a paper, and the authors had done a pretty good job, to be fair, but it was this discussion of whether or not several animals were together at the time of their death.
+**Dave Plummer** (00:25:12): It’s like breaking into somebody’s house and going through all their stuff and seeing the stuff in their drawers that they didn’t want you to see. You find all the good stuff, the pretty pictures hanging on the wall, and you find some disturbing stuff in the nightstand. I saw code that was like 200 characters wide with, you know, profanity and swears in it. It eventually got all cleaned up over the years by the time I left. But it was not always the most professional code in the world.
 
-**Dave Hone** (00:30:51): So multiple theropods together in this quarry. And it’s like, right, but there was loads of debris and you had loads of things like fish scales and other small bones. And it’s like, okay, but this looks like these animals potentially died somewhere else, and then a flood or a river washed them into this bay or a channel, or the water level dropped and they ended up together. But that doesn’t necessarily mean they were together when they died. So just because you’ve got three animals together, what is potentially the story of how they got there?
+**Lex Fridman** (00:25:37): Right, because every single piece of code you have to go through.
 
-**Lex Fridman** (00:31:27): So you have to consider multiple explanations and then try to figure out what is the most likely.
+**Dave Plummer** (00:25:40): Line by line, so you see it all.
 
-**Dave Hone** (00:31:31): Yeah, or what can you test with various bits of evidence? So there were some tyrannosaur-inflicted bite marks on a duck bill from Mongolia that I worked on years ago. The specimen was from Mongolia, but it was held in Japan in a Japanese museum. I was working with the Japanese on it, and I’m not a taphonomist, or the study of decay and the history of specimens, and I am in no way, shape, or form a geologist. I did zoology for my degree, but the guys I was working with were really hot on erosion and damage, and they were looking at some of the way the bones had been damaged, and they’re like, “Okay, we’re pretty confident that the bite marks are sitting on top of erosion.”
+**Lex Fridman** (00:25:41): Yeah. I mean, that’s the story of programmers. You write a piece of code, and you think it’ll never be seen by anybody. And sometimes, oftentimes, that code is going to be seen by a very large number of people, …that come after you, including you five years later. You yourself looking at your own code. Okay, so tell me about Windows NT. That was a giant leap too.
 
-**Lex Fridman** (00:32:14): What does that mean?
+**Dave Plummer** (00:26:06): It was. It was basically a clean-sheet design. So they went and they got Dave Cutler from Digital Equipment, who had done operating systems for them, VMS and RSX-11, he had done. And so he came over after, I believe it was Prism and MICA were some projects at DEC West that got canceled. And so you had a whole team of guys where their project is canceled, and basically, they took a whole bunch of them and came to Microsoft. And I don’t know the specifics of the deal, but they all showed up. So you had Dave Cutler and Mark Lucovsky and all these really smart guys from DEC, and they did basically a clean sheet, but they also had OS/2 as a starting point. But OS/2 was, of course, written in assembly language, and NT is going to be written in C.
 
-**Dave Hone** (00:32:15): So it means that the animal had died, and it was found in a sand-covered area, but in what would have been a river channel. So this animal has died, washed downstream, ended up on a sandbank. The sand is whipping past because I’ve been in a sandstorm in… …In China. It is not fun, and that’s starting to etch some of the bones and damage them.
+**Dave Plummer** (00:26:46): So to what extent they were able to leverage any of that, I don’t actually know, but at least they had a system to start with.
 
-**Lex Fridman** (00:32:36): And after that does a bite mark?
+## The man behind Windows
 
-**Dave Hone** (00:32:37): After that, you’re getting bite marks coming in. So that…
+**Lex Fridman** (00:26:53): You said that Dave Cutler’s the man, the mind behind Windows. Can you explain?
 
-**Lex Fridman** (00:32:41): Oh, man.
+**Dave Plummer** (00:26:59): So Dave Cutler is the architect of the kernel. So he is Linus in the Linux world. It’s Dave C. in the Windows world.
 
-**Dave Hone** (00:32:41): …can only be scavenging. That thing has been dead and sitting out for days, possibly weeks, before something came along and chewed on it.
+**Lex Fridman** (00:27:06): Yeah. Dave C., okay.
 
-**Lex Fridman** (00:32:48): Wow.
+**Dave Plummer** (00:27:07): And it’s not that there weren’t other people that contributed, of course, huge pieces to it. But I think he’s the driving force behind it and always largely has been. And he’s still… I think he’s 85 now. He still codes every day. He’s a Microsoft Fellow. He, as far as I know, still goes into work, so…
 
-**Dave Hone** (00:32:49): It pretty much can’t have happened any other way.
+**Lex Fridman** (00:27:21): Can you speak to the genius of that guy? Like, what’s interesting about his mind, having worked with him, having interacted with Dave Cutler?
 
-**Lex Fridman** (00:32:51): And you have to take these really subtle signals to- … to reconstruct the story.
+**Dave Plummer** (00:27:30): Well, the dude’s wicked smart, but he’s also like a farmer. He’s like the guy that will follow you around and make sure that stuff gets done and gets done right to make sure that you’re not checking any crap into his operating system. And he won’t tolerate it. And he’s a real taskmaster in that regard, but I think it really paid off ’cause it was a very big paradigm shift for Microsoft developers to be subjected to the Dave Cutler Digital Equipment style of leadership.
 
-**Dave Hone** (00:32:56): But then you can start piecing some other stuff together. So in this case, the skeleton is pristine. It’s one of the best hadrosaur skeletons out there. It’s certainly the best from Mongolia I’ve ever seen, and all the bite marks are on one bone, the humerus, the upper arm bone. Every mark, we went over the rest of the skeleton, nothing, and then the humerus is chewed to bits. There are bites all over it, but when you look, there are two really distinctive patterns. There are deep circular punctures, and remember what the shape of this thing looks like…
+**Lex Fridman** (00:27:55): What did you learn from that about successful software teams, where there’s a large number of people collaborating? Because Microsoft had a lot of brilliant engineers back then, and like you said, Dave Cutler. They had to they had to create completely new systems, many of which we still use today. What have you learned about great software engineering teams from that time?
 
-**Lex Fridman** (00:33:27): Yeah.
+**Dave Plummer** (00:28:21): Tools are everything, I think, for one. And people are everything. We’ll grant that. But the tool set is a huge factor. If we went ahead with Git, it would have been immensely easier. We were using Diff and, you know, manual Deltas. …To do this porting and stuff. So being able to fork a branch of source code would be a luxury that is new to me. At the time, it would have been really handy.
 
-**Dave Hone** (00:33:27): …at the ends and then along the deltopectoral crest. Okay, it’s much, much bigger in a hadrosaur, but this bit, remember, that’s where all the big muscles attach. There are all these types of–this is from a different bone, different animal, but all these types of close parallel scratches.
+**Lex Fridman** (00:28:44): What were some memorable conversations from that time when you walked over next door-
 
-**Lex Fridman** (00:33:43): Mm-hmm. Wow.
+**Dave Plummer** (00:28:49): Well, what…
 
-**Dave Hone** (00:33:43): And so that looks like selective feeding because it’s using its giant crunchy teeth at the ends to get the bone off, and this is off a buried skeleton, and then it’s got these–actually, T. rex has really small teeth at the front of its mouth, right in the front where our incisors are. They’re called incisiform teeth, they look like incisors. They’re a fraction of the size of the big ones, and they’ve got a really weird flat back. And that’s what these are. It’s hidden this with the front of the mouth and pulling.
+**Lex Fridman** (00:28:50): … and talked to some of these folks?
 
-**Lex Fridman** (00:34:17): And that’s mostly for eating?
+**Dave Plummer** (00:28:50): …I was not present for was, somebody was complaining, a new hire came into the team and was working on what I believe was called Cairo. Cairo was going to be the next future operating system, was going to be beautiful, and have a whole new user interface newer than Windows 95, and it never materialized. But while they were working on it, one of the guys working on Cairo was kind of flaming on the open NT dev alias, which is thousands of people, how shitty the NT boot experience was. The response that came back was an epic flame that I wish I would have saved, and I won’t name the guy who wrote it. He knows who he is, but… … It was a work of art of angry flame mail, kind of like the ones you see Linus send every now and then about kernel stuff. So it’s a very similar sentiment.
 
-**Dave Hone** (00:34:19): Yeah, and that’s why it’s just on the deltpectoral crest, ’cause that’s where all the muscles are. So I always liken it to getting something like an Oreo, and you take the top off, and then you scrape the cream out with your teeth. It- I think most people have done that. Right, but that’s what it’s doing. So it’s got this little row of teeth. And everywhere you get lots of muscle, you get little rows of teeth together pulling.
+**Lex Fridman** (00:29:32): Were there, like, kind of intellectual debates, like-
 
-**Lex Fridman** (00:34:42): So there’s different bite marks for sort of fighting, killing, and then there’s different bite marks for eating.
+**Dave Plummer** (00:29:35): Oh yeah.
 
-**Dave Hone** (00:34:48): Yeah, so it kills and dismembers with the big teeth up the side- … and then it feeds with the little front teeth.
+**Lex Fridman** (00:29:35): … there’s some, some heated stuff with the engineers?
 
-**Lex Fridman** (00:34:52): And all of that has evidence? In the bones? What hunting strategy does it use? Can we f- figure that out?
+**Dave Plummer** (00:29:38): It was… Yeah, it got contentious. So you’ve got intellects competing, and eventually, the technical merits for some people are secondary, and it’s about besting the other person in that argument. And it’s no longer productive at that point half the time, but there was a fair bit of that.
 
-**Dave Hone** (00:35:00): So that comes down to that foot stuff. They’re relatively efficient compared to a lot of other things, and particularly compared to the herbivores, so that means they’re probably looking at long distance rather than speed. And that makes sense because even though the kind of stuff we’re talking about, like I said, maybe they get into 20, 25 miles an hour, that’s pretty quick, but some of the smaller stuff is going to be a lot faster than that. And remember, that’s a real upper estimate. They’re probably not that quick, but yeah, almost…
+**Lex Fridman** (00:29:53): Yeah, I’ve seen those kind of debates in programming language design communities, like Guido van Rossum, the leaders of those communities, it can wear them down because people get… You almost forget the mission you’re on and start being very nitpicky about the details. I mean, engineering minds get together, and you just go to war over the stupidest, like, syntax subtlety.
 
-**Lex Fridman** (00:35:30): They’re just jogging after you.
+**Dave Plummer** (00:30:20): Right.
 
-**Dave Hone** (00:35:32): Right, but they’ve got the distance, so yeah, so it’s much more… … A hyena or wolf-like strategy than like a cheetah going for hyper-speed or a lion going for a relatively quick burst, and it either gets you or it doesn’t. And then people kind of then just go, “Well, like, but that’s ridiculous, like, they’re not even that quick,” and it’s like, yeah, but if you’re hunting something big that’s not that quick either, and so that’s a misconception. Like when I’m talking about juvenile dinosaurs, I don’t mean just out of the egg and weigh a kilo. Like a juvenile Triceratops can still weigh a ton-
+**Lex Fridman** (00:30:20): Well, I shouldn’t say stupid, but it’s a small syntax subtlety for programming language. I’m sure there are internal battles about specific kernel components.
 
-**Dave Hone** (00:36:09): And be the size of a rhino. They’re not that fast, and again if you get a head start on them because, as I said, I suspect they’re nocturnal, so that’s the other thing, it’s really hard to hide a T. rex, even lions and tigers struggle to kind of hide in long grass. When you’re three and a half, four meters tall, you can’t hide. Maybe in a forest, but even then, you’re probably going to stick out and it’s going to be hard to maneuver between the trees. And we’ve got big tyrannosaurs living in what we know to have been relatively open environments. Maybe there’s some stands of trees, but it’s not like a woodland or a forest or anything like that. So they’re living in the open and surviving in the open, so they’ve got to have a way of doing this.
+**Dave Plummer** (00:30:32): Yeah, I mean, there’s one that I lost that still bugs me to this day, I think.
 
-**Dave Hone** (00:36:52): And I think it’s either, or some combination of, being nocturnal, so it’s relatively easy to… Sneak isn’t quite the right word, but approach things to cut the distance down for your initial strike, and then just running them down. Because yeah, maybe a one-ton Triceratops or one-ton Hadrosaur is rather faster than you, but if you’ve covered the first couple of hundred meters to get up to your top speed before they start running, then you’re probably much closer to them. And then will they exhaust faster than you’ll keep going? Well, probably not 100% of the time. No predator’s that effective. But I suspect that’s what they’re doing, and it fits with what we know of their size, their vision. They’ve got a very good sense of smell. Again, that makes sense at night.
+**Lex Fridman** (00:30:35): Okay, yeah. What’s that?
 
-**Dave Hone** (00:37:39): It makes less sense if you’re diurnal and operating primarily in the day. And you’ve got to hide this thing, and then we know they’re pretty efficient versus relatively fast but not that efficient prey.
+**Dave Plummer** (00:30:38): ‘Cause I still think was right. Well, when we were doing the shell, we were porting everything from ANSI to Unicode, so every character that was eight bits now becomes 16 bits. Now, the problem is I’m on a MIPS box ’cause I’m porting it to RISC…. and you can’t have unaligned addresses. But if you take two ID lists, which are basically past components, you take the one for C colon backslash, take the one for Windows, take the one for System32, and you add them together. But if you’ve got an odd number of characters, now you’re at an odd address in this thing, and it takes me an immense amount of work to turn on exception handlers, to do unaligned byte access, to pull the string out and copy it manually.
 
-**Lex Fridman** (00:37:52): Well, there’s a bit of a debate of scavenger versus hunter.
+**Dave Plummer** (00:31:11): And it’s literally like a hundred to a thousand times the amount of work to read a string out of this ID list on a MIPS machine because it’s unaligned. So I’m having the argument that even though it’s late in the Windows 95, they’ve already shipped one beta, that we should now just guarantee that ID lists are always an even number of bytes, or do some hack to just make sure this never happens so the code that references them on all this hard work can just blaze through it. And it became a shouting match and sort of a personal match and I lost that one. And I still think that, I know today, that that code running on Windows is thousands of times slower than it has to be and it- nobody cares ’cause it’s plenty fast but- …it could be a lot faster.
 
-**Dave Hone** (00:37:55): They’re obviously both. A, because we’ve got things like the bite marks I just described, which is pretty much definitive scavenging, and then we’ve got the healed bite marks with T-rex teeth buried in bones, which is pretty much definitive active predation. So we’ve got evidence of it doing both.
+## Debugging
 
-**Lex Fridman** (00:38:12): But can we possibly figure out what was the primary strategy?
+**Lex Fridman** (00:31:49): Yeah. So yeah, I mean you mentioned MIPS and RISC. How deeply did you have to understand the lowest level? Sort of the lowest level of the software and even the hardware with the stuff you were building. Like what are the layers of the abstractions you had to understand to be successful with all the stuff you’re doing with NT and before that with…
 
-**Dave Hone** (00:38:15): That gets much harder. My guess is they’re probably still primarily actively carnivorous. Because if you look at stuff that’s reliant on being a scavenger, I mean, the true scavengers, like the vultures and condors and stuff like this, you have to be ultra-long distance, very energy efficient travelers. You know, they’re soaring in thermals. They’re barely using any energy to fly. It’s really hard to get very far.
+**Dave Plummer** (00:32:12): Well, about half your day is going to be spent debugging, and most of the time is going to be spent in call stacks that are in pure assembly language because there’s no source level debugging. So it’s not like we’re in Visual Studio, and you hit a breakpoint, and it pops up, and there’s the source code. You can go look at the source code, but you’re looking at the raw assembly dump from the machine at all times.
 
+**Lex Fridman** (00:32:29): So even if you’re programming in C, the debugging is in assembly?
 
-## History of dinosaurs on Earth
+**Dave Plummer** (00:32:33): Yeah, 100%.
 
-**Lex Fridman** (00:38:45): How far were they spread? Where did they live?
+**Lex Fridman** (00:32:34): Oh man.
 
-**Dave Hone** (00:38:49): So the ones we’ve found, you’ve got them from Alberta down to probably New Mexico. I want to say there’s some tyrannosaurine, so very close to T-rex, teeth that may or may not be T-rex in New Mexico. There’s similar teeth in Mexico proper, down in Coahuila, about halfway down Mexico.
+**Dave Plummer** (00:32:35): So it’s a little cumbersome.
 
-**Lex Fridman** (00:39:12): Mongolia also, or no?
+**Lex Fridman** (00:32:36): Oh.
 
-**Dave Hone** (00:39:13): So in Mongolia, you have a thing called Tarbosaurus, which is a very, very close relative of T-rex. It’s the nearest species, or nearest genus, that we have. But T-rex is probably occupying almost all of western North America.
+**Dave Plummer** (00:32:37): And better yet, we’re doing four instruction sets because we’re doing Intel MIPS, Alpha, and PowerPC. So depending on which machine it crashes on, you’ve got an entirely different instruction set… …That registers. And so you get reasonably adept at debugging all four, but I had more experience in MIPS, so MIPS stuff would come my way.
 
-**Lex Fridman** (00:39:28): Okay.
+**Lex Fridman** (00:32:54): That’s a real endurance event. I mean, can you speak to that? The torture there is debugging, especially that kind of debugging without the tooling associated with it. I mean that’s, you know, programming, kids these days, programming isn’t all about creating beautiful things, right? It’s also about fixing things.
 
-**Dave Hone** (00:39:28): So at times, the east was kind of split off and separate.
+**Dave Plummer** (00:33:18): Yeah, I would say that 20% of my professional life has been creating and 80% has been debugging and fixing. And I mean, I got a bit of a reputation as somebody who could fix stuff, and so stuff like that would flow to me, and so I would spend more time doing that. I wasn’t renowned as a creative UI genius where I’m flowering all these new ideas. So I got to fix ugly stuff, but you get really good at that. So I don’t mind it until it’s one of those things where you’ve been chasing it for so long that you don’t know what to do next and you can’t understand why it doesn’t work or how it ever worked or whatever situation you happen to be in, and you know, after a day of it, it can get pretty trying.
 
-**Lex Fridman** (00:39:31): But the entire surface of Earth had dinosaurs on it.
+**Lex Fridman** (00:33:52): Yeah, debugging can be real torture. It can be really, really difficult. There’s a psychological component, I think, of perseverance.
 
-**Dave Hone** (00:39:34): Oh, yeah.
+**Dave Plummer** (00:34:00): I think the ones that, you know, take you a day, they resolve one of two ways. Either it’s like, “Oh, extra semicolon,” and then you finally see it… …Or it’s some horrible manifestation of cross-threaded apartment nonsense that was really hard. But it can go both ways. I had a bug. It wasn’t my bug, actually, but it was a manifestation of a bug in Task Manager where every now and then it would say greater than 100% total CPU usage, and this looks pretty silly for a task manager. So I had tried to resolve it for a long time, and I’d talked to the kernel guys about my issue, and they were unsympathetic, let’s say, because the kernel guys are a special breed, and they weren’t interested in my user land problems. “It’s probably some issue in my code,” right?
 
-**Lex Fridman** (00:39:35): Well, most of it.
+**Dave Plummer** (00:34:40): And they’re probably right, but it wasn’t in this case, and I was sure of it, and so I kept adding asserts all through the code to make sure that the preparatory steps of adding the stuff together were never more than 100, and that the final sum was never more than 100, and finally it never asserted. But occasionally we would get this bug where people would still see it, and so I finally put my phone number in the assert, and I was like, “If you see this message, call DavePL at 425-836,” my phone number. And finally, we did get a catch in the actual stress debugger that I was talking about earlier where it happened to somebody with a debugger connected.
 
-**Dave Hone** (00:39:35): Yeah, we’ve got them in Antarctica. We’ve got them in Antarctica even close to the mass extinction event.
+**Dave Plummer** (00:35:16): We were able to go through, and it was actually a kernel accounting issue, and it wasn’t a Task Manager issue, so they just fixed it in the kernel once I was able to prove that it was in fact a kernel issue. And you’d think we would then remove my phone number, but we just commented it out, so it’s shipped, and it’s in all the damn source code leaks for NT that are out there, so…
 
-**Lex Fridman** (00:39:41): Just an insane number of dinosaur species all over the Earth, just the same kind of variety we have in the animal kingdom today, you just have in the dinosaur.
+**Lex Fridman** (00:35:32): That’s awesome.
 
-**Dave Hone** (00:39:50): I mean, this is… how many dinosaur species were there? I mean, I basically wrote an entire book chapter about this because there are so many… But this would make the number high, but this would make the number lower, but this would make the number high, but this would make the number lower, counter versus counterarguments, that you can guesstimate almost any number and probably be very accurate or very far out.
+**Dave Plummer** (00:35:32): …that’s how I find Task Manager code. I search for my phone number on Google, and it will reverse-find…
 
-**Lex Fridman** (00:40:15): Yeah, but we should say that a large number of dinosaur species are constantly being discovered.
+**Lex Fridman** (00:35:37): Oh, yeah, that’s fantastic.
 
-**Dave Hone** (00:40:19): Yeah, so we’ve named, give or take, in the realm of 1,500, 1,600 valid species. Though not everyone agrees on every species, most people would be satisfied with that number. But we also name in the realm of 40 to 50 a year, and we’ve been doing that for at least the last 10, 12 years. That number is rocketing up. It shows no signs of slowing down. There are loads of areas. Like, we still never really explored India very much. We’re starting to find entirely new beds in places like Ecuador. Argentina, we know, has a ton of stuff, but we’ve never excavated there very much. Australia, we know, has a ton of stuff, and we haven’t excavated there very much. So there are lots of places, even now, to still go through.
+**Dave Plummer** (00:35:38): …the NT source code.
 
-**Lex Fridman** (00:41:05): This is a good moment to take a brief tangent and look at paleontology. So how do we find these fossils? What’s the magic? What’s the science? The art?
+**Lex Fridman** (00:35:39): Can you speak to the assert thing? By the way, I saw, I think you tweeted or you said somewhere that if you want to take your asserts really seriously, you add your home phone number in there. It’s true, it’s true.
 
-**Dave Hone** (00:41:14): The same way, more or less, that people did in the 1750s, or whenever you first start getting them. For dinosaurs in particular, but this is true of the vast majority of stuff, there are essentially two ways of doing it. The simple one is where you have quarries of particularly things like lithographic limestone, so the printing limestones, or stuff that’s very similar to that—sometimes it’s often volcanic—you get these super, super, super fine layers of sedimentation. And that’s where you get these places of exceptional preservation. Whenever you see, like, the feathers, or almost always, whenever you see feathered dinosaurs, it’s like, “Oh, we got the skin, we got the claws,” and the whole skeleton’s laid out.
+**Dave Plummer** (00:35:49): A little facetious, because it’s probably not the smartest thing, but…
 
-**Dave Hone** (00:41:59): So Archaeopteryx being the first bird that is an absolute classic example, it’s from these beds. And there you find them by basically splitting limestone. We don’t usually dig for them. It’s because there are quarry workers and people who are already doing this because the stone is useful, because there might be one decent fossil for every, you know, few hundred tons of rock you shift. In which case, you could get every paleontologist in the world there for a couple of years and you wouldn’t find very much. You rely on the fact that there are hundreds of guys doing this constantly. And then sooner or later, they’ll find something, and then you’ve got it. That’s the super easy way.
+**Lex Fridman** (00:35:51): No, it’s not.
 
-**Dave Hone** (00:42:36): The only slightly more complicated way is you go to somewhere where geologically we know it’s the right age and it’s the right kind of rock, and ideally, fossils have been reported from there before. And again, you know, geologists mapped all the world’s geology years ago in quite a lot of detail. There are gaps, there are places where we don’t have the details, but in general, we know. And then you go there and then you walk around and you look. And that’s basically it.
+**Dave Plummer** (00:35:51): …you will find out.
 
-**Lex Fridman** (00:43:05): And you’re looking for something that’s sticking out of the rock.
+**Lex Fridman** (00:35:52): But I mean, assert by itself is already a serious thing, because it stops all execution. I mean, this is one of the reasons I really, really love asserts, because they stop everything and force you to take care of the problem.
 
-**Dave Hone** (00:43:07): So you always get the… there’s this constant, and I think, you know, borderline myth, of the idea that dinosaurs and mammoths and lots of other fossil things entered lots of indigenous cultures because it’s impossible that guys were wandering around, say, Dakota, and the Native Americans didn’t come across some dinosaur fossils. That I’d agree with. It’s pretty much impossible they didn’t come across some dinosaur fossils. Did they come across a whole skeleton laid out on the ground? No, because those don’t usually exist because even if they’re tougher, or it doesn’t matter if they’re tougher or weaker than the surrounding rock, dinosaur bones are, in some way, shape, or form, lithified.
+**Dave Plummer** (00:36:07): Yeah, I’m a little religious about my asserts too. I don’t assert things that I hope aren’t true. I assert things that I know cannot be true, and I think that’s really the intent of an assertion. So I’m overstating the obvious, but when it does occur, it’s a bug, plain and simple. It’s not a warning.
 
-**Dave Hone** (00:43:54): They turn to rock and they will absorb some of the minerals from whatever they’ve been buried in. And so, even in places like Mongolia and Northern China, where I’ve been, where actually the fossil bone is quite a lot tougher than the sandstone that it’s embedded in, you can find a bit of bone and pull it out, almost like rub it with your hands and the sand comes off and there’s your bone. They will decay pretty quickly. Sandstorms, sand just etches stuff. The tiniest bit of moisture, particularly in winter, gets into the cracks. Bones are incredibly porous. That freezes, that expands, that cracks; bones just shatter. And you find shattered bone on the surface everywhere. What you rarely find is a decent bone on the surface, let alone a skeleton.
+**Lex Fridman** (00:36:21): It’s kind of fascinating how often it can really help you figure out the problem, because if you put asserts everywhere, you can get very quickly to the source of the problem.
 
-**Lex Fridman** (00:44:43): So there has to be something that’s sticking out just a tiny bit.
+**Dave Plummer** (00:36:34): Yeah, I tend to… it’s not something I want to suggest you go back and add later. It’s something you should do organically as you build your code.
 
-**Dave Hone** (00:44:46): So that you can see it, but it’s still buried. Right. And it happens. The greatest one that I saw, or that I didn’t see, it happened with a friend of mine when we were in Northern China and he went, “Yeah, I can see a bit of a claw sticking out of a hill.” And it was, it was like this much. You could see…
+**Lex Fridman** (00:36:40): As you’re building.
 
-**Lex Fridman** (00:45:05): Yeah.
+**Dave Plummer** (00:36:40): So for each function, if you’ve got assumptions like, “I know that this pointer is never null,” well, assert that. If you know this count is always less than twice the byte width, assert that. And don’t be afraid, because if it asserts, it’s doing you a favor. I think some people are afraid. You know, it’s like when you turn out of an intersection, and you think maybe there’s somebody coming, and you don’t look left. Or maybe I’m one to do that. But it’s like that. People don’t assert because they’re afraid they’re going to fire. Well, no, you want to know.
 
-**Dave Hone** (00:45:06): …less than a centimeter coming out of a hillside. And it’s like, so you know…
+## Task Manager
 
-**Lex Fridman** (00:45:11): That’s the dream, right?
+**Lex Fridman** (00:37:05): You mentioned Task Manager. Obviously, we have to talk about this, the legendary program that you created, the Windows Task Manager. Tell me every detail of how you built it. What is Windows Task Manager?
 
-**Dave Hone** (00:45:12): Dig, dig a little bit and there’s a little bit more, dig a little bit, there’s a little bit more, dig a little bit, there’s a little bit more, okay. And then the system we were running there is some guys were searchers and some guys were diggers. So he and I were searchers, we’re told, “Okay, you guys have…” He found it. “You found something, go and look for something else. We’ll dig it out.” And so we come back a couple of days later and check in on the digging team. “So what is it then?” “Oh, it’s a complete skeleton.” And it was, it was a thing very, very close relative of Velociraptor, ended up naming it Linheraptor, so the raptor from Linher, which was the nearest town.
+**Dave Plummer** (00:37:18): So Windows Task Manager is a way to go in and find out which apps on your system are using the computer, using the hardware, using the CPU, using the memory, and which ones might be using too much or locked up or going crazy. And it gives you the ability to terminate and kill those ones. So it’s an inspection and a fixing tool.
 
-**Dave Hone** (00:45:43): And it was, yeah, the legs were a little messed up because water had got to them and the end of the tail was missing and that was about it. So like 90-plus percent complete skeleton and it had been found with, you know, five mil, a couple of sixteenths of an inch of bone sticking out of a hill. And that’s what you want because every so often behind that is a whole skeleton. If you’re looking for skeletons on the surface, they’re going to be gone before you get to them.
+**Lex Fridman** (00:37:34): Yeah, it lists all the processes. I mean, it’s a legendary piece of software. It’s crazy. You just take it for granted. It’s like the Start menu, right? It’s like genius.
 
-**Lex Fridman** (00:46:11): And when it’s a near-complete skeleton, you did a show of Terrible Lizards on Stan.
+**Dave Plummer** (00:37:44): Well, I had the great fortune of working on a lot of things that people are familiar with. And Task Manager was one of those side projects that I started as something that I wanted for myself and eventually came in-house. So I started writing it at home and I got the basics up and running. I was using, I think it’s HKey Current Performance or HKey Performance in the registry to get the stats because I didn’t have access to the internal APIs because I was working from home and I don’t call those if I’m working from home.
 
-**Dave Hone** (00:46:18): Oh, yeah.
+**Dave Plummer** (00:38:08): And when I brought it in-house then I was able to call things like NtQuerySystemInformation or NtQueryProcessInformation and get the real answers very quickly, which enabled it to become a very fast and responsive app. So people have come to rely on it because I wrote it to be as reliable as possible. I wasn’t worried about the features. It was a basic set of functionality that I wanted in there. I got everything I wanted, but I wanted it to be really robust. And small. And the original was like 87k.
 
-**Lex Fridman** (00:46:18): The T-Rex fossil that sold for $31.8 million.
+**Lex Fridman** (00:38:35): Okay, can you speak to what it takes to build a piece of software like that that doesn’t freeze?
 
-**Dave Hone** (00:46:22): Some of them.
+**Dave Plummer** (00:38:40): You don’t assume much, right? If you’re going to call the shell to run an app, well, that could be a network path that’s on a TCP/IP share that takes 90 seconds to time out. So anytime you do any kind of API call like that, that could take time, you’re going to wind up doing it on a separate thread. And so the app becomes a little more complex because everything is multithreaded.
 
-**Lex Fridman** (00:46:23): So that’s a nice big adult T-Rex. So, looking at a fossil like this…
+**Lex Fridman** (00:38:59): Okay, so what programming language were you working in?
 
-**Dave Hone** (00:46:30): Yeah.
+**Dave Plummer** (00:39:01): C++.
 
-**Lex Fridman** (00:46:30): …so for $31.8 million, what’s the excavation process for when you have a claw sticking out, like you were mentioning, and getting that whole thing out without damaging the bones? What can you say about that process?
+**Lex Fridman** (00:39:02): So this was for Windows NT?
 
-**Dave Hone** (00:46:41): So it depends where you are. It depends how many people you’ve got. It depends on your budget and it really depends on the rock. So again, like going into China or Mongolia, where this little guy’s from, the bone tends to be relatively strong compared to the sandstone that it’s in. That also means that A, it’s fairly tough and resistant but it also means that it’s really easy to dig. Like again, I’ve dug stuff by almost like pulling it with my hands or like getting my fingers in. Getting something like a chisel or a hammer, you can just cruise through this rock.
+**Dave Plummer** (00:39:04): Yes.
 
-**Lex Fridman** (00:47:19): But you have to be really careful not to touch the bone, I guess?
+**Lex Fridman** (00:39:05): Okay.
 
-**Dave Hone** (00:47:22): So it depends how strong it is. So again, some bone is incredibly strong, some isn’t because they’ve all fossilized differently. What we’re usually doing is applying glue to it, though. There’s this wonderful stuff called Paraloid and it’s a special glue for fossils. And I said bone’s super porous, so it’s really good at sucking up liquids.
+**Dave Plummer** (00:39:05): So this shipped initially in NT 4.0.
 
-**Lex Fridman** (00:47:43): Oh, so you’re basically filling it with glue so it makes it stronger?
+**Lex Fridman** (00:39:07): Okay, so what are some interesting details about this program? Because you have to get it as simple as possible, but also as robust as possible. What are some interesting optimizations, for example, you had to implement?
 
-**Dave Hone** (00:47:47): Yeah. And Paraloid’s really great because you can dissolve it with acetone and it basically doesn’t react with anything. So you can fill your fossil with glue, but then if you want to take all that glue out, you can pretty much just dissolve the glue back out again.
+**Dave Plummer** (00:39:20): There are a couple of things that are a little hardcore now. I’m surprised I did. Like, I didn’t want to link to the C runtimes at all. So I made sure never to call a runtime call and I didn’t link to them, and that saved me whatever the C runtime is, 96k or something. So, it almost doubled the size of the app if you just touched any C call. So I was careful not to do that, but then I was actually writing in C++, which is C with objects more than anything. But in order to get it to work, I had to go through and call all the object constructors manually from the dispatch table and stuff because you don’t have the runtimes to do it for you.
 
-**Lex Fridman** (00:48:00): Very cool.
+**Dave Plummer** (00:39:50): So you’re working with a compiler that doesn’t have its runtime, and I don’t want to get off-topic on the technical issues, but it’s a lot of extra work to get it to work, but when you do, it’s incredibly small and tight.
 
-**Dave Hone** (00:48:01): So yeah, what you would normally do is for something say in China, where the rock is relatively soft and the bone’s relatively tough and where we don’t have any, like, manpower and shipping problems, which is a real issue in other places, you basically map out where you think the skeleton’s going. So in the same way that you were doing it, like, you know, if you can imagine like a cake or something and someone said, “Oh, put a toy dinosaur in there.” And you’ve got to find it without damaging it. Sort of like, well, you’d stick your finger in the cake and just kind of dig until you hit the edge of it and then you go in somewhere else and go in. And that’s what we’re doing. We’re just going in from all sides.
+**Lex Fridman** (00:40:00): That’s about the size- of the program. What are some interesting aspects of tracking down every process and how much CPU usage is in that process?
 
-**Dave Hone** (00:48:46): And once you’ve hit three or four bones, you kind of know which way it’s going into the hillside, usually. Sometimes they’re very weird and mixed up. And then you can just almost trace the outline of it. And then you’ll just dig all the way around that, which might involve taking the top off a mountain, depending on where you are. In the desert, it tends to be a bit easier. But yeah, we’ve had stuff where, like the first three days, it’s just ten people with pickaxes just digging a hole to get down to the right level.
+**Dave Plummer** (00:40:10): One of the cooler things that I saw is… I don’t want to say I invented Hamming code, but I kind of invented Hamming code without knowing Hamming code existed. So every column and every row in Task Manager has a bit on whether it’s become dirty or not, and then I can look, basically the same way Hamming code looks in your X and Y columns, to find out which rows have changed, go through, and find out which ones actually need to be repainted. So Task Manager is super efficient and it works in concert with the ListView control, which provides that functionality to go through and repaint as little as an individual cell that changes from frame to frame. So it could paint very fast, it can resize very smoothly, and resizing was probably my biggest personal goal with that app.
 
-**Lex Fridman** (00:49:15): But sometimes the excavation requires large equipment, right?
+**Dave Plummer** (00:40:51): So you can size it to any size and it still works and even if you have 32 CPUs, which wasn’t possible in the day, it will draw, I think, only eight graphs and then it wraps but it still works today. So kind of proud of that.
 
-**Dave Hone** (00:49:18): Yeah. We’ve used jackhammers and stuff. We’ve used a backhoe and we’ve just literally driven it into the desert and just dug a big hole next to the fossil. And then the classic thing of covering it in a plaster of Paris jacket. Strips of burlap sacking, plaster of Paris and some water, wooden beams if you want to make something really big and really solid, and just basically wrap it all up and then take it out. And that’s, again, that’s what they were doing 150, 200 years ago, that hasn’t changed. Where it gets more complicated is if you’ve got really hard rock that’s very hard to get through, particularly if the bone is fragile. Then it becomes difficult because if you want to get a jackhammer in, the vibrations mean you’re going to shatter your bones before you’ve even cut.
+**Lex Fridman** (00:41:06): It is incredible. You’ve gotten the chance to observe the evolution of Task Manager. In some ways, it really hasn’t changed much. Maybe there are some prettier aspects to it that fit into whatever version of Windows it’s in, but it’s really basically the same thing.
 
-**Dave Hone** (00:50:08): …through the rock. So then you might be down to doing it manually.
+**Dave Plummer** (00:41:23): The functionality is very same. The reporting is more because they’ve added GPU and thermals and things like that, which is really nice to have. And we didn’t have that ability in the day, so…
 
-**Lex Fridman** (00:50:12): And manual is like-
+**Lex Fridman** (00:41:32): I mean, what can you say? Do you know about, like, was there any refactoring done or is it basically the same code?
 
-**Dave Hone** (00:50:13): Yep. Hand chipping it out. Yeah. The other way you end up with that is like the classic Jurassic Park thing, like the, was it the second scene? And they’re digging in the desert and there’s the whole skeleton laid out and five or six guys all digging around it and exposing it. And that’s actually quite common in the States. And the reason is huge amounts of those excavations are being done on government land, their national parks or whatever, or protected land. And very often the rules are you’re not allowed wheeled vehicles, full stop, at all, to protect the environment. You can walk in and walk out, but you can’t drive.
+**Dave Plummer** (00:41:37): As far as I know, the original code’s still mostly all there so there are layers of drawing code and dark mode code and whatever else, XML, schema code, that goes on top of that that makes it four megabytes instead of 87k but that’s the world we live in, so…
 
-**Dave Hone** (00:50:55): And it’s like, well, when we’re in the desert in Mongolia or in China, and we’re allowed to do this, literally, yeah, my boss drove into town, hired a guy with a JCB. He drove out, picked it up with a bucket and drove it back into town and put it on the back of a flatbed and we drove it to Beijing. If you’re out in a protected area and you can’t, you’ve got two choices. You can take it out by hand, but that means it’s got to be light enough that half a dozen people can lift it.
+**Lex Fridman** (00:41:51): Yeah, it’s one of those pieces of software you create and just stay once it’s there. It’s just really like the Start menu, and I’m sure if you remove it, people would just lose their mind.
 
-**Dave Hone** (00:51:24): Which if it’s a block of stone the size of this desk, you know, a couple of meters by a couple of meters by a meter high, is basically impossible. So that means you’ve either got to carve chunks off, so take the head off, take the arm off and whatever, and you can get it out that way, but it’s not ideal. There’s always the risk of breaking, you’re losing some information, and if you want to make a really spectacular display, you don’t want to join through every big bit of bone. You want to show the public one piece. So the alternative is to get rid of every bit of rock you possibly can to make it light enough to helicopter it out.
+**Dave Plummer** (00:42:02): Yeah, it might be locked in for a while, on that one. It might be good.
 
-**Dave Hone** (00:52:02): And so normally… So in China, if we hit that bit of bone going in, we’re just going in around the sides until we’ve hit it. Take the top off, take the bottom off and just take it so the skeleton is completely encased in rock and it’s as safe and secure as it can be. And then we’ll do the preparation work back at the lab.
+## 3D Pinball: Space Cadet
 
-**Lex Fridman** (00:52:21): That’s heavy though.
+**Lex Fridman** (00:42:06): Yeah, I thought that would be true for Clippy, but Clippy will make it back one day. All right, what are some other pieces of software you created at the time that are legendary? So you were part of Space Cadet Pinball, at least porting.
 
-**Dave Hone** (00:52:22): But-
+**Dave Plummer** (00:42:22): Yeah, so they came into my office and said, “Hey, what are you doing?” And I told them what I was doing and they said, “Well, how do you want to spend your next three months?” And I said, “I have no idea.” And they said, “Do you want to port Pinball?” And I’d seen Space Cadet Pinball as a game standalone for the Win95 platform and it had a couple different tables and it was a cool game so I was kind of excited. What they wanted was some visual splash for NT to show that NT can do, for then, high-speed graphics or at least responsive graphics.
 
-**Lex Fridman** (00:52:22): That’s real heavy.
+**Dave Plummer** (00:42:48): And so I took a shot, and unfortunately, a lot of the code was in Assembly, and I was on a MIPS, so I had to rewrite the code in C so that I could then port it to all the different platforms. At the heart of the game is a huge state engine, and it’s like a giant switch statement with, if I remember, like 50 entries in it.
 
-**Dave Hone** (00:52:22): …if you’re going to have to lift it with a helicopter and they’ve got a weight limit of only a couple of tons, or if it’s not, then you need to pay twice as much for a much more expensive helicopter, then you take off every gram of rock that you think you can- …to get the weight down so you can ship it. So it varies massively. Something the size of Stan, that’s months of work. You’re probably doing that across three or four years with a team of half a dozen people.
+**Dave Plummer** (00:43:06): And it’s got an Easter egg built in. And decoding the state, it’s like running a neural network through this thing as you hit it with different states. And I just put it aside and treated it as a black box. So my code runs on top of that and does the drawing and the sound and everything else. But the original game is still running. And somebody recently asked me why it is slightly different; the physics are slightly different from the Windows 95 version, but it should be the same code because I’m trying very hard to preserve that. But what it is, is I had a bug where I will draw as many frames per second as I can, which on a modern computer can be 5,000 frames a second for Pinball because it’s a pretty basic game.
 
-**Lex Fridman** (00:52:49): So can we just talk through… Because just using Stan as a case study, Stan was first discovered in the spring of 1987 by amateur paleontologist, Stan- …Sekanson in Hell Creek Formation near Buffalo, South Dakota.
+**Dave Plummer** (00:43:45): And so all your physics are interpolated 5,000 times per second instead of 30 times a second, or whatever you would’ve got on the old one. So you’re getting arguably better, or at least different physics, but they fixed that since, so…
 
-**Dave Hone** (00:53:03): Yeah. But it was the Larson brothers from the Black Hills Institute who dug it up. And so they’re a commercial outfit, so they dig stuff up to sell it. But they also make casts and sell them. Oh, I brought my other… I do have a cast, a cast of one of Stan’s teeth. So like you can buy casts of Stan’s teeth. You could buy casts of the head, you could buy the whole skeleton.
+**Lex Fridman** (00:43:57): Why is that game so awesome?
 
-**Lex Fridman** (00:53:25): So it’s a famous skeleton.
+**Dave Plummer** (00:43:59): I think it’s a great design. I mean, I take no credit for that. That’s all totally the guys at Cinematronics. But the original game is a great design. It’s very similar to Black Knight 2000, which I own as an actual physical pinball machine. And the layout is actually very similar. I don’t know if it was inspired by it or not. So it’s a good game.
 
-**Dave Hone** (00:53:26): You see Stan in a whole bunch of different places. There’s a Stan just up the road from here at Oxford. Oxford’s got a cast of Stan.
+**Lex Fridman** (00:44:15): Yeah. Sometimes I think about Tetris, about certain games with pretty primitive graphics that captivate the excitement of a large number of people. And maybe it’s the excitement of a large number of people that contributes to the awesomeness of the game. So when many people together get excited and talk about it, that sort of gets implanted into your head. But that’s one of the great games. I mean, even like Solitaire and Minesweeper. I mean, there’s just a generation of people that have gone to war in Minesweeper, right?
 
-**Lex Fridman** (00:53:32): Oh.
+**Dave Plummer** (00:44:48): Well, those things were included in the OS not as games, but as educational tools to get you to use a mouse.
 
-**Dave Hone** (00:53:34): I was just at Lyme Regis, the famous fossil locality in the south of the UK, a couple weeks ago. One of the fossil stores has a skull of Stan in the window. Stan, Stan turns up again and again and again.
+**Lex Fridman** (00:44:53): Oh, interesting.
 
-**Lex Fridman** (00:53:45): So the process as written here involved removing the overlying rock— …using heavy equipment like a Bobcat.
+**Dave Plummer** (00:44:54): So Solitaire is there to show you how to do drag and drop. And Minesweeper’s probably right-click. I think you put a flag or some item. I’m not a Minesweeper guy, but so each one of them teaches you something.
 
-**Dave Hone** (00:53:50): Yeah. So we call that the overburden, the extra stuff that’s all the rock that’s sitting above the layer with our fossil in. And when you’re lucky, that’s a foot of sandstone and you shovel it out in an hour. And I’ve seen guys in South America. There was a team in Argentina, I think it was my old boss, Ollie Rowhurst, showed me this. And they took like 20, 30 feet off the top of a hill to get down to this fossil, you know, something, you know, it was probably half an acre in size, 20, 30 feet of rock.
+**Lex Fridman** (00:45:03): Minesweeper guy? That’s funny. Yeah. Wow, I didn’t know that. That’s interesting. And that’s true. But I don’t know how many hours I’ve spent on these games, and millions of people have spent millions of hours on these games.
 
-**Lex Fridman** (00:54:23): I mean, this is incredible. I wonder if you could speak to some of these other components: carefully extracting each fossil bone by hand with picks and brushes, plotting and diagramming the bones— …using a grid system at the dig site, wrapping the bones in burlap and plaster for safe transport to the BHI lab. Some of the stuff you’ve spoken to. What’s with the diagramming? What’s with the plotting and the diagramming?
+**Dave Plummer** (00:45:16): I used to volunteer teaching computer science at my kids’ school, you know, for the third graders and stuff. So it’s more like logging in than computer science. But the kids, of course, all their dads work at Microsoft, so nobody’s impressed by anything you do. But so one of the kids found out I worked on Pinball, and then they were like, “Whoa, you worked on Pinball?” Because they all knew that in those days. Now the kids are probably aged out, they don’t know it anymore, but for a brief period.
 
-**Dave Hone** (00:54:42): So yeah. So you may well have seen something like this for archeology shows or something like that. Nowadays, again, tech’s getting better. People are using drones and stuff for this, or taking hundreds of photos and then building photogrammetry models. You just got a 3D model in the computer.
+**Lex Fridman** (00:45:38): You’re behind the Windows activation.
 
-**Lex Fridman** (00:54:59): Or just kind of modeling what we’re looking at here.
+**Dave Plummer** (00:45:42): You say it like it’s a bad thing.
 
-**Dave Hone** (00:55:01): Yeah. But, but where you found everything. So it goes back to that stuff we were saying about the process of fossilization or the process of what’s happened to that animal from death to discovery. It’s like, a classic thing is bones being in a line. So you can imagine if, you know, bones are lots of weird shapes, but mostly, or at least certainly lots of bones, ribs, arms, and legs, things like this, they’re quite long bones. So if they’re in a current, they will tend to spin in the axis so that they are facing the current. So if you’re finding all the bones are in a line, that probably tells you that this thing has had quite a lot of water washing over it.
+**Lex Fridman** (00:45:44): Everything’s a matter of perspective. So tell the story of that. What’s Windows activation? How’d you get involved?
 
-**Lex Fridman** (00:55:40): Mm-hmm. Got it.
+**Dave Plummer** (00:45:53): So they came to me late in the XP ship process. I don’t know if the beta had gone out. I don’t think the beta had gone out yet, but they had intended to take the Office activation code and then adapt it to Windows and add activation to Windows. But whoever was responsible for doing it had slipped it enough times that it wasn’t going to happen. So I had kind of a reputation for being able to fix things quickly, so they came to me and said, “Can you get this done in time for XP?” “I don’t know, but I’ll try.” So with the help of the guys that were doing the DRM stuff on the DRM side and the research guys doing the math for the product keys and everything else, we cranked it out in time for XP.
 
-**Dave Hone** (00:55:40): You’re then probably going to be missing most of the small bones because the big heavy bones won’t be shifted by that current, but maybe the small ones will.
+**Dave Plummer** (00:46:26): And I don’t know what its actual impact is for revenue, but I imagine it’s substantial when you start enforcing license keys.
 
-**Lex Fridman** (00:55:48): Oh, so you actually model where the bones, where you’re likely to find the bones, the big bones, the small bones—
+**Lex Fridman** (00:46:35): I wonder what it is.
 
-**Dave Hone** (00:55:52): So it might, it might tell you where to go and dig further down the hill, quite literally, but it can also just tell you, okay, this thing, there’s no way this thing died here. It absolutely got moved, so we need to factor that in when we’re trying to interpret it. Or we’ve got this one weird bone and we can’t work out what on earth it is. Well, maybe it’s from something else because if we know a whole bunch of stuff washed together, maybe that’s a random bone from a different animal.
+**Dave Plummer** (00:46:36): I don’t know.
 
-**Lex Fridman** (00:56:19): Yeah. Maybe that was eaten, or there might be a different story if it was washed like you…
+**Lex Fridman** (00:46:36): Because it’s also annoying.
 
-**Dave Hone** (00:56:23): Any, any of that kind of thing. So that’s where you want to have as much information as possible.
+**Dave Plummer** (00:46:39): It is, especially if you have to phone activate. And that was just the case that we had to carry with us as an albatross around our neck, where you’ve got to pass data up to the clearinghouse, the backend systems that are going to approve your key. You’ve got to tell it all your hardware parameters, like how much memory and hard drive space and the various things the hardware key is bound to, as well as the product key, and you’ve got it encoded in letters and numbers that somebody’s willing to read in over a phone. And if you think doing product activation is painful over the phone, could you imagine being the person that worked on the other end of that line? I mean, that’s just got to be a mind-numbing job to listen to product keys for eight hours a day.
 
-**Lex Fridman** (00:56:29): It says here, “Once at the lab, the bones underwent more than 30,000 hours of cleaning, preservation, restoration, and documentation.” And Stan’s skeleton is notable for its high degree of completeness, about 70% by bulk, 63% by bone count, and the exceptional preservation of its skull, which has become a scientific standard for the species.
+## Start menu and taskbar
 
-**Dave Hone** (00:56:49): Yeah. So there’s this unbelievably beautiful skeleton, Borealopelta. This is a helicopter lift. Absolutely…
+**Lex Fridman** (00:47:13): Yeah, one of the challenges with Windows, and it’s been a frustration point for me, but I understand from a design perspective it’s very difficult, is so many different kinds of people use Windows. But it’s been frustrating how over time Windows has more and more leaned into the direction of not the power user, I should say, which is why Linux has always been really wonderful. But from an activation perspective or from any kind of configuration, it’s been a source of a lot of frustration.
 
-**Lex Fridman** (00:56:58): It’s awesome.
+**Dave Plummer** (00:47:49): Yeah, one of my more popular episodes of late has been why you can’t move the Windows taskbar. And I had no idea, but the outrage is palpable amongst people that you—
 
-**Dave Hone** (00:56:58): … phenomenal preservation from-
+**Lex Fridman** (00:47:56): Yes.
 
-**Lex Fridman** (00:57:00): What?
+**Dave Plummer** (00:47:57): …just put it on the left or top and you can’t anymore, and it is an affront to their existence. And I understand it to a certain extent.
 
-**Dave Hone** (00:57:00): … from Northern Alberta.
+**Lex Fridman** (00:48:02): Well, it’s one of the main reasons I really just dislike Windows. There’s a lot of aspects about Windows 11 I dislike. One of which is like you can’t customize things as much about the position of the taskbar, just basic customization. Can we just configure stuff? Because there’s going to be a small contingent of power users that are just going to enjoy the hell out of this operating system if you just give them that option. It costs you nothing. Just give them that freedom.
 
-**Lex Fridman** (00:57:01): What is this thing?
+**Dave Plummer** (00:48:28): Well, it does cost, right? Because the freedom to put the Start menu on the left or the top or the right really increases the complexity of the code that renders the Start menu and lays out the tabs and does all the things, and now it’s a much larger surface for bugs and it’s a much larger piece of code to maintain, so you probably need more developers or another developer or some portion of a developer’s time. So the question becomes at what point is it still worth it to satisfy the niche needs of a small set of users? Those decisions weren’t mine to make, but I could see it from both sides.
 
-**Dave Hone** (00:57:02): Its full name is Borealopelta markmitchelli, and it’s called markmitchelli, named after Mark Mitchell, the preparator, who basically spent, I think Mark spent the thick end of two years on this. This was his job. And he did other stuff as well. He’s doing some other prep, he’s doing some fieldwork. But Mark basically went in every day, nine to five, cleaning the rock because the rock was hard and the bone was soft, and it’s extraordinarily well-preserved.
+**Lex Fridman** (00:49:04): I think just like the people who make movies and insert very nuanced details that only a small number of people will realize are there, that’s going to really pay off. There’s a kind of reputation that builds over time that has a very powerful ripple effect. That I think it has so many benefits, including for hiring great software engineers. It’s like you create this aura of a place that puts love into every detail, that really takes care of the power users, that takes care of the developers, and I think Microsoft has more and more moved in that direction with GitHub and acquiring GitHub and just taking care of the developers. But on the Windows interface side, come on, some customization.
 
-**Lex Fridman** (00:57:30): Borealopelta is a genus of plant-eating armored dinosaur. Sure as hell looks armored. This is an incredibly preserved specimen. From the early Cretaceous period, about 112 million years ago, found in what is now Alberta, Canada. Amazing. Look at this thing.
+**Lex Fridman** (00:50:04): With VS Code, you can customize everything. Why can’t we customize the Start menu, all right? And the taskbar, and really every aspect of the Windows interface. I don’t know, maybe you’re right. Maybe it increases the complexity of the code. I suspect that’s just not the case.
 
-**Dave Hone** (00:57:47): So Borealopelta is one of the ones where we’ve even got some of the evidence of patterning, and it suggests that it’s darker on top and lighter underneath. So this illustration, I think that’s, yeah, that’s Julius Chattoni did that. He’s a Canadian paleo artist, and so that color pattern is roughly accurate.
+**Dave Plummer** (00:50:24): I bet it was. I bet it was a scheduling decision when they rewrote the Start menu. I think they rewrote it because it’s different than the old taskbar.
 
-**Lex Fridman** (00:58:03): Oh, wow. So this is true to color. And so we can figure out the colors that…
+**Dave Plummer** (00:50:31): And somebody was tasked with, “You’ve got to deliver this set of functionality, and if I cut out putting it on the left and the top and the right and two rows of tabs and all the other cool features, I can deliver it four months sooner.” And I’m not saying that’s the right decision, but I’m guessing that might be the kind of thing that motivates it. And they’re on such a different release schedule now. It used to be… You won’t see much craftsmanship unless somebody owns a component for a long time and it settles to a point that then you can work on and polish it, right? But if it’s always churning and the UI is changing every release, it’s never going to get that level of polish. Although I think the UI is pretty nice, but…
 
-**Dave Hone** (00:58:06): Well, give, give or take some very large uncertainties-
+**Lex Fridman** (00:51:06): Yeah, it is nice, but I think it’s a craftsmanship thing. Just like you with the Task Manager, if there’s a guy or a girl in there who takes ownership of it, who has a passionate… For them, it’s a thing that they take pride in over a period of time, they can by themselves in a short amount of time create something truly wonderful.
 
-**Lex Fridman** (00:58:11): Look at this thing.
+**Dave Plummer** (00:51:33): Right.
 
-**Dave Hone** (00:58:11): … it’s gonna be something like this.
+**Lex Fridman** (00:51:34): And like, I think if you have large software engineering teams with managers and scheduling of meetings and all this kind of stuff, yeah, okay. Then your argument applies. But if you allow the flourishing of individuals that create cool stuff and their own sort of side project, which Google is very good at.
 
-**Lex Fridman** (00:58:13): That’s so awesome.
+**Dave Plummer** (00:51:55): They’ve tried that, right? At Google, yeah.
 
-**Dave Hone** (00:58:14): So these guys are…
+**Lex Fridman** (00:51:56): Yeah, like have fun with it. Like do some crazy stuff and then we’ll integrate it. We’ll try to integrate it into the whole ecosystem. I don’t know. I don’t know, because to me, it’s such a great joy for an individual developer to create something like customization of the Start menu or the taskbar because you know that millions of people are going to use the taskbar. And then you know that thousands, tens of thousands of developers might be using to customize even little subtle aspects of the taskbar. You know how much joy you create, you give to people to customize, to have some kind of JSON thing where you customize something about the taskbar?
 
-**Lex Fridman** (00:58:16): That’s hard to eat, that thing.
+**Dave Plummer** (00:52:37): Okay, but how do you respond to the Steve Jobs aspect of giving you customization implies that we couldn’t figure out the right answer for you? Or maybe there is no right answer and all four answers are equally right. I have no idea, but…
 
-**Dave Hone** (00:58:17): …nearly armored pine cones. Yeah, though it’s very much the adult condition. The juveniles seem to be far less, if not unarmored.
+**Lex Fridman** (00:52:51): Right. I think I’ve always— I’m glad Apple exists. It’s a beautiful thing, and that idea of design is wonderful, but I always thought that Windows creates the contrast. The point of Windows is to be the operating system that works on all kinds of devices, that’s supposed to be much more open. And they’ve moved towards that direction more and more with Windows Subsystem for Linux. It’s just this whole developer-friendly ecosystem. The interface should be in the spirit of that, I think. But I do think that there could also be security vulnerabilities created with that. It’s not just the complexity of the code, because Windows is just under attack.
 
-**Lex Fridman** (00:58:25): We’re back to the juveniles thing.
+**Lex Fridman** (00:53:30): It’s very difficult to keep it secure. Anyway, taking that tangent, you also developed ZIP file support for Windows, creating Visual ZIP, which eventually evolved into ZIP folders. Tell the story of that.
 
-**Dave Hone** (00:58:26): Right. So, right, so… So, but that’s why we… That armor is absolutely going to be effective as anti-predator, but it’s probably evolved primarily for combat and display between members of the species because otherwise if they stopped you being eaten, the babies would have it.
+**Dave Plummer** (00:53:44): So that was a piece of software that I wrote at home again, and what happened was, I was out with my wife, and I think it was a Sunday afternoon. We were driving around. This is 1993, and we’re living in our apartment, and we’re just seeing what the housing market is like out there. And there’s a guy, he’s got this beautiful three-bedroom house and a Corvette convertible, ’93 red, torch red, parked in the driveway, and the house is for sale, and it’s like 300K, I think. And there’s no chance I’m coming up with 300K at that point, or even the down payment on that. So I took the flyer, and I cut the picture of the house out, and I taped it to my monitor. And that was my incentive to just write something at night, because when I came home, I was doing two things.
 
-**Lex Fridman** (00:58:42): This fossil is considered one of the best-preserved dinosaur specimens ever found, with armor, skin, keratin sheaths, and even stomach contents all intact. Incredible. And so for that, he really did the work.
+**Dave Plummer** (00:54:21): I was, one, expressing a creativity that I couldn’t get out at work when I was just fixing bugs, and I was trying to make some extra money. And so I wrote a Shell extension. Before I actually went to the Shell team, I started it, and that’s what led to my interest in going to the Shell team, based on an MSDN sample or MSJ at the time, an MSJ sample that I saw on how to, like, bring up a folder. Well, once I had the very basic bring up a folder template, adding ZIP file support to it was just incremental all the way. And I released it as a shareware product.
 
-**Dave Hone** (00:58:55): And also found miles and miles and miles out to sea, or the paleo sea. So this is from a site which normally gives us big marine reptiles. So predatory plesiosaurs and ichthyosaurs and then mosasaurs and stuff like that. And then it turned up an ankylosaur, well, nodosaur in this case.
+**Dave Plummer** (00:54:50): I think it was 19.95 or 29.95, and I sold, whatever, a couple of hundreds or thousands of copies. And one day, I’m getting ready for work, and I get a call, and it’s a lady, and she says, “Are you Dave Plummer?” I said, “Yeah.” She said, “Are you the guy that wrote Visual ZIP?” I said, “Yeah.” And she said, “Well, this is Betsy from Microsoft, and we’d like you to come by and come in and talk about an acquisition of it.” And I said, “Okay, what building are you in?” And she’s like, “What do you mean?” And I said, “Well, I’ll come by.” And she said, “Well, no, you got to talk to travel, and you got to talk to legal, and this all has to be set up.” And I’m like, “I don’t get it. We both work at the same place.” Why can’t I just stop by?” I don’t know if I said that literally—
 
+**Dave Plummer** (00:55:24): …but it was a few minutes of back and forth where we both realized that she didn’t know I worked there.
 
-## $31.8 million T-Rex fossil
+**Lex Fridman** (00:55:28): Yeah, that’s funny.
 
-**Lex Fridman** (00:59:14): Yeah. Wow. This is incredible. So, okay. Let’s complete the journey of Stan to the museum to, like, you get, you get to the process of cleaning everything, stitching it all together.
+**Dave Plummer** (00:55:29): They had just cold-called the author and then found out that it was me.
 
-**Dave Hone** (00:59:25): Yeah, like Mark suggested, this can be, even with an animal that size, Borealopelta is, you know, four or five meters long. We’ve only gone and got the front two-thirds of it. This can be needle-level stuff.
+**Lex Fridman** (00:55:32): Yeah, that’s funny.
 
-**Lex Fridman** (00:59:37): That’s how you get to the 30,000 hours.
+**Dave Plummer** (00:55:32): And so they made me an offer on it, and it’s the kind of thing where if I don’t accept the offer, well, now my choices are: I can keep selling my own version and quit Microsoft, or I can stop selling my own version and work for Microsoft. Neither of those is great. I mean, I’d like to keep my job, of course, but I’d like to still— …have this income stream. And the other option was accept their offer, which is what I did. So then I bought a used ’93 red Corvette, and…
 
-**Dave Hone** (00:59:39): Yeah, exactly that, if it’s that quality and you want to get everything open. And then something like Stan, actually a really complicated skull. The skull’s full of lots of little bones. The bones are really fragile. So that just adds to the time. I mean, at least with the ankylosaurids, the skull is just this giant solid block of bone, which makes life a little bit easier. So yeah, they’re going to put those hours in, and that’s really going to help them sell the animal, which is ultimately what happened. I mean, Stan sat in the Black Hills Institute for decades. I mean, ’87, and they sold it in like 2020, so they had it for 30 years sitting in their kind of little museum. And then my understanding was basically the brothers broke the company up, and that’s why they sold it.
+**Lex Fridman** (00:55:56): And you got to continue building it internally?
 
-**Lex Fridman** (01:00:23): Yeah. But it was still incredibly surprising that it was sold for 31 million.
+**Dave Plummer** (00:56:00): I did. So we took a lot of features out, right, to simplify, because it had encryption, and it had a number of features that were common in ZIP programs of the day, but probably weren’t appropriate for Windows. And, at the time, encryption was like a munition, so you couldn’t just add encryption willy-nilly to various parts of the operating system, so we took out some things like that. Multi-volume support, I think, was taken out just to simplify it.
 
-**Dave Hone** (01:00:26): Yeah, I mean, far more than I think anyone thought it was going to. I mean, I liken… Well, you know, if you’re not buying, like, teeth or an ammonite in some small fossil shop, you know, when you’re talking about things like whole dinosaurs and whole tyrannosaurs, I think it’s a bit like the art market, in that it’s worth what people will pay for it. And so, you know-
+**Lex Fridman** (00:56:23): Can you speak to ZIP in general, just the history of ZIP and, you know, compression, that whole thing?
 
-**Dave Hone** (01:00:47): …plenty of T-rexes had sold for a few million dollars, and therefore everyone thought it might be five. You know, ten would be an absurd sum of money. And then yeah, it went for 30, and it’s like, okay, well… two. I was going to say someone wanted it that bad, but clearly not two people wanted it that bad, because if only one guy is prepared to bid 30, then it goes for, you know, a million more than the next highest bidder. But presumably, two people, if not three, bid it to get that high.
+**Dave Plummer** (00:56:29): Yeah, it was really borne out of the BBS era when people were dialing in on modems to download trialware and shareware and other things from BBSs online and to compress them. Executables compressed about half their size. Other stuff compresses much more. But a guy named Phil Katz came up with a command-line program for MS-DOS called PKZIP, which was able to do compression of programs, and he has a rather tragic arc. But it became ubiquitous in the entire PC industry, and pretty much everybody was using it. So when Windows came out, there was no way to open up a ZIP file, but everybody had been creating them for a decade, and so that really drove the desire to have the ZIP support right in Windows.
 
-**Lex Fridman** (01:01:19): Yeah, it was anonymous at the time, but now it’s Abu Dhabi’s Department of- …Culture and Tourism came out that they were the ones.
+**Lex Fridman** (00:57:11): Yeah, and that’s another piece of software that’s just kind of with us to this day.
 
-**Dave Hone** (01:01:24): I know they’ve got it.
+**Dave Plummer** (00:57:15): Mm-hmm. And it could be vastly improved, but, you know, it was written in the single-core days, so it doesn’t do anything multi-threaded. And you’ve got a 96-core 7995, well, it uses one of them to unzip your file.
 
-**Lex Fridman** (01:01:25): And that record has been since beaten apparently by, uh-
+**Lex Fridman** (00:57:26): What other awesome things were you a part of at Microsoft? What other pieces of software?
 
-**Dave Hone** (01:01:29): By Apex, the Stegosaurus, which I still haven’t seen, though a friend of mine has sent me some photos of this thing.
+**Dave Plummer** (00:57:32): I worked on the initial prototypes of Windows Media Center. So we did—
 
-**Lex Fridman** (01:01:36): Is it impressive to you, this thing?
+**Lex Fridman** (00:57:35): Nice.
 
-**Dave Hone** (01:01:37): No, not especially. That’s why I can’t imagine that it sold for that much. It’s a really nice Stegosaurus. It’s pretty big, Stegosaurus.
+**Dave Plummer** (00:57:35): …that in ’96, I believe. And we didn’t have, at the time, any sources, so we had like a CD of MPEG video files of Raging Rudolph and I think the original South Park video— …the Christmas one, which is all wildly inappropriate in the workplace today, but— it’s all the content we had until we got actually… We had them put a satellite dish on the roof, a DSS, whatever the 18-inch dish is, because we couldn’t get cable to the building. And so we built up this thing that would eventually look a lot like Media Center, and it was distance viewing UI for Windows, so you could sit with a remote control on a desktop and have, you know… The current Start menu is not great at 20 feet away.
 
-**Lex Fridman** (01:01:47): Well preserved.
+## Blue Screen of Death
 
-**Dave Hone** (01:01:47): I’ve seen other very good Stegosauruses, and I don’t understand why that’s worth that much more than something like Stan. But it shows you the market. So, we’re here in London. There’s a Stegosaurus called Sophie in the Natural History Museum in London. Sophie is a young animal, so she’s not very big. I mean, it’s a sizable specimen. I’d say five-ish, six meters, off the top of my head, total length. But Sophie’s truly exceptional. Like, there’s a couple of plates missing, a handful of ribs, a couple of bones in the tail. I think a couple of toe bones. This is, by far, the most complete Stegosaurus out there.
+**Lex Fridman** (00:58:13): Tell me the story of the infamous blue screen of death.
 
-**Lex Fridman** (01:02:25): Wow.
+**Dave Plummer** (00:58:17): What it is is when Windows has no other option, when the kernel gets into a state where something illegal has happened, so let’s say a device driver is trying to write to a piece of memory it doesn’t own or is trying to free a piece of memory twice, something that just cannot happen, and the kernel has no other option, it will shut the machine down to save your work. And… Well, not save, but prevent further damage, and it puts up a blue screen and it prints out the stack information, depending how your settings are. Sometimes it’s just a sad face. In the current Windows.
 
-**Dave Hone** (01:02:25): That sold for, I think, 250,000 pounds, so maybe $400,000, about a decade ago. So this has now gone up, like, 100-fold for an animal which is quite a bit bigger but is way less complete. So for me, those two things kind of balance out because size is always impressive, and that’s what the public likes, but also a complete one is better than a half a one or two-thirds a one. So how has the price gone up 100 or from, yeah, 400,000 to 40,000,000 in 10 years for roughly the same thing?
+**Lex Fridman** (00:58:46): I wonder what the first version of Windows when the blue screen came to be.
 
-**Lex Fridman** (01:03:03): A T-rex is a little bit more epic than-
+**Dave Plummer** (00:58:51): So, Windows 3 had a blue screen- but it’s completely unrelated to the blue screen in Windows NT. And I talked to the guy who wrote the blue screen in Windows NT. His name’s Jon Viert, and the reason he picked white on blue, I had thought, I’d always heard it was because in the labs, you could walk through a lab where we have 50 PCs all running stressed. “Oh, that one’s got a blue screen. It’s—” “crashed.” It wasn’t that simple. It was just the MIPS firmware that he was building it on was blue on white, and Visual SlickEdit that he was using as an editor was also the same color scheme. And so you could code, boot, crash, and reboot, all in the same color scheme.
 
-**Dave Hone** (01:03:06): Well that’s the thing-
+**Lex Fridman** (00:59:25): Why do you think so many problems with computers can be solved by turning it off and turning it back on again?
 
-**Lex Fridman** (01:03:06): …a Stegosaurus.
+**Dave Plummer** (00:59:34): I think there’s two major things that happen with computers as you run them over time. One is memory gets used and not freed. And so it accumulates on the heap or in the swap file or wherever, and things get sluggish. And the other is, code gets into a state that the developers didn’t anticipate or didn’t test very well. And maybe that’s a rare state, but now that Notepad or Word or Excel is in that state, your system is goofy. So if you just reboot the thing or shut it down or restart it, you’re getting a fresh state and there are no memory leaks, so it covers a lot of sins, basically.
 
-**Dave Hone** (01:03:06): T-rex has a massive premium on it. Because it’s, yeah, a Stegosaurus is one of those top-tier, you know, it’s… You can virtually do the list. You know, T-rex, Triceratops, Diplodocus, Brontosaurus, Stegosaurus. It’s in that first six or seven… Okay, these days, Velociraptor, thanks to Jurassic Park.
+**Lex Fridman** (01:00:03): And the intricate ways that several pieces of software in a goofy state interact with each other creates sort of a meta goofy state that just the entire system starts acting a little weird. And then somehow fixes it. What are some of the best and the worst code you’ve seen during that time at Microsoft? What’s some beautiful code and what’s some ugly code that pops to memory?
 
-**Dave Hone** (01:03:27): But it’s… Like, right, but you know, that’s the list of like seven or eight things that any random human who doesn’t care about dinosaurs and doesn’t know anything about dinosaurs, but they’ve probably heard of them. You know, Stegosaurus is in that list and would have an idea of what it looked like. Oh yeah, it’s got like the big stuff stuck along the back. You know, you’d get that answer from almost any, you know, 99% of people on the street. But yeah, it’s not a T-rex. So how it’s worth, yeah, 50% more and it’s not even a particularly complete skeleton, Apex, to my understanding, like I don’t get it.
+## Best programmers
 
-**Lex Fridman** (01:04:05): Actually, since we’re on the topic of money, if I gave you, let’s say, $10,000,000,000, how would you spend it? I force you to spend it on dinosaur-related things. How would you spend it?
+**Dave Plummer** (01:00:31): In terms of beautiful code, there’s two that stand out for me. One is the kernel in general. When you get down into the Windows kernel-
 
-**Dave Hone** (01:04:16): I mean, I’d probably drop half a billion or so on the best museum you’d ever seen and then-
+**Dave Plummer** (01:00:38): …in the actual NT APIs and stuff, it’s very well written, and it’s written to a standard that you don’t see on the user side, or at least is uncommon on the user side. On the user side, probably the coolest code I remember seeing was a guy named Bob Day, who wrote a named pipe implementation to eliminate the use of shared memory. So Windows 95 had a big shared segment amongst all the shell processes where it would store stuff that was common to all the shells. We didn’t want to do that. Shared memory is a bad idea on NT at an industrial level, so he came up with a way to do it with named pipes, and I remember doing a code review on it, and it was very impressive to walk through the code.
 
-**Lex Fridman** (01:04:22): So, put together a museum. You’re like one of the great communicators- …one of the great scientists, and so like you would want to push forward the whole field. And one of the ways to do that is a great museum, actually.
+**Dave Plummer** (01:01:15): It was one of those things where it was like, “Oh, I don’t think I could have done that if I was trying.”
 
-**Dave Hone** (01:04:33): Yeah, but you wanted… So, it’s twofold because there’s the communication and the education part of it, which is something I’m massive on, and I think research is pointless if you don’t communicate it at some level. I’m not saying everyone needs to communicate everything. If you’re working on the nuances of a calculation of the volume of a black hole or something, yeah, it probably doesn’t need a press release or a new museum exhibition. But fundamentally, we should be talking about our work. But also, you’ve got to store this stuff. Many fossils are fragile. They need to be kept not necessarily in climate control, but at least you want a basement that is much more even than, you know, just sticking it in a box in a warehouse somewhere.
+**Lex Fridman** (01:01:19): Who’s the greatest programmer you’ve ever encountered?
 
-**Dave Hone** (01:05:15): So you’ve got to be able to store this stuff to be able to study it, or it’s kind of pointless. But with the rest of that money, I’d buy a ton of land, like the quarries that gave us Archaeopteryx in Bavaria and have given us a ton of other stuff. I’ve worked on a load of pterosaurs, the flying reptiles from there. These are mostly commercially run or just straight-up privately owned and not being commercially run. Someone’s just inherited it, and they’re just sitting on this stuff.
+**Dave Plummer** (01:01:22): You know what? I don’t think there is any one. I’ve met a number of great programmers, but I’ll tell you one story that impressed me a lot. When I was brand new at the company, I’d been there like six weeks, and I’m working on this OLE Presentation Cache that I’d mentioned earlier. And I’m on Windows 95, and I’ve got Excel inserted into Word, and I’m in the kernel debugger, and something’s going wrong in the scheduler. And I’ve been there, you know, I’ve barely written any x86 code, and I’m looking at the Windows scheduler, trying to figure out why my thing is deadlocked.
 
-**Lex Fridman** (01:05:43): So if somebody’s building stuff on land, does that threaten the possibility of discovering something on it?
+**Dave Plummer** (01:01:49): And eventually, I get stuck, so I’m kind of out of my element, and I send an email to the Windows 95 kernel team and say, “Could you send somebody by?” So about 10 minutes later, this developer strolls in, and they’re just holding a null modem cable, which is to connect my two machines together so they can debug one with the other in case I didn’t have it, but it was already set up. And so they sit down, and they’re using WinDbg, which is a horrible debugger. It’s just accursed.
 
-**Dave Hone** (01:05:50): It’s more that they’re not necessarily exploiting it with fossils in mind.
+**Dave Plummer** (01:02:10): But they’re very, very competent with it, and they are just blasting through the call stacks, and they’re checking all these objects in the kernel and trying to find out who’s waiting on what and why things are deadlocked, and what things are signaled and what’s not. And it’s just this quicksilver ballet of call stacks flying by, and I’m watching this, and I’m pretty blown away because I’m a good programmer, but this person is an amazing debugger, and I’ve never seen a performance like this. And about five minutes in, I just hear, “Oh, I see.” And then they disconnected and got up and left. And that was Laura Butler, who became a distinguished engineer at Microsoft. I think she may still be; I’m not sure if she’s retired or not, but…
 
-**Lex Fridman** (01:05:55): Presumably, you have to balance the search efforts and the land.
+**Dave Plummer** (01:02:49): So she kind of set my template for, you know, what Microsoft developers were like when they’re debugging and what kernel developers were like, and even what female developers were like, because I had such a small sample set. But it was a very high standard, so…
 
-**Dave Hone** (01:05:59): Yeah, but you know, one billion on its own would go a very, very long way, almost infinitely, if you’re just creaming off the interest and then funding excavations and supporting scientists who are already embedded in other museums or other universities or other research institutes.
+**Lex Fridman** (01:03:02): There are few things I love in life more than people who are ultra-competent at anything, really. But the lower level, the better, in the engineering space. They’re able to, for example, run or maintain the computer infrastructure. So not the individual computer, but the computers communicating and working together. Those people are just magicians. It’s so inspiring to make… It’s like watching a great carpenter or…
 
-**Lex Fridman** (01:06:16): So the rest is for buying up land so that those people can do their work.
+**Dave Plummer** (01:03:28): I love anything done really, really well.
 
-**Dave Hone** (01:06:18): Yeah, you look at somewhere like, you know, Brazil, and I can never remember the name of it, but there’s, again, one of these zones of exceptional preservation where superlative pterosaurs, fish… We’ve had a handful of dinosaurs and a whole bunch of other stuff has come out, and it’s just a giant commercial mining operation. And yeah, when they hit a fossil, when they think they’re close to it, they stop and pull it out, and they’ll send it to a museum, and more often they’ll sell it to a museum, and museums only have so much money. Whereas what if I owned that quarry and then I made sure everyone who worked there was trained and got a bonus every time they found anything, and then I just handed everything they dug up straight into a museum?
+**Lex Fridman** (01:03:30): Yeah, it’s beautiful to see. It’s beautiful to see that humans are able to accomplish that. Even in civil engineering, when I look at bridges, it’s like the number of people that had to come together to build that, and now millions of people use it every single day. With software, sometimes you don’t get to see visually just the number of people impacted by a thing. So imagine how many people are impacted by Linux and all the different open-source systems that make up Linux. It’s incredible. And Task Manager is an example of a piece of software. Just how many people have used that over the years, and how many times? It’s crazy. It’s probably, is it billions? Billions have used that.
 
-**Lex Fridman** (01:06:59): So there would be some element of crowd-sourced paleontology or?
+**Dave Plummer** (01:04:12): Yeah, two billion a month or something.
 
-**Dave Hone** (01:07:01): Yeah, but it’s more that no researcher ever needs to spend money to access that. No museum needs to go and find a new donor to give them half a million to go and buy this one specimen, knowing that it might still go to some Silicon Valley billionaire’s foyer or whatever. It’s like, “Well, I own the land, so it’s mine, so problem solved.” That’s what’s in my head.
+**Lex Fridman** (01:04:13): Two billion?
 
-**Lex Fridman** (01:07:27): It just would be wonderful to scale up the effort to where we can map out the whole, sort of, story of this time, because it’s such a fascinating time in the history of Earth.
+**Dave Plummer** (01:04:14): Something like that. I’ve seen the metrics, and it’s up there.
 
-**Dave Hone** (01:07:37): I’ve jokingly written a couple of times about how all science funding in the world should go to paleontology.
+**Lex Fridman** (01:04:16): Oh, crazy to think.
 
-**Dave Hone** (01:07:45): And the idea being that, like, yeah, if you want to investigate black holes or neutrinos or chemical crystallography or panda genetics or whatever it is, you can do that any time you want. That’s not going to change a million years from now as it will from tomorrow. But fossils are in places that erode, and if we don’t dig them up, they’re gone. So we should dig all the fossils up now, and then we’ve got forever to study them. But if we don’t dig them up now, who knows, you know, maybe something twice the size of T-Rex sat on a hillside for six months, and then the wind got to it and it’s gone, and that was the only one that ever preserved. Well, we’ll never know now. To be clear, this is a joke.
+**Dave Plummer** (01:04:18): It is. What I love about it, though, and I’m sure you’ve had this experience, where sometimes you design a piece of software, and it’s complex, and you get it working in your head, and you get the plumbing working, and you know how it’s going to run and flow, and then eventually you write the code, and the code does that thing that you had pictured in your head. And now there are billions of copies of that thing that I had in my head running on billions of people and machines, and that in itself is really cool to me. It’s not a vanity thing so much as I’m impressed by it, I guess.
 
-**Dave Hone** (01:08:38): I’m not suggesting we should stop doing cancer research and physics and other things, but it is – we’re in a fundamentally different field where our science is literally disappearing.
+**Lex Fridman** (01:04:46): How’s your programming evolved over the years?
 
-**Lex Fridman** (01:08:48): Yeah. I mean, I know it’s a joke, but there’s some truth to it. And on the flip side, one of the hopes is that technology will somehow ease the search and discovery process, but as you said, so far most of it…
+**Dave Plummer** (01:04:50): I take a lot more care with complexity these days. So it used to be you would write code and just keep writing code, writing code, and then at some point, go back and clean it up. Well, I write the other way now. I try to write really clean initial skeletal code and then flesh it out because I have been involved in too many projects of my own and of other people’s making where things get so messed up that they’re just not fixable. And so sometimes the work you put in upfront pays off, you know?
 
-**Dave Hone** (01:09:03): It hasn’t. Yeah, I mean…
+**Lex Fridman** (01:05:18): What programming languages have you used over the years? What’s been your main go-tos?
 
-**Lex Fridman** (01:09:03): So far.
+**Dave Plummer** (01:05:22): For me, it’s been C++ and assembly language.
 
-**Dave Hone** (01:09:04): Yeah. You know, Jurassic Park ’93, you’ve got that little scene where they’ve got the, like, thumper or something they call it, and it hits the ground, and seismic, and then they go, “Look, look! Here’s the whole skeleton.” Yeah, they tried it. It doesn’t really work. We’ve tried looking for stuff with drones. That helps you get into some inaccessible areas, but until the resolution is probably better, you’ve still got that problem of, like, looking, you know, with human eyes which are binocular, and being able to, you know, just tilt your head completely changes how you see something in a way that flying over just won’t. I know they’ve tried looking…
+**Lex Fridman** (01:05:25): And still to this day, C++ is really what you lean on?
 
-**Dave Hone** (01:09:45): So because the bones are porous, they tend to suck things up, so actually dinosaur bones can be really radioactive if they’re in areas where there are things like uranium. So yeah, there are drawers which have lead boxes around them and stuff like this for dinosaur bones, or just signs saying, “Do not handle.” They’re very low-level radioactive. Like, you’d have to stick it in your pocket for six months to run any real risk. But they’re radioactive, much more so than the background. So can we do that? Hmm, turns out, not really. So again, maybe tech will advance.
+**Dave Plummer** (01:05:28): Yeah, right now I’m 100% Lua and Python, but that’s just a side project I’m working on.
 
-**Lex Fridman** (01:10:19): But for now-
+**Lex Fridman** (01:05:33): Can you speak to the Lua and the Python detour that you took, and what do you love about C++?
 
-**Dave Hone** (01:10:20): Right, and-
+**Dave Plummer** (01:05:40): What I’m doing is I wanted to build an AI to play the game Tempest. That’s the old Atari game, Tempest. This is a game that I actually hold the world record on.
 
-**Lex Fridman** (01:10:20): … humans are quite incredible.
+**Lex Fridman** (01:05:49): Can you take me to this Atari game, Tempest? Okay, Atari Tempest. What kind of game is this?
 
-**Dave Hone** (01:10:22): Yeah, we are. But also, paleo’s kind of at the bottom of the pile, you know. There’s not many of us. We don’t have a lot of funding. It takes real money to adapt stuff. So, you know, we’re scanning stuff with MRIs and things like that in hospitals, but it mostly doesn’t work very well because the problem you’ve got is, like I said, the bones take on some of the properties of the minerals in which they’re embedded, which means their density is really similar. And things like MRIs or seismic activity is basically looking for differences in density. What if it’s the same density as, you know, it’s like I put some green Plasticine in some blue Plasticine, there’s going to be a bit of a join, and they’re going to be very, very slightly different.
+**Dave Plummer** (01:05:55): So it’s a 3D vector game from 1980.
 
-**Dave Hone** (01:11:07): But ultimately, you’re not going to be able to detect that through most means if you’re looking for density or mass or anything like that.
+**Lex Fridman** (01:05:59): Okay.
 
-**Lex Fridman** (01:11:14): Well, I personally think that there are few things as important to understand as the history of life on Earth. There are like books, right? There’s like a ch- … or maybe you could think of it as chapters, and then one of the chapters is the time of the dinosaurs. … And then there’s a great extinction, so it just goes up and up.
+**Dave Plummer** (01:05:59): And it’s a very complex game. You’ve got full 360 degrees of motion, you have eight shots on the screen, there are like 11 enemies, there are spikes. So it’s a very complex game. It’s not like trying to do Pong or something. And what I wound up doing was first taking the ROMs out of the machine and reverse engineering the code. So I got a sense of where all the code in Tempest lives and what it does, where the zero-page variables are, where things live. And yeah, there’s one.
 
-**Dave Hone** (01:11:31): I mean, that’s not a million miles off. I think Darwin had an analogy like that, of, we’ve got a few words on a few pages spread out, but between them you get an idea of what the story is and where it’s going.
+**Lex Fridman** (01:06:23): So, oh, wow. That’s a very geometric… Okay, what can you explain to me about the gameplay?
 
-**Lex Fridman** (01:11:45): I think what humans don’t quite realize is we may end up being just a chapter in a book. It might be our extinction event, self-created, perhaps a nuclear war, perhaps robots take over, perhaps we don’t know.
+**Dave Plummer** (01:06:28): Yeah, that’s me playing the game right there.
 
-**Dave Hone** (01:11:59): Well, or dumb luck. I mean, the dinosaurs were doing absolutely fine until a dirty great rock hit them, and you can’t, you know, Ben Affleck and Bruce Willis movies aside, there’s only so much you can do about that.
+**Lex Fridman** (01:06:30): This is literally you playing?
 
+**Dave Plummer** (01:06:31): This is me. Dave is the high score, you’ll see, in the top center there.
 
-## T-Rex’s skull and bone-crushing bite force
+**Lex Fridman** (01:06:34): Can you explain to me what I’m looking at?
 
-**Lex Fridman** (01:12:13): Hey, you take that back. There’s nothing they can do wrong. All right. Quick pause. Bathroom break? We’ve taken a few tangents, but let’s continue on the thread of T-Rex. Go- go to the skull. So the skull of T-Rex is iconic. You- you describe it as being incredibly robust and overbuilt.
+**Dave Plummer** (01:06:36): Well, it’s a 3D geometric world. It’s basically 3D Space Invaders wrapped into a shape, and the enemies descend from the center of the tube towards the outside, and they all have different behaviors.
 
-**Dave Hone** (01:12:36): Yeah, there’s a lot of bone on there. So we mentioned a couple of other things, like Giganotosaurus is this, you know, giant carnivore. If you put Giganotosaurus T-Rex in… That’s the one. So that’s, yeah, that’s from my old blog. It’s not my image. Um…
+**Lex Fridman** (01:06:50): Wow.
 
-**Lex Fridman** (01:12:49): What are we looking at, on the left and the right?
+**Dave Plummer** (01:06:51): So long story short, it’s a fairly complicated game to play well, and I wanted to see if I could get an AI to do it. So once I had figured out where all the interesting parts of the game lived in memory, I added them as parameters and built a Lua app to extract everything from the game’s memory as it’s running and puts them together as parameters, which sends it to the Python side over a socket, and then the Python side does RL learning. I’m using a dueling Deep-Q, and I believe… Two with two head and tail, and they chase each other and it can play up to about level 36 now, which is way better than most humans. But that’s level 96, so it’s got a ways to go yet.
 
-**Dave Hone** (01:12:50): So you’ve got T-Rex on the left in orange, and Giganotosaurus on the right in red. As I said, they’re pretty similarly sized, but just look at the robusticity. The front of the snout of T-Rex is all bone. And yet, the major openings—there’s a thing called the antorbital fenestra, the opening in front of the orbit—is absolutely massive in Giganotosaurus. It’s like half the skull. The opening at the back of the skull is much bigger. The opening in the lower jaw is much bigger. And actually, the jaw, what you can’t see, side to side, is much thinner. So their heads are the same size, and as animals, they are about the same linear dimensions. But you can just see, there’s just way more bone in the T-Rex.
+**Lex Fridman** (01:07:27): And you’re the red thing shooting?
 
-**Lex Fridman** (01:13:30): It’s incredible.
+**Dave Plummer** (01:07:29): Yes.
 
-**Dave Hone** (01:13:31): So this is, like… it’s not overbuilt, it’s obviously evolved that this is the right amount of bone for the stresses and strains, for what it’s doing and how it’s acting. But you compare it to anything that’s not a very large tyrannosaur, and suddenly you see just how much bone has gone into it. It is a very large… it’s an absolutely large head, but it’s a very heavy head with a lot of bone. And a lot of that bone is there to resist all the forces of all the muscles, because it has this giant, super-powerful bite. Which again, you can see in the teeth.
+**Lex Fridman** (01:07:30): You’re controlling the red thing that’s shooting? Okay. What are the options? You can just move clockwise or counterclockwise and then you could shoot.
 
-**Lex Fridman** (01:14:00): So the bone and the muscles kind of evolve together— … to get bigger and bigger and bigger and bigger. So you need this kind of structure for the power that, uh- … the crush has.
+**Dave Plummer** (01:07:38): Yeah, so you have a rotating knob- …which is an optical spinner, and you have a fire button and a super zapper for emergencies. But that’s it. Fire and rotate, basically.
 
-**Dave Hone** (01:14:07): So one of the big things tyrannosaurs have… And this goes all the way down to the… The earliest tyrannosaurs were like our size. Like little diddy things, like two, three meters long, be a meter and a half tall. But they have fused nasals. So the pair of bones that, in us there’s not a lot there, but obviously in something like a dog or something like a baboon with a long nose, it’s like the whole top of the snout. And there’s two, one each side. In tyrannosaurs, they fuse together, so it forms a solid bit of bone. So the whole top of the nose is solid. And then that makes the skull just fundamentally more rigid and able to take more power through it.
+**Lex Fridman** (01:07:46): All right, let’s get back to your favorite C++. What do you love about C++? Why have you stayed with it for all these years?
 
-**Dave Hone** (01:14:44): The very early ones weren’t super biters, I suspect, but they do also—but they do have the little flattened teeth at the front, so I strongly suspect the fused nasals, at least originally, is for resisting that. Because again, if you’ve got a long nose and you’re pulling with quite a lot of force at the very tip, that’s going to bend your snout. So strengthen that.
+**Dave Plummer** (01:07:51): Because it allows me to encapsulate my favorite C code in classes. I’m not a big-
 
-**Lex Fridman** (01:15:03): Can you speak to the evolution from the smaller to the bigger of the T-Rex? What were some of the evolutionary pressures? What’s the story of the evolution?
+**Lex Fridman** (01:07:57): You’re really a C guy.
 
-**Dave Hone** (01:15:11): So tyrannosaurs go back to the Middle Jurassic. So tyrannosaurs were around for a hundred million years. So from about 160-ish, 165-ish million years till the extinction. 66.5, I think, is the current dating on that. So yeah, you’ve got a hundred million years of them. And the Middle Jurassic, annoyingly, is probably the bit of the Mesozoic—so the whole dinosaur period—that we know the least of. Just by chance, we just don’t have many rocks exposed of the right age that are fossil-bearing. But we’ve got two or three tyrannosaurs from that time. And yeah, they’re really quite diddy. Yeah, they’d be chest-high to us, two or three meters long, including the tail. Probably more like three, a lot of them. Little heads, long arms. They look every other carnivore going.
+**Dave Plummer** (01:07:58): Well, I actually-
 
-**Dave Hone** (01:15:58): There’s not a lot special to them at this point. They’ve only just separated from their nearest groups, which is actually something like the ancestors of Giganotosaurus, actually. They do have the fused nasals early on. They do have these special little teeth at the front of the jaw very early on. They’re feathered early on. Definitively, we have skeletons with feathers on them that are early tyrannosaurs at least until the Early Cretaceous. But yeah, they’re knocking around as relatively small animals in Europe and Asia. We have a couple from the UK. We have a whole bunch from China. There’s stuff from, like, Kyrgyzstan and places like this. I think there’s one, a relatively early one from Russia.
+**Lex Fridman** (01:07:58): Okay, I got you.
 
-**Dave Hone** (01:16:40): And then when they get into the Early Cretaceous, they start getting quite a bit bigger. So someone like Yutyrannus, if you want to… There you go. So Yutyrannus is fuzzy. We have three specimens definitively feathered. It gets— to six, seven meters long.
+**Dave Plummer** (01:07:58): Yeah, I’m really a C guy. Although I write two kinds of C++. I write really modern C++ 20 using no pointers, no strings, or no character strings, so there are… you know, it’s basically as safe as Rust as far as I’m concerned. Or I write C with classes, which is standard C, but, you know, with polymorphism and encapsulation. That’s most of what my code is, but I try to do both.
 
-**Lex Fridman** (01:16:59): There’s something funny-looking about the sexy, smaller, earlier version of the T-Rex.
+## Scariest time of Dave’s life
 
-**Dave Hone** (01:17:04): But again, this is seven, eight meters, maybe weighs half a ton or a ton. We are very much on the menu for an animal that size.
+**Lex Fridman** (01:08:23): Let me ask you about the whole stretch of time that we kind of skipped over. You built a lot of software over the years after Microsoft, on the side while at Microsoft and afterwards, a lot of successful pieces of software. One of your companies was Software Online, and it got into trouble for nagging users too much, I guess-
 
-**Dave Hone** (01:17:11): And it’s massive and dangerous. Quite what triggered them… There’s general patterns in evolution of size change, and one famous one called Cope’s Rule I’ve worked on a fair bit, which is the idea that over time, things tend to get bigger. And they do for various different reasons, one of which is just pure, almost, like, diffusion. If you start small and you evolve, well, you can’t get much smaller, but you can always get bigger. So you’ll naturally kind of diffuse away. Whereas if you’re a blue whale, you probably can’t get much bigger and its descendants will probably end up being smaller. But there are reasons that bigger things do better. You can hunt more stuff. You are more energy-efficient. You can move more efficiently.
+**Dave Plummer** (01:08:44): Yep.
 
-**Dave Hone** (01:17:50): You’re dominant in contests, particularly with conspecifics. If you’re trying to win a territory or win mating rights, bigger things usually beat up smaller things. So there’s going to be selection favoring them. But then big things don’t usually do well in extinction events, so that tends to reset the clock by killing off the big stuff, and then smaller stuff does better again.
+**Lex Fridman** (01:08:44): … to upgrade. That’s what I saw. What was all that about and what did you learn from that experience?
 
-**Lex Fridman** (01:18:10): So mostly, there are evolutionary advantages, but—
+**Dave Plummer** (01:08:49): That was… Other than, like, family health scares, you know, when kids are sick, that was the scariest time of my life. And the period leading up to it was one of the most invigorating and exciting, because what had happened was while I was at Microsoft, I had written all these shareware utilities and I was selling them on the side and sold one to Microsoft, as we talked about, and they started to do really well. And then I discovered banner advertising online. So I signed up with my credit card for a site, I think it was called Fast Click, and you could say, “I will pay this much for a banner ad impression. Here’s my banner.” And it would rotate it in. And I didn’t set a cap on it. I came back on Monday and I saw I had spent like $10,000 in banner ads.
 
-**Dave Hone** (01:18:12): But a fairly big one. So yeah. It’s the classic thing of there’s a day-to-day advantage of being bigger, and that might last for a few million years, right up to the point that suddenly there’s the biggest drought the Earth has encountered in five million years, and then all the big stuff just gets nailed.
+**Dave Plummer** (01:09:26): I was like, “Holy crap. How am I going to explain this to my wife? This is a bug, it’s a mistake, it was my fault.” And I looked at the sales and it had made like $38,000 worth of sales. And I was like, “Holy cow. So all I have to do is scale that at some point,” and basically did that for the next several years. And the reason we got in trouble was the AG came in and they had… well, I was blown away because they had like 12 court claims of action and 10 of them were outrageous, which to me as a person with autism, I couldn’t get past. It’s like, I know these 10 things are absolutely not true. Why are we even here talking about them? And then all they care are the two things that might be true.
 
-**Lex Fridman** (01:18:27): Oh, so we should probably say, is this accurate to say that the bigger you get, the fewer of you there are?
+**Dave Plummer** (01:10:03): And the two things that might be true were that it was a 30-day trial version, and after your 30 days were up, it would then, if you continued to run it and not buy it or uninstall it, it would remind you once a day. Not like every 10 minutes, but once a day or every time you booted your computer, but most once a day. And the AG contended that was too often; it amounted to spam. And so we agreed with them to limit it to once a week, I believe. And, you know, there had to be a button to just uninstall with one click. So we did those kinds of things. The other one was, in those days, when somebody bought a piece of software, even if they bought it online and got a download, they fully expected there would be media showing up at their house.
 
-**Dave Hone** (01:18:33): There are, yeah. There’s just less fundamental space, you know? There are more mice than there are elephants. There are more elephants than there are whales. There is only so much biomass that an ecosystem can support.
+**Dave Plummer** (01:10:38): So in the year 2001, which were 2001-2003 we’re talking about, if you bought software, there was an expectation that a disc would show up. And so we made that the default, was to fulfill by disc and it was $3.95 or $4.95 extra, and it was very obvious, but it was a checkbox and it was turned on to ship the disc to your house. Because we found if we didn’t do that, we got all these calls, people would wait, they’d order, two weeks later call, “Where’s my disc?” And we’d look, “Oh, you didn’t order a disc.” “Well, cancel it all.
 
-**Lex Fridman** (01:18:45): And bigger things are just worse at repopulating in extinction events.
+**Dave Plummer** (01:11:04): I don’t want it because I’m not waiting for it.” And so we got a lot of returns and we didn’t include the disc, and so we decided to include the disc, but that is an a priori violation of negative affirmation billing in Washington State because you’re giving them a default higher purchase price.
 
-**Dave Hone** (01:18:50): Yeah.
+**Lex Fridman** (01:11:18): What about the software user relationship? It’s interesting, like, how often to annoy the user with a thing. Right? If you never mention anything, they might never discover something they actually want. But if you mention it too much, then they can get annoyed.
 
-**Lex Fridman** (01:18:50): …for example.
+**Dave Plummer** (01:11:46): Yeah. And what you don’t want is you don’t want them to have to do it or buy it or do something to get rid of it.
 
-**Dave Hone** (01:18:50): Right, so they’re less likely to survive because they need more fuel. What would feed a mouse for a year won’t feed an elephant for a week. So, if… And of course, the mice are going to have an easier time finding a few little seeds than an elephant’s going to find tons of food, and then they’ve got less genetic diversity. There might be 5,000 mice, there might be 200 elephants, so who’s likely to have more genes or who’s likely to have selection acting on those genes to produce a survivor? Well, the one with five or ten or a thousand times the population.
+**Lex Fridman** (01:11:51): That’s one of the things that bothers me with… I think Windows does that a little bit still to this day, where it bothers me by asking me certain questions, like, “Do you want this?” For example, I really don’t like to use my Microsoft account to log into Windows. I think now it’s basically required. I think there’s just no way around it. But they make it so difficult to not do that. It’s almost like they think they can just trick me into… It really does feel like I’m getting tricked into not doing what I want to do.
 
-**Dave Hone** (01:19:21): And then, yeah, on top of that, you’ve then got the very slow reproductive cycle, which then again gives evolution not a lot to work with if, as an elephant, you’re breeding once every five years, and as a mouse, you’re doing it once every eight weeks.
+**Lex Fridman** (01:12:32): It’s… I have to, like, think, “Okay, I need to click skip,” and then it’ll do something, “Are you sure?” Like, I have to use too much of my brain to do the thing I need… As an interface, you know what I’m trying to do. You’re trying to trick me into not doing the thing I want to do. And what I hate about that is, like… It’s probably effective, sure, for converting people, but it’s really not good long-term for taking care of the interests of the user.
 
-**Lex Fridman** (01:19:34): What can we say about the evolution of just the massive, bone-crushing power of…
+**Dave Plummer** (01:13:06): Yeah, the one that really throws me is the user recommended settings. So I just did a Windows upgrade, I went through the steps, and, you know, I’m going through this new dialog or wizard, and “use recommended settings” sounds like the thing you should do, but I’m pretty sure that resets you to using the Edge browser and… …And all this other stuff. So yeah, recommended by them, but not recommended for me. And that’s the difficulty.
 
-**Dave Hone** (01:19:40): So that starts kicking in seriously, kind of eutyranosizing up. So that’s when you start getting not just bigger animals that are getting to a comparable size to the other big dinosaur carnivores of the time, you start getting those bigger heads. But even then, relatively late in tyrannosaur evolution, so getting into the middle part of the Late Cretaceous, you see a split, and we have a group called the alioramous, which have really, really long, thin skulls, and they look much more like a kind of, here’s a Velociraptor, they look much more like a giant Velociraptor-ish than a tyrannosaur. Still relatively small arms, but it’s a very long snout.
+**Lex Fridman** (01:13:25): That’s a really good example. What effect do you think that does in resetting the default browser to Edge? Do you think you’re going to really earn the loyalty of a user if you do that? Don’t you think that there are actually… What you’re going to create… You’re going to create some passive loyalty from some user base, so on the metrics, it might actually look like you’ve increased the number of Edge users, but really, it’s that reputation hit you take over time where it just forms where the Edge is the thing that you can’t quite trust. Unfairly, because I think Edge is a really great browser, but just this unpleasant feeling. I don’t know what that is, and…
 
-**Dave Hone** (01:20:23): And so this is a fast-biting animal with a relatively light bite, so it’s probably taking really quite small stuff proportionally. And then on the other side, you’ve got the tyrannosaurines, which are the really big-headed ones. And so that is few ancestral things like Albertosaurus and Gorgosaurus, both from Alberta, but then Daspletosaurus, a thing I named called Jiuchengtyrannus in China, and then Tarbosaurus and Tyrannosaurus. And you’ve really only got three or four of these ultra-giants, which are all kind of 10 meters plus in size, and then have the really broad skull with a real kind of excessive bite force. But even things like Albertosaurus, which is, I mean, a big animal, seven, eight meters, yeah, a ton or so.
+**Dave Plummer** (01:14:10): Well, you don’t want your operating system to be an adversary, right? And sometimes Windows can feel adversarial. Like, it doesn’t have your best interests at heart, and that bugs me to a certain extent.
 
-**Dave Hone** (01:21:11): They’re not quite T-Rex, but they’re definitely more robust than the other contemporaneous carnivores. So there is this progression of getting bigger, getting a bigger head; the teeth get bigger, but there are fewer of them, building up the bone biting and the power. But with some interesting evolutionary offshoots in the way that, yeah, cats are largely much of a muchness, but then you get things like, well, like bobcats and lynx, which are actually quite bulky, stocky little cats that don’t have the long tail and are doing something quite different.
+**Lex Fridman** (01:14:20): I mean, we have this feeling, I think we just have general distrust when somebody is super nice to you and is basically selling something. There’s a certain aura about that kind of interaction. And when an operating system is interacting with you in that way, it’s like…
 
-**Lex Fridman** (01:21:45): Can you just speak almost more generally? Because T-Rex is sort of one of the great arch predators of history on Earth. How does an arch predator evolve? Like, why did T-Rex win? Why isn’t everybody, why isn’t there, like, a vicious race to the top, and everyone’s…
+**Dave Plummer** (01:14:36): Yeah, I would much rather pay $199 for Windows Pro per year, or 20 bucks a month, or whatever the fee schedule would be, and not be upsold any further and not have my data monetized, and those kinds of things, so…
 
-**Dave Hone** (01:22:01): I have a problem with the term apex predator because ecologically, apex predators are generally defined as things that eat other predators. So a great white shark is, because it’s eating stuff like tuna and sea lions, which are themselves predators, so it’s a predator of predators. Whereas people love saying lions are apex predators, and they love saying T-Rex is an apex predator. They’re eating herbivores. This is not some weird and unusual thing. They’re the largest predator in their ecosystem, and they are a giant one. My friend, Darren Naish, has moved to using the word arch predator, so it’s like some kind of massive thing, but avoiding the term apex because I think that leads into a… It’s a subtle terminology thing, but like…
+**Lex Fridman** (01:14:47): Did you learn about finding the right balance from that?
 
-**Lex Fridman** (01:22:52): An important one. I just learned something new today. So I didn’t understand, I thought I was using the word apex predator as…
+**Dave Plummer** (01:14:50): Yeah, I mean, I’m way more self-aware now. There are things I would do much differently, particularly in terms of the advertising. I always figured… There’s a guy named David Ogilvy, and he did this ad long ago for the Volkswagen Beetle where it had a picture of a Beetle, black and white, and it just said, “Lemon,” and there was a block of text below it. So it’s clickbait-y and then informational, and I always tried to follow that pattern. But there are three ways to sell something, I think, and you can use sex, fear, or greed. Sex doesn’t work really well for software. Fear works well for antivirus and stuff, but not so much for optimization and make your computer faster utilities.
 
-**Dave Hone** (01:22:58): But that’s because everyone keeps using it when I don’t think they should.
+**Dave Plummer** (01:15:24): And so I always tried to cater to the greed aspect. You know, make your computer faster, get more RAM available, whatever the value proposition is. But I realize now that I’m looking at that with my knowledge, and as an autistic person, I now have an appreciation that other people are going to look at it with their background knowledge and may conclude something different. So I might be scaring people where I was just trying to incentivize or get their greed instinct going. So I’d be more sensitive about that kind of thing today.
 
-**Lex Fridman** (01:23:01): All right.
+## Best Windows version
 
-**Dave Hone** (01:23:01): And now you’re getting into linguistics, and it’s like, well, if everyone uses it to mean that, does it now mean that rather than what it should mean? And then I’m probably losing that argument because actually you’ll probably find way more stuff calling it an apex predator than you will an arch predator, but here we are.
+**Lex Fridman** (01:15:50): Ridiculous question, but what do you think are the top three Windows operating systems? The different versions?
 
-**Lex Fridman** (01:23:16): Arch predator, beautiful. I learned something today.
+**Dave Plummer** (01:15:59): I’m a fan of Windows 2000 server. That’s
 
-**Dave Hone** (01:23:18): It’s-
+**Lex Fridman** (01:16:02): Really? Okay. … Wait, wait, pl-
 
-**Lex Fridman** (01:23:18): But that, what, that you’re saying T-Rex didn’t eat other predators?
+**Dave Plummer** (01:16:04): That’s what I ran my business on and I ran my brother’s business. We set up multiple salons all VPNed to one another and using the SQL Server and…
 
-**Dave Hone** (01:23:22): Well, it’s probably not going to. So we can get into, though I’d prefer not to because it’s tedious, the argument of whether or not there are these small things which some people have said is a different group called Nanotyrannus, or a different species called Nanotyrannus. But fundamentally, T-Rex is definitely weird, even compared to all the other giant tyrannosaurs that are very closely related to it, because it is by far, ludicrously by far, the largest carnivore in its ecosystem. So…
+**Lex Fridman** (01:16:11): I don’t know if I ever got to experience Windows 2000 server, so when was XP out?
 
-**Lex Fridman** (01:23:53): So it doesn’t really have competition, actually?
+**Dave Plummer** (01:16:16): 2001.
 
-**Dave Hone** (01:23:54): I mean, so this is a Velociraptor skull. There are some carnivores that are a bit bigger than this… …But not enormously so which we’re knocking around as T-Rex. The skull’s the same type. Right, but, like, you think about that. And that’s like going to Africa and going, “Okay, there are lions. What’s the next biggest predator?” And it’s like, well, there’s a weasel about this big. Like, it’s that kind of size difference, and you don’t get that normally in ecosystems.
+**Lex Fridman** (01:16:18): What was before XP?
 
-**Lex Fridman** (01:24:31): So it didn’t have some of the other big dinosaurs around it?
+**Dave Plummer** (01:16:20): 2000.
 
-**Dave Hone** (01:24:34): Not carnivores. There are huge herbivores.
+**Lex Fridman** (01:16:21): 2000. Was that good?
 
-**Lex Fridman** (01:24:37): Oh, there…
+**Dave Plummer** (01:16:23): Yeah, I liked it. I mean, it doesn’t have the visual flash that came with XP, but as a system, and especially as a server operating system, it was great for the day.
 
-**Dave Hone** (01:24:37): But there are no huge carnivores around.
+**Lex Fridman** (01:16:29): But then XP was, hmm, I would say probably from a completeness perspective and impact and how long it lasted, it was probably the greatest Windows for consumers, the operating system.
 
-**Lex Fridman** (01:24:38): Oh, I see. It would eat those juveniles of the herbivores, but not…
+**Dave Plummer** (01:16:44): I would think so. It’s certainly got the longevity for it. There are people who still run it. I mean, I’d still run it on stuff if you could get security updates ’cause it does 98% of what I need Windows to do, but…
 
-**Dave Hone** (01:24:41): Oh, yeah. It’s gonna be eating Triceratops and Edmontosaurus and Parasaurolophus. There are even a couple of giant sauropods knocking around in some places.
+**Lex Fridman** (01:16:52): Yeah, that was incredible. I mean, so Windows 95, I’ll probably put Windows XP as the number one for me and then Windows 95 two.
 
-**Lex Fridman** (01:24:48): Got it.
+**Dave Plummer** (01:17:01): What’s your metric? Personal preference or industry impact or…
 
-**Dave Hone** (01:24:49): It’s gonna be hoovering them up, but how often is it gonna eat… Again, Velociraptor isn’t there, but how often is it gonna eat something the size of an adult Velociraptor? I mean, they’re a fraction of our size, and we’re probably too small. This is like lions hunting mice. You’re just not gonna, unless one virtually runs into your mouth, you’re not gonna go and try and eat it.
+**Lex Fridman** (01:17:05): Industry impact, stability, just there’s certain, like, just like with programming, you have code smell. Just, like, how well all the features were orchestrated together, how there’s a design philosophy that permeated the whole thing and was consistent. Not too many features, not dumbed down too much.
 
-**Lex Fridman** (01:25:09): So the question still stands about arch predators then, like how do you win in evolution?
+**Dave Plummer** (01:17:26): Right.
 
-**Dave Hone** (01:25:16): Yeah. Well, I mean, there’s no real winners, there’s just, you know, turnover because ultimately the birds, you know, it still lost out when things went wrong. And as we were just talking about, you know, things do tend to lose out when they’re big. They’re just so much more vulnerable to extinction. But clearly, dinosaurian ecosystems had much bigger herbivores, and therefore by extent, much bigger carnivores than any system we’ve seen before or after.
+**Lex Fridman** (01:17:27): But not overcomplicated. How often it crashes to blue screen. All of those things.
 
-**Dave Hone** (01:25:47): Even in relatively sparse ones, like bits of the Late Triassic, when the dinosaurs were really just getting going, or the very Early Jurassic, you’ve still got some multi-ton herbivores and then you’ve got some multiple 100-kilo predators, about as big as elephants and lions get today. And then once you’re in the Jurassic and Cretaceous, it is entirely normal to have multiple species that are 10, 20, 30 tons plus as herbivores and anything up to five tons as a carnivore. T-Rex is probably the biggest of them, but fully terrestrial carnivores that exceed a ton? There are dozens of species of dinosaurs.
+**Dave Plummer** (01:17:33): I don’t know if it’s a very apt description, but I think of it as crisp. So there’s not a lot of rough edges. It does what it does, does it snappy and…
 
-**Lex Fridman** (01:26:34): Is it interesting to you that no other carnivore predator was able to develop in that environment over millions of years?
+## Slot machines
 
-**Dave Hone** (01:26:42): I mean, they’re probably just ecologically dominant in the way that mammals are now, you know. Crocs get bigger than lions and tigers, but they’re fundamentally tied to the water, but you don’t see crocs roaming the Serengeti or anything like that. But yeah, big, I mean, the really big crocs even now get to over a ton, so those are very serious animals. And I think big polar bears are in the, like, 500-kilo range, though again, they hunt a lot of stuff in water, and then things like grizzlies are at least partially herbivorous or omnivorous.
+**Lex Fridman** (01:17:39): You said you play slot machines, and given that you love hardware and software, you’re the perfect person to ask, how do slot machines work?
 
-**Lex Fridman** (01:27:15): Well, so there was a very large marine reptile, Mosasaurus. Did T-Rex ever come across that?
+**Dave Plummer** (01:17:50): Well, I’m happy to ruin them for you.
 
-**Dave Hone** (01:27:22): In theory at least, the really giant Mosasaurs are much bigger, in the same way that, unsurprisingly, whales are much bigger than terrestrial carnivores now. Jurassic Park, unsurprisingly, has rather exaggerated it, so the one from, I think, Jurassic World is like twice the size it should be. But some of these things were still, like, you know, 15, 20 meters. But yeah, some of them are absolutely giant. We had one dug up in the UK just a couple of years ago, and I got to see the skull of it, or a cast of the skull, and yeah, it’s about the same size as a T-Rex skull.
+**Lex Fridman** (01:17:52): Okay.
 
-**Lex Fridman** (01:27:55): If we take a ridiculous detour before we get back to science, what creature in the history of Earth would challenge a T-Rex in a fight, would you say? What…
+**Dave Plummer** (01:17:52): So- It’s ironic to me that I play slot machines because I know it’s a losing bet overall, but there’s a whole dopamine feast there of bright lights and high contrast colors that I enjoy. So I do play them. But what happens is, internally, there’s basically a black box mechanism that does nothing more than generate the next random number and what the outcome is in terms of probability and payout. And then the game says, “I’ve got to make up a movie to go along with that.” And maybe it’s three bars or whatever it is, but there’s no correlation. It’s not spinning the reels, seeing where they land, and looking that up to see what you won. It’s completely the other direction. It determines whether or not or if you won and then makes something up to fit that scenario.
 
-**Dave Hone** (01:28:04): On, on land?
+**Lex Fridman** (01:18:29): That, that indeed is ruining it for everyone.
 
-**Lex Fridman** (01:28:04): On land.
+**Dave Plummer** (01:18:31): A little bit.
 
-**Dave Hone** (01:28:05): I mean, nothing reasonable. The really big ones… The only other thing you can really add is, so this might be a very British adage, it’s not the size of the dog in the fight, it’s the size of the fight in the dog. So yeah, maybe there’s something a bit smaller which is just hyper-aggressive, and that would be enough to win, like the classic honey badgers chasing off lions. It’s not that a honey badger would win in a fight, but if the honey badger is prepared to put up that much of a fight and the lion really doesn’t want to get hurt, then he kind of technically wins.
+**Lex Fridman** (01:18:33): What kind of code runs them?
 
-**Lex Fridman** (01:28:40): You can’t imagine any of the cats, like tigers, none of them… …Can do, I mean, the size difference, the power of the jaw, all of that kind of stuff.
+**Dave Plummer** (01:18:35): I don’t really know. I tried to get down and get inside access to one, and it was very hard. They don’t want to tell you a lot about them, and I’m sure it’s not that deep of a secret, but… They’re all basic Windows PCs, but they’re basic Windows PCs on top of a very secure enclave of some kind that I don’t know a lot about.
 
-**Dave Hone** (01:28:48): Yeah, but going to T-Rex, like, what could reasonably challenge it? There are a couple of other giant tyrannosaurs, there are a couple of giant carcharodontosaurs from South America that I would say are comparable in linear measurements, but are probably rather smaller and rather lighter, in which case your money is going to be on the bigger guy with the bigger bite. And that simply is T-Rex.
+**Lex Fridman** (01:18:53): Yeah, it has to be extremely secure, right?
 
-**Lex Fridman** (01:29:10): And the bite is important.
+**Dave Plummer** (01:18:56): Yeah. Well, in the 70s or 80s, there was a tech in Vegas who went around and he was burning his own ROMs for the slot machines. With a backdoor in them, so when he serviced the machine, he would just put his ROM in.
 
-**Dave Hone** (01:29:12): Yeah, I think it is because, yeah, these guys, the carcharodontosaurs, they’re much more cutting and they’re really killing stuff probably by grappling with the arms because they do have big muscular arms with big claws, and then slashing away at stuff. So I think they’re probably doing something more like almost like wolves or hyenas or a hunting dog, where they’re harrying stuff and slashing at it and you’re basically bleeding them out… …And wearing them down.
+**Lex Fridman** (01:19:06): Nice.
 
-**Lex Fridman** (01:29:43): So, what about that strategy? So maybe you could speak to biting strategy. So a T-Rex is, I guess, a relatively slow bite but extremely powerful. What about animals that have very fast bites?
+**Dave Plummer** (01:19:06): And he’d come back six months later and…
 
-**Dave Hone** (01:29:56): So it’s very simple mechanics, you know. If you have a very long jaw, you’re going to close faster but with less power at the tip than if you have a really short one that’s deep. And so that really is it. But yeah, let’s say there are things like the aramins and then there are things like, you know, Velociraptor and a lot of its relatives, really very small, but narrow-snouted. There’s not going to be a lot of fundamental strength here. The teeth, very numerous, very small, so they’re much more about grabbing something tiny, you know. Velociraptors eating rat-sized stuff, that’s going to be probably its primary diet, or…
+**Lex Fridman** (01:19:07): Nice.
 
-**Lex Fridman** (01:30:34): So, so I wonder if there’s a bunch…
+**Dave Plummer** (01:19:08): Invoke the backdoor and…
 
-**Dave Hone** (01:30:35): …kind of diet.
+**Lex Fridman** (01:19:09): I love humans so much. Anyway, do you have other favorite kinds of systems like that?
 
-**Lex Fridman** (01:30:35): …of smaller fast-biting things that could just bleed a T-Rex to death.
+**Dave Plummer** (01:19:15): I like a lot of old hardware. I restore cars, so I do a lot of 1960s muscle cars, cars and trucks.
 
-**Dave Hone** (01:30:40): They’re going to struggle, though. I remember doing some work for one documentary, and they literally wanted a Velociraptor fighting a T-Rex, and I was sort of like, “You do know this is, like-” “… we’re gonna shoot some meerkats killing a lion.” And it’s like, well, you can film it, but no one would believe it, because, you know, these ankle-high things trying to savage a shin bone, I’m sure they’ll make some holes and it’ll lose some blood, and it may not be very happy, but I don’t think they’re gonna win.
+**Lex Fridman** (01:19:20): Nice.
 
+**Dave Plummer** (01:19:21): And old computers, so I restore PDP-11s. It’s been my fascination and my special interest for the last six months or so, and I’ve built a number of those.
 
-## What Jurassic Park got wrong
+**Lex Fridman** (01:19:30): Yeah, I’ve seen you posting videos about it, the PDP-11/83. What’s that whole project?
 
-**Lex Fridman** (01:31:12): The size of a velociraptor was exaggerated by Jurassic Park.
+**Dave Plummer** (01:19:40): So basically, what it is, is I had built a number of PDP-11s. And so over the years, I had acquired all these parts and I decided, “Well, let me build the best PDP-11 that I can.” And so it was kind of a quest to, just like you try to max out a PC, I tried to max out a PDP-11. So it’s got four megabytes of memory, which would be massive in the day. And yeah, that’s it there. And it’s got lots of blinking lights, and I had to rewrite the BSD kernel to make the lights work and…
 
-**Dave Hone** (01:31:16): Oh, enormously. I mean, they get a bit bigger than this. … In terms of the skull. But yeah, they’re kind of thigh-high to me, like a meter or so to the top of the head, two meters long, whereas in the movies, they’re standing taller than guys who are six feet. So it’s just massively, massively scaled up, and then these kind of big, domey heads, and they’re not the really long, narrow snout.
+**Lex Fridman** (01:20:05): What are we looking at here? What’s…
 
-**Lex Fridman** (01:31:41): Maybe we could change that. What does the Jurassic Park and Jurassic World franchise get right and wrong?
+**Dave Plummer** (01:20:09): So the very top is a PDP-11/70 control panel, which we can largely ignore, and then there’s two chassis below that. One has-
 
-**Dave Hone** (01:31:46): I mean, they get wrong a hell of a lot.
+**Lex Fridman** (01:20:15): What are the different knobs? Sorry to ask dumb questions here.
 
-**Lex Fridman** (01:31:48): What are some of the really definitive things to you that are interesting that it gets wrong, and also what are the things it gets pretty close to right?
+**Dave Plummer** (01:20:18): The knobs, they, uh- … control what view you get of the LEDs.
 
-**Dave Hone** (01:31:57): I mean, I just want to preface my answer, because I always get asked about this, understandably, and it’s like I get that it’s a movie, but if someone’s gonna ask me, “What does it get wrong?” I’m gonna give them an answer, but I do get people going, “Ah, you’re just nitpicking. Ah, you know it’s fiction. Ah, you know it’s made up.” Yeah, I do know, but someone asked the question, so here’s the answer.
+**Lex Fridman** (01:20:22): Oh.
 
-**Lex Fridman** (01:32:16): I should say that some of the things that I’ve heard you describe, I feel like it’s the responsibility of those folks to get it right. I think there’s something I really deeply admire. There’s a show called Chernobyl. It’s like they don’t need to be that accurate, but they really… it’s like the detail of the kitchenware- in a room, just to get the tiniest detail right. Who’s that for? I don’t know who that’s for, but that’s great art. That’s the spirit of the thing. If you focus on getting those tiny details right, some magical thing happens about the bigger story. If you don’t care about the details, the story gets corrupted. So, I just wanted to say that some of the things you describe, like how many fingers, um-
+**Dave Plummer** (01:20:22): So normally, you see the data bus and you can see the address bus. And you can pause the machine, you can edit the add- address on the bus, and you can deposit stuff into memory with the switches.
 
-**Lex Fridman** (01:33:10): … it’s like that’s important to get that right, because if you do, some magical stuff can really emerge. And it could become a legendary film as opposed to just a- … a summer hit.
+**Lex Fridman** (01:20:32): Man, the haptic plus the LEDs. That’s what you imagine a computer to be.
 
-**Dave Hone** (01:33:18): … that’s my take. Again, I’ve worked on documentaries where they’re claiming that accuracy is absolutely critical and 100% important, and they won’t put anything on screen that I haven’t told them to, and- …then many of those things turn out not to be quite as true as advertised, once you get around to it. So, I’m aware that when even documentaries will take massive liberties, you can’t be too harsh on what is popular fiction. On the other hand, I am also aware that it is by far, by a ludicrous degree, the most popular bit of any kind of media that includes my work…
+**Dave Plummer** (01:20:39): Yeah.
 
-**Dave Hone** (01:34:00): …as it were, or something that I’m actively engaged in and know about. So, whether or not it should have that influence or whether or not the filmmakers should have responsibility, it does. It does have that knock-on. So, I mean, it’s simple as stuff as T-rex can’t see if you can’t move. Yeah, it could. I don’t know where that came from. As far as I can tell, Crichton just dreamed it up. In The Lost World, his sequel book, he hints that there’s a research paper that says it, and that’s kind of where he got it from. There’s a second paleontologist character who’s advising Dodgson, the evil InGen guy, and he says, “Oh, no, well, that’s from such-and-such’s research.” And, like, I tried looking it up. As far as I can tell, it doesn’t exist and never did.
+**Lex Fridman** (01:20:39): That’s so cool. That’s so cool. And then these are what? What are these? These are DU1, DU2?
 
-**Dave Hone** (01:34:41): So, I think it’s just straight fiction. It works for the book and it works for the movie, but it’s… as far as I can tell, it’s straight fiction, and Crichton just made it up. If it’s buried in some bit of literature, he’s done better finding it than I have, and I’ve had a really good look, and I know how to look. And I’ve never come across anyone who’s found it either. But it does, it just warps the perception, you know. Velociraptor, cheetah speed, pack hunters, super intelligent, giant-sized animals, and, okay, 1993 it’s a bit more forgivable, but even then we were pretty confident they had feathers.
+**Dave Plummer** (01:20:45): Yeah. It’s a weird floppy drive. It’s a dual floppy drive with one stepper motor. So both heads seek together like Siamese twins.
 
-**Lex Fridman** (01:35:15): Is any of that true? Wait, so…
+**Lex Fridman** (01:20:52): Okay. So what, what kind of stuff are you doing with this? What are you- … are you trying to restore them?
 
-**Dave Hone** (01:35:17): Probably not.
+**Dave Plummer** (01:20:57): Yeah. So I restore them and-
 
-**Lex Fridman** (01:35:19): The pack hunter aspect of it?
+**Lex Fridman** (01:20:58): Does it actually run? Oh, all the blinking lights are real?
 
-**Dave Hone** (01:35:21): So, that’s something I’ve written quite a lot about. The evidence for pack hunting in any dinosaur at all is almost nonexistent. It basically doesn’t exist. And that’s going exactly back to, again, that stuff we were talking about, bite marks and taphonomy and the history of specimens and how you interpret stuff.
+**Dave Plummer** (01:21:01): Yeah, it’s all real.
 
-**Lex Fridman** (01:35:43): So, what kind of evidence would show, like, maybe bite marks from multiple sources? Is that…
+**Lex Fridman** (01:21:03): Wow.
 
-**Dave Hone** (01:35:47): So, it’s really, really tough. The main one which was put forward is… there’s this famous association in Montana of Deinonychus, which is often confused with Velociraptor, including in the books and movie. Basically, a bigger version of this that’s rather older, from the early Cretaceous, and a thing called Tenontosaurus, which is kind of iguanodontian. So, an iguanodon with spiky thumbs. Basically, otherwise, a fairly run-of-the-mill herbivore. And there are two sites, I believe, for this, but there’s one that’s much more important, where you have a Tenontosaurus carcass with Deinonychus carcasses. And so, the interpretation of this is, well, this is a group that brought down the herbivore. And of course, the immediate counterargument to that is, “Well, why did they all die there?”
+**Dave Plummer** (01:21:04): Then I had to rebuild the kernel and all that, so I had to learn the BSD kernel. I’m pretty familiar with it now to get… ‘Cause you can’t just add a device driver, right? You’ve got to rebuild the kernel to add support for whatever device. So you add a new disk controller. It’s time to build the kernel, so you gotta go find the source and find the code and…
 
-**Dave Hone** (01:36:37): When lions kill a wildebeest, they eat it. They don’t all just die next to it.
+## Autism and ADHD
 
-**Dave Hone** (01:36:43): Or even if they did kill it and start eating it, and then, like, if they got into a fight and killed each other, well, lions as a species are not going to hang around for very long if every time they kill something they get into a mortal fight and kill half their pride. There’s nothing obvious that killed them, but it’s at least possible that this was something like a predator trap. So, predator traps are really neat. La Brea Tar Pits is a classic example. The idea is a herbivore stumbles into something like tar. You’ve got your deer or wildebeest or mammoth or whatever it is waist-deep in tar and going, “I’m dying, I’m dying,” and making horrible noises. And, you know, Smilodon walks over and goes, “Great,” and wades out after it, and he’s now stuck.
+**Lex Fridman** (01:21:20): And you can run code on this? You’ve written a couple books on autism. Being autistic yourself, I was wondering if you could tell me about, like, fundamental differences about the mind of a person with autism versus a, let’s say, a neurotypical individual.
 
-**Dave Hone** (01:37:28): And then the next one, and then the next one, and the next one, and the next one. And then, lo and behold, you now have something like La Brea where they’ve got the numbers are something absurd, like, I think they’ve got three mammoths and one ground sloth, and then it’s like a hundred dire wolves and 40 Smilodon because it’s just sucking the carnivores in.
+**Dave Plummer** (01:21:34): Well, the fundamental theory of thought for autism is called monotropism. And basically what that means is that my brain does one thing and does it very intensely, and then when it’s done I can move on and do something else. But I’m not a multitasker. I’m a serial single-tasker by any stretch. Autism usually brings with it sensory sensitivities and repetitive behaviors, behavioral issues that compound it. And if they rise to the level where an individual can’t moderate or accommodate them in their life, it becomes a disorder. And that’s probably one to two percent of the population.
 
-**Lex Fridman** (01:37:47): Wow.
+**Lex Fridman** (01:22:08): What’s the biggest benefit of life with autism?
 
-**Dave Hone** (01:37:48): And you get these really distorted ratios. I don’t think that’s the case with the Deinonychus-Tenontosaurus stuff because there are ways that you can probably rule that out. But there are probably places like this where it’s happened. Again, the other one is the toxin one whose n- Yeah, Cleveland-Lloyd, so it’s just coming up on your screen. That’s another one with loads of dinosaurs. There’s Allosaurus. But we’ve definitely seen it with… I think this has come up with something like lions or wolves. Like, they found loads of them dead by a lake and it turned out, or this pond. And this pond had got some really nasty algal bloom toxin in it, and the interpretation was the same kind of thing, is that, like, a couple of deer were drinking.
+**Dave Plummer** (01:22:11): I can bring to bear an incredible amount of focus and dedication on a particular task. It has to be something I love, it has to be something that’s rewarding, it has to be something I can make progress on, and there have to be all these things that are true about it. And it could be like a kid playing with trains. I get that same feeling.
 
-**Dave Hone** (01:38:31): This stuff’s toxic and kills you within minutes, keels over, dies. Wolf smells dead meat, comes over, starts eating it, has a drink, keels over and dies. So it’s not getting… You’re just dying from the toxicity rather than being physically sucked in and trapped. But the same effect can happen, and so you just end up with a pile of dead bodies.
+**Lex Fridman** (01:22:28): That said, you also said that you struggle with ADHD.
 
-**Lex Fridman** (01:38:51): So, I’m pulling up some stuff here. First of all, shout out to Perplexity. Super awesome. It’d be great if you fact-check some of this stuff. So, fossil discoveries, including parallel trackways and bone beds containing multiple tyrannosaurs suggests these large predators sometimes moved and possibly hunted in groups. You as a person who wrote a book about the behavior of dinosaurs.
+**Dave Plummer** (01:22:33): Yeah, a fair bit.
 
-**Dave Hone** (01:39:12): Yep. Let me deconstruct that almost instantly. So, because it’s really easy. My book on dinosaur behavior, this is just the kind of thing I’m talking about. So, the tyrannosaur trackways of a group of tyrannosaurs is, I think, four or five tracks total. So, it’s like two from one animal, two from a second animal, and one from a third animal. That’s not the end of the world. That’s somehow how trackways form. You know, the rock’s broken up. They stood on mud and then they didn’t, whatever.
+**Lex Fridman** (01:22:33): So that’s part of the component, like, maintaining the focus?
 
-**Lex Fridman** (01:39:41): Just to clarify, trackways means footprints of multiple, maybe steps?
+**Dave Plummer** (01:22:38): Actually, acquiring the focus is the issue. So I’m very easily distracted. I fall asleep with noise-canceling headphones or I can’t fall asleep, that kind of thing. But once I get locked in, I’m very hard to distract. So it’s kind of a paradox.
 
-**Dave Hone** (01:39:46): Yeah, one of them has got a left and right, and the other two don’t. It’s very fragmentary, but I have no… That’s not a problem with the interpretation. The problem is this is interpreted as a group of them moving together. Well, why? Because they’re going in roughly the same direction. Okay. And they’re roughly equal sizes. Okay. But, like, I’ve seen solitary animals moving in groups. A guy I know quite well in South Africa… I go to South Africa regularly for my teaching, actually, and he’s one of the big guys at South Africa National Parks, and he gives me the skinny on all kinds of weird stuff. And he was telling me a few years ago that one of his park rangers had observed leopards hunting together in a group.
+**Lex Fridman** (01:22:52): Oh, that’s fascinating.
 
-**Dave Hone** (01:40:30): Now, leopards are basically not just solitary, they’re like antisocial. They beat the hell out of each other if they come near each other. But I’ve also seen… You know, you get… Game trails are a thing, paths that single animals take. If a female is in heat, males will track her down and follow her. So you’ll get one set of footprints, and then a couple of hours later, a male will come past, and a couple of hours later, another male will come past. And now you’ve got three sets of footprints all traveling in the same direction on the same bit of path, but they live on their own.
+**Dave Plummer** (01:22:53): It’s hard to get into that state.
 
-**Dave Hone** (01:41:03): Let alone hunting together, which is a massive step above this. And then the one I’ve talked about quite a bit in my book is spotted hyena, Crocuta crocuta, which is the one… There’s a whole bunch of hyenas, but this is the one everyone knows. They’re the big laughing hyena. And you can see plenty of Attenborough-type documentaries of them, seven or eight of them, or even 10 or 12 of them going into a herd and ripping apart wildebeest or zebra or whatever it is. But actually, if you read the scientific literature, this is really rare. They mostly hunt on their own. Now, they do live in these social clans with hierarchies and complex social interactions. They are very social animals.
+**Lex Fridman** (01:22:54): Okay. What’s the biggest challenge of life with an autistic mind?
 
-**Dave Hone** (01:41:42): But they mostly hunt on their own. So even if you find loads of trackways of them moving together or, as again, there’s one, if not two, for tyrannosaurs, where we’ve got multiple tyrannosaurs together, and that’s been argued for pack hunting. At best, that argues they might have lived together, but it doesn’t tell you whether or not they hunted together.
+**Dave Plummer** (01:22:58): That I don’t know what anybody else is thinking. So I know what I would think about this interaction if I was in your position and I was you. And that’s the best I can do. But I think most neurotypical people have a sense of, “Well, Lex probably feels this way or that way ’cause he’s acting this way and his reactions are this and his facial expressions say this and…” That’s all kind of lost on me. So I run a little proxy NPC game for everybody I deal with.
 
-**Lex Fridman** (01:42:05): So, how can we make a decision one way or the other?
+**Lex Fridman** (01:23:20): So I guess that makes social interaction a little bit complicated.
 
-**Dave Hone** (01:42:08): So, I mean, I tend to be ultra-conservative in this context, and I think we should probably avoid saying things that we’re not quite confident about. I don’t want to ever go down the, “We must have really definitive, 100% convincing evidence,” because this is paleo and we don’t have that kind of data. But just as I talked about with things like the predator-prey size ratio stuff, there is data we can start to use on living species about what tends to trigger hunting in groups or living in groups, and what data there might be from stuff like brain sizes or other trackways. Or again, we do have bite marks indicating prey size. If you start finding repeated attacks on big prey from relatively small predators, that would be quite convincing.
+**Dave Plummer** (01:23:22): It can be, yeah. Telephone is especially hard because I rely on a lot of other cues, and when somebody is just on the phone and I just have their voice, there’s so much that’s implied between people that I miss. And so I’m much better on FaceTime, where if somebody makes a joke, they might smile after- Whereas on the phone, I don’t know if you’re being sarcastic or serious and that kind of thing, so…
 
-**Dave Hone** (01:42:56): As you said, maybe we had bite marks of multiple different sizes. Now that on its own, it comes hard, because obviously scavenging… you know, tyrannosaurs are an exception. Most dinosaurs, most carnivorous dinosaurs have pretty similarly shaped teeth. So how easy is it to tell an adult from a juvenile from an adult from a different species that’s just a bit smaller? Probably pretty tricky. I mean, for me, I think the kind of gold standard, which I don’t think we’re ever going to find, but you never know, like, you could in theory get a trackway of something like a herbivore… with a whole bunch of carnivore tracks coming by it.
+**Lex Fridman** (01:23:42): So that’s probably gotten you into trouble over the years a bit.
 
-**Dave Hone** (01:43:39): We do have a couple like this, but they don’t have what I really want to see, which is if you trace the footprints of the individual carnivores, and if A’s early on, A’s footprint goes on top of B’s, but later on B’s go on top of A’s, they must have been there at the same time because there’s no way they could have been even minutes or hours apart. So if you had that, then those two must be together, or at least within sight of each other, and one’s not turning around and roaring or having a fight. If you can do that with seven or eight, all converging on one herbivore, and then everything goes manic, well, that’s really pretty convincing.
+**Dave Plummer** (01:23:45): Yeah. There’s lots of times with my wife, too, where… Well, there’s a certain literalism that comes with autism. And we spent years where she would say something and I’d say, “But that doesn’t make sense.” She’d say, “You know what I mean.” I’m like, “No, I know what you said and I’m not being just combative here. I literally only know what you said,” and I don’t have that. And I remember we’ve been in meetings with people, and you know, if there’s three or four people in the meeting and I’m the only autistic person, I’ll tell them that they’ve got this communication loop going on and I have to… You gotta tell me what’s going on because I really don’t know what’s being said here. So…
 
-**Lex Fridman** (01:44:18): It is so fascinating and awesome, like the Sherlock Holmes aspect of paleontology. Like figuring out… because you have very little signal… …And you have to figure out the puzzle of it from that. And like that’s the… it’s just you’re brilliant… You’re giving so many brilliant examples of like, yeah, if A steps on top of B and then B steps on top of A, that’s a strong signal that they were walking together.
+**Lex Fridman** (01:24:19): You told me related to this that there was an early, somewhat awkward encounter with Bill Gates. Can you share the story of that interaction and how autism comes into play here?
 
-**Dave Hone** (01:44:39): I am a bit of a Sherlock Holmes fan, and he references Cuvier. So Cuvier was this legendary French anatomist, Baron Cuvier. He was the first guy to posit that things went extinct, working on mammoths. And he said, “Well, there’s nothing like this alive today, so extinction happens,” which before that we didn’t really know. And Holmes has a line about, “Just as Cuvier can restore an animal from the smallest bone, so I can restore the events from the smallest detail.” Or I…
+**Dave Plummer** (01:24:32): Yeah. My very first summer at Microsoft when I got the internship, Bill had all the interns over. I guess it was 20 or maybe 25 of us, that got hired that year over to his house for burgers and beers and just chat in the backyard. And of course, it’s still Bill Gates, and he’s a big enough deal even then that you’re a little nervous. And so my manager, Ben, who was sort of my mentor at the time, took me over to introduce me to Bill because he knew him. And he’s explaining, “This is Dave. He’s our intern from Canada. And in the space of four months, he’s done this feature and just copy and smart drive,” and he listed off all the stuff I was doing.
 
-**Lex Fridman** (01:45:07): Damn.
+**Dave Plummer** (01:25:05): But I stopped because I’m like, “Well, actually, it was three months.” And I had to interrupt them, and they both kind of, “What?” And they looked at each other, and I realized that was the wrong time to… …Correct a guy. But…
 
-**Dave Hone** (01:45:07): …I’m paraphrasing, but I’m not far off.
+**Lex Fridman** (01:25:17): Yeah. So you, like, little inaccuracies?
 
-**Lex Fridman** (01:45:09): Yeah, there’s truth to that.
+**Dave Plummer** (01:25:20): Oh, drive me crazy.
 
-**Dave Hone** (01:45:10): You, you have used an analogy that Conan Doyle specifically used for Holmes going back to paleontology.
+**Lex Fridman** (01:25:22): And then you, of course you don’t… The impact that might have on a casual social interaction, it’s not trivial for you to be aware of that.
 
-**Lex Fridman** (01:45:17): I mean, it’s obvious. It’s clear. It’s right there, yeah.
+**Dave Plummer** (01:25:38): Yeah. I’m much better than I used to be. Before, I didn’t know and I didn’t know how injecting a correction meaninglessly into a conversation could impact or make the other person feel. Now I have a better sense of it, but…
 
-**Dave Hone** (01:45:20): That’s how on the nose you are with that one.
+**Lex Fridman** (01:25:49): What advice would you have for folks who have an autistic mind on how to flourish in this world?
 
-**Lex Fridman** (01:45:22): So, okay. So basically, you clarified and showed all the things Jurassic got it wrong.
+**Dave Plummer** (01:25:56): In terms of prosperity and finances, the biggest thing I can say is sell what you can do and not yourself. Because if you go into a job interview and you try to wow them with your personality and how amazing you are, it may or may not go well. But if you go in with your portfolio of work and say, “Look, here’s my GitHub history and here are the awesome projects I contributed to, and here’s the actual algorithm I wrote, and this is what I do,” I think you get a lot further with that. So, whether you’re playing the piano or writing code.
 
-**Dave Hone** (01:45:27): Yeah, we, yeah, we got off-topic before we even got onto Jurassic Park.
+**Lex Fridman** (01:26:21): That said, so much of software engineering on large teams has a social component to it, right?
 
-**Lex Fridman** (01:45:30): And just velociraptor you said that the, you know, the, yeah, the size, the pack hunting, all of that.
+**Dave Plummer** (01:26:29): It does, and that was a liability for me.
 
-**Dave Hone** (01:45:36): The pack hunting, just to round off on that, I don’t know. Maybe there’s actually been some more recent stuff on Deinonychus looking at things like isotopes in the teeth and feeding traces and some other stuff that’s hinting that maybe there is more going on there, which is great. I’m not anti the idea that this exists, but you absolutely get this build-up of… The idea that velociraptors are a pack hunter comes from Deinonychus, and I think the evidence from Deinonychus is really weak, in exactly the way that… Okay, lions are group hunters. We know they are. Does that mean that leopards are? And tigers and puma? No. So why on Earth do you think that just because, even if Deinonychus is, that doesn’t really tell you anything about velociraptor?
+**Lex Fridman** (01:26:31): How do you… I mean, what have you learned about how to solve that little puzzle?
 
-**Dave Hone** (01:46:23): Group hunting has all kinds of more complicated dynamics going on than just close relatives tend to do it. You can flip that around, you know. African hunting dog, wolves, things like bush dogs. There are various canids that all hunt in groups, but then you’ve got things like maned wolves, which are effectively solitary. The hyenas. Spotted hyenas are, yeah, these super social animals, but the brown hyena, the striped hyena, and the aardwolf are solitary. So you just can’t do group versus solitary off close relatives or anything like that. I am very sure a ton of dinosaurs were aggregates, lived in groups to some degree, and I’m very sure some of them were social with complex lives and hierarchies and even pack hunting.
+**Dave Plummer** (01:26:36): I think the biggest deficit for me was when I started to manage people, because now you’re concerned about their hopes, dreams, aspirations, what motivates them. They have entire lives that are kind of a mystery to me, because I assume they want to be motivated and led and encouraged and compensated exactly as I would. And that’s not always the case. Some people need a lot more affirmation, some people just want money, some people want to be in the important meetings and make decisions. But I was largely oblivious to that. And so eventually I had to learn that everybody that you’re managing has their own set of incentives and priorities, and they’re completely different from what I think they probably are.
 
-**Dave Hone** (01:47:10): Which ones? I have very little idea because I think the data is so sparse that we can’t really say it with any confidence for anything, in my opinion. I think that can be got at. I think we need to start getting at it with the sort of stuff I’m talking about. Like, get a better understanding of what drives sociality in lions versus tigers versus leopards. You know, relatively close relatives who overlap. Don’t forget, in India, leopards and tigers overlap with lions. The Asiatic lion is still there. So you can talk about ecosystem structure and prey size and prey type and all this stuff. We can maybe, maybe we can start piecing that together a bit better and then apply that to stuff like the track ways and the isotopes and all the rest of it.
+**Lex Fridman** (01:27:11): So you could, I guess, make things more explicit and just communicate better about, like, ask them about what their interests are.
 
-**Dave Hone** (01:47:57): Bite marks and these mass mortality sites. So I think it can be done, but personally, like, what were pack hunters? No idea. I don’t think, I don’t think any of them were in the sense that I don’t think we’ve got good evidence for any of them.
+**Dave Plummer** (01:27:19): Yeah. And that’s something I started doing, is overtly asking. Because it’s hard for me to nudge somebody there. I’m not good with that kind of social dance, so…
 
-**Lex Fridman** (01:48:10): But there probably exists on earth definitive evidence one way or the other.
+**Lex Fridman** (01:27:27): Yeah, part of the social dance is there’s a lot of stuff that’s unsaid. You can kind of figure out… You can read people. But if that’s… With autism, it might be a little bit difficult to do that, and so you have to make things more explicit. Plus, like, sarcasm and satire and humor might be difficult. I would love to be a fly on the wall in some of your earlier interactions with Microsoft. I mean, some of the greatest engineers have a mind like this, so…
 
-**Dave Hone** (01:48:16): Yeah, probably for some of them. I mean, it’s, I think it’s well within their scope. One of the papers writing about this, ironically arguing against pack hunting in Deinonychus, said that, “Well, it’s probably not the case because you don’t really see pack hunting in birds. And so if you don’t see it in birds, then dinosaurs being their ancestor, well, if birds can’t evolve it, then maybe dinosaurs couldn’t have evolved it.” Which I’m not sure is a great logical argument because of the complexities of social behavior anyway, but then there are a couple of birds which actively hunt in groups. Things like the giant ground hornbills. Ethiopia and South Africa are a really good example of that. So that point is incorrect.
+**Dave Plummer** (01:27:58): Yeah, I’ve had laptops thrown at me and stuff, and I’m sure it was my own fault, so…
 
-**Dave Hone** (01:48:57): And then we see, if not true sociality, we see cooperation in crocodilians, and we’re seeing degrees of social behavior in things like iguanas. So the idea that, like, “Well, birds are super advanced, and dinosaurs can’t do it ’cause the stupid reptiles are too stupid, and therefore dinosaurs are more like them,” which isn’t quite what they’re saying, but it’s sort of the unwritten idea, “Well, we have social behavior and cooperation behavior in crocs and in lizards.” So that really gives you the impression that dinosaurs, theoretically at least, are perfectly capable of that.
+**Lex Fridman** (01:28:01): You write about the 10-second autism test. Could you explain how this works?
 
+**Dave Plummer** (01:28:05): Yeah. Now, there is, of course… Anything that has two answers has a high error rate, but… So what’s more important to society as a whole from the people, is it cooperation or creativity? And if you had to pick one, which is the most important? And most neurotypical people will generally lean towards cooperation, whereas people on the spectrum tend to lean towards creativity as individual problem-solvers.
 
-## Evolution and sexual selection
+**Lex Fridman** (01:28:26): Of course, there’s some kind of error rate there.
 
-**Lex Fridman** (01:49:31): So there’s pack hunting, but there’s also sociality, which is such an interesting idea. It’s, how did they live? And this is something you look at that paleontology doesn’t often touch, is like, the lives.
+**Dave Plummer** (01:28:28): So if you want to double your precision, you can use a second test, which is you ask, “There’s a room with 10 chairs, and six people come in and sit down in those chairs. How many chairs are left?” Now, some people are going to say four, but I’m going to say 10, because that’s how many chairs are still there. Literally true. And I’m not being a dick.
 
-**Dave Hone** (01:49:43): Yeah, because, you know, animals are doing complicated things. So, you know, in the case of lions, a large part of this is down to territoriality in that the males ultimately are defending the territory, and that’s effectively protecting the females. But of course, what they’re mostly protecting them from is other males. So there’s a ludicrous bit of self-interest. But that’s effectively how it’s operating as a system. But it could just be predatory type. Cheetahs are my go-to example for this. So cheetahs are the weird ones compared to the other cats because females are solitary, but males are social. So brothers will… When, when, you know, if the female has five or six cubs, the brothers will stay together in a group, and then the girls will go off on their own.
+**Lex Fridman** (01:28:46): Yeah, okay.
 
-**Dave Hone** (01:50:26): And if you’re the only brother or the only survivor, you will usually hook up with a gang of other males. So cheetahs are pack hunters if you’re male, and a solitary hunter if you’re female. So it’s not about territory defense or occupation for them. It’s about prey type.
+**Dave Plummer** (01:28:46): I’m not trying to be complicated, but that is how my mind works. And so when I see that question, it’s like it depends how you answer it.
 
-**Lex Fridman** (01:50:42): Is it possible to know the sex of a T-Rex or any of the other dinosaurs? Like, what can paleontology show us?
+**Lex Fridman** (01:28:53): So you’re how literally you take things?
 
-**Dave Hone** (01:50:48): So in theory, yes. In practice, it’s way more complicated. So unless you get very lucky, we have a handful of specimens that still have eggs inside them, instant giveaway. But this is like two or three. What you can look for is both reptiles and birds have a thing called medullary bone, and when you’re laying eggs and you need a lot of calcium very quickly because of that, the eggshell goes on basically like kind of like the last minute during egg development. So you need a lot of calcium very quickly. So during the laying season, these animals grow this really weird kind of bone texture on big things like the femur and the humerus, like really big bones in the body. And that’s…
+**Dave Plummer** (01:28:57): Yeah. Everything is very literal for me. I remember as a kid, my grandfather was building a planter holder in the kitchen for my mom. And he was using these big angle brackets that I thought were a little overkill, and I said, “Do you think that’ll be big enough to hold the plant?” And he says, “It’ll be big enough to hold a horse.” And I was only five, but I was very confused about, A, why you would bring a horse into your kitchen, why you would put a horse up on a planter, and all of these things that didn’t make any sense to me when obviously it was a figure of speech. But for a lot of my life, I took figures of speech as literal, so…
 
-**Dave Hone** (01:51:31): It’s got a weird texture ’cause it’s full of blood vessels, and it’s full of blood vessels so that you can basically apply a lot of blood supply to it quickly, suck up some of the calcium from that bone, take it through the system, put it on the eggs, lay your eggs. We can find that. So if you have a dinosaur bone and it’s the right kind of thing, so you can’t do it on like a finger or a claw or a bit of rib, but nice big bone, you could cut a chunk of that out, grind it down to the point that it’s virtually transparent, fraction of a millimeter thick, put it under a microscope and have a look. And if you see the right bone texture, that’s… There are some exceptions, but that’s very probably medullary bone, and you have yourself a female.
+**Lex Fridman** (01:29:26): You’ve mentioned emotional post-processing as a strategy you use to replace social interactions so you can sort of reverse engineer to help you understand the neurotypical world. I think this is going to be useful to a lot of people. What does that entail? How does that help you?
 
-**Dave Hone** (01:52:12): So the instant assumption is, okay, so you can tell female from male. No, we can tell laying female from everything else. So males won’t have medullary bone. Young females won’t have them. Females outside of the breeding season won’t have it. Females inside the breeding season, but maybe they’ve been really sick this year, don’t have it. Or they laid their eggs early and now they don’t need it anymore, won’t have it. So occasionally, if you cut up a bone, which of course we try not to do that much, you can get the signal of medullary bone and infer that you have a female in the breeding season.
+**Dave Plummer** (01:29:43): So if I meet somebody, particularly somebody new, and it’s my first couple interactions with them, so even meeting you today, then I will go home later and replay all of the moments where I had choices to make. And probably the most uncomfortable ones first, to find out, what did I do wrong in that moment? What did I miss? What was the other person thinking? How can I improve that kind of situation next time, and do I need to go fix it or make a phone call, that kind of thing in a bad… you know, in an extreme case. But… And that’s happened a couple times in my life. Like, I had a car restored that my dad had bought new in ’69. I still have it, so we’ve had it 50 years.
 
-**Lex Fridman** (01:52:46): But so there’s no like large bone structure differences?
+**Dave Plummer** (01:30:18): About 20 years ago, I had it restored, and it was a three-year process of craftsmen working on this car for thousands of hours. I go out to pick it up and I’m inspecting the car and I’m very impressed with the work, and I’m saying, “Oh, this is nice and this is great,” and everything else. Then I fly home and write the check and the car gets delivered. And then I realized probably 10 years later that I had a whole bunch of craftsmen that had worked on my car for three years, and I probably should have blown some smoke up their butts about what a great job they did, but I never did that because it’s not what I wanted or needed in that moment. And I was completely oblivious to that.
 
-**Dave Hone** (01:52:50): Well, maybe there is, but we haven’t seen it. You look at things like kudu or blackbuck and all kinds of antelope or even most deer, and the males have horns or antlers and the females don’t. And then you look at something like Triceratops and all the ceratopsians. There’s a big clade of… Oh, must be 40 species by now. And every single one of them has the frill and has some kind of horn somewhere. You don’t have the hornless ones or the frill-less ones in the way that we do with a lot of these.
+**Dave Plummer** (01:30:51): So I sent an email to the manager, or to the owner of the place, and I said, “I don’t know if you remember this, but 10 years ago, I picked up my car and I probably looked unimpressed, but I want you to know that I was very impressed with everything and the quality and everything else.” And he wrote back. He’s like, “I’ve thought of that moment often.” (laughs) So I’m like, “Now I’m glad I brought it up.”
 
-**Lex Fridman** (01:53:27): I’m, I’m trying to figure out ho- is there… How many of the species is it obvious that there’s like, like pelvis differences, all that kind of stuff?
+**Lex Fridman** (01:31:08): Yeah, there’s subtle things about human interaction that mean a lot to people, and if you ask them straight up, they might not be able to articulate that, but it means a lot. And when it’s off, when something is off, it bothers them.
 
-**Dave Hone** (01:53:35): So, so pelvis differences works on like humans and apes and maybe a couple of other mammals, but it’s mostly not very good because we are… It’s because we give birth to such a gigantic baby with a gigantic head compared to our sizes that women have different pelvises to men.
+**Dave Plummer** (01:31:22): Right.
 
-**Lex Fridman** (01:53:51): And then there’s size differences, like the skull is not as reliable as the pelvis.
+**Lex Fridman** (01:31:22): But to reverse engineer that, to figure that out for a person who might not sense those little subtleties of human interaction is tough.
 
-**Dave Hone** (01:53:54): It’s, it’s not. And then again, you just need to look at, you know, humans are always slightly dodgy with this because of, you know, our evolutionary and cultural history. But like, you know, there are population differences. You know, you… There are maned female lions in places. There are maneless male lions in places. Reindeer, female reindeer have antlers in winter. So Rudolph was a girl because every illustration of Santa and his reindeer ever, they all have antlers and that’s, that’s a female reindeer, not a male if it’s winter.
+**Dave Plummer** (01:31:32): That’s a good point to jump in there, too, on empathy because there is some perception in the community that people with autism lack empathy, and I don’t think that’s the case at all. I can only speak for myself. I feel fairly empathetic, but I think the problem is a communication one, and it works in both directions, whereas I don’t know how you’re feeling, so it’s hard for me to be empathetic with it until you communicate to me what it is you’re experiencing. And then once I know, once I have an understanding of what’s going on in your head, I can feel incredibly sorry for you. But until then, I’m going to assume you’re going to handle it just like I would in your position, in my case, with what I know now.
 
-**Lex Fridman** (01:54:25): So basically, we don’t know much about the dating and the sex lives of T-Rexes.
+**Lex Fridman** (01:32:06): What advice would you give to people on the other side? How can they help you be a better friend or partner or colleague? How should they communicate with you to help, like, give more information?
 
-**Dave Hone** (01:54:31): Well, not much, but you can make some inferences. So, for example, all tyrannosaurs have at least some kind of crest on the head. The early ones have like this midline crest, it, it really doesn’t work on a human. They have like a midline crest running along the top of the nose that sticks up. The later ones largely don’t, but they do have this weird armored structure along those fused nasals and then they have little horns over the eyes. Those, as far as we can tell, don’t really have any kind of obvious mechanical function, and loads, like outside of the feathered dinosaurs, the vast majority of carnivorous dinosaurs have some kind of crestal display feature on the head.
+**Dave Plummer** (01:32:18): Yeah. Be really specific. And don’t assume I’m going to pick up on clues and nuance and subtlety. So if you’re trying to nudge me into a particular behavior, you’re much better off saying, “Dave, this is what you need to do.”
 
-**Lex Fridman** (01:55:14): When you say “display feature,” meaning for sex appeal, to attract mates?
+**Lex Fridman** (01:32:31): Have I failed in any way today?
 
-**Dave Hone** (01:55:17): Or something like that. So I’ve always favored the term socio-sexual selection to cover both sexual display and sexual dominance and communication, but also social ones, because those two things are hard to tell apart. Female lions find males with darker manes sexier, but male lions find males with darker manes more intimidating. So one of them is sex, but one of them is social.
+**Dave Plummer** (01:32:32): No, not yet.
 
-**Lex Fridman** (01:55:43): Nice.
+**Lex Fridman** (01:32:33): All right. What score would you give me out of one to ten? Am I a six? A seven?
 
-**Dave Hone** (01:55:43): And then-
+**Dave Plummer** (01:32:43): 7.5.
 
-**Lex Fridman** (01:55:44): They’re… I mean, I guess it goes hand-in-hand, sure. Yeah.
+**Lex Fridman** (01:32:43): Communication? 7.5? (laughs) Floating point. Nice. Masking. You got to tell me what that is. It’s a significant experience for many on the spectrum. What is masking? And tell me about any of the experiences you’ve had with masking.
 
-**Dave Hone** (01:55:47): It can, but then you get things like the other one I go for is black swans, these beautiful Australian birds. They have these really weird curly feathers on their wings. And males and females both have them, and males prefer females with curlier feathers, and females prefer males with curlier feathers. There’s an obvious sexual link, but then females fight too. Females fight over the best nesting spots, and the females with the curliest feathers tend to win those fights.
+**Dave Plummer** (01:33:00): So masking is, and it’s probably not the right way to describe it, but it’s the act of acting normal. And that is, how do I conduct myself in a social situation in a way that other neurotypical people are going to receive and accept it the right way? And everything you do in a social interaction, from waving my hands to making facial expressions to tone of voice to posture, it’s a huge contrivance and it’s work. So it comes natural to most people, it’s just what they do, and cool people do it really well. But for somebody on the spectrum, you’ve got to fake it all.
 
-**Lex Fridman** (01:56:13): How does that make sense?
+**Lex Fridman** (01:33:41): Yeah. Acting normal.
 
-**Dave Hone** (01:56:15): This gets into classic sexual selection theory. It’s what’s called an honest signal. You couldn’t have those curly feathers if you weren’t able to support them.
+**Dave Plummer** (01:33:44): There’s a song by Rush, you know the band? Limelight. And it’s written by Neil Peart. I only speculate about people who have passed on, so I’ve got a sense he was probably on the spectrum. But the line is something like, “All the world’s indeed a stage, and we are merely players, performers and portrayers, each another’s audience.” And he talks at length in the song about not being able to treat strangers as friends and being able to fake an affect and all that, so it seems like he’s struggling with masking a lot in the song. I have no idea, but that was what I took from it.
 
-**Lex Fridman** (01:56:24): Oh, yeah.
+**Lex Fridman** (01:34:13): You described meltdowns as an overwhelming experience. Can you describe meltdowns? What typically triggers a meltdown?
 
-**Dave Hone** (01:56:24): …because they’re the primary feathers on the wings. And what it actually does is it makes it harder to fly. So you’re basically going, “Look how tough I am. I’ve grown this big, and I can fly and carry on with my giant curly feathers because I’m really tough and I’m in good shape.” And it’s the same with the lion. The reason you get pale lions in the south is because it’s, or close to the equator, because it’s too hot. So there’s the trade-off, because if you have a really black mane, yeah, all the males know you’re great and all the females know you’re super sexy, but you just die of overheating.
+**Dave Plummer** (01:34:22): Generally, it is… it’s when you’re emotionally overwhelmed to the point that you can’t manage your behavior anymore. So you see it in the movie Rain Man when he’s trying to get on the airplane and he’s kind of forced and he starts losing it. That’s a meltdown. Or I’ve seen it on… They did kind of a… Well, actually, probably the best portrayal I’ve seen in media is… What’s the TV show where the doctor is autistic? He’s… Anyway, there’s a TV show where a doctor’s autistic and he’s a surgeon and he is eventually banned from surgery because of his autism, and he’s always wanted to be a surgeon and he has a complete meltdown, and it’s a pretty good portrayal on television.
 
-**Dave Hone** (01:57:00): The trade-off is if the heat’s going to kill you, you’re probably better off being a bit paler and surviving in order to reproduce than you are being jet black but just dying instantly as soon as it gets hot.
+**Lex Fridman** (01:34:56): What is actually happening? Like, there’s a threshold you cross that it’s just like…
 
-**Lex Fridman** (01:57:13): So there’s trade-offs there. Okay.
+**Dave Plummer** (01:35:00): Yeah. The switch flips.
 
-**Dave Hone** (01:57:15): Yeah, and that’s probably what’s happening with the theropods. All the little crests and horns, Ceratosaurus, Dilophosaurus, tyrannosaurs, allosaurs have big crests over the eyes, and all kinds of others. I’ve written about this; I think this is the trade-off. You’re going for the sexiest look… …And the sexiest look is the biggest horns or the biggest spikes and whatever’s on the head, probably also then with the brightest colors and the most display patterns, but also this gives you away to your prey. If you’re trying to hide or you’re trying to sneak up on something, being brightly colored or having stripes or all this extra stuff on your head, you get spotted.
+**Lex Fridman** (01:35:01): It’s like a blue screen essentially-
 
-**Dave Hone** (01:57:54): But then that’s the trade-off, if my horns are this big and this red and yellow, and I can still, whoop, I can still run those guys down and hunt them and kill them and eat them.
+**Dave Plummer** (01:35:05): Yeah. Kind of.
 
-**Lex Fridman** (01:58:08): Yeah.
+**Lex Fridman** (01:35:05): … for the brain algorithm?
 
-**Dave Hone** (01:58:08): …then look how great I must be. Whereas that little guy, he’s only got weedy little crests, and they’re really dark because he’s so bad at catching stuff he doesn’t have the extra energy to grow big crests. And so, and that’s why, but when you’re a herbivore, you don’t have that pressure, particularly something like Protoceratops, but somebody like Triceratops and these guys, they’re living in big groups. You can’t hide from a predator when you’re a group of 20 animals that are 10 tons each. So who cares? You just grow the biggest signal you can possibly grow, and lo and behold, they have giant frills and giant horns.
+**Dave Plummer** (01:35:07): So the switch flips. You go to a primitive brain. Your frontal cortex shuts down to an extent, I think, so you don’t have the benefit of decision-making and filtering. You’re a very reptilian brain in that state. And it’s really a panic state. And so it’s a panic and a fight or flight response to not being able to tolerate the current reality. And perhaps it’s been so frustrating or you’ve been so randomized or you had a bad travel day or an argument at work or whatever, it’s added up to the point that something has now triggered you and your brain loses its ability to adequately moderate your behavior.
 
-**Lex Fridman** (01:58:45): What can you say about beauty in evolution? So something that’s maybe you can educate me, but something that’s not quite an honest signal, that’s just pure beauty, like peacock feathers?
+**Lex Fridman** (01:35:41): What about love and relationships? What are some of the challenges of that and… You know, there’s a show, Love on the Spectrum.
 
-**Dave Hone** (01:58:56): So there are things which we think operate closer to that. These are the two classic ideas of sexual selection, and both are probably true to certain degrees in various different species. One is the honest signal or the handicap hypothesis, because you’re holding yourself back whilst proving you can still do it. I ran the marathon, you know, carrying a couple of weights, you’re obviously stronger than the guy who ran the marathon without. And so that’s why it’s an honest signal and it’s why it’s a handicap. But the other one is what’s called the “sexy sons hypothesis,” and the idea is a female might just find a male attractive for no other reason than random.
+**Dave Plummer** (01:35:47): I’ve heard of it. I’ve not seen it, but I’ve heard of it.
 
-**Dave Hone** (01:59:35): There is some component of her brain or whatever it may be, that just looks cool. And you can actually get this as a human. Like, forget human beauty, you can look at a bottle and go, “That bottle’s kind of nice, and that bottle’s kind of ugly.”
+**Lex Fridman** (01:35:49): Because certain aspects, like literal interpretation of things, it just makes the complexity of romantic relationships even more explicit in that context.
 
-**Lex Fridman** (01:59:51): Where do you put, like, birds are interesting with this. Where do you put peacock feathers?
+**Dave Plummer** (01:36:01): You know, I’ve been married 31 years and together for 37, so a long history there, and I think our first indication that we knew we were very different was we were sitting in the car one night out front of the house at dark and across the street there’s kind of a nice house, and it has these big brick pillars that are linked by, like, anchor chains and it forms a fence around the yard. And I’m looking at these things ’cause they’re about two feet square and they got capstone and I’m like, “You know, I wonder if they’re hollow or are they backfilled?” Are they filled with concrete or what?” And my now wife looks at me and she’s like, “What’s wrong with you?” “Why do you have a place in your head that cares about that?”
 
-**Dave Hone** (01:59:56): So they’re probably more handicap hypothesis because the colors that go into them and the sheer size and shape…
+**Lex Fridman** (01:36:36): Yeah. That’s great.
 
-**Lex Fridman** (02:00:02): Oh, I see. Yeah, yeah, yeah.
+**Dave Plummer** (01:36:37): And we just knew in the moment that I was passionately involved and caring, and she was passionately involved, and why would you even worry about that kind of thing? We knew we were very different.
 
-**Dave Hone** (02:00:03): …and these things basically can’t fly. They’re really vulnerable to predators.
+**Lex Fridman** (01:36:47): Yeah. Very specific, seemingly irrelevant details.
 
-**Lex Fridman** (02:00:08): Can the handicap hypothesis explain just how beautiful peacock feathers get?
+**Dave Plummer** (01:36:51): But- …I was never good with people. I don’t get it when people like me, I guess. And so my son is the same way, because they don’t fall very far from the tree. I got them a T-shirt that says, “If you’re hitting on me, please let me know and be specific, because I’m clueless.” And it’s very similar for me. I mean, I had to be around a long time and kind of grow on people because I had no game, I had no ability to do the social dances that that whole thing requires. So my only option is to just be myself, and that works for some people.
 
-**Dave Hone** (02:00:12): So-
+**Lex Fridman** (01:37:21): Were you able to say, like, “I love you,” that kind of stuff?
 
-**Lex Fridman** (02:00:12): Like, ’cause they go extreme with it.
+**Dave Plummer** (01:37:26): Yeah. I mean, her family was way more open with that kind of thing than mine was. So it was a growing period for me. But, yeah, that’s not a problem I have.
 
-**Dave Hone** (02:00:14): So, so probably not entirely. There’s almost certainly randomness going on in there as well, and then the eye spots. We know that eye spots are attractive, are probably encoded in some way. But yeah, so going back to the sexy sons, the idea is females prefer something different for whatever reason, and there might actually be some reasons females prefer things that are different. Different usually means separate and outside, and that usually comes with variation inherently.
+**Lex Fridman** (01:37:33): Okay. All right. But it seems unimportant. Like, what is that actually accomplishing?
 
-**Lex Fridman** (02:00:43): Oh, so variation is evolutionary turn-on?
+**Dave Plummer** (01:37:41): Well, now we do a lot of affirmation and checking. In the last couple of years, we do a thing where she’ll just be like, “You good?” I’m like, “Yeah.” And there’s two steps to that. There’s the “Are you good?” and then there’s my response, because if I’m like, “Yeah,” she knows something’s up.
 
-**Dave Hone** (02:00:46): Yeah, basically.
+**Lex Fridman** (01:37:55): Yeah. So,
 
-**Lex Fridman** (02:00:48): Wouldn’t it? Man, you’re rolling the dice, though, aren’t you?
+**Dave Plummer** (01:37:55): And so there’s always this pinging back and forth because there’s not the ability to read people just from looking at them to know what’s going on, so we have this explicit check mechanism, I think, where we develop that.
 
-**Dave Hone** (02:00:51): Yeah, well, you, prob-
+**Lex Fridman** (01:38:05): So there’s a vast chasm between yeah and neh. Again, that subtlety of human communication. You’ve written about the experience that people have of feeling, quote, “a little bit autistic.” Could you elaborate on this concept?
 
-**Lex Fridman** (02:00:52): Right.
+**Dave Plummer** (01:38:25): Yeah, I think a lot of people, maybe 10 to 20% of the population, is somewhere on the autism spectrum, but isn’t impacted by it enough that it rises to the level of a disorder. But they still have many of the characteristics that arise from autism. And I think if they can understand and identify and manage some of those behaviors in an optimal way, they can both leverage them and take advantage of some of the skills and mediate some of the deficits and problems that come with it. And I wrote it mostly for my kids because none of them, as far as I know, have ASD, but they’ve all got certain aspects of my behavior that are particularly related to it, so I thought I’d write a little manual for them, basically.
 
-**Dave Hone** (02:00:52): So, so you’ve, you’ve, you’ve got to remember, again, it’s really easy to look at that sort of thing with a human perspective where at maximum reproductive output, I think the record, there’s some obscure record, it’s something like 66 children, which is probably apocryphal for a Russian woman who had loads of triplets and quads. But, like, humans don’t have many offspring, but most animals lay dozens of eggs or hundreds of eggs or thousands of eggs at a time. So actually-
+**Lex Fridman** (01:39:02): Hmm. Why do you think so many programmers, like excellent, great programmers and great engineers, are on the spectrum?
 
-**Lex Fridman** (02:01:23): So diversity pays off more there.
+**Dave Plummer** (01:39:08): I think it’s that single-minded focus and the ability to reduce a problem, and to be ultimately curious about what’s inside stuff. That’s been an obsession for me my whole life: what’s inside? I gotta take my mom’s oven apart because I gotta know how the flip clock works. And I think that’s a good habit to have if you’re gonna be a programmer.
 
-**Dave Hone** (02:01:24): So diversity can pay off. We, we think that’s probably a major part of the reason that sex evolved in the first place, is it gives you resistance to changing environment and it gives you resistance to parasites and diseases which often reproduce way faster than you do. You know, bacteria can divide in a few hours. We reproduce every 20 years. That’s quite a difference. If we were all asexual clones and you’re vulnerable to some disease, you’re probably gonna get wiped out. Look at the, you know, Irish potato famine or something like that. So different may be appealing simply because it is different. It’s giving you variation. And there’s at least some evidence for that. There’s swordtails.
+**Lex Fridman** (01:39:26): And being willing, being excited to get into the details. Yeah. What’s a cool thing you hope to program to build this year? What are you working on? So we got the RL learning how to play Tempest. Where are you on that, by the way? Like, what’s the ETA on success and dominance? Like victory?
 
-**Dave Hone** (02:02:06): So anyone who keeps little fish, if anyone’s a tropical fish keeper, swordtails are really quite common little tropical fish that you can get in all kinds of aquarium shops, and they’re a very boring fish shape, but the lower lobe of their tail has a big spike on it, and that’s the name. And they’re really close relatives of a group called the mollies which basically don’t have that. And in the wild, these, these are Amazonian fish, they don’t usually encounter each other, but even if you go and get not even the domesticated form ’cause these things have been bred for, you know, decades at this point, you can go and get some wild mollies and give them a wild male swordtail and they think he’s so much better than all the male mollies.
+**Dave Plummer** (01:39:47): Well, it’s very close to working. I think now it’s tweaking the model size and layers and stuff like that to get it to learn past the one threshold. But, you know, it’s a couple thousand lines of Lua and it’s a couple thousand lines of Python, and they all interact and they all work, so it’s like 95% of the work is done now. It’s tuning hyperparameters and hoping for the best.
 
-**Dave Hone** (02:02:45): They will go for that one and they will preferentially mate with that one. We don’t know the exact mechanism, but it appears to be, he looks similar enough that I recognize it as a potential mate, but different enough that this is exciting.
+**Lex Fridman** (01:40:04): So it’s already a success in a sense, but now you’re seeing how far can this go?
 
-**Dave Hone** (02:02:58): And then this is where the sexy sons kick in because the females are now assuming those animals are successful and they can hybridize, or maybe it’s just a male who just happens to be a little bit blue or a little bit red or whatever it may be. Well, the female offspring, the daughters, are probably going to inherit mother’s preference, “I really like red,” and the males are probably gonna have red in them because their dad had more red. So guess what the next generation does? There’s more red and the females like more red, and you don’t have to come back much further and suddenly all the males are bright red. And that’s closer to beauty than I think almost anything else would be with still a naturalistic explanation.
+**Dave Plummer** (01:40:08): Yeah, my goal was to be able to beat me.
 
-**Lex Fridman** (02:03:41): We kind of started talking about beauty from how much social life-
+**Lex Fridman** (01:40:11): That’s tough for.
 
-**Dave Hone** (02:03:46): Yeah, a T-rex might have.
+**Dave Plummer** (01:40:13): It is, but lots of games now are, you know, they play them better than humans, but maybe not games this complex.
 
-**Lex Fridman** (02:03:47): …a T-rex might have. So just to kind of take that to a place of what we know and what we don’t know, so can we kind of know something about their social life, where they lived, how they lived?
+**Lex Fridman** (01:40:19): What other cool things are you working on? What do you hope to build this year?
 
-**Dave Hone** (02:04:01): So the very fact that they have these apparently socio-sexually selected signals, the, the little crest and stuff in the head… So there’s a branch of sexual selection called mutual sexual selection and the black swans are an example of this. The classic sexual selection is yeah, your peacocks and your lions and things like this. Males are bigger and more flamboyant and whatever it is and they’re doing all the competing. But yet mutual sexual selection, and this is really common in a whole bunch of things that people are familiar with but don’t know.
+**Dave Plummer** (01:40:22): The PDP-11 stuff, I’m trying to get what’s called an RA82 drive. It’s the big 14-inch monster that spins at 3600 rpm and sounds like a washing machine. And then I’ll find the controller card and write the code and integrate it into the driver and try to get that all working.
 
-**Dave Hone** (02:04:32): Loads of sea birds, starlings, the common starling that we have in Europe and has been introduced into the US, parrots, various other things, where basically males and females invest similarly in rearing the offspring. And so the idea generally both with handicap and sexy son, but particularly with handicap, is the idea is the males are proving their worth. They’re basically saying, “I’m the biggest, strongest, healthiest, I’ve got the best genes, I should be the father of your offspring.” They go around showing off and then mate with as many females as possible while the females then do all the work and make the nest and look after the chicks and, yeah, or rear them or give birth or whatever it may be, yada, yada, yada.
+**Lex Fridman** (01:40:35): What kind of code are you trying to run on it?
 
-**Dave Hone** (02:05:13): And so the idea with mutual sexual selection is well, what if there’s not much food around? Things like puffins or, you know, penguins in the Arctic where, you know, where the male sits with the egg and the female toddles off, gets food and then comes back two months later or whatever it is. On their own they can’t rear the offspring. They have to have a male investment. Well now, suddenly the male’s now putting loads of effort in, so the male’s now in the same position that a female would be in under the normal conditions. You don’t want to be the sexiest, toughest, biggest male and you can only mate once, all right? There’s, there’s various cheats, but we won’t get into that just yet.
+**Dave Plummer** (01:40:38): I’m going to have to get the driver stack to work, so I have to incorporate the driver for it into the kernel.
 
-**Dave Hone** (02:05:51): You’re only going to mate once and you’re going to put all your effort into helping rearing offspring rather than chasing down as many girls as possible. Are you going to go for the biggest, fittest female as well or are you going to go for the small, weedy one that doesn’t look very well? You go for the best one. Well, how do you know that? Well ’cause she’s got a crest as well, and so suddenly you now get mutual ornamentation just like the black swans where the males are checking out the curliest females and the females are checking out the curliest males, and you’ll see they mutually pair up. This is what we see with things like starlings. Males like the brightest females, females like the brightest males, they tend to form pairs.
+## Fastest programming language
 
-**Dave Hone** (02:06:28): The darkest and least bright ones are obviously kind of left with each other at the bottom of the pile. They tend to pair up. But it means that when you’ve got signals in both males and females like every triceratops or every tyrannosaurus, it at least hints that they’re going down this route and that they might cooperate for reproduction.
+**Lex Fridman** (01:40:43): You built a machine recently with one terabyte of RAM. How did that happen and why?
 
-**Lex Fridman** (02:06:48): Wow. Another like weak signal that tells a powerful story.
+**Dave Plummer** (01:40:52): We have a project called GitHub Primes. If you just search for GitHub Primes, you’ll find it, and it is…
 
-**Dave Hone** (02:06:53): Yeah, and the problem is it’s compromised by lots of things, so that goes back to your earlier question about telling males from females apart. The vast majority of dinosaur species, like 90 plus percent, are known from a single specimen, and a specimen is not necessarily very complete at all. It might be a couple of bones, it might be one bone, it might be a tooth in a couple of cases. The actual number where we’ve got a decent number of real whole skeletons that we can actually compare to each other, less than 10. Probably more like five or six.
+**Lex Fridman** (01:40:57): GitHub Primes.
 
-**Lex Fridman** (02:07:25): Can I ask you a weird question? If you were to, let’s say, all humans died right now— …press a button, poof, gone, how much of human civilization would you be able to reconstruct from just the skeletons that are in the ground? Like you just start collecting skeletons. There’s a lot of them. There are billions of them. Would you be able to start telling a story, like urban centers?
+**Dave Plummer** (01:40:57): …a single set of prime number algorithms implemented in about 100 different languages. So it’s the exact same algorithm, and we require that you follow certain rules to make it fair. Then you express that algorithm in whatever language you choose to the best of your ability, and we run a benchmark every night, and we compile the results and find out which languages are fastest.
 
-**Dave Hone** (02:07:52): Yeah, probably, because—
+**Lex Fridman** (01:41:16): Is this the one? Oh, so this is it. You’re using this for? Oh, so-
 
-**Lex Fridman** (02:07:53): You could probably reconstruct a lot, right?
+**Dave Plummer** (01:41:25): So-
 
-**Dave Hone** (02:07:54): And if nothing else, just the, you know, superlative brain cavity will tell you quite a lot, you know.
+**Lex Fridman** (01:41:25): This machine runs those tests? Okay, you’ve got to tell me about this project. This is an epic project. So you’re comparing the performance of the different programming languages.
 
-**Lex Fridman** (02:08:01): Yeah, the intelligence.
+**Dave Plummer** (01:41:34): Of all these languages. So they all get built into an individual Docker container, and then they all run. And so-
 
-**Dave Hone** (02:08:01): Must have been very, very smart with— …a brain that big.
+**Lex Fridman** (01:41:38): This is an incredible project. This is really, really cool. It’s really measuring the performance of the different languages. So what have you learned about which languages? Which language usually wins?
 
-**Lex Fridman** (02:08:05): You can probably reconstruct some of the behavior, a lot of the behavior, social behavior. A lot of this stuff.
+**Dave Plummer** (01:41:51): Zig, I think right now.
 
-**Dave Hone** (02:08:09): And you’re going to see stuff like, you know, it’s the famous one of… I think it was a Neanderthal. There was a famous question of like, “At what point do you think society exists?” And maybe one of the answer was basically this skeleton because it was someone with a properly busted leg and then it fully healed. And it’s like if that person was on their own, just dead, someone had to look after them for months to get that level of healing. You only do that to someone you’re really devoted to and probably a group of people because even one person can’t look after one other person. Right, so that’s your society. And yet you think about the pathology of skeletons in the human race. How many of us have broken a bone?
+**Lex Fridman** (01:41:52): Zig.
 
-**Dave Hone** (02:08:56): Most adults have probably broken a couple of bones, even if it’s just a finger or a nose or something. But then you think about what medicine has done, and you would be able to see treatments of complete compound fractures of guys who survived horrific car crashes and treatments of cancer, bone cancers, and stuff like that. You would see that. Well, how is that happening? Either they’re magic, or they’ve got some kind of… in which case they’d probably cure it instantly, or there’s some kind of technology in society supporting that change.
+**Dave Plummer** (01:41:52): It does, it varies. People will make an improvement to the C++ then it’ll pass for a while, and then the Zig guys will get angry and come back and make it faster.
 
-**Lex Fridman** (02:09:29): That just hints at the fact that the evidence collection and the reasoning mechanisms that paleontology and archeology use are really powerful.
+**Lex Fridman** (01:41:59): So Zig, Rust, C++, C? And what kind of code is being run? What’s the piece of code that they’re trying to run to measure the performance?
 
-**Dave Hone** (02:09:38): Yeah, it is.
+**Dave Plummer** (01:42:10): So what they’re doing is they’re solving the primes up to 100 million as many times per second as they can in a five-second loop.
 
-**Lex Fridman** (02:09:38): And so it could be very effective even just with a small amount of data. I mean, you could—
+**Lex Fridman** (01:42:17): And so it’s a loop, got it. Over and over and over and over and over again.
 
-**Dave Hone** (02:09:42): But it’s the right amount of data. That’s the thing. We can find dozens of skeletons that we can’t do very much with, and then the right one that… you know, things like stomach contents, that’s a super powerful bit of data, or bite marks, but it doesn’t turn up that often. So it’s not like you can get it off every skeleton. And that’s the thing, it’s the pool of data, and I think that’s what people miss. We as paleontologists get caught up on single superlative specimens and then try and treat them as a silver bullet almost. So Microraptor, I mentioned this before, a little flying dinosaur, crow-sized, or gliding dinosaur, crow-sized thing from China.
+**Dave Plummer** (01:42:19): Yeah, on all cores.
 
+**Lex Fridman** (01:42:21): So what-
 
-## Spinosaurus
+**Dave Plummer** (01:42:21): Across all CPUs.
 
-**Dave Hone** (02:10:22): We’ve got, oh, at least a dozen good specimens of it by now and multiple ones with stomach contents. There’s one I’ve described with a little mammal foot inside it, there’s one with a bird inside it, there’s one with a lizard inside it, and there’s one with a fish inside it. On their own, and this happened for at least two of the papers describing these things, it’s like, “It ate fish. These are fish-eating animals.” No, that one ate one fish once. That one ate one bird once, that one ate one mammal once, and that one ate one lizard once. So what have we actually got here? I suspect we’ve got a group of generalists and we just happen to have found them eating different things at different times.
+**Lex Fridman** (01:42:22): What about, like, how the program is written? Does that vary?
 
-**Dave Hone** (02:11:04): But equally, it’s also possible, at least, that, yeah, this is one of these things and it had learned to eat fish when the others hadn’t, and actually this was mostly fish eaters and the others ate whatever they could get. Maybe one caught a bird up a tree in a nest, maybe one found it dead on the ground. You don’t really know what one of these things on its own is fascinating, but potentially misleading.
+**Dave Plummer** (01:42:25): No. So you can do anything you want, but it has to be a prime sieve. You’re allowed to use one bit per integer at most, so you can’t use a byte, which is cheaper and easier. There are a number of rules like that that you have to allocate the memory within your timed loop. And so we have a set of rules and we have some solutions that don’t follow the rules like the 6502 because you’ve only got 64K, you can’t do 100 million sieve. So there’s a lot of solutions like that that we run as exhibition projects, but among the main languages, they all follow the same rules, and so it really should just be the how the algorithm is expressed in that language. And many of them use the same backend compiler, so it really is how you’re expressing it and the limitations or the benefits of that language.
 
-**Lex Fridman** (02:11:29): Well, the way you’re describing it now, it seems like, yes, it’s potentially misleading, but there’s… in your whole way of being and the way you’ve been talking about this stuff, I can see that it’s not just the direct evidence you’re mentioning. It’s like, it’s a bunch of intuitions you build up. It’s like you’re stitching together a bunch of little things. It’s the Sherlock Holmes thing. Not just the clearly this one piece of evidence. It’s like, “Okay, what do I know about the general other dinosaurs that are on the Earth, what the different animals?” “How animals usually behave about this period, about the environment?” And all of that comes together and then… …Figuring out which is true.
+**Lex Fridman** (01:43:04): They’re allowed to be multiple submissions per language?
 
-**Dave Hone** (02:12:04): And that’s so one thing I’ve definitely written about is, yeah, the independent lines of evidence. Can you get stuff that is as far as possible truly independent from the other data and does it give you the same answer? And then when it does…
+**Dave Plummer** (01:43:07): Yeah, yeah. So if you look in the C, there’s like five, I think.
 
-**Lex Fridman** (02:12:23): That’s powerful.
+**Lex Fridman** (01:43:10): Okay. And then they, some of them might use different compilers, or no?
 
-**Dave Hone** (02:12:23): …that’s incredibly powerful. So Spinosaurus or the spinosaurs as a whole is my go-to example for this are the guys with famous big sail back and the weird crocodile-like head, though some of them look rather different to that, and if you look across all the species and specimens that we have, incredibly fragmentary and very badly known, but they’re all basically associated with… When you look at the gestalt, you see a whole bunch of stuff for these things. So they do have a surprisingly crocodile-like head and crocodile-like teeth compared to every other carnivorous dinosaur, and when you do the mechanical analysis, you see they function in a very similar way.
+**Dave Plummer** (01:43:14): Yeah, some are GCC, some are Clang, LLVM.
 
-**Dave Hone** (02:13:05): And indeed, teeth, here’s a spinosaur tooth with very nearly circular cross section, really distinctive, similar to crocodiles, similar to dolphins, similar to fish-eating fish, so points to fish. Crocodile-like head, points to fish. Crocs eat other stuff too, but still. They’re usually found in or near aquatic systems now. Fossils in general tend to turn up in aquatic systems because you’ve got to be buried to become a fossil, so water association is common, but even so that’s true. They turn up in places where lots of other dinosaurs don’t tend to turn up, including carnivores, which suggests they’re eating something else.
+**Lex Fridman** (01:43:17): I’m looking at a snapshot here from a couple years ago, Zig was at the top, then Rust, then Nim, Haskell. Oh, no, this is not, this is not ordered by slowness, or is it? It is.
 
-**Dave Hone** (02:13:47): If you look at the isotopic signature of the teeth, often it correlates with crocodiles, fish, turtles, and stuff that lives in water, and doesn’t correlate well with other land-living dinosaurs that lived in the same time and same place. So you put all of that together, and it’s really hard to argue… Oh, in addition to the tiny detail of Baryonyx, the British one was found with fish scales inside its chest cavity. So you put all of that together, and yeah, I’m not saying it only ate fish. I’m sure it ate big shrimp and turtles. And we know they were preying on terrestrial dinosaurs and pterosaurs because, again, stomach contents and teeth and stuff.
+**Dave Plummer** (01:43:28): So C would be 1.5 times as long as Zig.
 
-**Dave Hone** (02:14:26): But fundamentally, this is an animal or a group of animals doing something different to the other carnivorous dinosaurs, and it’s probably linked to water, and it’s probably linked to fish as a predominant way of living.
+**Lex Fridman** (01:43:31): Wow. Okay. Fascinating. Well, it’s a super cool project.
 
-**Lex Fridman** (02:14:39): We should mention that you’re working on a book o- out in early 2026?
+**Dave Plummer** (01:43:36): And we’ve got in crazy languages like PowerShell. There’s a version in PowerShell, and stuff like that.
 
-**Dave Hone** (02:14:42): So in the UK it will be out in November. In North America, January or February 2026.
+**Lex Fridman** (01:43:41): So this is automated, like in terms of organization of like how the submissions are done, there’s a structure to it? That’s cool.
 
-**Lex Fridman** (02:14:48): It’s called Spinosaur Tales: The Biology and Ecology of the Spinosaurus.
+**Dave Plummer** (01:43:47): Yeah, there’s two guys over in Europe Rucker and Tudor basically own this now. I started as just three languages, I did Python, C#, and C++. And I checked them in and I published the episode, and then people started throwing more solutions in there and it just got out of hand, so I had to get somebody to manage that one and they’ve been great doing that for me.
 
-**Dave Hone** (02:14:52): Written with Mark Witton, who did that picture.
+**Lex Fridman** (01:44:05): What’s the happiest moment for you when you’re programming and building a thing? Like, what do you enjoy most?
 
-**Lex Fridman** (02:14:55): It’s a beautiful creature.
+**Dave Plummer** (01:44:11): I think the most fun for me is when I build something complex, and I’ve thought through how it should work, and then I run it and it does work that way. That creates intense satisfaction. So seeing the results come out the way that I planned them and have it work, because it rarely does the first time, but…
 
-**Dave Hone** (02:14:55): Which I think is in there. He, Mark’s done a ton of new artwork. He helped write the book, but he’s also the artist.
+**Lex Fridman** (01:44:28): Yeah. Or especially if it does work the first time.
 
-**Lex Fridman** (02:15:02): I mean, can you describe a little bit more about this creature? There’s a bunch of stuff like what you just mentioned. There’s some debate. Is it, is it… To what degree is it aquatic? So what, what…
+**Dave Plummer** (01:44:31): I never trust that. I always feel like I’m missing something.
 
-**Dave Hone** (02:15:13): Not very, is my take.
+## Future of programming
 
-**Lex Fridman** (02:15:14): So, does it live in the water? Does it…
+**Lex Fridman** (01:44:33): That’s true. But, you know, with compiled languages like C++, that’s always a good feeling. You write a bunch of code, and you compile it all, it compiles without warnings, without errors. It’s a cool feeling. What do you think is the future of programming? So now, I don’t know how much you’ve got to really experience the impact of LLMs with code generation. Have you used Cursor much, Cursor VSCode with code generation?
 
-**Dave Hone** (02:15:17): Yeah. So I think it’s basically a big wader. It’s a poor analogy, but it’s a very weird, giant stork.
+**Dave Plummer** (01:45:05): Yeah, I’ve done a ton of it for the Python side because I’m not great with Python, and I’m kind of new to it. So I found it very helpful because I’ve learned a lot from watching the code that it generates if I don’t know how to do something. Because if I were to write Python from scratch, it’s going to be about four times as long as what the AI can crank out because Python can be pretty terse if you’re good at it.
 
-**Lex Fridman** (02:15:24): Oh, got it.
+**Lex Fridman** (01:45:23): Oh, that’s cool. So you essentially learned Python for this project?
 
-**Dave Hone** (02:15:24): Or heron.
+**Dave Plummer** (01:45:27): Yeah.
 
-**Lex Fridman** (02:15:25): Was giant.
+**Lex Fridman** (01:45:29): So this is a good case study of a great programmer in C++ quickly learning a language.
 
-**Dave Hone** (02:15:26): Yeah. So potentially bigger than T-Rex, linearly, not in mass. Again, really quite narrow chest versus that T-Rex barrel. But potentially 15 meters long, so bigger than any T-Rex we’ve found, at least in terms of length.
+**Dave Plummer** (01:45:36): Yeah, I’m vibe coding my way through it, I guess.
 
-**Lex Fridman** (02:15:40): Can you describe what it looks like? I mean, there are some iconic features to it, right?
+**Lex Fridman** (01:45:38): Vibe coding your way through it. I mean, that is a really powerful use case to learn a language for. If you’re already a good programmer, to learn either a new language or a new way to approach a problem by having it generate it because you already you probably understand the Python code it generates.
 
-**Dave Hone** (02:15:44): Yeah. So this really quite long head with a kind of wavy jawline. Animals have… You know, most carnivores have straight jaws. This one has a somewhat wiggly jawline. It really narrows at the front and then opens up again into a little, it’s called a rosette. So you’ve got a little semicircle, and then a dip, and then the jaws go back, and then the teeth line waves up and down. These really conical teeth, which doesn’t sound very exciting, but it makes them different to every other carnivorous dinosaur. No other thing has a conical tooth, which is a classic fish thing, or at least biting hold of something that wriggles. The nostrils are not at the tip of the nose. They’re pushed back, at least somewhat.
+**Dave Plummer** (01:45:55): Yeah.
 
-**Dave Hone** (02:16:28): It has a bunch of crests on the head. It’s got quite a long neck. Spinosaurus and at least a couple of the other closest relatives to it, a thing called Ichthyovenator from… I can’t remember if it’s Thailand or Laos. I think it’s Laos. Has this giant elongated bit to the top of the vertebrae, and so it gives it this giant sail along the back. Spinosaurus, at least, possibly Ichthyovenator, probably not any of the others, then has this weird, thin, newt-like expanse to the top of the tail, giving it a kind of like a giant oar paddle appearance. Mostly they have very large arms with giant claws on the hands. And Spinosaurus, at least, appears to have really quite short legs, but the others don’t. But again…
+**Lex Fridman** (01:45:56): Like without actually looking up any of the syntax.
 
-**Dave Hone** (02:17:13): So Spinosaurus is totally iconic, but if you look at something like Baryonyx from the UK or Suchomimus from Niger, it’s still got the same head, it’s still got the same neck, it’s still got the same arms, but it doesn’t have this sail, and it doesn’t have this tail, and it probably doesn’t have short legs. So Spinosaurus is a super weird and exaggerated version of what was already a kind of super weird group of theropods. So Spinosaurus is properly strange. And then, as you kind of hinted at, super controversial as well, because various papers have claimed it’s a diver or a really good swimmer, and I think the evidence for that is very weak at best.
+**Dave Plummer** (01:45:58): Yeah, it’s all pretty self-explanatory once you see it but, you know, creating it from whole cloth is a little different, so.
 
-**Lex Fridman** (02:17:55): So your book is going to be… You’re going to start some shit with your book. It’s going to be all controversial.
+**Lex Fridman** (01:46:03): Yeah, but you still have to learn how to program in order to use it in that way.
 
-**Dave Hone** (02:17:59): I think… I think I already have, to be honest. I’ve written three major papers, and one in particular with my colleague, Tom Holt, where we frankly savaged the idea that it’s a good swimmer. And then…
+**Dave Plummer** (01:46:08): Oh, and to read it and to know what to tell it to do next and all that, yeah. I don’t think you can vibe code yourself if you’re just new and haven’t coded but if you’re a good programmer, AI can make you incredibly powerful.
 
-**Lex Fridman** (02:18:13): Oh.
+**Lex Fridman** (01:46:19): What do you think is the future of programming, like 5, 10, 20 years from now, this whole process? Now, vibe coding is kind of a fun meme thing because you still have to be… The people that don’t know how to program and are just vibe coding are almost entirely creating systems that are not usable in production. They’re not… It’s very difficult-
 
-**Dave Hone** (02:18:13): …other people have since, including actually some of the authors who were on the original paper claiming it did swim well, have now effectively reversed their position and said it didn’t.
+**Lex Fridman** (01:46:38): It’s very difficult to create a product. And the people who are already great programmers kind of vibe code just for… in the way that you’re doing it. They’re basically… it’s just a fancy autocomplete, and they end up editing it, or it’s a way to learn a new API, or new language, or a new whatever, a new specific use case, or maybe a different kind of gooey component or something like that. But as they get smarter and smarter, we don’t know where the ceiling is. That might change the nature of what it means to be a programmer. So do you think about that?
 
-**Lex Fridman** (02:18:22): So the Jurassic Park 3 fight between the two— …who’s famous. In a real life encounter, who wins?
+**Dave Plummer** (01:47:12): I do. I don’t want to say prompt engineer, but I think it’s going to be something like that in the sense that if you’re an architect building a bridge, at some point, guys were down there welding beams together, but now you’re dragging things around in AutoCAD and assembling from big pre-formed sections. And I assume that’s what programming will be like. You won’t be in there throwing individual lines of code around; you’ll be moving components and interfaces and describing to the AI what those interactions should be and letting it build the components. But I think we’re still quite a ways from it being able to whole cloth generate… You can’t say, “Give me a Linux kernel that’s compatible with Linux.” One day, we’ll be able to, and it’ll crank it out, but we’re not there yet.
 
-**Dave Hone** (02:18:28): So probably still T-Rex. I mean, the Jurassic Park Spinosaurus was pretty good for its time because some of the stuff that I’ve just talked about, particularly… The short legs were suggested way back in 1910, 1912, but it was really uncertain. Now it appears to be more likely the case than not. The tail was unknown at this point, so it was just given a very generic tail. But the crocodile-like head is pretty good. The neck’s a bit short. The sail is a bit too… It’s almost just like a semicircle stuck on the back, and it’s a bit more complicated than that. But personally, I’m quite a big fan of the Jurassic Park 3 Spinosaurus. I think for its era, it’s really quite good. It is massive. So there is this…
+**Lex Fridman** (01:47:51): Does it make you sad that we’re climbing the layers of abstraction so quickly so you, somebody that used to do machine code and then assembly, then C and C++, that we’re getting to a point where we’re vibe coding with natural language?
 
-**Dave Hone** (02:19:13): They’re from, I’m going to say Morocco, because Spinosaurus is found throughout North Africa, Morocco, Algeria, Egypt. There’s a massive pair of jaws or snout that’s in a collection in Milan that’s absolutely outsized. It’s an absolute giant. And that points to a truly monumentally sized Spinosaurus, which is where all these upper estimates of 15-plus meters come from, is just this one set of jaws. But yeah, it’s about right, but it’s just a bit too muscly and a bit too bulky. But in gross appearance, it’s pretty good.
+**Dave Plummer** (01:48:07): Yeah, I kind of came up at a really fortunate time, I think, because I had to come up with the technology over the course of 30 or 40 years, so I understand TTL logic, and I can use AI to write code, and I kind of know all the pieces in between. There certainly are holes in my knowledge, but I think the only way to have got that level of knowledge or the completeness of that picture is to have lived it for that long. And it’s going to be hard to duplicate that for people starting now.
 
-**Lex Fridman** (02:19:47): Does it have a chance against a T-Rex?
+**Lex Fridman** (01:48:32): What do you think is the meaning of this whole thing? Of existence of life, whatever is going on here?
 
-**Dave Hone** (02:19:49): No. Because it’s got this unbelievably long, thin jaw, which whilst much stronger than something like Baryonyx, is fundamentally not that strong. The jaws are very long and thin, and then the teeth are… Yeah. They’re big, but they’re not… big, big. You know, it grabs the T-Rex neck and then snaps it. Well, Spinosaurus actually, its neck is really strong going up and down and is very weak rotating or going side to side. So it’s got the weakest possible neck to rotate and snap the T-Rex, and then T-Rex has got the strongest neck of anything. So you’ve got the weakest jaw with the weakest spin versus the strongest neck. So no, I don’t buy it.
+**Dave Plummer** (01:48:44): Making cool stuff. I guess, fundamentally, what I care about is being able to make complex things that are useful to other people, which leverages my abilities in a way that allows me to be creative and to create things that other people can use in a way that if I was limited to painting or sculpting or whatever in the classic arts, I would be hopeless. And so for me, that’s really the meaning of life, and then maybe you raise a couple of good kids to hand the baton off to.
 
+**Lex Fridman** (01:49:14): Yeah, and you’ve created a lot of cool stuff over your life that impacted millions, probably billions of people, and now you’re inspiring… You’re creating cool stuff for everyone to see on your YouTube, and you’re inspiring people in that way. So for everything you’ve done in the past and everything you’re doing now, I’m a big fan. I’m really grateful for what-
 
-## What Jurassic Park got right
+**Dave Plummer** (01:49:40): Great.
 
-**Lex Fridman** (02:20:37): So that brings it back to the topic we touched on a little bit. What are … You’ve mentioned a bunch of the stuff that the Jurassic Park- … series gets wrong. Maybe you could speak to more things, but also, what does it get right?
+**Lex Fridman** (01:49:40): … you’re doing and grateful that we got a chance to talk today. Thank you, brother.
 
-**Dave Hone** (02:20:49): So a lot of very, in some level, generic, but quite important things it gets right. T-Rex is about the right size and shape and is massive, and you don’t actually see it run. You see it power walk. If you watch the Jeep chase again, you’ll see it only ever has one foot on the ground.
+**Dave Plummer** (01:49:44): Thank you.
 
-**Dave Hone** (02:21:07): The weird thing for me is how much some of them vary. So, like, I’m a big pterosaur guy. I do lots of work on pterosaurs, the flying reptiles. The Pteranodons in Jurassic Park Two: The Lost World, you see them very, very briefly in one of the last shots, and they’re okay, but they’re not great, but it’s clearly a bit of a throwaway shot. The ones in Jurassic Park Three, I think, are mostly excellent. Really, really good. And then the ones in Jurassic World are terrible, like a massive regression. There’s loads and loads of details that are right in JP3 that are completely wrong in Jurassic World, and you’re like, “Why did you take a really good model and make it much, much worse and less accurate?” I don’t understand. And again, it’s fiction. At one level, who cares?
-
-**Dave Hone** (02:21:53): But as you said, I don’t think… See, the weird thing for me is, I don’t think it would affect how they’re perceived by the public. Some things I get, like, for example, in Jurassic World, the Pteranodons pick people up with their feet and fly off with them. Pteranodon’s feet don’t work like that. It would never be able to do that, and it would never have the lift. But I get for dramatic purposes, you might want to show that. Okay, fine. This is your big sequence. You need that. But for the rest of the animal, it’s weirdly inaccurate, and I don’t think the public would know, and they might well care if it was much more accurate, and I don’t think it would be any harder to make it accurate than to make it inaccurate.
-
-**Dave Hone** (02:22:43): I’ve spoken to a colleague of mine, who I won’t name, just in case I get him into trouble.
-
-**Dave Hone** (02:22:47): Who’s a big dinosaur nerd, but also a big creature creator and designer, and has done a whole bunch of proper Hollywood A-list movie stuff. And I asked him about this, and I went, “Okay, but is it just easier to take the model that you’ve got and mess around with it than to… if I came in and said, ‘You need to fix that, and you need to fix this, you need to fix this, you need to fix that.'” And he basically went, “No, it’s about the same amount of effort.” It’s not like we don’t have the director or the producer or the lead designer going, “No, I want that arm a bit longer. I want that tail a bit brighter. Can you add a few more bits there? I don’t like those scales.” So he said, “We’re doing that constantly anyway.”
-
-**Dave Hone** (02:23:27): So doing it to one set of design specs versus another set of design specs is no more hassle. In other words, he said, “It’s no harder to make it accurate than to make it inaccurate.” And it’s like, if that’s truly the case, then just make it right. And then you can claim a level of accuracy and engagement that you can. I mean, it’s interesting. There’s a thing called the Jurassic Foundation. After the first Jurassic Park made an absolute fortune. I think it was Spielberg directly, may have been through Universal, but anyway, they set up the Jurassic Foundation, and it’s a small fund of money for research on dinosaurs and related animals, and academics can apply for it. One of my PhD students got some money from the Jurassic Foundation. Like, that’s great.
-
-**Dave Hone** (02:24:09): He didn’t have to do that. He went, “Paleontology’s helped give me this. I’m going to give back a bit.” And after what must be, what, 30 years now, it’s probably funded an awful lot of research, and helped young researchers get a start. So there’s a level of engagement there that I think hasn’t been in subsequent films, which you can kind of see once it goes from being a one-off to being a franchise, and it’s changed hands. I mean, how many different directors has it had now? You know, Spielberg did the first two, and then I don’t know about the next five. It must be two, if not another three more people, and 30 years later, it’s all changing.
-
-**Lex Fridman** (02:24:49): Yeah, but that’s the path of creating a legendary film. The depth of accuracy, and it’s not that difficult to work, but it’s also… It does something to the whole artistic creation if you create a culture of where the details really, really matter.
-
-**Dave Hone** (02:25:03): Matter. Yeah, and again, there’s some oddities, so like, Gallimimus. I mentioned it earlier, so one of the ornithomimosaurs. The model for Gallimimus in Jurassic World is nearly identical to that from Jurassic Park. One of the differences which you can barely see on film, but I know this is true because I found it in a Jurassic World kid’s book when it came out, is a close-up of the head with an arrow to the teeth. Gallimimus doesn’t have teeth. It’s got a beak. So someone has taken the original model and actively spent time adding teeth to an animal that didn’t have them. I would understand it.
-
-**Dave Hone** (02:25:41): I’m not saying I agree with it, but I’d understand if it was a rule of cool, and like, “Yeah, but it would look so much better with all these gnarly big teeth and whatever.” And it’s like, you can’t even see it in the final thing. They’ve got tiny little heads. In the film, all they do is run past the camera briefly. It’s not like they’re a big carnivore and they’re engaged in one of the big battle. Like, why? Why? It’s not like… You can barely even see them.
-
-**Lex Fridman** (02:26:05): Well, yeah. A- again, just to linger on it. There is a lot of value to authenticity in all walks of life and one of them is- Accuracy. When you’re talking about dinosaurs, it’s so valuable and so worthy, and it’s respectable for the long life of a film, to be accurate. I just wish, I hope they do that. There’s certain directors that really dogmatically push that. Alex Garland comes to mind. You know, he, whenever he integrates quantum computing or AI into a film…
-
-**Dave Hone** (02:26:36): Mm-hmm. Nolan with the black hole in Interstellar. Ended up publishing a paper on the calculation to visualize that.
-
-**Lex Fridman** (02:26:41): I mean, that’s legendary. That’s great. That’s really…
-
-**Dave Hone** (02:26:44): Exactly.
-
-**Lex Fridman** (02:26:44): And you think that has nothing to do with the story, the narrative of the film, but it does. It permeates everything. If you get that black hole right, that… …Everybody else steps up their game and really tells a story in this way that reverberates through time, and it really moves people.
-
-**Dave Hone** (02:27:03): Yeah, I mean, as I say, I wish it was better. The only thing I’d flip it around is a joke I’ve made more than once, but just don’t take it as a documentary. No one watches James Bond and goes, “That’s how international espionage works.” You know, he’s got the laser watch and the exploding car, and he’s like, maybe treat it a bit as fiction. I’ve heard from a friend of mine who worked at the Royal Tyrrell Museum, which I’ve mentioned before, in Alberta, which is an absolutely phenomenal place, and she said after the first one, genuinely, it was not common, but more than once, people were annoyed that they didn’t have the real dinosaurs out back, because they’d seen them, and they knew that the real ones were out there.
-
-**Dave Hone** (02:27:54): Which is a testament to Industrial Light & Magic and Stan Winston, but also…
-
-**Lex Fridman** (02:27:59): Wow.
-
-**Dave Hone** (02:27:59): …slightly horrifying that anyone watched Jurassic Park and literally thought that much. Also, why would you go to a museum? You go to the zoo if it’s alive.
-
-**Lex Fridman** (02:28:08): There you will also meet, what is it, King Kong and Godzilla?
-
-**Dave Hone** (02:28:10): Yeah, yeah.
-
-
-## T-Rex’s intelligence
-
-**Lex Fridman** (02:28:12): I don’t think we quite touched on this. I really want to ask you about intelligence. What we know about… …The intelligence of, let’s say, T-Rex. We talked about his big head. What do we know about…
-
-**Dave Hone** (02:28:22): Not much. There’s a T-Rex brain, or at least a very rough cast of part of one.
-
-**Lex Fridman** (02:28:30): That’s the actual look of…
-
-**Dave Hone** (02:28:32): Yeah, this is… so dinosaurs, in fact, most reptiles — I don’t know if you can see it on the velociraptor, not really, unfortunately. Um…
-
-**Lex Fridman** (02:28:41): It’s elongated.
-
-**Dave Hone** (02:28:42): Yeah, but it’s more that they have… we are weird in that we have a brain that basically fills the inside of our skull. What most animals have is actually a little kind of sub-skull inside the main skull, which is called the endocast, or endocranium, and the brain is in that. And even then, it’s not, like, full of brain because we’ve packed an awful lot of brain into a limited space, and they then have quite a lot of goo and fat and other stuff around it. But it means for dinosaurs, and then deep reptiles and birds in general, in the old days you could basically cut one open, but now we’ll CT scan through them, you can take an internal mold of the endocranium or the brain case, and then whatever filled that would’ve been the brain and its surrounding tissues.
-
-**Dave Hone** (02:29:33): And that’s how you get something like this. In this case, someone literally cracked open an old skull…
-
-**Dave Hone** (02:29:38): …and basically took an internal mold in the same way that you do an external mold for the skulls. And that tells you quite a lot about certain things. So, for example, they’ve got a bulb at the front, which is the olfactory bulb — brains are very stereotyped, again, ours are super weird — so you have the olfactory bulb at the front and behind that you have the optic bulb or the optic lobe. So roughly how big they are will tell you roughly how much of the brain is devoted to, for example, sight and smell. So if it’s a lot, it’s pretty good. If there’s not much, it’s not very good. That goes quite a long way already. One thing we’ve done in the last few years is you can also get into the, it’s not shown here, it wouldn’t be part of this, but the inner ear.
-
-**Dave Hone** (02:30:21): We can CT scan into the structure of the bony inner ear, and from that you can actually get an idea of what frequency of sounds the inner ear was structured to be pitched to.
-
-**Lex Fridman** (02:30:32): Wow.
-
-**Dave Hone** (02:30:32): Which doesn’t actually tell you very much, but it’s phenomenally cool that you can do it.
-
-**Lex Fridman** (02:30:37): We should say you also have quite a bit of a background in biology. So you’re trying to reconstruct biology from, go from paleontology to biology.
-
-**Dave Hone** (02:30:46): Yeah, my go-to one-liner is, “I’m a zoologist but I work on dead stuff.” My degree was zoology. My official job title now is reader of zoology. I teach zoology. I don’t teach paleo. So yeah, living animals was always actually my primary interest, and I kind of fell into paleo, but then I wanted to drag that with me because I’d been trained in behavior and ecology and it’s what I was most interested in, so then applying that knowledge and understanding to these animals.
-
-**Lex Fridman** (02:31:16): So to some degree, it is possible to reach towards the biology?
-
-**Dave Hone** (02:31:19): Absolutely, yeah.
-
-**Lex Fridman** (02:31:21): So with the ear, that’s interesting. The brain.
-
-**Dave Hone** (02:31:23): Yeah.
-
-**Lex Fridman** (02:31:23): So we can know something about the brain?
-
-**Dave Hone** (02:31:24): Yeah, but then when you get into intelligence is when it gets really awkward because working out exactly which bits of this are probably linked to, like, the main fundamental processing and what you’d link to actual intelligence is tough. On top of that, we don’t really know what’s been the big challenge of the last couple of years of this question, was T-Rex and other dinosaurs super intelligent of neuron density? How many basically nerve cells can you pack in per bit of volume? Because birds have some weird tricks which means they get a lot more brain per volume.
-
-**Dave Hone** (02:31:57): Just how much of the brain case was brain and how much was, like, goop around it, we know varies, so you’re getting kind of fairly big upper and lower band. And then the other big thing we always have to do is factor in size. Big animals need bigger brains to operate them. So whales have really big brains, but whales weigh tens of tons. They’re not smarter than us. So you have the classic thing is a thing called the encephalization quotient, which is at a very simple level, it is the volume of brain scaled against the size of the animal. So we have huge brains compared to how big we are, so we’re massively up the chart. And then you do have a few things with, like, worms.
-
-**Dave Hone** (02:32:39): I should probably stick to vertebrates, because there’s some stupid stuff which has a surprisingly small brain for its size. Most things that aren’t primates, and things like crows and parrots, sit very neatly on a couple of different curves. There’s a curve for reptiles, a curve for birds, a curve for mammals, and things like this. And basically that’s it. But also actually our understanding with mass estimates for dinosaurs is good but not great, and so you could easily be out by, you could easily be out by like 20 or 30% on the volume of the brain inside the brain case, and then you could be out by 20 or 30% on your mass estimate.
-
-**Dave Hone** (02:33:19): Well now suddenly, it’s very easy to make the brain too big and the animal too light and it’s super smart, or make the brain too small and the animal too heavy and it’s super dumb. So that’s awkward, unfortunately.
-
-**Lex Fridman** (02:33:34): So apparently there’s some controversial paper that suggests that T-Rex has primate-level intelligence.
-
-**Dave Hone** (02:33:39): Yeah, and then that was shot down within a few months by a team of paleontologists and a couple of other neurologists who really went to town on it.
-
-**Lex Fridman** (02:33:48): Just counting the number of… trying to estimate the number of neurons.
-
-**Dave Hone** (02:33:52): Yeah, it was the neuron density thing, and yeah, I’ve unsurprisingly support the revised one which was done by a whole bunch… Yeah, the Casper paper. I’ve spoken to Casper about it, a couple of the other authors.
-
-**Lex Fridman** (02:34:04): So they scaled down the number of neurons from three billion down to 250 million to 1.7 billion.
-
-**Dave Hone** (02:34:12): Yeah, much, much lower.
-
-**Lex Fridman** (02:34:13): Which is similar to crocodiles and other primates.
-
-**Dave Hone** (02:34:14): Yeah, which is kind of what you’d expect. I mean a couple of other people at various times have suggested they’re really smart, and again, you know, birds have this thing of, they have this weird thing of neuron folding and they can basically pack in a lot more than you’d expect. You know, that’s why crows are that smart despite having tiny brains, relatively even compared to their overall size. But I’m being obviously overly facetious, but if ultimately part of your scaling is how big is the animal versus how big is its brain, that’s most of a T-Rex brain. It’s a fraction of the size of a chimp brain, and chimps don’t weigh seven tons.
-
-**Dave Hone** (02:34:55): So you know it’s a kind of Hitchens like, “extraordinary claims require extraordinary evidence,” but like you just look at it and go that’s about the proportion we’d expect for a croc. Now crocs are smarter than people think, but they’re sure as hell not monkeys. You’re going to have to really come up with something much more convincing than, “Oh, well if you just pack ’em in if you scale ’em this way.”
-
-**Lex Fridman** (02:35:19): A bit of a ridiculous question but is it possible to find evidence of tool use?
-
-**Dave Hone** (02:35:24): I mean, in theory, it depends how quite how you define a tool. So, birds building nests is arguably tool use to a certain degree. I’m aware of… I suspect it’s turned out not to be the case. I was, I was shown a very rough, not very well-prepared fossil 20 years ago now, no, 15 years ago now, where someone said, “We think this might be an early bird nest and therefore potentially even a dinosaur nest.” And nothing’s ever been published, so my guess is once they excavated it and had a good look at it, they went, “Nah, it’s nothing, really.” I mean, I guess the question is, how would you know?
-
-**Lex Fridman** (02:36:05): Yeah, it would be difficult unless it’s obvious widespread primate-like—
-
-**Dave Hone** (02:36:09): Yeah, but even then, like, you know—
-
-**Lex Fridman** (02:36:11): —sapient-like almost.
-
-**Dave Hone** (02:36:12): Chimps, you know, chimps make loads of tools, but it’s mostly made of wood and they’re mostly just breaking stuff, and then the odds of that preserving are very low. You do get things like chimps and otters, sea otters, you know, they have their favorite anvil and hammer stones to break stuff open, but again, the reason they picked that stone is because it’s really heavy and good at breaking oysters or breaking nuts. It’s not going to leave, or probably not going to leave, stereotypical points on the rock, and even then you could just go, “Well, maybe it, you know, just got bashed up in a river or something.”
-
-**Lex Fridman** (02:36:47): So in your book, Uncovering Dinosaur Behavior, you kind of conclude that there’s a lot we might not know. What’s a particular lost behavior that we don’t know about that you think might be out there?
-
-**Dave Hone** (02:36:58): Something like midden use, so a whole bunch of animals and birds who basically crap in the same spot. They have their spot, and that’s where they go. So, rabbits do this, sloths do this, aardvarks, even things like wildebeest and zebra, uh, not zebra, impala will tend to go back to the same place every day. But the fossil record of coprolites, fossilized feces and fossilized waste from dinosaurs, it exists, but it’s extremely rough because of course, this is the stuff that’s already been digested and broken down.
-
-**Dave Hone** (02:37:33): It’s already kind of gooey and broken up and doesn’t have a lot going for it. If they do it in water, it’s going to dissipate instantly. If it rains, it’s probably going to fall apart. Things like dung beetles and flies will break it down even if it gets covered by sand or whatever from a sandstorm, it’s probably still going to compress and separate. So, are you ever going to find it? Maybe going back to our trackway stuff, but even if you do, what species left that? We know a big herbivore did this, but was it a Triceratops or was it an Ankylosaur? Those animals are very different things doing very different things, and it would tell you different things about their behavior if we know.
-
-
-## Cannibalism among T-Rex
-
-**Lex Fridman** (02:38:12): Yeah, so one piece of behavior I forgot to ask you about— —so T-Rex engaging in cannibalism—
-
-**Dave Hone** (02:38:19): Yeah, almost certainly. Well, certainly, I think we’ve got a T-Rex bone with a T-Rex embedded tooth in it— … with o- with overgrowth.
-
-**Dave Hone** (02:38:29): I think it’s… I want to say it’s an Albertosaur rather than T-Rex, but there is a tyrannosaur jaw in Alberta with a T-Rex tooth stuck in it. And you can pull the little tooth out and then there’s a T-Rex foot bone with these distinctive feeding traces on them. And this actually goes back to that early point about T-Rex being weird, being the only big carnivore in its environment, because if this was even Mongolia at that time, but anywhere else, there’s three or four or five big carnivores. And so you find a bone and it’s chewed up by a big carnivore, we don’t know who did it. But when you see a big bone chewed up in a T-Rex ecosystem, well, you know, if it’s anything bigger than this, you know it was T-Rex. And so when it’s a T-Rex bone with T-Rex bite marks—
-
-**Lex Fridman** (02:39:19): Yep, it’s pretty obvious.
-
-**Dave Hone** (02:39:20): QED. Yeah, so it must have been.
-
-**Lex Fridman** (02:39:23): That’s fascinating, isn’t it? That- that they would attack themselves, their own species.
-
-**Dave Hone** (02:39:27): Cannibalism turns up in a whole bunch of stuff, but it’s very rare as like a fairly habitual behavior.
-
-**Lex Fridman** (02:39:38): So there are several reasons you might be engaging in, or rather, teeth marks might tell various stories. So it could be just fighting for dominance, right?
-
-**Dave Hone** (02:39:48): It could, but it’s unlikely, and in this case, again, we see there are loads of facial injuries in tyrannosaurs, in carnivorous dinosaurs generally, but particularly tyrannosaurs. They have really beaten up heads. Like, half or even two-thirds of adults have scarring and facial injuries, but you see healing on it, whereas this foot does not show healing and it’s got multiple different bites. The idea that you’d bite a foot whilst fighting someone and then go back and bite that one foot again? That’s pretty unlikely, not impossible.
-
-**Lex Fridman** (02:40:20): So, looks like it’s eating, not fighting.
-
-**Dave Hone** (02:40:22): Yeah, and they’re more like the feeding scrape traces than they are the big puncture wounds. So again, not impossible but very weird for that to…
-
-**Lex Fridman** (02:40:29): So fascinating.
-
-**Dave Hone** (02:40:29): …occur as a fight. So yeah, they’re fighting, probably quite a lot, but whether or not you actually eat something that you’ve killed or that you stumble across as a body, it definitely happens occasionally, otherwise we wouldn’t have the record of that. But there’s a reason carnivores often don’t eat carnivores, and particularly don’t eat their own species, which is parasitism. Carnivores in general are loaded with parasites because they spend their whole lives eating food which has parasites and stuff in it, and so they tend to accumulate a lot of them. What’s the one thing that’s definitely going to have the most parasites in it that can infect you as, for example, a lion?
-
-**Dave Hone** (02:41:11): It’s another lion that eats the exact same stuff that you do. So, while it is food, and particularly if you’ve just won a big fight you might want to eat, in general, cannibalism’s pretty rare, because it’s generally not a good idea if there’s other food available. But yeah, if you’re starving to death or, you know, the other guy ripped your leg half off and you don’t think you’re gonna walk for six weeks—not that you’d think, but you know what I mean—and now there’s a body in front of you, it’s two tons of meat. Well, maybe you should tuck in.
-
-**Lex Fridman** (02:41:43): This is so fascinating, like, once again, figuring out this puzzle. And what does cannibalism tell you? You’re piecing together the story of T-Rex: their life, their hunting life, their social life, from their evolution to their biology to their behavior. That’s so fascinating.
-
-**Dave Hone** (02:41:59): Yeah, we try to. But the thing is, it’s always getting better, which is… So that’s what I try to finish on in my book on behavior is, I felt I’d written a couple of hundred pages of, “We keep screwing this up, we’ve overstated this, I think people have misunderstood this.” You know, like the track ways stuff and like, this is not as confident as we think, you need to look at these alternate explanations. This behavior shows that that behavior probably doesn’t correlate the way you said it does, yada, yada, yada. And it’s like, now I feel like I’ve just written a book trashing my entire field and all my colleagues, or at least many of my colleagues.
-
-**Dave Hone** (02:42:31): But then you flip it on its head and go, “We’ve got techniques that were undreamed of 10 years ago. We’ve got data streams that were undreamed of 10 years ago. And we’ve actually got a much better understanding of living species.” And then on top of that, we’re just constantly finding new animals. You know, we have not just new species, which are often, I think, a lot less important, but just new specimens of ones we know, because again, it’s building up that database. You know, we drifted off talking about sexual selection, but yeah, if you want to know growth, one or two animals doesn’t tell you how an animal, a species grows.
-
-**Dave Hone** (02:43:07): 50 or 100 does, and then that reveals a hell of a lot more about things like sexual dimorphism and growth rate and how vulnerable juveniles are and population structure and maybe how they’re reproducing. So I’d like to think I knocked down. I think I knocked down a few towers that probably a few people were fond of, but I think we have the raw materials to build a much better, stronger edifice of behavior. But as you say, it’s always going to be based around often very piecemeal evidence and possibilities and probabilities rather than certainties.
-
-
-## Extinction of the dinosaurs
-
-**Lex Fridman** (02:43:44): Let’s talk about a sad topic, extinction.
-
-**Dave Hone** (02:43:47): Yep.
-
-**Lex Fridman** (02:43:50): How did the dinosaurs go extinct?
-
-**Dave Hone** (02:43:53): Mostly probably pretty quickly, but it really is the answer that I think most people are now probably familiar with, which is, it’s an asteroid impact or some kind of extraterrestrial body hit just off the coast of the Yucatan Peninsula in Mexico about 66 million years ago that basically atomized the asteroid, but also importantly, the bit of the ground it hit, or below the sea bed that it hit, was basically the worst kind of rock, and so it put up this enormous ash cloud. And basically, you have a nearly instantaneous nuclear winter. I mean, immediate devastation. Anything immediately next to it is obviously just vaporized. But you know, this is the sort of thing that’s hot enough to set fire to the atmosphere.
-
-**Dave Hone** (02:44:40): I think the one I read was, it’s something like a piece of rock about the size of Mount Everest traveling at something like 10 times the speed of sound. So just the momentum between that speed and mass thing is just beyond extraordinary.
-
-**Lex Fridman** (02:44:58): But I think what does a lot of damage is the change in the climate, and-
-
-**Dave Hone** (02:45:01): Yeah, and so every… There are five recognized mass extinctions in the history of life on Earth, and all of them are ultimately some form of climate change. Whether it’s volcanic eruptions or hyper-oxygenation, or an ice age or whatever, it’s climate changing too quickly for things to adapt to. And that starts, you know, that just cripples entire populations and entire species, and then if you do enough damage to enough things, you start getting ecosystem collapse. You know, this moth has died out. Well, it turns out that moth is the primary pollinator of this tree. Well, that tree produced nuts, and that was the entire winter survival store for this squirrel.
-
-**Dave Hone** (02:45:42): Well, that squirrel was the main food of this cat, and now suddenly the moth going has killed four other things and everything that’s attached to that. And so that’s really what did for them.
-
-**Lex Fridman** (02:45:56): And sadly, the big things… Well, everything dies, but the big things have a lot of trouble recovering.
-
-**Dave Hone** (02:46:02): Yeah, so I mean, this is, you know, a classic example. So, oh well, you know, what is paleontology good for? Well, actually really it’s extinction, which is very relevant right now in that we have a very good handle on when you have extreme climate stress what tends to suffer more and what tends to suffer less. And as we say, big things fundamentally do. They require more resources, they require more area of land. You need to roam further, which means, you know, if you’re a mouse and you happen to have a little bit of land and that bit doesn’t get hit, you’re fine; whereas if you’re an elephant and you need all of this land and even a chunk of it goes wrong, well that’s probably maybe not enough for you to survive anymore.
-
-**Dave Hone** (02:46:44): So yeah, big things suffer disproportionately badly from these things, and mostly as well, we think terrestrial things generally do worse than things in water because water’s a great equilibrating medium, you know, it takes ages to heat up, it takes ages to cool down. Yes, if you live in specific coastal conditions or something, maybe you can’t travel that easily, but you know, whales can go from pole to pole quite happily, and plenty of other fish do too. So if it’s too hot or too cold or too nasty here, you can just swim somewhere else, whereas if you’re an animal and you hit a desert or you hit a mountain range or you hit a river, you stop moving and you’re trapped and then you die. So dinosaurs were, yeah, the worst possible combination.
-
-**Dave Hone** (02:47:32): They were mostly big and they were mostly on land, and yeah, it’s not really surprising they did very badly out of it.
-
-**Lex Fridman** (02:47:39): And then some species did survive. I guess I think you’ve said that it’s very possible that some dinosaurs even survived for a time…
-
-**Dave Hone** (02:47:49): Oh, w-
-
-**Lex Fridman** (02:47:49): …that we might be able to discover down the line.
-
-**Dave Hone** (02:47:51): I’d be amazed if they didn’t. I mean, there’s been various reports over the decades of the K-Pg or K-T extinction, the Cretaceous-Paleogene or Cretaceous-Tertiary extinction of dinosaurs surviving and none of them have held up. It’s usually been bio-turbation, so literally things like prairie dogs digging, and of course they’ll dig a tooth up and then move it through the layers, or things like this, or plant roots can move stuff, or just soils can get churned up. But I would be shocked if they didn’t. Not like, oh yeah, the dinosaur survived, and the Loch Ness Monster, and stuff like that, but like, yes, it was a global devastation.
-
-**Dave Hone** (02:48:32): Yes, it’s what ultimately killed the dinosaurs, but I’d be amazed if there wasn’t some equivalent of Hawaii or New Zealand or some other tucked away island or valley where actually dinosaurs were fine for anything from a few hundred thousand to a couple of million years. But on a global scale it’s a dot on a map and the odds that we’ll ever uncover any rocks, fossiliferous rocks of that age that we then have access to that we then find a dinosaur in that we can then date properly I think is almost non-existent. But it would just be weird if they didn’t survive somewhere for a bit, or even quite a few of them in places.
-
-**Lex Fridman** (02:49:11): So a small, local population.
-
-**Dave Hone** (02:49:13): We see it all the time, you know, the lemurs in Madagascar, all the stuff in New Zealand. There’s tons of weird archaic stuff hanging around in Hawaii, you know, Galapagos finches and tortoises that you don’t see anywhere else. In Australia with the marsupials, they’re almost, and then the monotremes are almost unknown outside of there. This is a pretty normal bit of biology. For animals that were so dominant globally, we know there were patches that were largely unchanged, otherwise we wouldn’t have had the mammals surviving and the crocodiles surviving and the birds surviving and newts and frogs and everything that did survive. I’m sure a few of those patches had some dinosaurs in them, but it is ultimately what killed them.
-
-**Lex Fridman** (02:49:56): What do you think is the chance that they would have survived? So you take some local populations and they flourish.
-
-**Dave Hone** (02:50:02): It’s happened. Look at, look at Australia. You know, the marsupials have done pretty well there for a very long time. You can imagine if the next mass extinction, you know, flattens a large chunk of Indonesia, for example, kangaroos could island hop pretty easily, make it to mainland Asia.
-
-**Lex Fridman** (02:50:23): But then, I mean, to then lead… You take the dinosaurs… a small fraction survives and then they eventually repopulate the earth again.
-
-**Dave Hone** (02:50:32): I mean, that’s extraordinarily unlikely because once your population’s been crashed like that, you do have the problems of things like inbreeding or maybe you’re a great specialist to a certain area or you’re surviving because you’re isolated, you’re in a valley or you’re on an island and then dispersing again becomes really, or breaking out into those areas becomes much, much harder.
-
-**Lex Fridman** (02:50:53): So like the great predators like the… Even though the T-rex is such a great predator, that doesn’t, that doesn’t give you…
-
-**Dave Hone** (02:50:59): Yeah, because you still had the extinction event and the environment is no longer what it was that you evolved into.
-
-**Lex Fridman** (02:51:06): Right.
-
-**Dave Hone** (02:51:06): And when once those systems start to recover, those other animals are going to adapt much better to them.
-
-**Lex Fridman** (02:51:12): How does that make you feel that, that this stupid asteroid from nowhere?
-
-**Dave Hone** (02:51:19): Well, I mean, at one level I probably wouldn’t be here if it hadn’t.
-
-**Lex Fridman** (02:51:23): So, I mean, that’s an interesting question. I mean, do you think… There’s several ways of asking that question, but if dinosaurs didn’t go extinct, do you think humans would still be able to evolve?
-
-**Dave Hone** (02:51:33): I mean, my guess is probably not. I don’t think, I don’t think it’s quite the… What, what was it? Oh, Simon Conway Morris had that book. What was it? “Inevitability of Man.” That like even if you rewound it, everything would come back. I’m not… I don’t think it’s that far. I certainly don’t think it’s anything like quite like the butterfly effect of, you know, if one mammal had been trodden on by one T-rex then humans would never have evolved either.
-
-**Lex Fridman** (02:52:03): We should say that the ancestor of the primates or the closest… There’s a lot of debate around this, it’s a kind of tiny creature, Purgatorius, that was our ancestor. Yeah, so this is us. This is what we evolved from.
-
-**Dave Hone** (02:52:17): Yes. Scandentia. I think is the group.
-
-**Lex Fridman** (02:52:20): Basically a rodent.
-
-**Dave Hone** (02:52:21): Yeah, I mean there were probably primates around in the Cretaceous. Some of the molecular clock stuff suggests that primates were around alongside the dinosaurs, but we’ve never found any osteological evidence of that. But yeah, there’s been a back and forth about whether dinosaurs were already on their way out or were they a bit limited by the very end of the Cretaceous. I think the more recent analyses have shown that’s probably not the case, because in other words, they were basically doing fine right up to the extinction event. And so yeah, if the asteroid hadn’t hit, there’s no reason to think that they were on some kind of terminal decline. Something else may have hit.
-
-**Dave Hone** (02:53:00): There may have been, you know, some other environmental disaster or something may have happened, or maybe they’re more vulnerable to stuff than we know of, but there’s no… I don’t think there’s any really good reason to think they wouldn’t have carried on relatively well. I mean, even post-dinosaur extinction, you had a window where the mammals and the birds were pretty competing. There was a lot of big birds getting going and various big carnivorous terrestrial, kind of, hyper-predatory ostrich-like things, like the phorusrhacids. So there’s no guarantee that mammals would have even taken over post the dinosaur extinction, since initially they were in a fair bit of competition.
-
-**Lex Fridman** (02:53:47): So this is just going to… Based on current scientific understanding, human evolution would be highly improbable if dinosaurs hadn’t gone extinct 66 million years ago because dinosaurs dominated ecological niches.
-
-**Dave Hone** (02:53:57): For everything, basically.
-
-**Lex Fridman** (02:53:59): Wide-bodied mammals.
-
-**Dave Hone** (02:53:59): I mean, that’s the thing. You look through, yeah, the Mesozoic, the late Triassic, dinosaurs are there alongside a whole bunch of other big and unusual and interesting reptiles and some other early pre-mammal-like things that are closer to mammals than the reptiles. But once you’ve gotten into the Jurassic, you’ve now got a solid like 120, 130 million years where almost anywhere on Earth, if you saw an animal bigger than a raccoon, it was probably a dinosaur. That’s how incredibly dominant they… You know, as dominant, if not more dominant than modern mammals.
-
-**Lex Fridman** (02:54:36): But is it fair to say that they were mostly dumb?
-
-**Dave Hone** (02:54:40): I don’t think so, because I think that comes down to A) That bit of kind of classic almost Victorian speciesism, and you get these insane hypotheses like dinosaurs as a species or as a lineage became senile so they forgot to breed. I know it’s literally a suggested idea. You know, the mammals ate their eggs and all of this kind of stuff. Dinosaurs only lived alongside mammals for 100 million years. It’d be weird if they all went extinct at the same time because suddenly egg eating evolved. You’ve got problems like this. But also, again, that general speciesism which, you know, even goes back to…
-
-**Dave Hone** (02:55:19): Like Linnaeus and his taxonomic ranks, and even arguably stuff like Aristotle. You’ve got humans are superior in some way, and we’re superior to the other mammals. And of course, mammals are closest to us so they must be quite good. And then they’ve got to be better than lizards, and then lizards have to be better than frogs, and frogs have to be better than fish. So that gets you into the, “Well, reptiles must be stupid.” And they’re not.
-
-**Lex Fridman** (02:55:47): I wonder if a human intelligence level organism could have evolved from the dinosaurs.
-
-**Dave Hone** (02:55:52): I mean, that’s been hypothesized plenty of times. Dale Russell, a Canadian paleontologist, the famous guy who came up with this human-like Troodontid that was done for a TV documentary. I think the one that Christopher Reeve narrated. I think is a remake, but I’ve seen the original that Dale had made for his TV show and it’s still… It’s sitting in the collections of the National Museum of Nature in Ottawa, for Canada. It’s really, really cool. It’s like this five-foot tall dinosauroid. That was it there on the screen.
-
-**Lex Fridman** (02:56:23): “Model of the hypothetical dinosauroid and display at the dinosaur museum in Dorchester.”
-
-**Dave Hone** (02:56:27): Oh, Dorchester. That’s in England. Yeah, I knew there were a couple of copies of it. Troodon always comes back as the most intelligent dinosaur because it has really quite a big brain for its size. It does have a high encephalization quotient, so it’s always been tagged as a very good candidate for being the smartest dinosaur. And basically, he just hybridized that with a human. But of course, why would these things end up as plantigrade quadrupeds, and why would they go back to five fingers and… Actually, I think he’s only got three, to be fair, but he’s got very human-like feet. Why has it got no tail? Why would those things suddenly disappear? There’s no real reason other than just kind of human exceptionalism.
-
-**Dave Hone** (02:57:03): But like, I mean, you could argue some parrots, some crows are phenomenally intelligent and show extremely clever behaviors on a par with apes. So at some level, some dinosaurs were extremely intelligent.
-
-**Lex Fridman** (02:57:21): I mean, yeah, this is a whole other conversation, but all the tiny details that lead to the explosion that is, in our evolutionary tree, that is Homo sapiens. Like what is it? Opposable thumbs, right? Is it the invention of fire and the meat-eating? Is it… … Is it some other-
-
-**Dave Hone** (02:57:37): And fight, and sociality, and…
-
-**Lex Fridman** (02:57:39): So many-
-
-**Dave Hone** (02:57:39): …predation pressure, and then the changing, changing environment. I mean, the shrinking of the forest, pushing apes out of the trees into the open environment.
-
-**Lex Fridman** (02:57:48): And probably the same kind of story could be told about the dinosaurs or about, about anything really.
-
-**Dave Hone** (02:57:52): Yeah, I mean, you, you-
-
-**Lex Fridman** (02:57:53): There’s no reason-
-
-**Dave Hone** (02:57:53): I mean, if you have 160 million years and a global domination. But I mean, this is the thing. You talked about lost behaviors, but like the lost lineages. I wrote about this in one of my books, and like, you want to find a weird animal, you go to a volcanic island. Like, you go to New Zealand, you go to Hawaii, you go to the Galapagos, and yet those are the places that basically don’t really form fossils. So you think the dinosaurs we know about are strange. What was the stuff knocking around there? We’re never gonna know, sadly. But for everything you think’s weird, you know, you think birds are cool. Think about penguins compared to your average bird.
-
-**Dave Hone** (02:58:34): They live on an ice shelf for six months of the year and can’t fly, and massively modified skeletons, and, you know, compared to your average bird, penguins are unbelievably weird. So yeah, take an average dinosaur and take it to like penguin level or ostrich level or hummingbird level evolution. There’s going to be weirder stuff out there than we’ve found. Much weirder.
-
-**Lex Fridman** (02:59:00): If you travel back in time, you probably, your mind will be probably blown by the weirdness.
-
-**Dave Hone** (02:59:06): Because those things are almost always in small, isolated places that don’t preserve fossils very well, and so the odds of us ever coming across them… I mean, you see it to a degree. So you’ve got the stuff that comes out of what is modern Hateg, which was a series of islands in the Mediterranean at the end of the Cretaceous, and some of the weirdest dinosaurs are from that chain of islands. And that’s not very isolated compared to, again, something like Hawaii or New Zealand. But it’s fitting the exact pattern. You get dinosaurs on islands, they turn weird. We see that. So again, dinosaurs were real animals. Again, sounds really painfully obvious, but they weren’t monsters.
-
-**Dave Hone** (02:59:55): They followed the same… Rules might be pushing it, but certainly, like, guidelines. Ecology operates in certain ways. If you’re bigger, you need more food. But you’re more efficient. You just are. That’s pretty much just physics and scaling. So big dinosaurs are going to follow the rules of bigger animals, and small dinosaurs are going to follow the rules of smaller animals. They just will. Quite how they violate it in certain ways, by having unusually long necks or unusual physiology, or eating an unusual diet, or because there was a weird plant that was alive then that isn’t now, or whatever it may be. There’s obviously a huge amount of variation and uncertainty. But fundamentally, we know what makes animals and ecosystems work, and dinosaurs were animals in ecosystems.
-
-**Dave Hone** (03:00:42): They’re not that strange at some level, and therefore reconstructing their actual biology is challenging, but far from impossible.
-
-
-## Dragons
-
-**Lex Fridman** (03:00:54): Strange question. So as everybody knows, dragons are obviously real.
-
-**Dave Hone** (03:00:59): I’ve been asked that on live TV before. Only not with the sarcastic tone, so-
-
-**Lex Fridman** (03:01:06): Do you, do you dare disagree- … with this notion?
-
-**Dave Hone** (03:01:08): Yes. I, I do. They don’t.
-
-**Lex Fridman** (03:01:12): Well…
-
-**Dave Hone** (03:01:12): And, and again, I d-
-
-**Lex Fridman** (03:01:13): They’re real to me, so…
-
-**Dave Hone** (03:01:14): That’s fine. But again, you know, we kind of touched on it, but I think there’s probably very little of any kind of paleontological law that ended up in things like Chinese culture with the Chinese dragons and all of that stuff. You know, that one comes up repeatedly. The only one I do know of, again, from Alberta is buffalo stones that apparently some of the Native Americans had, which are actually bits of ammonites. So ammonites, they’re curly spiral-shelled cephalopods that are related to octopus and squid. So they have all these little segments to the shells, and the right species… And when they break open, they have, like, two little pairs of legs and then a bulge and then a little bulge, and it looks very roughly like a bison.
-
-**Dave Hone** (03:02:01): And apparently these were thought to be somehow miniature bison. They’re very rare because, ironically, although the dinosaur bones are extremely common, it was very swampy and so you didn’t actually have a lot of sea coming in, so you didn’t tend to get things like ammonites and ocean-going animals. And then the shell would have to break in the right way. But apparently for the local tribes, like ǀSáptəṉilh, I don’t remember who it is in that bit of Canada… But yeah, these were quite valued, if you’ve got a buffalo stone. And I’ve seen a couple of them, and yeah, you have to squint a bit, but as a little buffalo, it’s not far off.
-
-**Dave Hone** (03:02:35): But yeah, but that whole, like, were they finding mammoth legs and were they finding T-rexes, and was this inspiration for this animal or this mystical animal? I, I don’t think they were, because you just don’t tend to find them like that.
-
-**Lex Fridman** (03:02:47): So where do you think…? You know, because dragons show up in a bunch of different myths.
-
-**Dave Hone** (03:02:50): Well, right. But that’s the thing, they turn up in British mythology and we’ve barely got any dinosaurs here at all. You, you only e- you only find them when you start digging for coal mines, which we weren’t doing in…
-
-**Lex Fridman** (03:03:00): Is it basically a dr- dramatization of like of snakes and lizards and stuff like this?
-
-**Dave Hone** (03:03:05): Yeah, and just general exaggeration and welding stuff together. I mean, that’s one thing you could, I guess, potentially argue is that, you know, yeah, we find tyrannosaurs in North America and in East Asia. In fact, there’s a whole bunch of stuff in the Early Cretaceous, which is often very common because it’s all relatively recent in the grand scheme of things in the history of the world. The fauna of East Asia, China, Mongolia, Eastern Russia, is very similar to what you get in Canada or in the USA and down in Mexico. And so you find the same rough stuff. They’re not exactly the same, but you get ceratopsians, you get tyrannosaurs, you get the big-edged archosaurs, you get ankylosaurs, the armored ones, this, that, and the other.
-
-**Dave Hone** (03:03:46): So if these were influencing all those different cultures… …Why don’t Chinese dragons look like Mexican dragons or equivalent thunderbirds or whatever? Well, because it probably wasn’t influencing them. If they were all seeing the same skeleton, they’d probably all produce the same kind of mythical animals. They all produce… …Different ones.
-
-**Lex Fridman** (03:04:04): You have to understand, paleontology’s not perfect, so they were just misinterpreting it.
-
-**Dave Hone** (03:04:07): Misinterpreting, yeah.
-
-**Lex Fridman** (03:04:09): I mean, dragons aside, I’m sure, like we said with weirdness, there would be creatures that would be remarkable, right? That you look at it and you might as well be seeing a dragon. It could be… And I mean, there’s creatures alive in the sea today.
-
-**Dave Hone** (03:04:24): Yeah, I mean, if you dredged up a colossal squid, I think you’d have… You know, or even just dugongs and manatees. I mean, they’re really quite strange.
-
-**Lex Fridman** (03:04:34): And if you allow yourself to marvel at the small things on earth, like I was in the Amazon jungle, the insects, they’re just like, “What is…” …happening there? There’s so many things going on. Oh, they’re like hairy and colorful and probably poisonous and they have teeth and what… And they’re just… And they’re long and…
-
-**Dave Hone** (03:04:53): Well, and all the little weirdos. I’ve several times pitched a book to publishers where I want to write a book that basically makes the point that there is almost nothing… I mean, you can always dream up something totally ludicrous. There is basically nothing in science fiction that doesn’t already exist on Earth in some way, shape or form.
-
-**Lex Fridman** (03:05:14): Yeah, that is why I’ll think about alien civilizations and aliens out there, and I’m very certain that there are aliens everywhere throughout the observable universe. It’s very strange we haven’t seen them, but it’s fun to marvel at what they possibly look like, because there’s a huge variety of organisms and species here on Earth, and you just expand that out… …To like more and more Earths, and you can just imagine there’s a lot of weird things.
-
-**Dave Hone** (03:05:42): Well, that’s the thing. I think most people, you know, understandably… I’m a biologist, and I particularly pride myself on finding out about particularly weird animals. But yeah, I think people would be stunned about some of the weird stuff that’s out there that they just wouldn’t realize are real. You know, things like velvet worms.
-
-**Lex Fridman** (03:06:01): Yeah.
-
-**Dave Hone** (03:06:02): You know, it’s just… blow your mind. You know, sicilians and stuff like this and their reproductive behavior. It’s just jaw-dropping. I mean, I love teaching about them. I do a class on diversity of life and I do, now it’s about eight weeks of vertebrate diversity, and I love just dropping things in and the students are like, “What do you mean that exists? What do you mean? Something like that’s normal for this group?” Yeah. Yeah, they do that.
-
-**Lex Fridman** (03:06:29): Well, from that class, but everything you’ve studied with the dinosaurs, what have you learned about the evolution of life on Earth, that mechanism?
-
-**Dave Hone** (03:06:39): It’s, it’s really good. It sounds obvious but it’s… I think the bit that still fries my brain is just like the raw numbers, because I think we’re very bad at considering… Like, I regularly talk about, “Oh, this is 70 million years old, but this is 78 and this is 104.” And people are just like, “Oh my God, how on Earth do you deal with those numbers?” And I don’t. They’re just numbers, because I can’t conceive of it really any better than you can. They are astronomical. Yeah, last Thursday was quite a long time ago.
-
-**Dave Hone** (03:07:15): 66 million years is mind-boggling. Like I, I, I can’t fathom it. But that’s it. I think the evolution thing is, A, my suspicion is quite a lot of it happens… It’s not quite Stephen Gould’s punctuated equilibrium, but I think stressful events probably prompt a lot more than less stressful events. You know, the, you know, population crashes and all these things that then… Odd things survive and then that’s changing your genetic component and all the rest of it. But you’ve just got to remember that it’s just… it’s almost a numbers game.
-
-**Dave Hone** (03:07:52): You know, it’s that bad analogy of like, “Oh yeah, evolution is just rolling dice and hoping you get all sixes.” And it’s like, no, a friend of mine said, “No, it’s rolling dice but it gets to keep the sixes.” And then suddenly getting a hat full of sixes isn’t that hard, but also you’re in the context of even rare species, you know, ultra-rare, short of stuff that like we’ve nearly killed off but like very rare species have populations in the thousands or hundreds of thousands.
-
-**Dave Hone** (03:08:19): And are probably around for hundreds of thousands of years. And very few… you know, other than a few things like whales and apes and elephants, mostly have dozens or thousands of offspring at a time. So a few thousand animals that have a few thousand offspring aligned for a few hundred thousand years… Yeah, it’s billions and billions and billions of them. And that’s the rare stuff. You look at Mola mola, the ocean sunfish, though I think mola has just been split up into, like, five species. It’s one of the weirdest looking animals. It’s- love it. Love it, love it, love it. I mean, what a fish that is. Swims with a giant dorsal and I think it’s a giant anal fin, and then they flap alternatingly.
-
-**Lex Fridman** (03:09:01): Does it have a face? Yeah.
-
-**Dave Hone** (03:09:03): Yeah, yeah, yeah. Little one at the front, ate jellyfish, super open-oceanic. And they get really big. You can see that one with the diver. But I think these are the record breeders for animals, and they have something like 100 million eggs at a time.
-
-**Lex Fridman** (03:09:16): Whoa.
-
-**Dave Hone** (03:09:17): Don’t quote me on that, but it is something in those kinds of numbers. So yeah, that’s- you don’t need a very large population of sunfish to start having an awful lot of numbers. Are you going to Google it and see if you can find it? Number of eggs or something? Yeah. 300 million. Oh, I undercut it.
-
-**Lex Fridman** (03:09:38): A- a single fe-
-
-**Dave Hone** (03:09:38): …undercut it.
-
-**Lex Fridman** (03:09:39): A single female can release up to 300 million eggs at one time during a spawning event. Boy. These eggs are incredibly small, measuring about 1.3 millimeters in diameter.
-
-**Dave Hone** (03:09:49): That’s still a lot of egg size-
-
-**Lex Fridman** (03:09:50): That’s still-
-
-**Dave Hone** (03:09:50): … when- when you think about it.
-
-**Lex Fridman** (03:09:52): It’s not that small.
-
-**Dave Hone** (03:09:53): Yeah. Cr- 300 million of- of one mil is still quite a bit.
-
-**Lex Fridman** (03:09:57): Fertilization is external.
-
-**Dave Hone** (03:09:58): Yeah, it’s-
-
-**Lex Fridman** (03:09:58): Females release their eggs into the water, where males then fertilize them. Wow. Man, there’s a lot of different ways to have sex, I guess. This is…
-
-**Dave Hone** (03:10:08): Yeah. But that’s the bit of evolution that I think… I understand why people don’t get it. We are mostly talking about millions in population times millions of years times thousands of offspring. Yeah. It’s kind of a numbers game. Well, how could this evolve? Well, the right selective pressure, and when you’ve got 100 billion offspring, probably a few of them have that.
-
-**Lex Fridman** (03:10:33): And when you focus in on a single species and trace its history, you can see how effective evolution is, natural selection is, and then you just have to, like, go across species and you’re gonna realize-
-
-**Dave Hone** (03:10:43): Yeah, but it’s also a massive compromise, which is the bit that people always miss. You know, it’s Darwin’s line: “It’s descent with modification.” Yes, over time, you can end up with extraordinarily weird things, but mostly what’s happening is you’re changing something fairly simple. You’re making edits to the existing plan, which is why you don’t have animals with tentacles. They have legs, which have joints, which have fingers, and they all have one bone, then two bones, then a bunch of little blocky bones, and then a few more, and then the little ones that make up the digits for hands and feet, and basically everything has that.
-
-**Dave Hone** (03:11:20): …because you’re modifying that pattern. And occasionally, you’ll get something weird, like most of the modern lungfish have basically reduced those down to—well, they had a more simple plan to begin with—but reduce it down to a stump, and then they’ve got something like a flail-y tentacle. But yeah, you know, snakes have gotten rid of them, all of the various legless lizards and things like that, and again, caecilians, and all the rest. But yet, you’re subtly changing certain things in certain ways is mostly what’s going on, and then those build up over time. But also, again, it’s that compromise of there’s things that do and don’t work. There’s things that are interlinked, and so you can’t modify A without modifying B.
-
-**Dave Hone** (03:12:02): Modifying A will kill you, therefore B never modifies, because the two are genetically linked in some way. Or yeah, like the compromise of the lion’s mane. Making it darker makes you sexier, but more likely to kill you. I think people think evolution is, like, perfecting things in some way. And they’re not. They’re bodge jobs, you know? That’s why we have a blind spot in our eye, but things like squid don’t.
-
-**Lex Fridman** (03:12:28): But that process nevertheless does have inventions in it. You have Tiktaalik. You have a fish that learns to breathe, that crawls out.
-
-**Dave Hone** (03:12:36): Yeah, but it already had a swim bladder that it was probably processing a minimal amount of oxygen through, and the swim bladder evolved for a certainly different function.
-
-**Lex Fridman** (03:12:44): Yeah, but that’s one of the powerful things- … about uh- …evolution. It switches the function. It develops it for one function, but once you get there, you’re like, “Oh, okay, this could be used for another function,” that leads to something that we, in retrospect, can see as a major invention, which is— …a fish that’s able to crawl on land, and all of a sudden—
-
-**Dave Hone** (03:13:02): Yep, absolutely.
-
-**Lex Fridman** (03:13:03): …we have cities and… …And rockets. Tiktaalik specifically, there’s something really mind-boggling about a fish that crawls out of the sea, just the image of that.
-
-**Dave Hone** (03:13:17): Yeah, but again, you’ve got stuff that’s not a million miles away from that. You have things like frogfish, which are fully marine, but kind of clamber through seaweed and stuff, and they’ve got pseudo-functional limbs. It’s again, because it’s that… Tiktaalik is not a weirdly derived frogfish, but it’s not like it’s a fish that suddenly came on land or a fish that suddenly evolved legs. There was already that selective pressure that was pushing it into a new opportunity, which gave it an… and then on and on and on, and that’s what keeps going.
-
-**Dave Hone** (03:13:49): But it also brings up another thing, going back to dinosaurs and the behavior stuff, which again, I think has been a problem, is the functionality thing, and how there’s always been, I think, this big perception of single traits having single functions, which isn’t how a huge amount of biology works. For some, yeah. Like, eyes are used for seeing. They don’t really do anything else. But I think there’s a lot of… again, it comes down to a lot of the sexual selection stuff, but things like horns on Triceratops. That’s probably quite good for fighting off predators, but it’s also quite good for fighting other Triceratops.
-
-**Dave Hone** (03:14:23): And then things like elephants dig with their tusks as well as fight other elephants, as well as fight lions, as well as stripping the bark off trees. So, you’ve got to be very careful about how you think of functionality in two different ways. One way is, what possible things could that thing do? And what possible things could have been the main selective pressure before? So, you think about elephant tusks. As I say, they do all these different things. But when an elephant’s just got the tiniest…
-
-**Dave Hone** (03:14:53): …little nubs, like the first elephant whose teeth are growing the wrong way and have pushed out of its jaw, and now it’s got a couple of little spikes, it can’t really dig a hole with them. It’s certainly not digging for water. They’re probably not great against a predator, because you’d basically have to get on your knees to try and lean over and try and stab it a bit. But you can show off to the girls, and you can immediately find another elephant who’s head-to-head the same height as you, and you’ve got a massive advantage. So evolutionarily, they probably started as some kind of sexually selected feature.
-
-**Dave Hone** (03:15:29): But now, functionally, they are probably compromised by the fact that having the best fighting tusks, but also having the tusks that are best at digging up water to keep you alive during a drought, is putting selective pressure on that.
-
-**Dave Hone** (03:15:44): And those are, are those selections, sexual selection appears in both ends. Those are two different things. Digging for water is critical, but it’s probably not what started it. And I think that’s where we get trapped with things like, say, the paddle tail of Spinosaurus or stuff like, or you know, or T-rex arms. It’s like, well, why are T-rex arms like that? Well, maybe we need to consider what a slightly longer arm is like or what it was being functioned for in its ancestors or how it works in other species or what else it might do, rather than every paper is like, “Did it do this,” or, “Did it do this,” or, “Did it do this?” It’s like, you know, it could be all of them. That’s…
-
-**Dave Hone** (03:16:21): …a very different question to try and answer, but people don’t tend to think of it. And it ends up being very binary. And again, biology is not like that, because it’s a compromise.
-
-**Lex Fridman** (03:16:30): And it may be wiser to then look at the evolutionary origins, how it first sprung up.
-
-**Dave Hone** (03:16:35): Yeah, if you, yeah. You know, what does a miniaturized version of this look like, and what might that function for? Or, or how does it function in ancestral forms? You know, a really good example of that is giraffe necks, which have been argued about, you know, forever and a day it was, “Giraffe necks are to help them feed up high.” And then in the late ’90s, early 2000s, there’s a couple of papers coming out going, “Actually, maybe it’s sexual selection and competition.” And then that drove down into arguments about, “Well, what does a short neck look like? And the okapi is the nearest relative. And what do short legs look like, and how do they work?” And plus a whole bunch of other studies. And ultimately, it came out that we were right the first time.
-
-**Dave Hone** (03:17:11): This is all about feeding. But it’s a really interesting way of thinking about it and looking at it.
-
-
-## Birds are dinosaurs
-
-**Lex Fridman** (03:17:18): Gotta ask you the ridiculous question. We do have dinosaurs here on Earth today. They’re birds.
-
-**Dave Hone** (03:17:24): Yup. 10 and a half, 11,000 species of dinosaur.
-
-**Lex Fridman** (03:17:27): Are birds dinosaurs?
-
-**Dave Hone** (03:17:29): Yes.
-
-**Lex Fridman** (03:17:30): Yeah, there’s not…
-
-**Dave Hone** (03:17:30): It’s, it’s-
-
-**Lex Fridman** (03:17:31): Wild?
-
-**Dave Hone** (03:17:31): It’s just a yes. Yeah, it’s-
-
-**Lex Fridman** (03:17:33): How many people know this, by the way?
-
-**Dave Hone** (03:17:35): So there’s an interesting one. I did a radio show, oh, it’s probably seven or eight years ago now, with a couple of presenters, you know, drive time afternoon, nothing serious, nothing science or anything like that. And I mentioned something like this. And one presenter was, “Oh my God, what do you mean birds are dinosaurs?” And the other one is, “What do you mean you don’t know birds are dinosaurs?” So it’s hitting that tipping point of common knowledge, I think. Does everyone know? No. But I think an awful lot of people know and are now kind of used to it as an idea.
-
-**Lex Fridman** (03:18:07): So what’s the evolutionary connection between birds and dinosaurs?
-
-**Dave Hone** (03:18:09): I mean, they literally are, in the same way that we are apes and mammals. Birds are dinosaurs. The direct, if you trace back the evolution of all the birds, so hummingbirds and albatross and ostrich and kiwi and parrots and pelicans and penguins and whatever else, and take them down to their ancestral point, and then go back quite a few more million years, the nearest relatives to them is a dinosaur. It is actually something very close to Velociraptor, or at least a small version of Velociraptor. So birds have literally descended from dinosaurs, therefore they are dinosaurs. We have literally descended from other apes, we are apes. It is that form of evolutionary connection.
-
-**Lex Fridman** (03:18:52): Throughout that whole process, did they have feathers, or did feathers come and go?
-
-**Dave Hone** (03:18:56): So feathers are in tyrannosaurs. So feathers go back at least… ironically, because the fossil record is very incomplete, most of the things that are closest to birds we know from the Early and Late Cretaceous, so the last kind of 50 million years of dinosaur evolution, up to the extinction. And actually, birds almost certainly go back another 50 million years. So birds did not appear as a result of the dinosaurs going extinct. Birds lived alongside the dinosaurs for 100 million years. The birds were not new on the scene, and it’s not like, “Oh, the dinosaurs died, and from the ashes rose the birds.” No, they’ve been knocking around forever.
-
-**Lex Fridman** (03:19:39): They just survived ’cause they’re small.
-
-**Dave Hone** (03:19:40): In a very large part, yeah. That’s almost certainly what really helped them. Birds took a kicking in the KT extinction, so did mammals. Loads of bird lineages went extinct, and only a handful got over the line, but they did. But yeah, we have feathers in, as I said, we’ve got Middle Jurassic tyrannosaurs that are 165 million years old, so 100 million years before the extinction, that have feathers. Simple feathers, they’d be like those you get on most baby chicks, so they’re not with the big kind of classic pick up a feather in, you know, in the street or on a field of the big vein up the middle and then the kind of paired flat pieces. This would be much more like a hare. But we have them.
-
-**Dave Hone** (03:20:21): We’ve got something which is very close to a bird but might not quite be a bird, with modern feathers. In the Middle Jurassic, we’ve got definitive stuff like Archaeopteryx in the Late Jurassic, and then into the Early Cretaceous we have a series of fossil beds in China which are just heaving with them. So yeah, tyrannosaurs have feathers. Velociraptor and the Dromaeosaurs had feathers. Troodontids had feathers. Ornithomimosaurs, we’ve mentioned, they had feathers, and so did a whole bunch of other groups as well. There’s about eight or nine major groups, kind of the size of something like, yeah, literally like carnivores or deers. You know, some massive groups. About eight or nine of them were fully feathered, as far as we can tell.
-
-**Dave Hone** (03:21:08): So feathers massively predate bird origins, but it was a major part of their evolution.
-
-**Lex Fridman** (03:21:13): Do I understand why feathers evolved with the function, the sexual selection, the signaling?
-
-**Dave Hone** (03:21:18): Yeah, it’s probably a fundamental twofold one, which is feathers insulate you. They keep you warm. And most dinosaurs were, it’s an archaic term, but it’s what most people know, warm-blooded. So they were much more like us and birds. They had a stable high body temperature regardless of the environmental conditions. And so if you’re burning a lot of calories to stay warm, you want to kind of keep that heat, and feathers really help you do that. And then the other thing is, yeah, the obvious thing is sexual selection and communication. Feathers do stuff that scales can’t. You can shed them in winter and change color and come back as another one. That’s quite a handy trick. You can change them between juveniles and adults.
-
-**Dave Hone** (03:21:56): So baby birds have one type of feather, adults have a different one. We know of dinosaurs that do that, where we’ve got adults and juveniles with different feather types preserved in the fossils. Yeah, you can produce all kinds of weird colors and displays. You can erect feathers. You can hold them up and fan them out like a peacock or a pheasant. Whereas scales, you can’t really do that, or you need a huge amount of bone like Protoceratops. So there’s two good reasons that they would probably evolve, and exactly pulling them apart or which is more important. And again-
-
-**Dave Hone** (03:22:28): They’re probably bifunctional. As soon as you start making feathers and making them more colorful, well, you’re staying warmer. So that’s an advantage. Or as soon as you start making feathers to make them warmer, it probably won’t be long until someone evolves them to be a bit brighter red. And then we’re back to, “Oh my God, red.” Right? But, but that’s what’s happening. And then they’re probably going to push each other potentially.
-
-**Lex Fridman** (03:22:47): I mean, it is true that the birds went real crazy with the feather and the colors and the prettiness and all that.
-
-**Dave Hone** (03:22:52): Yeah, yeah, yeah. They absolutely do.
-
-**Lex Fridman** (03:22:54): Maybe there’s something about feathers that allows for that efficient sort of diversification of fashion.
-
-**Dave Hone** (03:23:01): I think, yeah, I think it gives them opportunities that… …Scales and solid structures simply don’t. The…
-
-**Lex Fridman** (03:23:08): Yeah, it could be a material for it.
-
-**Dave Hone** (03:23:08): …the sole ability. I mean, I say like, you know, peacocks and pheasants, they are at a massive disadvantage. The males have got these extra plumes on because they’re so big and heavy. Peacocks can barely fly. But the fact is, you can still kind of fold them up into a fairly neat package and kind of hide if you really wanted to. Whereas if you’re something like Triceratops, that billboard on the top of your head is not only enormous, but also bone. It’s massive, it’s heavy, and you’ve got to-
-
-**Lex Fridman** (03:23:33): No hiding.
-
-**Dave Hone** (03:23:34): …hide it around the whole year. Whereas peacocks at least can go, “Well, all the girls have settled down on their nests now. I’m just going to get rid of all this extra weight and dump it.”
-
-**Lex Fridman** (03:23:44): Just looking at the entire history of Earth, what has studying hundreds of millions of years of evolution, studying this epic age of the dinosaurs, what has that done for your appreciation of what makes Earth beautiful? Do you ever just sit back and like, “Holy shit, this is incredible, this whole thing”?
-
-**Dave Hone** (03:24:03): Yeah, yeah, I, I do. But I guess maybe not much more so than I would anyway. As in, I already… because again, I don’t really think of myself as a paleontologist in a lot of ways. It’s not that I don’t love my work, but it’s, I’m a biologist and this is what I’m looking at. But I’m fascinated and amazed by lungfish and flying frogs and caterpillars and onychophorans and butterflies and a million and one other hagfish and things that I think are cool and interesting and fascinating, and I could happily read about them or watch them in a zoo or a documentary or whatever it may be, almost every bit as much as I would with dinosaurs.
-
-**Dave Hone** (03:24:54): I probably appreciate the dinosaurs and pterosaurs in a very different way because I have such a greater intimate knowledge of the science, in a way that I try and read the lion literature because I’m really interested in predation dynamics, but I can’t keep up with it whilst doing all the other stuff as well.
-
-**Lex Fridman** (03:25:09): Predation dynamics. Awesome.
-
-**Dave Hone** (03:25:11): Well, right, so like the difference of, what prey are they taking? Why? At what percentage? What influences? How are they competing with leopards and…
-
-**Lex Fridman** (03:25:18): Wait, there’s a literature, body of literature on this? All right.
-
-**Dave Hone** (03:25:21): Yeah, people are studying lions and what they hunt, what they eat, and where they do it. There’s a whole bunch of stuff on particularly the African carnivores because there’s so many of them and they’re so big, and their populations aren’t terrible compared to South America or North America or a lot of Asia, for example. But going back to your question, yeah, I can appreciate all of it. It’s all cool. Some of it is definitely more awesome than others. I work on some of the giant pterosaurs, the ones with 10-meter wingspans.
-
-**Dave Hone** (03:25:54): Yeah, and it’s hard. My partner’s family’s from Uganda, and we were in Uganda last year. I was watching marabou storks circle overhead and you’re like, “Wow, these things are huge and amazing.” And then I’m like, “Their wingspan’s about a fifth of the stuff I work on.” Actually, these are quite piddly in the grand scheme. You know, this thing being like an airliner going overhead. And when you think about it in that context, yeah, I mean, because that’s it with the… I know people tend to be obsessed with size, and you kind of get it. Blue whales are…
-
-**Dave Hone** (03:26:30): …fundamentally cooler than smaller humpback whales, even if humpback whales are cool. It’s hard not to be impressed by Patagotitan or Tyrannosaurus or Triceratops or Quetzalcoatlus or any of these ultimate giants. There’s a reason we love great white sharks. There’s a reason we love giant squid. There’s a reason we love lions and grizzly bears and stuff. But the dinosaurs do kind of do it better than anyone else, you know, and the marine reptiles and the flying reptiles, because it’s just so insane.
-
-**Lex Fridman** (03:26:59): Yeah, both size and diversity.
-
-**Dave Hone** (03:27:01): Yeah, and longevity as well. I mean, you look at, you know, elephants have come and gone and, you know, the whales, okay, the whales have reached superlative sizes, but they’re relatively new on the scene. Could easily have gone extinct in the last century. But yeah, you know, there’s truly titanic dinosaurs for at least 100 million years.
-
-**Lex Fridman** (03:27:22): It’s a long time. It’s hard sometimes, and as you said, it’s very hard to load in just how long that is. They really dominated Earth for a very long time.
-
-**Dave Hone** (03:27:31): Yeah, and almost absolutely everywhere. There’s a handful of places that we’ve found where it appears that dinosaurs didn’t really get in and something else kind of took over, you know, like Australia with the marsupials versus the other eutherians. But yeah, fundamentally, it was a dinosaur planet after the Triassic, less so at the end of the Triassic when they’re first getting going, but Jurassic and Cretaceous, yeah, it’s 140-ish million years of just absolute dominance.
-
-
-## Future of paleontology
-
-**Lex Fridman** (03:28:02): I think it’s hilarious and just perfect that there’s a giant dinosaur head next to you, and you didn’t mention it once during this conversation.
-
-**Dave Hone** (03:28:10): Yeah, sure, yeah. Because I thought, I thought we’d get it. Well, I mean, giant is an absolute diddy one. So this is Protoceratops andrewsi, and I’ve done loads of work on Protoceratops. It’s from Mongolia. This is a latest sized juvenile, so I’ve got a big head, and the big head’s kind of like this, but I really couldn’t fit it in the bag.
-
-**Lex Fridman** (03:28:27): So this is a to-scale juvenile.
-
-**Dave Hone** (03:28:29): This is a cast. So this is not, this is not original, but someone has molded and copied it. So it’s not even, it’s not carved, it’s a cast and a mold taken. So yeah, this is 100% accurate to the original specimen, or at least extraordinarily accurate to the original specimen.
-
-**Lex Fridman** (03:28:45): So it’s a young guy.
-
-**Dave Hone** (03:28:47): Yeah. But yeah, I mean, at full size, it’s going to be like pig or sheep size, so big but not massive. But I’ve got it partly because it’s affordable, because I can’t afford to buy the big skeletons and skulls. But I’ve done a huge amount of work on it, and in part it goes back to those earlier conversations about populations. If you really want to understand animals, you need an understanding of what a real population and a growth of what these animals looks like. And Protoceratops is, I would argue, probably the only dinosaur where we can really do that, or at least as close as possible as you could get to any modern animal as an analog. We’ve got well over 100 good skeletons, though not…
-
-**Dave Hone** (03:29:33): Probably only about 70 or 80 in really accessible museums, but that’s still a hell of a lot. We have everything from here’s a tiny baby one. This is a really cheap and nasty 3D print I had made, but that’s a hatchling sized one or not much bigger than a hatchling sized one, all the way up to the big adults. We’ve now got embryos as well, which we didn’t have until about 10 years ago. So we’ve got embryonic animals all the way up to big adults. They’re all pretty much from one place in Mongolia. And they are, as far as we can tell, from a relatively narrow window in time, only about 100,000 years, which in the grand scheme of things is very close. So you’ve got one population from one place, from one time with 100 animals from embryos up to big adults.
-
-**Lex Fridman** (03:30:18): That’s okay.
-
-**Dave Hone** (03:30:19): So now if you want to look at, as I do, something like sexual selection and when does growth of the signal kick in and at what size and what evidence for dimorphism, well, suddenly you’ve got a population. You’ve got something you can work with. And that’s why Protoceratops is so important, and I think way more important than even a lot of my fellow paleontologists realize, and I genuinely think we should be pouring a lot more research into them, because they can tell us stuff that pretty much no other dinosaur can.
-
-**Lex Fridman** (03:30:48): Because you have the population data, so you can… …You can ask them a lot more questions.
-
-**Dave Hone** (03:30:50): And we can treat it as a population. So going way, way back to a conversation about telling males and females apart, and I said the big problem is population data, or at least the number of specimens that you have when mostly you’ve only got one, two, or three. I did a big study on this a few years ago on gharials, the really long-snouted crocodilians from Nepal, India, and Pakistan with a giant bulge on the end of the nose. And even though the males are all bigger than the females, and the males all have this weird nose growth that’s mostly soft tissue, but they have a weird depression in the jaw, in the end of the snout where the nostrils sit.
-
-**Dave Hone** (03:31:27): We got a sample size of something like about 110 animals, so these are very, very rare animals, so we had to ransack every museum worldwide. I was sending my students sending emails to huge numbers of people, “Have you got one sitting in your collection lost? Can you get it for us? Can you take these photos or these measurements? We can measure it.” We put the dataset together, and then we found that actually, apart from the very biggest males, it’s really hard to tell males and females apart, and this actually really closely matched some modeling data that I’d done with a colleague, Jordan Mallon in Ottawa looking at this for alligators and trying to compare it to dinosaurs.
-
-**Dave Hone** (03:32:09): Because though we talked about mutual sexual selection before, neutral sexual selection in particular, you tend to get things that are extremely similar. Males and females are very hard to tell apart. But there’s also a gradient, you know, all the way up to things like peacocks, all the way down to you can’t tell them apart, like parrots. And for some features, when they take time to get growing, or because dinosaurs grow over a very long window and are sexually mature over a very long window, you run into the problem that a big female will look like a small male.
-
-**Dave Hone** (03:32:43): And we can’t sex them. And lo and behold, this is what you get with the gharials. The really big males are obvious because they’re so much bigger and they’ve got this big depression in the snout. But medium-sized and big females look like medium-size or smaller males and very small males. And so, yeah, that’s basically what we have with dinosaurs. Even with Protoceratops, where we’ve got a dataset of like a hundred, papers have come out saying there’s very mild sexual dimorphism or there isn’t sexual dimorphism. Sexual dimorphism could be very strong in Protoceratops, but we can’t find it because we can’t tell the males from the females because we haven’t ID’d enough through something like medullary bone.
-
-**Dave Hone** (03:33:31): And so you’re in this horrible situation where, because going back to the T-Rex thing, it’s like, “Well, maybe it’s mutual sexual selection, and therefore they’re cooperating,” and that would be cool. But also, maybe males are much bigger, but we can’t tell because our dataset’s too small.
-
-**Lex Fridman** (03:33:46): Oh, that’s frustrating.
-
-**Dave Hone** (03:33:46): In which case, they’re not under mutual sexual selection, and we’ve got it all wrong. It’s maddening! It’s maddening because it’s so… If these were living animals, you’d just watch them, or you’d just genotype them, or you’d sex them, and you’d just know. And we just don’t. But on the other hand, we do have the mechanism to do it. There are a handful of places where you get a bunch of Protoceratops together, where it’s a mass mortality site. Well, let’s go and drill every bone, because if that’s the breeding season, we might find seven or eight females, and then the others are pretty much by default males if we know it’s the middle of the breeding season because all the others have medullary bone, and now you know where your male/female split is.
-
-**Dave Hone** (03:34:27): Now let’s analyze those two datasets, and then maybe we’ll see a difference, and maybe we won’t.
-
-**Lex Fridman** (03:34:32): Yeah, I love how that frustration is sort of a catalyst for figuring out. You’re searching for a place, a piece of evidence that just shows you clearly.
-
-**Dave Hone** (03:34:42): There are ways in.
-
-**Lex Fridman** (03:34:43): Yeah, there’s ways in.
-
-**Dave Hone** (03:34:44): This is the thing.
-
-**Lex Fridman** (03:34:45): There’s always ways in.
-
-**Dave Hone** (03:34:45): Yeah, there are, there are ways in, and maybe we’ve got to get lucky because maybe it’s not the breeding season or maybe that was just happened to be a group of all males, and therefore we’re not going to get the signal we’re looking for. But there’s enough of them, and they’re common enough, and yet, still digging in Mongolia. We keep finding new species. We keep finding new cooler stuff. But I’m like, “Can we, can we dig up some more Protoceratops?” Because actually, however cool these new things are, genuinely if you want to know what dinosaurs are and how they worked, another hundred Protoceratops will actually probably tell us a lot more than 50 new species, however cool 50 new species might be.
-
-**Lex Fridman** (03:35:26): Paleontology is an incredible discipline. It really is Sherlock Holmes territory, so this was an incredible conversation. I’m really grateful for all the work you write, that you put out there, the podcast is incredible. I just, thank you. Thank you for being you and thank you for talking today.
-
-**Dave Hone** (03:35:38): Thank you. Well, thank you very much for having me. I hope I haven’t worn out my welcome with dinosaur stories.
-
-**Lex Fridman** (03:35:48): Oh, we could talk for many more hours. Thank you, brother. Thank you, Dave. Thank you.
-
-**Dave Hone** (03:35:52): Thank you.
-
-**Lex Fridman** (03:35:53): Thank you for listening to this conversation with Dave Hone. To support this podcast, please check out our sponsors in the description and consider subscribing to this channel. And now, let me leave with some words from Carl Sagan, “Extinction is the rule. Survival is the exception.” Thank you for listening. I hope to see you next time.
+**Lex Fridman** (01:49:46): Thanks for listening to this conversation with Dave Plummer. To support this podcast, please check out our sponsors in the description. And now, let me leave with some words from Bjarne Stroustrup, creator of C++ and somebody who, by the way, I interviewed a long, long time ago, Episode 48 of the podcast. He said, “There are only two kinds of languages. The ones people complain about and the ones nobody uses.” Thank you for listening, and hope to see you next time.
