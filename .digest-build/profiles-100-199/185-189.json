@@ -1,0 +1,427 @@
+[
+  {
+    "episode": 185,
+    "file": "185-sam-harris.md",
+    "title": "Sam Harris: Consciousness, Free Will, Psychedelics, AI, UFOs, and Meaning",
+    "guest": "Sam Harris",
+    "published": "2021-05-20",
+    "episode_url": "https://lexfridman.com/sam-harris/",
+    "youtube_url": "https://www.youtube.com/watch?v=4dC_nRYIDZU",
+    "youtube_id": "4dC_nRYIDZU",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4630",
+    "reliable_speaker_labels": false,
+    "duration": "03:16:48",
+    "top_terms": [
+      "it's",
+      "you're",
+      "there's",
+      "don't",
+      "that's",
+      "we're",
+      "even",
+      "experience",
+      "they're",
+      "sense",
+      "feel",
+      "going"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's the host of the Making Sense podcast and the author of many seminal books on human nature and the human mind, including The End of Faith, The Moral Landscape, Lying, Free Will, and Waking Up.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:11:22",
+        "text": "And the problem that the confound with consciousness is that, yes, we can seem to interrupt consciousness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:03",
+        "text": "So, but back to your primary question here, which is differentiating consciousness and self and free will as concepts and kind of degrees of illusoriness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:22:31",
+        "text": "The question is whether there could be some room for let's use in the 21st century the term magic, back to the black box of consciousness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:08",
+        "text": "So I said, functionable for the first time in my life through no free will of my own.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:18:16",
+        "text": "It's about all the intricate computation we're able to perform, common sense, our ability to reason about this world, consciousness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:37:37",
+        "text": "I'm using the most horrible words, but the question is whether science and reason can generate viral sticky stories that give meaning to people's lives.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:11",
+        "text": "The fascinating possibility is that there's probably thousands of people who've taken psychedelics of various forms and have met Sam Harris on that journey.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:16:48",
+        "text": "And now let me leave you with some words from Sam Harris in his book, Free Will.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 186,
+    "file": "186-bryan-johnson.md",
+    "title": "Bryan Johnson: Kernel Brain-Computer Interfaces",
+    "guest": "Bryan Johnson",
+    "published": "2021-05-24",
+    "episode_url": "https://lexfridman.com/bryan-johnson/",
+    "youtube_url": "https://www.youtube.com/watch?v=1YbcB6b4A2U",
+    "youtube_id": "1YbcB6b4A2U",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4633",
+    "reliable_speaker_labels": false,
+    "duration": "02:30:44",
+    "top_terms": [
+      "it's",
+      "that's",
+      "you're",
+      "data",
+      "brain",
+      "going",
+      "there's",
+      "don't",
+      "life",
+      "we're",
+      "want",
+      "experience"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "And previously, he was the founder of Braintree, a mobile payment company that acquired Venmo and then was acquired by PayPal and eBay.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:18:27",
+        "text": "And in the case with brain interfaces, when I started the company, there was no known path to even build a technology that could potentially become mainstream.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:19:28",
+        "text": "And so internally, the way we think about it is, we think of the go to market strategy much more like the Drake equation, where if we can build technology",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:14:31",
+        "text": "And I think going back to our experience together with Brain Interfaces on, you could imagine if we get to a certain level of maturity.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:20:39",
+        "text": "So for example, when your brain data was recorded today, the first thing we did in the kernel app was you have control over your data.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:23:41",
+        "text": "We met up, I had started kernel and he had an interest in brain interfaces as well.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:46:25",
+        "text": "And so I'm bullish on what's going on and think it could greatly enhance brain interfaces and the value of the brain interface ecosystem.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:54:33",
+        "text": "That's right, because every time I spend time thinking about this or executing, spending time on it, I'm spending less time thinking about building kernel or the future of being human.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:30:44",
+        "text": "One is the design, manufacturing, and distribution of intelligence is heading towards zero on a cost curve over a certain design, over a certain timeframe that our ability to, you know, evolution produced us an intelligent form of intelligence.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 187,
+    "file": "187-frank-wilczek.md",
+    "title": "Frank Wilczek: Physics of Quarks, Dark Matter, Complexity, Life & Aliens",
+    "guest": "Frank Wilczek",
+    "published": "2021-05-29",
+    "episode_url": "https://lexfridman.com/frank-wilczek/",
+    "youtube_url": "https://www.youtube.com/watch?v=LDTe8uFqbws",
+    "youtube_id": "LDTe8uFqbws",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4639",
+    "reliable_speaker_labels": false,
+    "duration": "02:21:45",
+    "top_terms": [
+      "it's",
+      "that's",
+      "different",
+      "universe",
+      "don't",
+      "there's",
+      "world",
+      "understand",
+      "equations",
+      "laws",
+      "theory",
+      "kinds"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "Frank Wilczek, David Gross, and David Politzer came up with a theory postulating that when quarks come really close to one another, the attraction abates and they behave like free particles.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:11:26",
+        "text": "the dominant theme in modern fundamental physics symmetry and its manifestations the laws turn out to be very to have these tremendous amounts of symmetry you can change the symbols and move them around in different ways and they still have the same consequences.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:18:38",
+        "text": "And it's been expanding and cooling, the matter in it has been expanding and cooling ever since.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:04",
+        "text": "In that sense, it seems like our tools of understanding the world, I mean, this is mostly centered around the questions of what is life, trying to understand the patterns that are characteristic of life and intelligence, all those kinds of things.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:17:35",
+        "text": "Darwinian evolution is another, that humans are not the pinnacle of God's creation and the apparent result of deep understanding of physical reality, that mind emerges from matter and there's no call on special life forces or souls.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:33:59",
+        "text": "Well, quarks and gluons have the same relation basically to nuclear physics as electrons and photons have to atomic and molecular physics.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:55:33",
+        "text": "And then understand one of the big mysteries, like literally big in terms of its fraction of the universe is dark matter.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:09:15",
+        "text": "I think getting to the physics of life, the physics of intelligence, the physics of consciousness will, the physics of information that brings, from which life emerges, that will allow us to do space exploration.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:21:45",
+        "text": "And the question, what is life, kind of assumes that we have a definition of life and that it's a natural phenomena that can be distinguished.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 188,
+    "file": "188-vitalik-buterin-2.md",
+    "title": "Vitalik Buterin: Ethereum 2.0",
+    "guest": "Vitalik Buterin",
+    "published": "2021-06-03",
+    "episode_url": "https://lexfridman.com/vitalik-buterin-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=XW0QZmtbjvs",
+    "youtube_id": "XW0QZmtbjvs",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4642",
+    "reliable_speaker_labels": false,
+    "duration": "03:01:05",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "chain",
+      "proof",
+      "definitely",
+      "even",
+      "bitcoin",
+      "block",
+      "going",
+      "don't",
+      "work"
+    ],
+    "bio": {
+      "time": "00:01:01",
+      "text": "This is the Lex Friedman podcast and here is my conversation with Vitalik Buterin.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:17:22",
+        "text": "I definitely see Ethereum as being a mechanism to fight for definitely some specific things that are social causes.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:03",
+        "text": "And then Craig, well, basically Craig Wright was forced to split off because the rest of the community refused to accept some network change that he wanted.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:32",
+        "text": "And so even if each one of those chains was only as scalable as Ethereum, you could still, like the total sum of them would still be a hundred times more than Ethereum.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:05",
+        "text": "So like, that's, I think a big learning that we've had from multiple of our experiences in the Ethereum ecosystem, just like validating this multi client model.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:10:42",
+        "text": "Like, you know, I think, you know, there's a big possibility that, you know, things that the Ethereum, ways that the Ethereum ecosystem approaches some problems is totally wrong.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:38:21",
+        "text": "I'm definitely in the camp that consciousness is a property of the algorithm and not a property of a brain structure.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:55:55",
+        "text": "And one example of this in Ethereum lands, right, is I think the part of Ethereum history where I thought that the Ethereum community was at its lowest, and even when I personally was at my lowest.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:01",
+        "text": "I mean, like we have to agree on protocol changes somehow, right, like there's Twitter, there's Reddit, there's GitHub, there's all of the various Ethereum forums, Ethereum magicians, Ethereum research.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 189,
+    "file": "189-david-sinclair.md",
+    "title": "David Sinclair: Extending the Human Lifespan Beyond 100 Years",
+    "guest": "David Sinclair",
+    "published": "2021-06-07",
+    "episode_url": "https://lexfridman.com/david-sinclair/",
+    "youtube_url": "https://www.youtube.com/watch?v=jhKZIq3SlYE",
+    "youtube_id": "jhKZIq3SlYE",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4646",
+    "reliable_speaker_labels": false,
+    "duration": "01:40:59",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "there's",
+      "data",
+      "we're",
+      "you're",
+      "information",
+      "life",
+      "going",
+      "live",
+      "back"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's a professor in the Department of Genetics at Harvard and co director of the Paul F.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:00:00",
+        "text": "Imagine if we can live 100,000 years, even under controlled conditions, like in a spaceship say, then suddenly a trip to Alpha Centauri that is a 4.37 light years away takes a single human lifespan.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:12:18",
+        "text": "What's amazing about that is that, what are we now, two years since the book came out, even less, and that future is basically here already.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:17:31",
+        "text": "The idea that you can connect, like skipping the human having to do this work, you can connect the scientific papers, almost like meta analysis of the science connected to the individual data.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:04",
+        "text": "Grapes, grapevines produce that in abundance when they're dried out or they have too much light or fungus and that we've shown activates the Sertu enzyme in our bodies, which remember is what extends lifespan in yeast and slows down aging in the brain.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:13:21",
+        "text": "So, but that said, in aggregate, when you look at the full span of life, is probably you should be getting a consistent amount of sleep.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:26:35",
+        "text": "Let's say if it's 200 years we're talking about or a thousand years.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:31:42",
+        "text": "So immortality is not achievable through that means, though I think we could potentially reset the body hundreds of times and live for thousands of years.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:40:59",
+        "text": "So I'm so optimistic that we're going into human studies in less than two years from now.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

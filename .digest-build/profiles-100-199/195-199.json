@@ -1,0 +1,423 @@
+[
+  {
+    "episode": 195,
+    "file": "195-clara-sousa-silva.md",
+    "title": "Clara Sousa-Silva: Searching for Signs of Life on Venus and Other Planets",
+    "guest": "Clara Sousa-Silva",
+    "published": "2021-06-28",
+    "episode_url": "https://lexfridman.com/clara-sousa-silva/",
+    "youtube_url": "https://www.youtube.com/watch?v=CGAvsmokB4c",
+    "youtube_id": "CGAvsmokB4c",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4666",
+    "reliable_speaker_labels": false,
+    "duration": "01:57:17",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "phosphine",
+      "don't",
+      "earth",
+      "you're",
+      "atmosphere",
+      "even",
+      "going",
+      "work",
+      "quantum"
+    ],
+    "bio": {
+      "time": "00:01:00",
+      "text": "But you still rule by love and power, so, but while having the doctor title, I got it.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:00:00",
+        "text": "If we find extraterrestrial life and study it, we may find insights into the mechanisms that originated life here on Earth, and more than life, the mechanisms that originated intelligence and consciousness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:43",
+        "text": "Even life that might not avoid it, so life that doesn't use oxygen metabolism, anaerobic life still has to put crazy amounts of effort into making it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:08",
+        "text": "And I say this as someone who has dedicated her life to finding like alien life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:13:38",
+        "text": "If there's life in the Venusian clouds, if there's life in the, if there are biosignals coming out of the plumes of Enceladus, if there's life on Titan.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:20:53",
+        "text": "I don't think I've even considered that possibility that there would be life in the solar system, so that indicates that very possibly life is literally everywhere.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:38:35",
+        "text": "And the potential life out there that this is the thing that connects us, that you can't escape the rules of the quantum world and how universal they themselves are despite being probabilistic.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:51:06",
+        "text": "What do you think is the meaning of life here on Earth and the meaning of that life that",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:54:12",
+        "text": "I think life does have meaning and it's laudable to look for that meaning in life.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 196,
+    "file": "196-yeonmi-park.md",
+    "title": "Yeonmi Park: North Korea",
+    "guest": "Yeonmi Park",
+    "published": "2021-07-01",
+    "episode_url": "https://lexfridman.com/yeonmi-park/",
+    "youtube_url": "https://www.youtube.com/watch?v=usDqSEKDVsA",
+    "youtube_id": "usDqSEKDVsA",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4669",
+    "reliable_speaker_labels": false,
+    "duration": "02:00:26",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "even",
+      "there's",
+      "love",
+      "want",
+      "going",
+      "life",
+      "you're",
+      "suffering",
+      "world"
+    ],
+    "bio": {
+      "time": "00:02:08",
+      "text": "I think about a North Korean child who could be a scientist, an artist, a writer, but who instead grows impossibly thin without food, their bodies slowly rotting away as their parents watch helplessly.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:05:20",
+        "text": "The fact that I did not know, like in North Korea, this is the only country in this 21st century has no internet.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:18:55",
+        "text": "You see that with World War II, the stories of soldiers that have suffered, but some of the closest bonds of brotherhood, of just pure love was experienced by them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "So with Kim Il Sung, I can give him more benefit of that.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:10",
+        "text": "So if Kim Jong Un dies, it's going to be very hard for North Korea to replace anybody in his position because Kim's is a brand.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:22:01",
+        "text": "I thought I was coming to a country where never needed, like first thing my mom taught me growing up in North Korea was, don't even whisper because the birds and mice could hear you.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:49",
+        "text": "So I mean North Korea, who was a US resident and the Washington Post journalist, when he got killed in Saudi like a lamb, they chopped him into pieces.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:57:19",
+        "text": "I think only thing I have to at this point to make sure is that the people after I consulting a lot of security teams, like now North Korea became a lot smarter.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:00:26",
+        "text": "And North Korea, what they did was the guy who did the sunshine policy in South Korea named Kim Dae Sung won the Nobel Peace Prize for that.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 197,
+    "file": "197-jocko-willink.md",
+    "title": "Jocko Willink: War, Leadership, and Discipline",
+    "guest": "Jocko Willink",
+    "published": "2021-07-05",
+    "episode_url": "https://lexfridman.com/jocko-willink/",
+    "youtube_url": "https://www.youtube.com/watch?v=n2RcVEftY48",
+    "youtube_id": "n2RcVEftY48",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4673",
+    "reliable_speaker_labels": false,
+    "duration": "01:56:44",
+    "top_terms": [
+      "it's",
+      "that's",
+      "you're",
+      "don't",
+      "there's",
+      "going",
+      "human",
+      "he's",
+      "want",
+      "they're",
+      "team",
+      "life"
+    ],
+    "bio": {
+      "time": "00:02:27",
+      "text": "This is the Lex Friedman podcast and here is my conversation with Jaco Willink.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:04:39",
+        "text": "There's a very particular nature to the kind of war that World War II was, especially for the Soviet Union, where it didn't just influence the lives of people.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:18:23",
+        "text": "You could say that about the Vietnam War, you could say that about even the war that you were involved with in Iraq.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:04",
+        "text": "some subordinate leadership that has the trust, knowledge, and expertise that you will be able to turn over some of these, some of these details to for two reasons.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:16:42",
+        "text": "You know, I like to say the best forms of leadership is leadership with minimum force required.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:24:08",
+        "text": "force as a leader, which is expending leadership capital, which we don't want to do because we always try and conserve our leadership capital as much as we possibly can.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:35:37",
+        "text": "And you bring that to a leadership perspective and you walk into your platoon and you realize that maybe you don't have all the answers all the time.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:53:36",
+        "text": "And if you're familiar, familiar with military drill about faces, when you turn around 180 degrees, and at the end of the Vietnam war, towards the end of the Vietnam war, he was so disgusted with the way that the war was being fought.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:56:44",
+        "text": "You had a conversation with Jordan Peterson where he asked you a question in terms of war being the last resort, whether you would like your kids to grow up in peace in a time of no war.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 198,
+    "file": "198-sara-walker.md",
+    "title": "Sara Walker: The Origin of Life on Earth and Alien Worlds",
+    "guest": "Sara Walker",
+    "published": "2021-07-09",
+    "episode_url": "https://lexfridman.com/sara-walker/",
+    "youtube_url": "https://www.youtube.com/watch?v=-tDQ74I3Ovs",
+    "youtube_id": "-tDQ74I3Ovs",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4676",
+    "reliable_speaker_labels": false,
+    "duration": "01:58:24",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "physics",
+      "universe",
+      "there's",
+      "information",
+      "you're",
+      "look",
+      "exist",
+      "we're",
+      "idea"
+    ],
+    "bio": {
+      "time": "00:01:03",
+      "text": "This is the Lex Friedman podcast, and here is my conversation with Sarah Walker.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:00:00",
+        "text": "She's interested in the origin of life, how to find life on other worlds, and in general, the more fundamental question of what even life is.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:04:09",
+        "text": "Probably the most popular view for where the origin of life happened on Earth is hydrothermal vents because they had sufficient energy.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:09:21",
+        "text": "So I think the reason that most original life scientists are interested in the original life on Earth and say not the original life on Mars",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:15:29",
+        "text": "And so most people, they try to go in and define life and they say, well, life is say, a self reproducing chemical system capable of Darwinian evolution.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:10",
+        "text": "Life is kind of basically, if you wanna think about it, like life is sort of changing the probability distributions over what can exist.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:28",
+        "text": "Yes, and we have a last universal common ancestor for all life on earth, which I think is sort of the nexus of that causality map for life on earth.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:29:41",
+        "text": "Yeah, the shadow biosphere is this idea that there might've been other original life events that happened on earth that were independent from the original life event that led to us and all of the life that we know on earth.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:58:24",
+        "text": "And so the origin of life problem becomes one of minimizing the information we put into physics to actually watch the spontaneous origin of life.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 199,
+    "file": "199-roger-reaves.md",
+    "title": "Roger Reaves: Smuggling Drugs for Pablo Escobar and the Medellin Cartel",
+    "guest": "Roger Reaves",
+    "published": "2021-07-11",
+    "episode_url": "https://lexfridman.com/roger-reaves/",
+    "youtube_url": "https://www.youtube.com/watch?v=Udh22kuLebg",
+    "youtube_id": "Udh22kuLebg",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4679",
+    "reliable_speaker_labels": false,
+    "duration": "02:09:29",
+    "top_terms": [
+      "went",
+      "it's",
+      "back",
+      "didn't",
+      "that's",
+      "come",
+      "don't",
+      "barry",
+      "going",
+      "prison",
+      "money",
+      "there's"
+    ],
+    "bio": null,
+    "samples": [
+      {
+        "time": "00:11:19",
+        "text": "And then when I heard about Pablo Escobar blowing up that airliner and killing those women and children, I was sorry I ever shook his hand.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:26",
+        "text": "But my main contact was Jorge Ochoa and Pablo Escobar was right there.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:02",
+        "text": "Like that scene paints a picture of a life that could have been had if none of this wild drug smuggling happened.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:17:18",
+        "text": "You know, it's the first plane shot down on Reagan's new war on drugs.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:35:43",
+        "text": "Drugs, all drugs combined kill between 10 and 15,000 people a year by overdose",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:53",
+        "text": "And so when he came up this time, for some reason Roger reached for my hand and I reached for his and man, that was it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:55:08",
+        "text": "But then there is, you know, Pablo Escobar, one of the most dangerous humans in history, plus the U.S. government.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:09:29",
+        "text": "We'd go further into the jungle and come up and that was what Pablo Escobar and Ochoa and them and they was associates with the people in Nicaragua.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

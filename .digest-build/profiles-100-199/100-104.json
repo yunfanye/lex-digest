@@ -1,0 +1,427 @@
+[
+  {
+    "episode": 100,
+    "file": "100-alexander-fridman.md",
+    "title": "Alexander Fridman: My Dad, the Plasma Physicist",
+    "guest": "Alexander Fridman",
+    "published": "2020-04-13",
+    "episode_url": "",
+    "youtube_url": "",
+    "youtube_id": "",
+    "source": "Happy Scribe transcript via Wayback Machine",
+    "quality": "machine (Happy Scribe, no speaker labels)",
+    "guid": "",
+    "reliable_speaker_labels": false,
+    "duration": "03:38:23",
+    "top_terms": [
+      "it's",
+      "that's",
+      "physics",
+      "interesting",
+      "life",
+      "don't",
+      "first",
+      "you're",
+      "he's",
+      "take",
+      "remember",
+      "america"
+    ],
+    "bio": {
+      "time": "00:03:14",
+      "text": "I'm an AI researcher and engineer first and foremost, but I see as much bigger than any one technical or scientific field.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:22:37",
+        "text": "So I remember that for my big successes in science, I was awarded with going to the best of the best Kamps pioneer camps, Artec in Crimea.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:33:44",
+        "text": "Hmm, so I want physics and chemistry and mathematics in Kiev, then I choose physics and I was going to Ukrainian.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:17:27",
+        "text": "By the way, when I came to Moscow, I hesitated for about one day because I also I was in love with mathematics and mathematics meant like a freedom.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:30:54",
+        "text": "Actually, paper, you wrote your first paper and that's who you were, and that was on plasma, it wasn't plasma.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:54:45",
+        "text": "Some people, they always say they want a different life and they sure for some reason that if they start again, it would be better.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:25:28",
+        "text": "So if you have more electrons and they are able to heat up the whole gas, it's a hot plasma like solar plasma, the sun or some solar plasma.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:49:33",
+        "text": "So plasma because the thermal plasma, which we discussed is a thermal engineering plasma, it's almost like a melting welding.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:13:45",
+        "text": "It's a complex of feelings like intelligence, it's smartness, it's knowledge, it's a possibility to operate with knowledge, consciousness, it's it's knowledge, but we matched together with feelings.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 101,
+    "file": "101-joscha-bach.md",
+    "title": "Joscha Bach: Artificial Consciousness and the Nature of Reality",
+    "guest": "Joscha Bach",
+    "published": "2020-06-13",
+    "episode_url": "https://lexfridman.com/joscha-bach/",
+    "youtube_url": "https://www.youtube.com/watch?v=P-2P3MSZrBM",
+    "youtube_id": "P-2P3MSZrBM",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4259",
+    "reliable_speaker_labels": false,
+    "duration": "02:59:46",
+    "top_terms": [
+      "it's",
+      "don't",
+      "world",
+      "sense",
+      "that's",
+      "brain",
+      "there's",
+      "system",
+      "intelligence",
+      "you're",
+      "need",
+      "mind"
+    ],
+    "bio": {
+      "time": "00:03:09",
+      "text": "My father came from a long tradition of architects, a distant branch of the Bach family.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:17:42",
+        "text": "And it looks complicated to people, but it's far less complicated than what our brain is casually doing all the time when it makes sense of reality.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:05:18",
+        "text": "This is basically the energy on the system, the amount of tension that you have left in the constraints where the constraints don't quite match.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:09:32",
+        "text": "So the learning system in some sense is an algorithm that itself discovers the algorithm that solves the problem, like Go.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:27:31",
+        "text": "Some people, as we've talked about, worry about either dumb artificial intelligence or super intelligent artificial intelligence destroying us.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:43:21",
+        "text": "There are implementations that run code on your brain and change your reality and change the way you interact with each other at some level.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:13:32",
+        "text": "Yeah, but I mean, one of the things that worries me is that the fact that the brain doesn't scale means that that's actually a fundamental feature of the brain.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:18:45",
+        "text": "What kind of maybe greater intelligence, even in me, Lex, even at this stage in my life, if I spend the next 20 years in that world to see how that intelligence emerges.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:46",
+        "text": "So there's this attentional mechanism that's somehow self referential that's fundamental to what consciousness is.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 102,
+    "file": "102-steven-pressfield.md",
+    "title": "Steven Pressfield: The War of Art",
+    "guest": "Steven Pressfield",
+    "published": "2020-06-20",
+    "episode_url": "https://lexfridman.com/steven-pressfield/",
+    "youtube_url": "https://www.youtube.com/watch?v=PgtedwKGhXs",
+    "youtube_id": "PgtedwKGhXs",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4262",
+    "reliable_speaker_labels": false,
+    "duration": "01:26:32",
+    "top_terms": [
+      "it's",
+      "that's",
+      "you're",
+      "don't",
+      "there's",
+      "work",
+      "even",
+      "whatever",
+      "trying",
+      "writing",
+      "self",
+      "world"
+    ],
+    "bio": {
+      "time": "00:01:01",
+      "text": "AI is my passion, and in some sense, this podcast is not as much about AI but more about a journey of an AI researcher struggling to explore the human mind, the physics of our universe, and the nature of human behavior,",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:05:06",
+        "text": "and yet war has molded civilization as we know it throughout its history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:08:11",
+        "text": "So you've written about Spartans in the Battle of Thermopylae, you've about Alexander the Great, about the Six Day War in 67 in Israel, against Egypt, Jordan, Syria.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:11:14",
+        "text": "I think for me, I'm really writing about my own internal war and the war against myself and against my own resistance, my own negativity, all of those things that spirituality would be the opposite of.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:30",
+        "text": "If we go to the Six Day War, you write about, in Lionsgate, you write about the Six Day War in Israel.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:00",
+        "text": "The human condition and the meaning and the purpose comes from the resistance being there and the struggle to overcome it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:07:14",
+        "text": "I'm trying to square that with the, I think there's a meditation to visualizing success in the athletic realm, to where it focuses, it removes everything else away,",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:12:18",
+        "text": "You have the gift, like you might have the gift as a martial artist to do whatever martial artists do, but the training is the big thing.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:26:32",
+        "text": "It's like everybody's so fat and lazy and so concerned with how many clicks they're getting that, you know, whereas I know at the start of World War I, both the younger generations were eager to go to war.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 103,
+    "file": "103-ben-goertzel.md",
+    "title": "Ben Goertzel: Artificial General Intelligence",
+    "guest": "Ben Goertzel",
+    "published": "2020-06-22",
+    "episode_url": "https://lexfridman.com/ben-goertzel/",
+    "youtube_url": "https://www.youtube.com/watch?v=OpSmCKe27WE",
+    "youtube_id": "OpSmCKe27WE",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4266",
+    "reliable_speaker_labels": false,
+    "duration": "04:08:32",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "different",
+      "human",
+      "system",
+      "neural",
+      "learning",
+      "we're",
+      "work",
+      "opencog",
+      "don't"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's the founder of SingularityNet, designer of OpenCog AI Framework, formerly a director of research at the Machine Intelligence Research Institute, and chief scientist of Hanson Robotics, the company that created the Sophia robot.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:06:08",
+        "text": "So this kind of idea of, maybe you can comment also on Stephen Wolfram thinking that there's computations all around us and we're just not smart enough to kind of detect their intelligence or appreciate their intelligence.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:01",
+        "text": "So you look at John Andreas at University of Canterbury with his PURRDASHPUSS reinforcement learning Markov system.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:08:14",
+        "text": "Yeah, in the same sense, the AAAI, the artificial intelligence, the main kind of generic artificial intelligence conference is too big.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:43:07",
+        "text": "And a guy named Ben Dribis, who's a mathematician, a professor in Louisiana or somewhere, had a beautiful book on quantum sets and hypergraphs and algebraic topology for discrete models of physics.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:29:13",
+        "text": "Okay, the brain as a whole is the general intelligence, but some parts of the cortex, you could say have a fair bit of general intelligence on their own, whereas say parts of the cerebellum or limbic system have very little general intelligence on their own.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:44:33",
+        "text": "Then there's looser connection within the different lobes of the brain, and then the brain interconnects with the endocrine system and different parts of the body even more loosely.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:16:21",
+        "text": "So the human immune system is a very complex of organizing adaptive system, which has a lot of intelligence to it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "04:08:32",
+        "text": "So you have a meaning of GI, general intelligence, in psychology, so then you're looking like artificial GI.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 104,
+    "file": "104-david-patterson.md",
+    "title": "David Patterson: Computer Architecture and Data Storage",
+    "guest": "David Patterson",
+    "published": "2020-06-27",
+    "episode_url": "https://lexfridman.com/david-patterson/",
+    "youtube_url": "https://www.youtube.com/watch?v=naed4C4hfAg",
+    "youtube_id": "naed4C4hfAg",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4269",
+    "reliable_speaker_labels": false,
+    "duration": "01:49:40",
+    "top_terms": [
+      "it's",
+      "that's",
+      "instruction",
+      "going",
+      "there's",
+      "software",
+      "years",
+      "moore's",
+      "hardware",
+      "risc",
+      "don't",
+      "machine"
+    ],
+    "bio": {
+      "time": "00:11:53",
+      "text": "So what open source means is what the engineer, the programmer designs, it's not secret, the belonging to a company, it's out there on the worldwide web, so you can see it.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:10:50",
+        "text": "So for people who want to study computer science, the exciting part about it is you can keep peeling those layers.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:14:01",
+        "text": "And those simple instructions go back to the very dawn of computing in 1950, the commercial computer had these instructions.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "We now believe, those of us who are in computer design, it's called computer architecture, that the path forward is instead is to add accelerators that only work well for certain applications.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:06",
+        "text": "The enthusiasm about machine learning about creating programs driven from data that we should figure out the answers from data rather than kind of top down, which classically the way most programming is done",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:08:27",
+        "text": "And we're seeing, you know, like kind of in computer architecture, this is what happens.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:18:59",
+        "text": "And there'll be a teenager 50 years from now watching this video saying, look how silly David Patterson was saying.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:35:46",
+        "text": "So kind of, but if we're talking about computation, if your computer makes a mistake and the computer says, the computer has ways to check and say, Oh, we screwed up.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:49:40",
+        "text": "And if you weren't around then, what would happen is you had your computer and your friend's computer, which was like a year, a year and a half newer, and it was much faster than your computer.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

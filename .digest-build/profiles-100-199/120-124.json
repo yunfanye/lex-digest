@@ -1,0 +1,427 @@
+[
+  {
+    "episode": 120,
+    "file": "120-francois-chollet-2.md",
+    "title": "François Chollet: Measures of Intelligence",
+    "guest": "François Chollet",
+    "published": "2020-08-31",
+    "episode_url": "https://lexfridman.com/francois-chollet-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=PUAdj3w3wO4",
+    "youtube_id": "PUAdj3w3wO4",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4365",
+    "reliable_speaker_labels": false,
+    "duration": "02:33:29",
+    "top_terms": [
+      "it's",
+      "that's",
+      "human",
+      "test",
+      "you're",
+      "mind",
+      "system",
+      "different",
+      "data",
+      "learning",
+      "there's",
+      "instance"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's both a world class engineer and a philosopher in the realm of deep learning and artificial intelligence.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:10:12",
+        "text": "So it is fundamental to cognition in the sense that to use a computing metaphor, I see language as the operating system of the brain, of the human mind.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:19:23",
+        "text": "Yeah, so like in a subway map, there are some nodes that are more connected than others.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:11",
+        "text": "Even if you created that system, either the end to end deep learning model system that's running infinite data, or the slightly more human system, I don't think achieving L5 would demonstrate general intelligence or intelligence of any generality at all.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:11:21",
+        "text": "So I think if you want to compare the intelligence of two systems, like the intelligence of an AI and the intelligence of a human, you have to control for priors.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:32:51",
+        "text": "Meaning that, so the tests I'm interested in creating are not necessarily difficult for humans because human intelligence is the benchmark.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:03",
+        "text": "So in the paper, I outline all these principles that a good test of machine intelligence and human intelligence should follow.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:21",
+        "text": "Which is one of the things you do in your paper on measure intelligence is to ask like, well, what is intelligence and how to test for intelligence and so on.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:33:29",
+        "text": "And you need a formal way, a reliable way to measure how much intelligence, how much general intelligence a system processes.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 121,
+    "file": "121-eugenia-kuyda.md",
+    "title": "Eugenia Kuyda: Friendship with an AI Companion",
+    "guest": "Eugenia Kuyda",
+    "published": "2020-09-05",
+    "episode_url": "https://lexfridman.com/eugenia-kuyda/",
+    "youtube_url": "https://www.youtube.com/watch?v=_AGPbvCDBCk",
+    "youtube_id": "_AGPbvCDBCk",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4374",
+    "reliable_speaker_labels": false,
+    "duration": "03:00:41",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "don't",
+      "feel",
+      "talk",
+      "we're",
+      "even",
+      "still",
+      "you're",
+      "going",
+      "talking"
+    ],
+    "bio": {
+      "time": "00:10:24",
+      "text": "It's not something that you can, we'll tell your doctor and get a treatment or something.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:17:43",
+        "text": "Do you draw a distinction between love, like friendship and Facebook friends or is it a",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:00",
+        "text": "I think, so, you know, there's this, the question of like the meaning of life that, you know, you look at like what drives us, uh, humans.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:18:48",
+        "text": "I feel like Alexa folks and just the machine learning world doesn't feel that, that there's something here because they see as a technical problem is not that interesting for some reason.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:40:28",
+        "text": "So I just took our technology and our little dialect constructor and some models, some deep learning models, which at that point we were really into and really invested a",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:08:40",
+        "text": "Do you think, I think I've read somewhere, at least for now, sort of replicas, you're not, we don't condone falling in love with your AI system, you know.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:36:36",
+        "text": "But that's a, that's a, that's a, that's a fundamental problem in choosing the right mate and probably the fundamental problem in creating the right AI system.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:51:09",
+        "text": "And that's why the book was fundamental for me personally, because I felt I want to be learning how to do that in my life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:38",
+        "text": "The world is so exquisite with so much love and moral depth that there's no reason to deceive ourselves with pretty stories of which there's little good evidence.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 122,
+    "file": "122-david-fravor.md",
+    "title": "David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering",
+    "guest": "David Fravor",
+    "published": "2020-09-08",
+    "episode_url": "https://lexfridman.com/david-fravor/",
+    "youtube_url": "https://www.youtube.com/watch?v=aB8zcAttP1E",
+    "youtube_id": "aB8zcAttP1E",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4380",
+    "reliable_speaker_labels": false,
+    "duration": "03:56:03",
+    "top_terms": [
+      "it's",
+      "going",
+      "there's",
+      "that's",
+      "you're",
+      "don't",
+      "we're",
+      "he's",
+      "they're",
+      "look",
+      "stuff",
+      "back"
+    ],
+    "bio": {
+      "time": "00:02:02",
+      "text": "The very idea that there is a possibility that David witnessed a piece of technology, whether human made or alien made, that moved in the way it did, should be inspiring to every scientist and engineer on this earth.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:09:20",
+        "text": "So they're briefs, the guys when they give a lecture, so let's just say there's a fighter employment lecture, which is one of the hardest ones.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:05:08",
+        "text": "From Pure Speed, I would say SR71, I think it's an engineering marvel that was actually developed in the fifties by Kelly Johnson, Skunk Works.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:50:46",
+        "text": "So there's always been this, I don't know if you'd call it an aura around it or a mystique about UFOs that if you're talking about them, they're nuts.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:13:32",
+        "text": "That's the stealth fighter, the original stealth fighter, not the B2, but the stealth fighter.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:38:28",
+        "text": "So now I got one of the best fighter pilots in the world who's going to teach me how to do it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:11:24",
+        "text": "That's the problem because we have this inherent thing of power and technology like that is power.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:16:34",
+        "text": "Some of the best, if not the best engineering and science, but engineering really ever is done in secrecy and it sucks because it's so inspiring and they can't talk about it.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:56:03",
+        "text": "When I hear jets, like if I'm around a base or a jet flies over, but I have all the memory so I can look at it and go, it can't go on forever.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 123,
+    "file": "123-manolis-kellis-2.md",
+    "title": "Manolis Kellis: Origin of Life, Humans, Ideas, Suffering, and Happiness",
+    "guest": "Manolis Kellis",
+    "published": "2020-09-12",
+    "episode_url": "https://lexfridman.com/manolis-kellis-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=t06rkOOUa7g",
+    "youtube_id": "t06rkOOUa7g",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4383",
+    "reliable_speaker_labels": false,
+    "duration": "02:09:48",
+    "top_terms": [
+      "it's",
+      "that's",
+      "you're",
+      "there's",
+      "human",
+      "look",
+      "don't",
+      "going",
+      "first",
+      "different",
+      "love",
+      "we're"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's a professor at MIT and head of the MIT Computational Biology Group.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:03:10",
+        "text": "It goes nicely, at least I think so, with the design of Crew Dragon and the recent SpaceX NASA mission that sent two humans into space.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:57",
+        "text": "And basically this archeological evidence has been there and has probably entered the folk imagination, migrated into those stories, but it's not that far removed from what actually happened of massive wars of wiping out Neanderthals as humans are, modern humans are populating, you know, Europe.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:20",
+        "text": "My mind was already blown at the beautiful formulation of the idea that life is a system that resists physics and our brain, or perhaps the content of it, or however it may be functionally, our brain is a thing that resists life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:09:30",
+        "text": "That could be fundamentally the meaning of life is, to see life as a set of challenges and to fully engage in the overcoming of those challenges.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:32:43",
+        "text": "And I think this ability to sort of look at life in the past and look at life in the future jointly and sort of embrace the continuity both of life in the universe and",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:48:42",
+        "text": "So the funny thing is I've, I believe I closed the previous episode with a Darwin quote about the power of poetry and music and life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:02:33",
+        "text": "don't know if there's some thoughts you could give about the role of love in your own life, or the role of love in human life in general.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:09:48",
+        "text": "I sort of see life, you know, when we talk about the meaning of life, life can be construed at many levels.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 124,
+    "file": "124-stephen-wolfram-2.md",
+    "title": "Stephen Wolfram: Fundamental Theory of Physics, Life, and the Universe",
+    "guest": "Stephen Wolfram",
+    "published": "2020-09-15",
+    "episode_url": "https://lexfridman.com/stephen-wolfram-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=-t1_ffaFXao",
+    "youtube_id": "-t1_ffaFXao",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4388",
+    "reliable_speaker_labels": false,
+    "duration": "04:23:06",
+    "top_terms": [
+      "it's",
+      "that's",
+      "space",
+      "there's",
+      "quantum",
+      "different",
+      "we're",
+      "you're",
+      "computational",
+      "graph",
+      "mathematics",
+      "what's"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's a computer scientist, mathematician, theoretical physicist, and the founder and CEO of Wolfram Research, a company behind Mathematica, Wolfram Alpha, Wolfram Language, and the new Wolfram Physics Project.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:07:14",
+        "text": "You said that there are moments in history of physics and maybe mathematical physics or even mathematics where breakthroughs happen and then a flurry of progress follows.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:02",
+        "text": "And, you know, what developed was this mathematical theory that was the theory of quantum mechanics, theory of wave functions, Schrodinger's equation, things like this.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:06:06",
+        "text": "But so the standard model of physics is one of the models that's very accurate for describing three of the fundamental forces of physics.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:42:54",
+        "text": "So you say, I have a theory of physics and the theory of physics says, there's just this one little place where things get updated.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:42:19",
+        "text": "Right, I mean, to me, look, having spent some part of my early life working in the context of these theories of 20th century physics, it's, they just, they seem so different.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:53:38",
+        "text": "of like Wolfram physics project for dummies, AKA for me, or maybe make a video on the basics, but not just the basics of the physics project, but the basics plus the most beautiful central ideas.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:31:45",
+        "text": "And that's what essentially at the core with the physics project is that you're connecting information theory with physics.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:52:17",
+        "text": "I mean, you know, you might say, oh, you've come up with the fundamental theory of physics that throws out what people have done in physics before.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

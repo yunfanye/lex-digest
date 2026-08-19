@@ -1,0 +1,423 @@
+[
+  {
+    "episode": 150,
+    "file": "150-michael-malice-2.md",
+    "title": "Michael Malice: The White Pill, Freedom, Hope, and Happiness Amidst Chaos",
+    "guest": "Michael Malice",
+    "published": "2020-12-31",
+    "episode_url": "https://lexfridman.com/michael-malice-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=BIk1zUy8ehU",
+    "youtube_id": "BIk1zUy8ehU",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4484",
+    "reliable_speaker_labels": false,
+    "duration": "03:01:44",
+    "top_terms": [
+      "it's",
+      "that's",
+      "going",
+      "don't",
+      "you're",
+      "there's",
+      "he's",
+      "book",
+      "want",
+      "they're",
+      "world",
+      "sure"
+    ],
+    "bio": {
+      "time": "00:01:00",
+      "text": "His outfit, for example, the exact inverse of mine, with a white suit and a black shirt, is just one example of that, of the humor, trolling, and brilliance that is Michael Malice.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:07:13",
+        "text": "I think because I am kind of an agent of chaos and Alex is in his own way, an agent of chaos.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:06:11",
+        "text": "Because the idea that Jews weren't white was the Hitler idea, the New York Times at the time, Salzburger, wanted to be against this idea.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:20:46",
+        "text": "Barack Obama said that when he sat down Trump in the White House during the transfer of power, he said North Korea is the biggest issue.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:46:47",
+        "text": "That's a sign, my voice cracks, a sign when Michael Malice makes a funny joke when you jot something down.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:55:02",
+        "text": "So I've read a few things by him, but then I hear that in a bunch of places, him being called a racist, a white supremacist, neo fascist, so on.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:31:27",
+        "text": "And then there's like a hope for the comfort of the sort of a centralized science giving the truth and then everybody must follow the truth of the proper way to behave.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:43:58",
+        "text": "The powerful are going to do what's in their power to maintain their power and they're going to fight innovation because it's a threat to their control.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:01:44",
+        "text": "It's when most politicians, most people who are trying to calculate and rise in power, I think were for the war or too afraid to be against the war.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 151,
+    "file": "151-dan-kokotov.md",
+    "title": "Dan Kokotov: Speech Recognition with AI and Humans",
+    "guest": "Dan Kokotov",
+    "published": "2021-01-04",
+    "episode_url": "https://lexfridman.com/dan-kokotov/",
+    "youtube_url": "https://www.youtube.com/watch?v=yTWa-Z1UQwU",
+    "youtube_id": "yTWa-Z1UQwU",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4490",
+    "reliable_speaker_labels": false,
+    "duration": "01:27:42",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "don't",
+      "you're",
+      "pretty",
+      "want",
+      "different",
+      "they're",
+      "work",
+      "world",
+      "might"
+    ],
+    "bio": {
+      "time": "00:04:07",
+      "text": "So I was one of the few lucky kids because my mom was a programmer.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:07:13",
+        "text": "You know, like just, uh, there's so many, uh, there's so many, it's like, there's so many things in life that you might not even be aware of that are painful.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:32",
+        "text": "Cause I think I could do a good job with, but the, the right, you know, understanding the fundamentals of translation is something I'm really interested in.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "Where's the balance between free speech and like encouraging people, even though they have the freedom of speech to not be an asshole.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:06",
+        "text": "Especially in this time of so much kind of existential dread that people are going through because of COVID, like having rockets that just keep going out there now with humans.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:06:12",
+        "text": "I don't know, humans are difficult to understand, you know, it's like one of those things, like trying to understand other people's motivations and what really drives them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:11:21",
+        "text": "Yeah, speaking of not a book, but my favorite kind of dystopian science fiction is a movie called Brazil, which I don't know if you've heard of.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:15:25",
+        "text": "So I like, I love these movies about these humans and Stalin, like Chernobyl made me realize the HBO show",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:27:42",
+        "text": "So, you know, we have our machine learning model for automated speech recognition, they'll start with that.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 152,
+    "file": "152-dan-gable.md",
+    "title": "Dan Gable: Olympic Wrestling, Mental Toughness & the Making of Champions",
+    "guest": "Dan Gable",
+    "published": "2021-01-09",
+    "episode_url": "https://lexfridman.com/dan-gable/",
+    "youtube_url": "https://www.youtube.com/watch?v=pRzelZlKl7E",
+    "youtube_id": "pRzelZlKl7E",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4493",
+    "reliable_speaker_labels": false,
+    "duration": "01:09:16",
+    "top_terms": [
+      "it's",
+      "don't",
+      "you're",
+      "that's",
+      "didn't",
+      "back",
+      "he's",
+      "even",
+      "world",
+      "life",
+      "there's",
+      "years"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "Dan Gable is one of the greatest Olympic athletes of all time.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:02:02",
+        "text": "Wrestling is one of the pure sports, both beautiful and brutal, where both mental toughness and technical mastery of the highest form are rewarded with victory, and everything else is punished with defeat.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:05:08",
+        "text": "You've coached 45 national champions, 106 Big Ten champions, and eight Olympic medalists, which is incredible.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:11:21",
+        "text": "You're putting so much heart, so much blood and heart and sweat and your whole meaning of life becomes winning.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:15:25",
+        "text": "And so you can take that, and you can look at what in time history has as its record performance, and you can realize that that record performance, it's gonna change.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:19:31",
+        "text": "And so I really didn't have too many flaws, but I didn't have any things that also said that you were gonna be unscored upon at the Olympic games.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:00",
+        "text": "But if you look at the Gable books up there, I got a lot of Russian technique books.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:06:11",
+        "text": "But really what gave me the ability to stay focused, to work extra hours, to be more disciplined, was wrestling practices.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:09:16",
+        "text": "So you mentioned in Wrestling Life that the Brands Brothers looked up to Roy Salger, who was known for pushing the limits of physical wrestling, but not getting too rough.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 153,
+    "file": "153-dmitry-korkin-2.md",
+    "title": "Dmitry Korkin: Evolution of Proteins, Viruses, Life, and AI",
+    "guest": "Dmitry Korkin",
+    "published": "2021-01-11",
+    "episode_url": "https://lexfridman.com/dmitry-korkin-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=I51DuprOb0o",
+    "youtube_id": "I51DuprOb0o",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4496",
+    "reliable_speaker_labels": false,
+    "duration": "02:12:01",
+    "top_terms": [
+      "it's",
+      "protein",
+      "that's",
+      "virus",
+      "different",
+      "there's",
+      "learning",
+      "don't",
+      "essentially",
+      "machine",
+      "domains",
+      "structure"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's a professor of bioinformatics and computational biology at WPI, where he specializes in bioinformatics of complex disease, computational genomics, systems biology, and biomedical data analytics.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:03:05",
+        "text": "So we also see that in the evolution, those proteins domains get shuffled.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:18:30",
+        "text": "So these are, you know, these are small molecules that bind strategic parts of these proteins, disrupting its function.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:07",
+        "text": "So that's, you know, every time you deal with projects like this, with the, you know, research like this, you just, you know, so the power of the, you know, intelligence of this people is just, you know, overwhelming.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:43",
+        "text": "I think it's been one of this sort of, you know, churning events where you have a system that is, you know, a machine learning system that is truly better than the machine learning system.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:34:08",
+        "text": "One of my favorite proteins, and pretty much everyone who works in the, I know, whom I know, who works with proteins, they always have their favorite proteins.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:47:36",
+        "text": "Assuming like if life, if that percentage that life can emerge is like not zero, like if we're a super unique, then it's the how long we last is basically the most important thing.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:51",
+        "text": "Let's, since we're talking about the evolutionary history of a virus, let's zoom back out and look at the evolution of proteins.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:12:01",
+        "text": "So like, I don't know if you think about, you certainly think a lot about evolution, but do you think about the thing which evolution doesn't describe, which is like the beginning of evolution, the origin of life.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 154,
+    "file": "154-avi-loeb.md",
+    "title": "Avi Loeb: Aliens, Black Holes, and the Mystery of the Oumuamua",
+    "guest": "Avi Loeb",
+    "published": "2021-01-14",
+    "episode_url": "https://lexfridman.com/avi-loeb/",
+    "youtube_url": "https://www.youtube.com/watch?v=plcc6E-E1uU",
+    "youtube_id": "plcc6E-E1uU",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4500",
+    "reliable_speaker_labels": false,
+    "duration": "02:43:03",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "life",
+      "look",
+      "evidence",
+      "space",
+      "years",
+      "earth",
+      "find",
+      "hole",
+      "even"
+    ],
+    "bio": null,
+    "samples": [
+      {
+        "time": "00:12:26",
+        "text": "And so if we have copies of life here on earth elsewhere, then we avoid the risk of it being eliminated by a single point breakdown, catastrophe.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:03",
+        "text": "Now, I should say the Drake equation has a very limited validity just for signals from civilizations that are transmitting at the time that you're observing them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:14:52",
+        "text": "Now, of course, the reason you must examine those, if, for example, pilots report about them or the military finds evidence for them, is because it may pose a national security threat.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:30:42",
+        "text": "First of all, there are lots of treaties that were signed even before the First World War and the Second World War and the World War took place.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:57:56",
+        "text": "sources of light just from black holes that are supposed to be dark, nothing but black holes.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:07:27",
+        "text": "But it's just interesting to think that from a theoretical concept that Einstein resisted in 1939, it may well be that black holes have influence on our life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:11:36",
+        "text": "And when there's holes, you show that there's holes, and here's the methodology we're using to try to close those holes.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:43:03",
+        "text": "He argued that in the 1930s, he argued that black holes don't exist, gravitational waves don't exist, and quantum mechanics doesn't have spooky action at a distance.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

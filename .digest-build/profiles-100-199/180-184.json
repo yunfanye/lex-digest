@@ -1,0 +1,419 @@
+[
+  {
+    "episode": 180,
+    "file": "180-jeremi-suri.md",
+    "title": "Jeremi Suri: History of American Power",
+    "guest": "Jeremi Suri",
+    "published": "2021-04-30",
+    "episode_url": "https://lexfridman.com/jeremi-suri/",
+    "youtube_url": "https://www.youtube.com/watch?v=USnqkUAr_3w",
+    "youtube_id": "USnqkUAr_3w",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4609",
+    "reliable_speaker_labels": false,
+    "duration": "02:07:44",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "he's",
+      "there's",
+      "you're",
+      "president",
+      "world",
+      "we're",
+      "states",
+      "even",
+      "united"
+    ],
+    "bio": {
+      "time": "00:01:02",
+      "text": "This is the Lex Friedman podcast, and here is my conversation with Jeremy Suri.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:14:17",
+        "text": "So how has it changed since Lincoln's time, the evolution of the presidency as a concept, which seems like a fascinating lens through which to look at American history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:17:19",
+        "text": "Now, much of the power that a Lincoln or a Washington had was the power to mobilize people to then make their own decisions.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:03",
+        "text": "So Henry Kissinger to me is one of the most fascinating figures in history, because he comes to the United States as a German Jewish immigrant at age 15, speaking no English.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:09:13",
+        "text": "But is there, I mean, he's done, he's been a part of so many interesting moments of American history, of world history, from the Cold War, Vietnam War, until today.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:12:15",
+        "text": "So realpolitik for Kissinger is really focusing on the power centers in the world and trying as best you can to manipulate those power centers to serve the interests of your own country.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:28",
+        "text": "And you often then use power, and I think Kissinger falls into this in some of his worst moments, not all of his moments, where the power is actually being used to undermine the things you care about.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:36:57",
+        "text": "And during the Cold War, we spent more money than we had ever spent in our history on infrastructure, on schools, on providing social support, social security, our national pension system being one of them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:07:44",
+        "text": "They do that because they recognize that their power is the power of being a statesman, not of being a president.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 181,
+    "file": "181-sergey-nazarov.md",
+    "title": "Sergey Nazarov: Chainlink, Smart Contracts, and Oracle Networks",
+    "guest": "Sergey Nazarov",
+    "published": "2021-05-01",
+    "episode_url": "https://lexfridman.com/sergey-nazarov/",
+    "youtube_url": "https://www.youtube.com/watch?v=TPXTmVdlyoc",
+    "youtube_id": "TPXTmVdlyoc",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4612",
+    "reliable_speaker_labels": false,
+    "duration": "02:59:14",
+    "top_terms": [
+      "it's",
+      "that's",
+      "data",
+      "world",
+      "there's",
+      "contract",
+      "don't",
+      "bitcoin",
+      "decentralized",
+      "system",
+      "you're",
+      "chain"
+    ],
+    "bio": {
+      "time": "00:01:00",
+      "text": "This is the Lex Friedman podcast, and here is my conversation with Sergey Nazarov.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:14:24",
+        "text": "Or what I call hybrid smart contracts, which are these contracts that combine the on chain code together with the off chain proofs that something happened.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:06",
+        "text": "Because your smart contracts are kind of agreements, maybe you disagree with this, but at least the way I'm thinking about it is agreements between humans or groups of humans.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:19:32",
+        "text": "And once you have an autonomous piece of code that can also know what's going on, thanks to Oracle networks and that combination of the code and the Oracle network for the hybrid smart contract,",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:25:45",
+        "text": "So there is this kind of fundamental tension between confidentiality, privacy, which is very important for many contracts, which is critical to many contracts and the public and transparent nature of blockchains, which I think eventually will be solved through encrypted on chain smart contracts.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:40:09",
+        "text": "And this is where there's one of many network effects where the more that smart contracts and Oracle networks are used, they themselves generate this immutable on chain data that proves their value and reliability.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:38",
+        "text": "That's actually the definition of smart contracts that I began working in this industry with seven or eight years ago when I started making smart contracts.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:18:05",
+        "text": "We wanna enable as many developers in web3 and web2 to build hybrid smart contracts as a way to redefine our industry and kind of make all of these smart contracts come to life.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:14",
+        "text": "This is the challenging problem that Oracle networks, Oracles, we at Chainlink that we work on in order to create this definitive truth to trigger and create hyper automation in this more advanced form, more advanced form of hybrid smart contracts.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 182,
+    "file": "182-john-danaher.md",
+    "title": "John Danaher: The Path to Mastery in Jiu Jitsu, Grappling, Judo, and MMA",
+    "guest": "John Danaher",
+    "published": "2021-05-09",
+    "episode_url": "https://lexfridman.com/john-danaher/",
+    "youtube_url": "https://www.youtube.com/watch?v=ktuw6Ow4sd0",
+    "youtube_id": "ktuw6Ow4sd0",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4618",
+    "reliable_speaker_labels": false,
+    "duration": "03:37:27",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "you're",
+      "don't",
+      "world",
+      "going",
+      "human",
+      "training",
+      "first",
+      "work",
+      "they're"
+    ],
+    "bio": null,
+    "samples": [
+      {
+        "time": "00:00:00",
+        "text": "As a side note, let me say that John is a scholar of not just jiu jitsu, but judo, wrestling, Muay Thai, boxing, MMA, and outside of that, topics of history, psychology, philosophy, and even artificial intelligence, as you will hear in this conversation.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:15:30",
+        "text": "I'm happy to say that the sport of jiu jitsu, the evidence seems pretty clear that there's no one dominant body type in the sport of jiu jitsu.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:24:42",
+        "text": "Maybe people are different, but I love the idea, maybe even outside of jiu jitsu, of doing the same thing over and over.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:07:58",
+        "text": "So, but in my estimation, the greatest jiu jitsu player is Haja Gracie, my reasoning for that is out of the four faces of jiu jitsu, he excelled in three.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:12:08",
+        "text": "Hodger was probably the living embodiment of someone who played a classical jiu jitsu game based around the fundamental four steps of jiu jitsu.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:32:45",
+        "text": "You basically get like a John Donr type of character who tries to encode, hard code into the system, all the moves you should do in every single case.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:33",
+        "text": "So if this asymmetry of power is fundamental to jiu jitsu, in their military.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:37:27",
+        "text": "And then I came to Boston, Broadway Jiu Jitsu, with John Clark, who I love.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 183,
+    "file": "183-po-shen-loh.md",
+    "title": "Po-Shen Loh: Mathematics, Math Olympiad, Combinatorics & Contact Tracing",
+    "guest": "Po-Shen Loh",
+    "published": "2021-05-14",
+    "episode_url": "https://lexfridman.com/po-shen-loh/",
+    "youtube_url": "https://www.youtube.com/watch?v=6z1JwZbX4dQ",
+    "youtube_id": "6z1JwZbX4dQ",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4621",
+    "reliable_speaker_labels": false,
+    "duration": "02:19:32",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "don't",
+      "you're",
+      "want",
+      "number",
+      "idea",
+      "problem",
+      "hard",
+      "going",
+      "work"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He's also the founder of Novid, an app that takes a really interesting approach to contact tracing, making sure you stay completely anonymous and it gives you statistical information about COVID cases in your physical network of interactions.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:11:19",
+        "text": "And with the mathematics, the math competitions presented problems that were hard, that I didn't know how to start, but for which I could conceivably try to learn how to solve them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:17:33",
+        "text": "And at that time it started as a figment of an idea, which was network theory, which is the area of math that I work in, could potentially be combined with smartphones and some kind of health information anonymized.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:03",
+        "text": "Mathematics, especially this kind of mathematics is essentially formalized competition of invention, of creating new ideas.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:24",
+        "text": "The cool thing about the Math Olympiad, I don't know if you know work from Francois Chollet from Google, he came up with this kind of IQ test slash, it kind of has similar aspects to it that also the Math Olympiad does for AI.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:24:30",
+        "text": "Well, this is a good thing that mathematics shows is we don't have to be, so math and physics or mathematical physics operates in a world that's different than our descendants of eight brains operate in.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:36:41",
+        "text": "And I will say it's great if one wants to build that with mathematics, but it's also great to use that philosophy with all other things.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:10",
+        "text": "And for the entirety of the past contact tracing approaches, you tried to get set A to do things that might not be to their liking or their will because that's removing them from society.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:10:23",
+        "text": "But I also spent a lot of time, I guess, reading about, I don't know, I was interested somehow in like World War II history for whatever reason.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 184,
+    "file": "184-katherine-de-kleer.md",
+    "title": "Katherine de Kleer: Planets, Moons, and Asteroids in Our Solar System",
+    "guest": "Katherine de Kleer",
+    "published": "2021-05-17",
+    "episode_url": "https://lexfridman.com/katherine-de-kleer/",
+    "youtube_url": "https://www.youtube.com/watch?v=85F0FDsPHf8",
+    "youtube_id": "85F0FDsPHf8",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4627",
+    "reliable_speaker_labels": false,
+    "duration": "01:56:29",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "don't",
+      "earth",
+      "life",
+      "we're",
+      "atmosphere",
+      "going",
+      "surface",
+      "objects",
+      "look"
+    ],
+    "bio": null,
+    "samples": [
+      {
+        "time": "00:06:11",
+        "text": "I think the exploration of the moons in the outer solar system is the next frontier of solar system exploration.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:10:23",
+        "text": "And among the things that you can study with telescopes, like solar system moons and planets, the solar system is really unique in that we can actually send spacecraft missions to the objects and study them in detail.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:33",
+        "text": "So many of the moons in the outer solar system are heated from gravitationally by tidal heating.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:12:34",
+        "text": "So they accreted out of the sort of disc of material that the whole solar system formed out of and have kind of remained ever since more or less the same.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:15:43",
+        "text": "And those properties can be directly compared with the results of simulations for the formation of the solar system.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:31:37",
+        "text": "In one case, it's a nitrogen ice shard that came off of something like Pluto in another solar system, that Pluto got hit with something and broke up into pieces, and one of those pieces came through our solar system.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:52:16",
+        "text": "So for me, I'm fascinated by the solar system and I love telescopes and I love doing data analysis, playing with data from telescopes, coming up with new ways to use telescopes and so that's where I have found that mesh.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:56:29",
+        "text": "Yeah, Europa is, from many perspectives, one of the really interesting places in the solar system among the solar system moons.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "episode": 165,
+    "file": "165-josh-barnett.md",
+    "title": "Josh Barnett: Philosophy of Violence, Power, and the Martial Arts",
+    "guest": "Josh Barnett",
+    "published": "2021-03-01",
+    "episode_url": "https://lexfridman.com/josh-barnett/",
+    "youtube_url": "https://www.youtube.com/watch?v=YJWPowbCK_I",
+    "youtube_id": "YJWPowbCK_I",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4558",
+    "reliable_speaker_labels": false,
+    "duration": "02:11:12",
+    "top_terms": [
+      "it's",
+      "there's",
+      "don't",
+      "even",
+      "you're",
+      "that's",
+      "human",
+      "we're",
+      "fight",
+      "whatever",
+      "back",
+      "going"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "As a side note, let me say that I've been a fan of Josh Barnett for a long time.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:07:11",
+        "text": "So Jung's concept of collective unconsciousness and then taking that thought and then applying it to looking through history and the most varied history you can find.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:18:30",
+        "text": "Netflix, the argument is the higher, we get up to this hierarchy of what we consider in Los Angeles resources, we're less willing to be, to commit violence.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:12",
+        "text": "There's that, but I'm just saying that he's got this whole quote on war, like war is play, war is a game, and the difference is is that what's at stake.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:07:18",
+        "text": "So one way of saying that there will always be war, I mean, that's my hopeful view is that most of the war conducted in the future will be, like you said, the man must go to war with himself.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:10:26",
+        "text": "Okay, there's so much of things I'd like to say here, but one of the things that catch wrestling seemed to espouse as a principle is that of violence.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:24:51",
+        "text": "So you need to learn what level is necessary, and you need to learn what comes with all, what's the responsibility of, when you enact violence, I mean, you take on something when you have a responsibility for that.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:50:35",
+        "text": "And I just gathered up with all my old martial arts instructor that I had worked with and we grappled in his apartment.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:11:12",
+        "text": "Is there a thread that connects all of these different arts from not just arts, but from the very base violence of war, just like you said that there's no rules to the very regimented IBJF.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 166,
+    "file": "166-cal-newport.md",
+    "title": "Cal Newport: Deep Work, Focus, Productivity, Email, and Social Media",
+    "guest": "Cal Newport",
+    "published": "2021-03-05",
+    "episode_url": "https://lexfridman.com/cal-newport/",
+    "youtube_url": "https://www.youtube.com/watch?v=y3Umo_jd5AA",
+    "youtube_id": "y3Umo_jd5AA",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4562",
+    "reliable_speaker_labels": false,
+    "duration": "03:02:22",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "don't",
+      "you're",
+      "we're",
+      "interesting",
+      "book",
+      "back",
+      "need",
+      "trying",
+      "world"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "He is a computer scientist at Georgetown University who practices what he preaches.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:06:09",
+        "text": "And that involved into the deep work hypothesis, which is across the whole knowledge work sector.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:05",
+        "text": "So if you quit social media for 30 days, you kinda have to do the work.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:14:19",
+        "text": "Well, so my big unified theory on social media is I'm very bearish on the big platforms having a long future.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:53:58",
+        "text": "because work is hard and it's hard to do and making decisions about what to work on is hard and no system can really do that for you.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:07",
+        "text": "Well, let's talk about some demons because I wonder there's like deep work, which and the world without email books that to me symbolize the life I want to live.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:08:19",
+        "text": "So, I mean, a lot of your work is what inspired this deep thinking about productivity from all the different angles, because some of the most rigorous work is mathematical work.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:34:45",
+        "text": "So the reason I hesitated, because it's something I'm, I taught this seminar and did a little work on what are called biological algorithms.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:02:22",
+        "text": "Well, I think that's one of the profound ideas in deep work that you don't expand on too much is boredom.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 167,
+    "file": "167-saagar-enjeti.md",
+    "title": "Saagar Enjeti: Politics, History, and Power",
+    "guest": "Saagar Enjeti",
+    "published": "2021-03-14",
+    "episode_url": "https://lexfridman.com/saagar-enjeti/",
+    "youtube_url": "https://www.youtube.com/watch?v=grceJbuPUXI",
+    "youtube_id": "grceJbuPUXI",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4565",
+    "reliable_speaker_labels": false,
+    "duration": "03:07:57",
+    "top_terms": [
+      "it's",
+      "don't",
+      "that's",
+      "there's",
+      "he's",
+      "trump",
+      "you're",
+      "even",
+      "look",
+      "they're",
+      "within",
+      "want"
+    ],
+    "bio": {
+      "time": "00:08:12",
+      "text": "So I interviewed Trump four different times as a journalist, spent like two and a half hours with him in the Oval Office, not alone, but like me and one person and like the press secretary, and that was it.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:07:12",
+        "text": "In the same sense, Hitler, it seems like he was able to get, just even before he had power, because people get intoxicated by power and so on.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:17:25",
+        "text": "I tend to assume I really respect people who are deeply like well read in history, like presidents that are almost like history nerds.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:03:09",
+        "text": "And then at the same time, you have like a Vox writer who makes like 30 grand, but they have a lot more cultural power",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:20:37",
+        "text": "As a student of history, you can almost like tell, like, if you look at great people in history, this is what great leaders in history, this is what they did.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:48:04",
+        "text": "Like this, there's this very overused cliche in DC where every comm staffer wants you to think that what their boss just did is history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:12:34",
+        "text": "So World War I is like the most important shift in human history versus World War II is like a consequence of that.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:26:57",
+        "text": "What about if we could talk for just a brief moment about the human of Putin and power, you are clearly fascinated by power.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:59:50",
+        "text": "But you did say that the presidency is power, but you're saying that more power than the others, but that power has to be coupled with focused intentionality.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 168,
+    "file": "168-silvio-micali.md",
+    "title": "Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin, and Ethereum",
+    "guest": "Silvio Micali",
+    "published": "2021-03-15",
+    "episode_url": "https://lexfridman.com/silvio-micali/",
+    "youtube_url": "https://www.youtube.com/watch?v=zNdhgOk4-fE",
+    "youtube_id": "zNdhgOk4-fE",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4568",
+    "reliable_speaker_labels": false,
+    "duration": "01:53:16",
+    "top_terms": [
+      "it's",
+      "want",
+      "don't",
+      "going",
+      "that's",
+      "money",
+      "even",
+      "believe",
+      "random",
+      "page",
+      "hard",
+      "power"
+    ],
+    "bio": null,
+    "samples": [
+      {
+        "time": "00:05:17",
+        "text": "things that leverage the blockchain, this kind of ledger idea of common knowledge is cryptocurrency.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:13:43",
+        "text": "So remember, we said that the blockchain is a ledger and each page receives a, gets some transaction and everybody can write in these pages of the ledger.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:58",
+        "text": "So Algorand, it solves, so that's the company, the team of cryptographers and mathematicians, engineers, so on, that challenged the blockchain trilemma.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:04:14",
+        "text": "So I think it's so powerful that, uh, uh, is going to do this said again, a particular cryptocurrency should develop and cryptocurrency will all develop.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:19:06",
+        "text": "It does seem like the one way function is fundamental to all of life, which is the emergence of the complexity that we see around us seem to require the one way function.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:35:13",
+        "text": "an algorithm to have no incentives and in Bitcoin instead, you have to pay the miners because they do a tremendous amount of work.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:38:22",
+        "text": "So in parmigiana, the ingredients are eggplants, tomatoes, basil, but how to put them together and the process is an act of love, labor and love.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:53:16",
+        "text": "So Bitcoin, in terms of cryptocurrency, is the most popular cryptocurrency, and then Ethereum, and so on.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 169,
+    "file": "169-ryan-hall-2.md",
+    "title": "Ryan Hall: Solving Martial Arts from First Principles",
+    "guest": "Ryan Hall",
+    "published": "2021-03-20",
+    "episode_url": "https://lexfridman.com/ryan-hall-2/",
+    "youtube_url": "https://www.youtube.com/watch?v=VHg9sfOzBbY",
+    "youtube_id": "VHg9sfOzBbY",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4572",
+    "reliable_speaker_labels": false,
+    "duration": "02:52:30",
+    "top_terms": [
+      "it's",
+      "that's",
+      "you're",
+      "don't",
+      "there's",
+      "guess",
+      "fight",
+      "even",
+      "back",
+      "i've",
+      "going",
+      "want"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "This is a style of thinking about the game of human chess, of seeking to define the rules and to engineer ways from first principles of escaping the constraints of those rules.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:03:04",
+        "text": "and I try to do my best to understand how systems exist, but I think that systems have a fundamental strength and a fundamental weakness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:02:02",
+        "text": "If I believe in freedom of the individual and I take that, like all of these, like you said, you take them past just their first why question.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:14:17",
+        "text": "It seems like our society is so grossly missing like a Martin Luther King right now, like the great inspiring characters throughout American history, throughout world history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:33:45",
+        "text": "But see, the thing is, this is interesting, is there's a culture in martial arts, a culture that I like where the instructor, legitimately so, carries an aura of authority.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:45:01",
+        "text": "So I guess what I would start when it comes to learning is first principles and trying to understand what's going on, but then also simple things first.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:49:06",
+        "text": "So always first principles, trying to understand the basics, first starting at the place where you can control things, the very basic elements of what you can work with.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:14:43",
+        "text": "technological world, we talked about social networks and this increasing power of technology around us, we ourselves are becoming less human because we keep relying on technology more and more.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:52:30",
+        "text": "Actually Conor McGregor, when he's not talking shit, it's pretty good at like talking about the art of the martial, like the first mug guy.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "episode": 190,
+    "file": "190-jordan-ellenberg.md",
+    "title": "Jordan Ellenberg: Mathematics of High-Dimensional Shapes and Geometries",
+    "guest": "Jordan Ellenberg",
+    "published": "2021-06-13",
+    "episode_url": "https://lexfridman.com/jordan-ellenberg/",
+    "youtube_url": "https://www.youtube.com/watch?v=tueAcSiiqYA",
+    "youtube_id": "tueAcSiiqYA",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4649",
+    "reliable_speaker_labels": false,
+    "duration": "02:41:09",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "don't",
+      "you're",
+      "book",
+      "math",
+      "different",
+      "dimensional",
+      "number",
+      "they're",
+      "world"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "This is the Lex Friedman podcast, and here is my conversation with Jordan Ellenberg.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:04:07",
+        "text": "So for me, geometry is the thing, just like as you're saying, made me fall in love with mathematics when I was young.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:04",
+        "text": "Like that act of understanding and visualizing is as powerful or has the same kind of inkling of power as does the process of proving something.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:07",
+        "text": "So I think there really is buy in from the mathematics community to recognize that this kind of stuff is important and counts as part of mathematics, like part of what we're actually here to do.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:29:45",
+        "text": "And there's some things that are limited cognitive capabilities and the tools of mathematics or the tools of physics are just not going to allow us to capture.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:49:11",
+        "text": "Meaning, infinity might be like a useful hack for certain, like a useful tool in mathematics, but it really gets us into trouble because there's no infinity in the real world.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:22",
+        "text": "But when you take that with mathematics and science, people also enjoyed excellence in science and mathematics in the Soviet Union, but there's an extra sense that that excellence would lead to a better world.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:03:28",
+        "text": "No, no, it's a giant mystery where Steven Wolfram did is, now there's a whole interesting aspect to the fact that he's a little bit of an outcast in the mathematics and physics community because he's so focused on a particular, his particular work.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:41:09",
+        "text": "But if the tools of mathematics are there, I, sorry, I don't want to fight, but I think the tools of mathematics are exactly there to enable you to think about what you cannot visualize in this way.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 191,
+    "file": "191-daniel-schmachtenberger.md",
+    "title": "Daniel Schmachtenberger: Steering Civilization Away from Self-Destruction",
+    "guest": "Daniel Schmachtenberger",
+    "published": "2021-06-14",
+    "episode_url": "https://lexfridman.com/daniel-schmachtenberger/",
+    "youtube_url": "https://www.youtube.com/watch?v=hGRNUw559SE",
+    "youtube_id": "hGRNUw559SE",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4652",
+    "reliable_speaker_labels": false,
+    "duration": "04:14:29",
+    "top_terms": [
+      "it's",
+      "there's",
+      "that's",
+      "don't",
+      "we're",
+      "want",
+      "different",
+      "world",
+      "tech",
+      "going",
+      "human",
+      "even"
+    ],
+    "bio": {
+      "time": "00:01:01",
+      "text": "This is the Lex Friedman podcast, and here is my conversation with Daniel Schmachtenberger.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:04:08",
+        "text": "They have not learned in any fundamental way how to control and properly incentivize or properly do the mechanism design of games to ensure long term survival.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "So the mimesis of desire is the fundamental generator of conflict and that then the conflict energy within a group of people will build over time.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:22:05",
+        "text": "So self terminating system is any system that depends upon a substrate system that is debasing its own substrate, that is debasing what it depends upon.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:41:50",
+        "text": "We get a short period of relative peace at the level of superpowers while building up the military capacity for much, much, much worse war the entire time.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:38:13",
+        "text": "So you end up getting deep existential consideration at the heart of civilization design when you start to realize how powerful we're becoming and how much what we're building it in service towards matters.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:07:50",
+        "text": "I think the future of civilization will be similar, which is there's a level of governance that happens at the level of the individual.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:13:57",
+        "text": "That's the thing we were trying to get away from and that there would be checks and balances on power and that kind of thing.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:59:55",
+        "text": "We can only come up, we can only hope to come up with the thing, the fundamental physics or the fundamental rules of that system, I suppose.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 192,
+    "file": "192-charles-hoskinson.md",
+    "title": "Charles Hoskinson: Cardano",
+    "guest": "Charles Hoskinson",
+    "published": "2021-06-16",
+    "episode_url": "https://lexfridman.com/charles-hoskinson/",
+    "youtube_url": "https://www.youtube.com/watch?v=FKh8hjJNhWc",
+    "youtube_id": "FKh8hjJNhWc",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4656",
+    "reliable_speaker_labels": false,
+    "duration": "04:57:38",
+    "top_terms": [
+      "it's",
+      "that's",
+      "there's",
+      "system",
+      "you're",
+      "work",
+      "bitcoin",
+      "don't",
+      "proof",
+      "they're",
+      "world",
+      "we're"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "As a side note, let me say that Charles is not just a mathematician or cryptocurrency innovator, but also a Colorado based farmer of bison and mushrooms, a gamer, a fisherman, and a world traveler.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:05:24",
+        "text": "Just like looking at the middle column, try to predict as the system evolves, say anything like conclusive about the future of the system as it evolves.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:13:19",
+        "text": "You know, I always termed Cardano as like a FOSS, a financial operating system and nobody likes it and everybody picks on me for using that term.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:31:41",
+        "text": "So what's your intuition with Cardano having the proof of stake, and then eventually smart contracts versus the Bitcoin with layer two technologies, this kind of evolving creature.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:28:37",
+        "text": "So you have sovereign risk, you have the risk of threat, you have regulatory risk, you have the issue of banks maybe cutting you out.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:29:37",
+        "text": "I remember when we first created Cardano, you know, the Bitfinex guys reached out to the Cardano Foundation.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:18:40",
+        "text": "But it was basically saying, as we have been, you would love to talk about the technology, about the future that you're creating with Cardano and just the future of the cryptocurrency space.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "04:12:46",
+        "text": "And so that's a huge burden in many respects because there's Charles the person and then Charles the CEO, and these are very different things in terms of expectations, at the very least.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "04:36:12",
+        "text": "I mean, there's a nostalgia of youth that's there, but I mean, it doesn't even have a class system, a level system, the combat system is terrible.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 193,
+    "file": "193-rob-reid.md",
+    "title": "Rob Reid: The Existential Threat of Engineered Viruses and Lab Leaks",
+    "guest": "Rob Reid",
+    "published": "2021-06-21",
+    "episode_url": "https://lexfridman.com/rob-reid/",
+    "youtube_url": "https://www.youtube.com/watch?v=cuD9uNFXnU8",
+    "youtube_id": "cuD9uNFXnU8",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4659",
+    "reliable_speaker_labels": false,
+    "duration": "02:58:14",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "going",
+      "there's",
+      "world",
+      "you're",
+      "even",
+      "life",
+      "music",
+      "human",
+      "level"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "Sam Harris recommended that I absolutely must talk to Rob about his recent work on the future of engineer pandemics.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:17:42",
+        "text": "Marvin Minsky from MIT had this advice, I guess, to what it takes to be successful in science and research is to hate everything you do.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:06",
+        "text": "And I'm not sure, maybe I'm being a bit too judgmental, but I'm a huge fan of a lot of great leaders throughout history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:13:40",
+        "text": "It's not the case with really any threat that I can think of with the exception of nuclear war that has the one bad outcome and game over.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:31:19",
+        "text": "Then the idea of the light of consciousness being snuffed out by something that is very competent but has no consciousness is really, really sad.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:15",
+        "text": "The reason why I believe that would be a highly rational conclusion is even the highest level of biosafety lab in the world, biosafety lab level four.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:03:29",
+        "text": "It wasn't something that happened, really started showing up in the numbers in a single digit number of months and started looking like an existential threat within a year or two.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:26:21",
+        "text": "Yeah, and I've actually personally have lost, I used to love This American Life, and for some reason because it lacks the possibility of magic, it's engineered magic.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:58:14",
+        "text": "I think the mere possibility that it did leak from a lab is evidence enough, again, for the hypothetical rational national leaders watching this simple PowerPoint.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 194,
+    "file": "194-bret-weinstein.md",
+    "title": "Bret Weinstein: Truth, Science, and Censorship in the Time of a Pandemic",
+    "guest": "Bret Weinstein",
+    "published": "2021-06-25",
+    "episode_url": "https://lexfridman.com/bret-weinstein/",
+    "youtube_url": "https://www.youtube.com/watch?v=TG6BuSjwP4o",
+    "youtube_id": "TG6BuSjwP4o",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4663",
+    "reliable_speaker_labels": false,
+    "duration": "03:16:57",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "there's",
+      "you're",
+      "point",
+      "even",
+      "going",
+      "world",
+      "believe",
+      "better",
+      "ideas"
+    ],
+    "bio": {
+      "time": "00:03:03",
+      "text": "This is the Lex Friedman podcast and here's my conversation with Brett Weinstein.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:17:28",
+        "text": "the power of life, the intelligence of life is the compiled code.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:07:18",
+        "text": "This needed to happen for various reasons that he took us down the road of talking about the censorship campaign against Ivermectin, which I find utterly shocking and talking about the drug itself.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:16:31",
+        "text": "In this case, they have chosen to simply utilize the recommendations of the WHO and the CDC and apply them as if they are synonymous with scientific truth.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:23:44",
+        "text": "And so that what worries me there is that we basically maximize for drama versus maximize for truth in a system where everything is free.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:33",
+        "text": "I think that's going to build a better society, not even just like truth, because I think truth is a complicated thing.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:05:55",
+        "text": "You've spoken with Eric Weinstein, your brother, on his podcast, The Portal, about the ideas that eventually led to the paper you published titled, The Reserved Capacity Hypothesis.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:31:42",
+        "text": "Richard Dawkins sometimes is a science communicator, but he gets like close to the technical to where it's a little bit, it's not shying away from being really a contribution to science.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:15:56",
+        "text": "It is those who know little, not those who know much, who so positively assert that this or that problem will never be solved by science.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]

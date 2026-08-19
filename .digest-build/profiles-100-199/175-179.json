@@ -1,0 +1,427 @@
+[
+  {
+    "episode": 175,
+    "file": "175-yannis-pappas.md",
+    "title": "Yannis Pappas: History and Comedy",
+    "guest": "Yannis Pappas",
+    "published": "2021-04-12",
+    "episode_url": "https://lexfridman.com/yannis-pappas/",
+    "youtube_url": "https://www.youtube.com/watch?v=R156F0uXhzk",
+    "youtube_id": "R156F0uXhzk",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4592",
+    "reliable_speaker_labels": false,
+    "duration": "01:50:29",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "you're",
+      "there's",
+      "going",
+      "they're",
+      "he's",
+      "we're",
+      "look",
+      "want",
+      "love"
+    ],
+    "bio": {
+      "time": "00:13:26",
+      "text": "Uh, the next is to accept it, but the real honest one is to fear it because I, I, I mean, I'm, I'm with, uh, Ernest Becker is a philosopher, uh, wrote a book called Denial of Death.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:02:05",
+        "text": "You've cohosted, until recently, an amazing history comedy podcast called The History Hyenas.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:15:29",
+        "text": "He's got, I mean, the guys will go down in history as the greatest he's made, I mean, maybe a year and they're all, you can always find something good about each movie, like the dialogue or whatever.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:01:05",
+        "text": "I came for the history and like stayed for the chaos and the crack open and clean out.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:05:13",
+        "text": "That's why history hyenas was such an appropriate name because it was, it was a little bit of history.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:10:16",
+        "text": "Hedge fund guy, ran a hedge fund and pulled, stole the most money in the history of America.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:32:54",
+        "text": "And then you got hypochondriacs, of course, who drain the system, you know, like people who are having anxiety, like me who had COVID and called 14, you know, I called 14 ambulances.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:43:14",
+        "text": "Uh, that's the real currency, friendships, love, it's, it's cliche, but it's a, I think the meaning of life is to experience, to experience love.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:50:29",
+        "text": "It's tough to think that the entirety of life on earth has this history of, uh, predators being violent, just like just the murder that we come from.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 176,
+    "file": "176-robert-breedlove.md",
+    "title": "Robert Breedlove: Philosophy of Bitcoin from First Principles",
+    "guest": "Robert Breedlove",
+    "published": "2021-04-17",
+    "episode_url": "https://lexfridman.com/robert-breedlove/",
+    "youtube_url": "https://www.youtube.com/watch?v=HrehEWYj16s",
+    "youtube_id": "HrehEWYj16s",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4595",
+    "reliable_speaker_labels": false,
+    "duration": "04:03:26",
+    "top_terms": [
+      "it's",
+      "that's",
+      "money",
+      "you're",
+      "there's",
+      "world",
+      "we're",
+      "gold",
+      "don't",
+      "ideas",
+      "value",
+      "market"
+    ],
+    "bio": {
+      "time": "00:02:03",
+      "text": "This is the Lex Friedman Podcast and here is my conversation with Robert Breedlove.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:13:22",
+        "text": "So there's this interesting moment when that first caveman, that first capitalist drew a line, a circle in this cave",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "We call this pragmatic truth to separate pure objective truth that we can't even talk about without polluting it versus pragmatic truth, which is something that's useful.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:39",
+        "text": "By the way, I look forward to the Bitcoin community clipping out that part, saying that Robert Breedlove was a communist and the ideals of communism are beautiful.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:57:53",
+        "text": "Can you say something to why you think Bitcoin is the superior technology from a pragmatic truth perspective than say Ethereum, but also other crypto, like Bitcoin Cash, like other hard forks of Bitcoin,",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:21:43",
+        "text": "Bitcoin, tracking the market success of Bitcoin versus alternative crypto assets, the signal is very clear that Bitcoin has out competed all of them.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:53:44",
+        "text": "A lot of people have said that it's the best first principle thing they've ever seen on Bitcoin, which I take no credit for that at all.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:12:12",
+        "text": "And Bitcoin, as the first money in history that has a 0% terminal inflation rate, or said differently, zero unexpected inflation.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:34:44",
+        "text": "So this realm of non materialist relevance that I think is really important to grasping economics at a first principles level, I think that book lays it out tremendously.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 177,
+    "file": "177-risto-miikkulainen.md",
+    "title": "Risto Miikkulainen: Neuroevolution and Evolutionary Computation",
+    "guest": "Risto Miikkulainen",
+    "published": "2021-04-19",
+    "episode_url": "https://lexfridman.com/risto-miikkulainen/",
+    "youtube_url": "https://www.youtube.com/watch?v=CY_LEa9xQtg",
+    "youtube_id": "CY_LEa9xQtg",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4599",
+    "reliable_speaker_labels": false,
+    "duration": "01:55:22",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "evolution",
+      "there's",
+      "even",
+      "humans",
+      "life",
+      "learning",
+      "you're",
+      "language",
+      "different"
+    ],
+    "bio": {
+      "time": "00:03:02",
+      "text": "Like if you were running the simulation and you observe humans emerge, like these tool makers, they start a fire and all this stuff, start running around, building buildings, and then running for president and all those kinds of things.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:08:10",
+        "text": "But with evolution, what was really fascinating was eventually the runaway evolution of the brain that created humans and created, well, also other higher animals, that that was something that happened really fast.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "00:16:27",
+        "text": "but if it consumes you and it's something that you think in normal life when you don't have to, then it's not healthy and then it's not productive.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:07:06",
+        "text": "We can describe how to set the brain up, but we can, evolution can decide on a starting point and then have a learning algorithm that will construct the final product.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:31",
+        "text": "Maybe Chomsky is right all along, that vision is fundamental to, sorry, that language is fundamental to everything, to even cognition, to even consciousness.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:36:50",
+        "text": "Or you can really think of it, artificial life, as a simulation of life and a tool to understand what life is and how life evolved on earth.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:42:56",
+        "text": "And similarly with evolutionary computation, whatever string or tree representation we have and the operations, the amount of code that's required",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:51:15",
+        "text": "So again, from an evolutionary computation perspective, we'll look at all the agents that had to die in order to come up with different solutions in simulation.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:55:22",
+        "text": "It's called The Surprising Creativity of Digital Evolution, a collection of anecdotes from the evolutionary computation and artificial life research communities.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 178,
+    "file": "178-michael-malice-and-yaron-brook.md",
+    "title": "Michael Malice and Yaron Brook: Ayn Rand, Human Nature, and Anarchy",
+    "guest": "Michael Malice and Yaron Brook",
+    "published": "2021-04-24",
+    "episode_url": "https://lexfridman.com/michael-malice-and-yaron-brook/",
+    "youtube_url": "https://www.youtube.com/watch?v=Pl3x4GINtBQ",
+    "youtube_id": "Pl3x4GINtBQ",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4602",
+    "reliable_speaker_labels": false,
+    "duration": "04:24:58",
+    "top_terms": [
+      "it's",
+      "don't",
+      "that's",
+      "going",
+      "you're",
+      "there's",
+      "he's",
+      "reality",
+      "they're",
+      "government",
+      "life",
+      "want"
+    ],
+    "bio": {
+      "time": "00:00:00",
+      "text": "Yaron is an objectivist philosopher, chairman of the Ayn Rand Institute, host of The Yaron Brook Show and coauthor of The Free Market Revolution and Equal is Unfair.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:00:00",
+        "text": "Yaron is an objectivist philosopher, chairman of the Ayn Rand Institute, host of The Yaron Brook Show and coauthor of The Free Market Revolution and Equal is Unfair.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:01",
+        "text": "I think he's cribbing it from Ayn Rand in a sense, and there's a sense in which he is.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:31:57",
+        "text": "The problem with that is a lot of young people read Rand and when they start arguing online, they just start trying to talk like Rand.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:44:15",
+        "text": "So human beings – no, communism is anti – the reason communism is evil is it's anti reality, anti human nature, anti the individual, and therefore it is inherently evil.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:32:37",
+        "text": "And she's issuing, and she issued cryptocurrency based on the land, right backed by the land called rand, but Ayn Rand with a little portrait of Ayn Rand, you know, a little portrait in the marketing.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:45:58",
+        "text": "The idea that you can't create the kind of government Ayn Rand talked about, I talk about, that it's never been before means it will never happen again.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "03:37:16",
+        "text": "It says Ayn Rand did not laugh, because Ayn Rand was a huge fan of America, as am I.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "04:24:58",
+        "text": "Where I thought Rand was going to go and he didn't go was that I think he, I agree with what he's going to say, Rand was a mythologizer.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  },
+  {
+    "episode": 179,
+    "file": "179-georges-st-pierre.md",
+    "title": "Georges St-Pierre: The Science of Fighting",
+    "guest": "Georges St-Pierre",
+    "published": "2021-04-26",
+    "episode_url": "https://lexfridman.com/georges-st-pierre/",
+    "youtube_url": "https://www.youtube.com/watch?v=fIPxfzfOTxk",
+    "youtube_id": "fIPxfzfOTxk",
+    "source": "HuggingFace nmac/lex_fridman_podcast (Whisper Large)",
+    "quality": "machine (Whisper, no speaker labels)",
+    "guid": "https://lexfridman.com/?p=4605",
+    "reliable_speaker_labels": false,
+    "duration": "02:42:45",
+    "top_terms": [
+      "it's",
+      "that's",
+      "don't",
+      "fight",
+      "you're",
+      "there's",
+      "going",
+      "he's",
+      "life",
+      "martial",
+      "love",
+      "want"
+    ],
+    "bio": {
+      "time": "00:06:08",
+      "text": "But to fight Michael Bisping, my last fight was against the champion in the heavier weight class that I used to compete at.",
+      "speaker": null
+    },
+    "samples": [
+      {
+        "time": "00:03:03",
+        "text": "I love the science of fighting, the sport, to be in good shape, the confidence that training and mixed martial art give me.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:00:02",
+        "text": "Yeah, if you get in it for the glamour or the money, you may not have the right amount of fuel to persevere through all the ups and downs, for sure.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:21:11",
+        "text": "Some people believe that consciousness is a fundamental property of the universe, like it's one of the forces of physics, like consciousness permeates everything, it's in everything.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:33:47",
+        "text": "So I think for a while we're not going to be fighting, the only wars we'll be fighting in space are the ones that kind of help us.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "01:59:45",
+        "text": "That's the reason why, because I'm in a, I'm in a business of fighting and people know that they cannot get to me.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:17:32",
+        "text": "I specialize through my life in fighting like the real thing in terms of fighting, competition.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:20:36",
+        "text": "Because fighting, fighting in mixed martial arts and fighting in the street, it's two different things.",
+        "speaker": null,
+        "heading": null
+      },
+      {
+        "time": "02:42:45",
+        "text": "Even now, it kind of amused me that to see that a lot of people, because I'm still training, because I love the science of fighting.",
+        "speaker": null,
+        "heading": null
+      }
+    ],
+    "chapters": []
+  }
+]
