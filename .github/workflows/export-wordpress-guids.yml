@@ -1,14 +1,18 @@
 name: Export WordPress GUID map
 
 on:
-  push:
-    paths:
-      - .github/workflows/export-wordpress-guids.yml
+  pull_request:
+    branches: [master]
+    types: [opened]
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   export:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - name: Fetch WordPress post IDs
@@ -22,7 +26,7 @@ jobs:
 
           entries = json.loads(Path('data/manifest.json').read_text())
           output = {}
-          headers = {'User-Agent': 'lex-digest-maintenance/1.0'}
+          headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
           patterns = [
               re.compile(r'<link[^>]+rel=["\']shortlink["\'][^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\']', re.I),
               re.compile(r'<link[^>]+href=["\']https://lexfridman\.com/\?p=(\d+)["\'][^>]+rel=["\']shortlink["\']', re.I),
