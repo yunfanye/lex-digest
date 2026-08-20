@@ -1,0 +1,55 @@
+name: Export digest source transcripts
+
+on:
+  push:
+    branches:
+      - digest-episodes-350-399
+  pull_request:
+    branches:
+      - master
+      - digest-episodes-350-399
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect source files and canonical IDs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/data/digests/skills/no-ai-slop export/data/transcripts
+          cp data/manifest.json export/data/manifest.json
+          cp data/digests/skills/no-ai-slop/SKILLS.md export/data/digests/skills/no-ai-slop/SKILLS.md
+          cp data/digests/49{6,7,8,9}-*.md export/data/digests/
+          cp data/digests/500-*.md export/data/digests/
+          find data/transcripts -maxdepth 1 -type f \
+            \( -name '35[0-9]-*.md' -o -name '36[0-9]-*.md' -o -name '37[0-9]-*.md' -o -name '38[0-9]-*.md' -o -name '39[0-9]-*.md' \) \
+            -exec cp {} export/data/transcripts/ \;
+          python - <<'PY' > /tmp/episode-urls.tsv
+          import json
+          for item in json.load(open('data/manifest.json')):
+              if 350 <= int(item['episode']) <= 399:
+                  print(f"{item['episode']}\t{item['episode_url']}")
+          PY
+          : > export/data/guid-map.tsv
+          while IFS=$'\t' read -r episode url; do
+            html="$(curl -A 'Mozilla/5.0' -L --retry 3 --connect-timeout 20 --max-time 60 -fsS "$url" || true)"
+            post_id="$(printf '%s' "$html" | grep -oE 'postid-[0-9]+' | head -n1 | cut -d- -f2 || true)"
+            if [[ -n "$post_id" ]]; then
+              printf '%s\thttps://lexfridman.com/?p=%s\n' "$episode" "$post_id" >> export/data/guid-map.tsv
+            else
+              printf '%s\t%s\n' "$episode" "$url" >> export/data/guid-map.tsv
+            fi
+          done < /tmp/episode-urls.tsv
+          tar -czf digest-source-350-399.tar.gz -C export .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: digest-source-350-399
+          path: digest-source-350-399.tar.gz
+          if-no-files-found: error
+          retention-days: 1
