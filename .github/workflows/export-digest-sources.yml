@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - digest-episodes-350-399
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
