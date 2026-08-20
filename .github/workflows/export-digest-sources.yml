@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - master
+      - digest-episodes-350-399
   workflow_dispatch:
 
 permissions:
