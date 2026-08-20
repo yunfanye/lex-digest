@@ -1,0 +1,35 @@
+name: Export digest source transcripts
+
+on:
+  push:
+    branches:
+      - digest-episodes-350-399
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/data/digests/skills/no-ai-slop export/data/transcripts
+          cp data/manifest.json export/data/manifest.json
+          cp data/digests/skills/no-ai-slop/SKILLS.md export/data/digests/skills/no-ai-slop/SKILLS.md
+          cp data/digests/49{6,7,8,9}-*.md export/data/digests/
+          cp data/digests/500-*.md export/data/digests/
+          find data/transcripts -maxdepth 1 -type f \
+            \( -name '35[0-9]-*.md' -o -name '36[0-9]-*.md' -o -name '37[0-9]-*.md' -o -name '38[0-9]-*.md' -o -name '39[0-9]-*.md' \) \
+            -exec cp {} export/data/transcripts/ \;
+          tar -czf digest-source-350-399.tar.gz -C export .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: digest-source-350-399
+          path: digest-source-350-399.tar.gz
+          if-no-files-found: error
+          retention-days: 1
