@@ -1,4 +1,4 @@
-name: Materialize requested digests 200-249
+name: Export digest sources 200-249
 
 on:
   pull_request:
@@ -6,85 +6,91 @@ on:
     types: [synchronize]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  materialize:
+  export:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           ref: agent/digests-200-299
-          fetch-depth: 0
 
-      - name: Decode and verify source bundle
+      - name: Package transcripts, metadata, official pages, and draft bundle
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import base64
+          import json
           import re
+          import shutil
+          import time
+          import urllib.request
 
-          raw = ''.join(
-              path.read_text(encoding='ascii')
-              for path in sorted(Path('.digest-build').glob('digests-200-299.part*.b64'))
+          root = Path('digest-sources-200-249')
+          transcripts_out = root / 'transcripts'
+          pages_out = root / 'official-pages'
+          draft_out = root / 'draft-bundle'
+          transcripts_out.mkdir(parents=True, exist_ok=True)
+          pages_out.mkdir(parents=True, exist_ok=True)
+          draft_out.mkdir(parents=True, exist_ok=True)
+
+          entries = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          selected = [entry for entry in entries if 200 <= int(entry['episode']) <= 249]
+          if len(selected) != 50:
+              raise SystemExit(f'expected 50 manifest entries, got {len(selected)}')
+
+          headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
+          guids = {}
+          for entry in selected:
+              episode = int(entry['episode'])
+              src = Path('data/transcripts') / entry['file']
+              if not src.exists():
+                  raise SystemExit(f'missing transcript: {src}')
+              shutil.copy2(src, transcripts_out / src.name)
+
+              request = urllib.request.Request(entry['episode_url'], headers=headers)
+              with urllib.request.urlopen(request, timeout=45) as response:
+                  page = response.read()
+              (pages_out / f'{episode}.html').write_bytes(page)
+              text = page.decode('utf-8', errors='replace')
+              post_id = None
+              for pattern in (
+                  re.compile(r'https://lexfridman\.com/\?p=(\d+)', re.I),
+                  re.compile(r'postid-(\d+)', re.I),
+              ):
+                  match = pattern.search(text)
+                  if match:
+                      post_id = match.group(1)
+                      break
+              if not post_id:
+                  raise SystemExit(f'could not find WordPress post ID for episode {episode}')
+              guids[str(episode)] = f'https://lexfridman.com/?p={post_id}'
+              print(episode, guids[str(episode)])
+              time.sleep(0.12)
+
+          (root / 'manifest-200-249.json').write_text(
+              json.dumps(selected, indent=2, ensure_ascii=False) + '\n', encoding='utf-8'
           )
-          clean = re.sub(r'[^A-Za-z0-9+/=]', '', raw)
-          clean += '=' * (-len(clean) % 4)
-          Path('/tmp/digests-200-299.tar.bz2').write_bytes(base64.b64decode(clean, validate=False))
+          (root / 'wordpress-guids-200-249.json').write_text(
+              json.dumps(guids, indent=2, sort_keys=True) + '\n', encoding='utf-8'
+          )
+          (root / 'no-ai-slop-SKILLS.md').write_text(
+              Path('data/digests/skills/no-ai-slop/SKILLS.md').read_text(encoding='utf-8'),
+              encoding='utf-8',
+          )
+          for part in sorted(Path('.digest-build').glob('digests-200-299.part*.b64')):
+              shutil.copy2(part, draft_out / part.name)
           PY
-          echo '8706efa9bd13cfe7319d4f7efb07b9619a419b500fa3fc33e1cafabeb0702ead  /tmp/digests-200-299.tar.bz2' | sha256sum --check --strict
-          test "$(tar -tjf /tmp/digests-200-299.tar.bz2 | wc -l)" -eq 100
-          mkdir -p /tmp/digests-all
-          tar -xjf /tmp/digests-200-299.tar.bz2 -C /tmp/digests-all
+          tar -czf digest-sources-200-249.tar.gz digest-sources-200-249
+          sha256sum digest-sources-200-249.tar.gz > digest-sources-200-249.tar.gz.sha256
 
-      - name: Build a clean 200-249 commit on current master
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin master
-          git reset --hard origin/master
-          mkdir -p data/digests
-          for episode in $(seq 200 249); do
-            files=(/tmp/digests-all/${episode}-*.md)
-            test "${#files[@]}" -eq 1
-            cp "${files[0]}" data/digests/
-          done
-
-          python - <<'PY'
-          from pathlib import Path
-          import re
-
-          root = Path('data/digests')
-          files = []
-          for episode in range(200, 250):
-              matches = list(root.glob(f'{episode}-*.md'))
-              if len(matches) != 1:
-                  raise SystemExit(f'episode {episode}: expected one digest, got {len(matches)}')
-              files.append(matches[0])
-
-          required = ['One-liner', 'Summary', 'Takeaways', 'Highlights', 'Chapters']
-          for path in files:
-              text = path.read_text(encoding='utf-8')
-              episode = int(path.name.split('-', 1)[0])
-              if not re.search(rf'^episode:\s*{episode}\s*$', text, re.M):
-                  raise SystemExit(f'{path}: episode frontmatter mismatch')
-              if not re.search(r'^summary_source:\s*["\']?transcript["\']?\s*$', text, re.M):
-                  raise SystemExit(f'{path}: missing transcript source marker')
-              if not re.search(r'^guid:\s*["\']?https://lexfridman\.com/\?p=\d+["\']?\s*$', text, re.M):
-                  raise SystemExit(f'{path}: invalid GUID')
-              for heading in required:
-                  if not re.search(rf'^#{{1,2}} {re.escape(heading)}\s*$', text, re.M):
-                      raise SystemExit(f'{path}: missing {heading}')
-              if text.count('## Conversation @ (') != 6:
-                  raise SystemExit(f'{path}: expected six transcript highlights')
-          print(f'validated {len(files)} requested digests')
-          PY
-
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/digests
-          git commit -m 'Add transcript-grounded digests for episodes 200-249'
-          git push --force-with-lease origin HEAD:agent/digests-200-299
+      - uses: actions/upload-artifact@v4
+        with:
+          name: digest-sources-200-249
+          path: |
+            digest-sources-200-249.tar.gz
+            digest-sources-200-249.tar.gz.sha256
+          retention-days: 1
