@@ -77,3 +77,5 @@ jobs:
           git add data/digests
           git commit -m 'Add transcript-grounded digests for episodes 200-249'
           git push --force-with-lease origin HEAD:agent/digests-200-299
+
+# second push intentionally triggers this branch-local workflow
