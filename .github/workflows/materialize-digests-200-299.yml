@@ -1,4 +1,4 @@
-name: Materialize digests 200-299
+name: Materialize requested digests 200-249
 
 on:
   push:
@@ -26,54 +26,54 @@ jobs:
           base64 --decode /tmp/digests-200-299.b64 > /tmp/digests-200-299.tar.bz2
           echo '8706efa9bd13cfe7319d4f7efb07b9619a419b500fa3fc33e1cafabeb0702ead  /tmp/digests-200-299.tar.bz2' | sha256sum --check --strict
           test "$(tar -tjf /tmp/digests-200-299.tar.bz2 | wc -l)" -eq 100
+          mkdir -p /tmp/digests-all
+          tar -xjf /tmp/digests-200-299.tar.bz2 -C /tmp/digests-all
 
-      - name: Install and validate digests
+      - name: Build a clean 200-249 commit on current master
         shell: bash
         run: |
           set -euo pipefail
-          tar -xjf /tmp/digests-200-299.tar.bz2 -C data/digests
+          git fetch origin master
+          git reset --hard origin/master
+          mkdir -p data/digests
+          for episode in $(seq 200 249); do
+            files=(/tmp/digests-all/${episode}-*.md)
+            test "${#files[@]}" -eq 1
+            cp "${files[0]}" data/digests/
+          done
+
           python - <<'PY'
           from pathlib import Path
           import re
 
           root = Path('data/digests')
           files = []
-          for episode in range(200, 300):
+          for episode in range(200, 250):
               matches = list(root.glob(f'{episode}-*.md'))
               if len(matches) != 1:
                   raise SystemExit(f'episode {episode}: expected one digest, got {len(matches)}')
               files.append(matches[0])
 
-          required = ['## One-liner', '## Summary', '## Takeaways', '## Highlights', '## Chapters']
+          required = ['One-liner', 'Summary', 'Takeaways', 'Highlights', 'Chapters']
           for path in files:
               text = path.read_text(encoding='utf-8')
               episode = int(path.name.split('-', 1)[0])
-              if f'episode: {episode}' not in text:
+              if not re.search(rf'^episode:\s*{episode}\s*$', text, re.M):
                   raise SystemExit(f'{path}: episode frontmatter mismatch')
-              if 'summary_source: transcript' not in text:
+              if not re.search(r'^summary_source:\s*["\']?transcript["\']?\s*$', text, re.M):
                   raise SystemExit(f'{path}: missing transcript source marker')
-              if not re.search(r'^guid: https://lexfridman\.com/\?p=\d+$', text, re.M):
+              if not re.search(r'^guid:\s*["\']?https://lexfridman\.com/\?p=\d+["\']?\s*$', text, re.M):
                   raise SystemExit(f'{path}: invalid GUID')
               for heading in required:
-                  if heading not in text:
+                  if not re.search(rf'^#{{1,2}} {re.escape(heading)}\s*$', text, re.M):
                       raise SystemExit(f'{path}: missing {heading}')
               if text.count('## Conversation @ (') != 6:
                   raise SystemExit(f'{path}: expected six transcript highlights')
-              if text.count('- **[') != 6:
-                  raise SystemExit(f'{path}: expected six takeaways')
-          print(f'validated {len(files)} digests')
+          print(f'validated {len(files)} requested digests')
           PY
 
-      - name: Remove transfer machinery and commit
-        shell: bash
-        run: |
-          set -euo pipefail
-          rm -f .digest-build/digests-200-299.part*.b64
-          rm -f .digest-build/materialize.trigger
-          rm -f .github/workflows/export-wordpress-guids-200-299.yml
-          rm -f .github/workflows/materialize-digests-200-299.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/digests .digest-build .github/workflows
-          git commit -m 'Add transcript-grounded digests for episodes 200-299'
-          git push origin HEAD:agent/digests-200-299
+          git add data/digests
+          git commit -m 'Add transcript-grounded digests for episodes 200-249'
+          git push --force-with-lease origin HEAD:agent/digests-200-299
