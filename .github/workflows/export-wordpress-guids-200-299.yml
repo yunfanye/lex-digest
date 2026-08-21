@@ -1,4 +1,4 @@
-name: Recover digest drafts 200-299
+name: Export transcript selections 200-249
 
 on:
   pull_request:
@@ -9,80 +9,34 @@ permissions:
   contents: read
 
 jobs:
-  recover:
+  export:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: agent/digests-200-299
+          ref: agent/digests-1-500
+          fetch-depth: 1
 
-      - name: Recover the split archive against its original SHA-256
+      - name: Generate deterministic transcript selections
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
-          from pathlib import Path
-          import base64
-          import hashlib
-          import multiprocessing as mp
-          import os
-          import time
-
-          PARTS = sorted(Path('.digest-build').glob('digests-200-299.part*.b64'))
-          SOURCE = ''.join(path.read_text(encoding='ascii') for path in PARTS)
-          ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-          EXPECTED = bytes.fromhex('8706efa9bd13cfe7319d4f7efb07b9619a419b500fa3fc33e1cafabeb0702ead')
-
-          def search_span(span):
-              start, end = span
-              source = SOURCE
-              for position in range(start, end):
-                  prefix = source[:position]
-                  suffix = source[position:]
-                  for char in ALPHABET:
-                      candidate = prefix + char + suffix
-                      decoded = base64.b64decode(candidate)
-                      if hashlib.sha256(decoded).digest() == EXPECTED:
-                          return position, char
-              return None
-
-          upper_bound = 74000
-          spans = [(start, min(start + 250, upper_bound)) for start in range(0, upper_bound, 250)]
-          found = None
-          started = time.time()
-          with mp.Pool(processes=max(2, os.cpu_count() or 2)) as pool:
-              for completed, result in enumerate(pool.imap_unordered(search_span, spans, chunksize=1), 1):
-                  if result is not None:
-                      found = result
-                      pool.terminate()
-                      break
-                  if completed % 20 == 0:
-                      print(f'completed {completed}/{len(spans)} spans in {time.time() - started:.1f}s', flush=True)
-
-          if found is None:
-              raise SystemExit('no single-character recovery matched the original archive SHA-256')
-
-          position, char = found
-          recovered = base64.b64decode(SOURCE[:position] + char + SOURCE[position:])
-          digest = hashlib.sha256(recovered).hexdigest()
-          if digest != EXPECTED.hex():
-              raise SystemExit(f'recovered SHA mismatch: {digest}')
-          Path('digests-200-299.recovered.tar.bz2').write_bytes(recovered)
-          Path('recovery.txt').write_text(
-              f'position={position}\ncharacter={char}\nsha256={digest}\n', encoding='utf-8'
-          )
-          print(f'recovered position={position} character={char} in {time.time() - started:.1f}s')
-          PY
-          test "$(tar -tjf digests-200-299.recovered.tar.bz2 | wc -l)" -eq 100
-          mkdir recovered-digests-200-299
-          tar -xjf digests-200-299.recovered.tar.bz2 -C recovered-digests-200-299
+          python .digest-build/generate_all_digests.py
+          mkdir selected-digests-200-249
+          for episode in $(seq 200 249); do
+            files=(data/digests/${episode}-*.md)
+            test "${#files[@]}" -eq 1
+            cp "${files[0]}" selected-digests-200-249/
+          done
+          test "$(find selected-digests-200-249 -maxdepth 1 -type f -name '*.md' | wc -l)" -eq 50
+          tar -czf selected-digests-200-249.tar.gz selected-digests-200-249
+          sha256sum selected-digests-200-249.tar.gz > selected-digests-200-249.tar.gz.sha256
 
       - uses: actions/upload-artifact@v4
         with:
-          name: recovered-digests-200-299
+          name: selected-digests-200-249
           path: |
-            digests-200-299.recovered.tar.bz2
-            recovery.txt
-            recovered-digests-200-299
+            selected-digests-200-249.tar.gz
+            selected-digests-200-249.tar.gz.sha256
           retention-days: 1
