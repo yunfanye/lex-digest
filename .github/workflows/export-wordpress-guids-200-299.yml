@@ -23,7 +23,7 @@ jobs:
         run: |
           set -euo pipefail
           cat .digest-build/digests-200-299.part*.b64 > /tmp/digests-200-299.b64
-          base64 --decode /tmp/digests-200-299.b64 > /tmp/digests-200-299.tar.bz2
+          base64 --ignore-garbage --decode /tmp/digests-200-299.b64 > /tmp/digests-200-299.tar.bz2
           echo '8706efa9bd13cfe7319d4f7efb07b9619a419b500fa3fc33e1cafabeb0702ead  /tmp/digests-200-299.tar.bz2' | sha256sum --check --strict
           test "$(tar -tjf /tmp/digests-200-299.tar.bz2 | wc -l)" -eq 100
           mkdir -p /tmp/digests-all
