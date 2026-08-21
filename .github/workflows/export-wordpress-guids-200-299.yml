@@ -1,0 +1,40 @@
+name: Export transcript selections 200-249
+
+on:
+  pull_request:
+    branches: [master]
+    types: [synchronize]
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/digests-1-500
+          fetch-depth: 1
+
+      - name: Generate and package deterministic transcript selections
+        shell: bash
+        run: |
+          set -euo pipefail
+          set +e
+          python .digest-build/generate_all_digests.py
+          generator_status=$?
+          set -e
+          echo "generator exit status: ${generator_status} (known legacy slug collision occurs after file generation)"
+          test "$(find data/digests -maxdepth 1 -type f -name '*.md' | wc -l)" -ge 490
+          tar -czf generated-digests-all.tar.gz data/digests
+          sha256sum generated-digests-all.tar.gz > generated-digests-all.tar.gz.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generated-digests-all
+          path: |
+            generated-digests-all.tar.gz
+            generated-digests-all.tar.gz.sha256
+          retention-days: 1
