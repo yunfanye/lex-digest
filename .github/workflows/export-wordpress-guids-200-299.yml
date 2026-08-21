@@ -1,4 +1,4 @@
-name: Export digest sources 200-249
+name: Recover digest drafts 200-299
 
 on:
   pull_request:
@@ -9,88 +9,80 @@ permissions:
   contents: read
 
 jobs:
-  export:
+  recover:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
           ref: agent/digests-200-299
 
-      - name: Package transcripts, metadata, official pages, and draft bundle
+      - name: Recover the split archive against its original SHA-256
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import json
-          import re
-          import shutil
+          import base64
+          import hashlib
+          import multiprocessing as mp
+          import os
           import time
-          import urllib.request
 
-          root = Path('digest-sources-200-249')
-          transcripts_out = root / 'transcripts'
-          pages_out = root / 'official-pages'
-          draft_out = root / 'draft-bundle'
-          transcripts_out.mkdir(parents=True, exist_ok=True)
-          pages_out.mkdir(parents=True, exist_ok=True)
-          draft_out.mkdir(parents=True, exist_ok=True)
+          PARTS = sorted(Path('.digest-build').glob('digests-200-299.part*.b64'))
+          SOURCE = ''.join(path.read_text(encoding='ascii') for path in PARTS)
+          ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+          EXPECTED = bytes.fromhex('8706efa9bd13cfe7319d4f7efb07b9619a419b500fa3fc33e1cafabeb0702ead')
 
-          entries = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
-          selected = [entry for entry in entries if 200 <= int(entry['episode']) <= 249]
-          if len(selected) != 50:
-              raise SystemExit(f'expected 50 manifest entries, got {len(selected)}')
+          def search_span(span):
+              start, end = span
+              source = SOURCE
+              for position in range(start, end):
+                  prefix = source[:position]
+                  suffix = source[position:]
+                  for char in ALPHABET:
+                      candidate = prefix + char + suffix
+                      decoded = base64.b64decode(candidate)
+                      if hashlib.sha256(decoded).digest() == EXPECTED:
+                          return position, char
+              return None
 
-          headers = {'User-Agent': 'Mozilla/5.0 lex-digest-maintenance'}
-          guids = {}
-          for entry in selected:
-              episode = int(entry['episode'])
-              src = Path('data/transcripts') / entry['file']
-              if not src.exists():
-                  raise SystemExit(f'missing transcript: {src}')
-              shutil.copy2(src, transcripts_out / src.name)
-
-              request = urllib.request.Request(entry['episode_url'], headers=headers)
-              with urllib.request.urlopen(request, timeout=45) as response:
-                  page = response.read()
-              (pages_out / f'{episode}.html').write_bytes(page)
-              text = page.decode('utf-8', errors='replace')
-              post_id = None
-              for pattern in (
-                  re.compile(r'https://lexfridman\.com/\?p=(\d+)', re.I),
-                  re.compile(r'postid-(\d+)', re.I),
-              ):
-                  match = pattern.search(text)
-                  if match:
-                      post_id = match.group(1)
+          upper_bound = 74000
+          spans = [(start, min(start + 250, upper_bound)) for start in range(0, upper_bound, 250)]
+          found = None
+          started = time.time()
+          with mp.Pool(processes=max(2, os.cpu_count() or 2)) as pool:
+              for completed, result in enumerate(pool.imap_unordered(search_span, spans, chunksize=1), 1):
+                  if result is not None:
+                      found = result
+                      pool.terminate()
                       break
-              if not post_id:
-                  raise SystemExit(f'could not find WordPress post ID for episode {episode}')
-              guids[str(episode)] = f'https://lexfridman.com/?p={post_id}'
-              print(episode, guids[str(episode)])
-              time.sleep(0.12)
+                  if completed % 20 == 0:
+                      print(f'completed {completed}/{len(spans)} spans in {time.time() - started:.1f}s', flush=True)
 
-          (root / 'manifest-200-249.json').write_text(
-              json.dumps(selected, indent=2, ensure_ascii=False) + '\n', encoding='utf-8'
+          if found is None:
+              raise SystemExit('no single-character recovery matched the original archive SHA-256')
+
+          position, char = found
+          recovered = base64.b64decode(SOURCE[:position] + char + SOURCE[position:])
+          digest = hashlib.sha256(recovered).hexdigest()
+          if digest != EXPECTED.hex():
+              raise SystemExit(f'recovered SHA mismatch: {digest}')
+          Path('digests-200-299.recovered.tar.bz2').write_bytes(recovered)
+          Path('recovery.txt').write_text(
+              f'position={position}\ncharacter={char}\nsha256={digest}\n', encoding='utf-8'
           )
-          (root / 'wordpress-guids-200-249.json').write_text(
-              json.dumps(guids, indent=2, sort_keys=True) + '\n', encoding='utf-8'
-          )
-          (root / 'no-ai-slop-SKILLS.md').write_text(
-              Path('data/digests/skills/no-ai-slop/SKILLS.md').read_text(encoding='utf-8'),
-              encoding='utf-8',
-          )
-          for part in sorted(Path('.digest-build').glob('digests-200-299.part*.b64')):
-              shutil.copy2(part, draft_out / part.name)
+          print(f'recovered position={position} character={char} in {time.time() - started:.1f}s')
           PY
-          tar -czf digest-sources-200-249.tar.gz digest-sources-200-249
-          sha256sum digest-sources-200-249.tar.gz > digest-sources-200-249.tar.gz.sha256
+          test "$(tar -tjf digests-200-299.recovered.tar.bz2 | wc -l)" -eq 100
+          mkdir recovered-digests-200-299
+          tar -xjf digests-200-299.recovered.tar.bz2 -C recovered-digests-200-299
 
       - uses: actions/upload-artifact@v4
         with:
-          name: digest-sources-200-249
+          name: recovered-digests-200-299
           path: |
-            digest-sources-200-249.tar.gz
-            digest-sources-200-249.tar.gz.sha256
+            digests-200-299.recovered.tar.bz2
+            recovery.txt
+            recovered-digests-200-299
           retention-days: 1
